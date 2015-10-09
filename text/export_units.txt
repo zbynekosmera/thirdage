@@ -946,93 +946,93 @@ NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 ¬----------------
 
-{Cuman_Horse_Archers}	Cuman Horse Archers
+{Cuman_Horse_Archers}	NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 {Cuman_Horse_Archers_descr}
-The Cumans are a nomadic Turkish people occupying the area north of the Black sea, who are often employed as mercenaries. Accustomed to a life in the saddle, they are excellent light horse archers equipped with powerful composite bows. They prefer to avoid hand to hand combat though.
+NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 {Cuman_Horse_Archers_descr_short}
-Asiatic Nomads, who fight as mercenary horse archers, wearing little armour and armed with a composite bow.
+NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 ¬----------------
 
-{Mounted_Longbowmen}	Mounted Longbowmen
+{Mounted_Longbowmen}	NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 {Mounted_Longbowmen_descr}
-Although many longbowmen possess horses for transport, only a select few have sufficient skills in archery and horsemanship, to fire from horseback. Being mounted allows for increased mobility enabling the longbowman to out flank his enemies and ride out of danger. However, these men are by no means real cavalry and should be kept away from those that are.
+NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 {Mounted_Longbowmen_descr_short}
-The advantage of being mounted allows a longbowman to flank his enemies and ride out of danger. Not to be mistaken for true cavalry though.
+NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 ¬----------------
 
-{French_Mounted_Archers}	French Mounted Archers
+{French_Mounted_Archers}	NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 {French_Mounted_Archers_descr}
-Professional soldiers of the French ordinance reforms, these men are modelled on the English style longbowmen. Their powerful bows give them punch, while there horses give them mobility. They're well armed and armoured by the king.
+NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 {French_Mounted_Archers_descr_short}
-Professional soldiers equipped with longbows in the English style, and mounted on horses for mobility
+NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 ¬----------------
 
-{Peasant_Archers}	Peasant Archers
+{Peasant_Archers}	NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 {Peasant_Archers_descr}
-While most peasants in Europe were levied into the army, at sword point if need be, some welcomed the opportunity to earn some pay, and travel. Their bows are designed for hunting rather than war, so are only effective against lightly armoured foes. They carry a knife for protection, but should be kept out of hand to hand combat, and will probably run away if any seems likely.
+NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 {Peasant_Archers_descr_short}
-A peasant archer is armed with a small bow, and a knife. Unreliable, and only moderately effective as archers.
+NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 ¬----------------
 
-{S_Peasant_Archers}	Peasant Archers
+{S_Peasant_Archers}	NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 {S_Peasant_Archers_descr}
-While most peasants in Europe were levied into the army, at sword point if need be, some welcomed the opportunity to earn some pay, and travel. Their bows are designed for hunting rather than war, so are only effective against lightly armoured foes. They carry a knife for protection, but should be kept out of hand to hand combat, and will probably run away if any seems likely.
+NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 {S_Peasant_Archers_descr_short}
-A peasant archer is armed with a small bow, and a knife. Unreliable, and only moderately effective as archers.
+NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 ¬----------------
 
-{S_Archer_Militia}	Archer Militia
+{S_Archer_Militia}	NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 {S_Archer_Militia_descr}
-Members of such militias within the Byzantine Empire, are not career soldiers but a type of trained civilian guard called,' tzakones'. Responsible for protecting settlements, roads and forts, these archers are armed with a small bow and sword and wear padded armour. 
+NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 {S_Archer_Militia_descr_short}
-A type of trained civilian guard called,' tzakones' responsible for protecting settlements, roads and forts.
+NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 ¬----------------
 
-{Longbowmen}	Longbowmen
+{Longbowmen}	NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 {Longbowmen_descr}
-Originating from Wales, a longbow using a 'bodkin' arrow, a hard chiselled tip shaped like an elongated pyramid, can pierce all but the best armour. As the longbow is difficult to master, longbowmen begin training at a young age. Being susceptible to cavalry, they can plant sharpened stakes in front of their position to help keep enemies at bay.
+NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 {Longbowmen_descr_short}
-Armed with the armour piercing longbow, Longbowmen can also plant stakes in front of them to keep cavalry at bay.
+NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 ¬----------------
 
-{Yeoman_Archers}	Yeoman Archers
+{Yeoman_Archers}	NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 {Yeoman_Archers_descr}
-Drawn from English freeholders required by the King to be trained in warfare, Yeoman Archers are highly skilled ranged troops. Lightly armoured and equipped with a longbow for ranged combat, as well as wielding a large metal mallet for crushing armoured opponents in melee. Yeomen are able to lay defensive wooden stakes to help keep enemies at bay.
+NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 {Yeoman_Archers_descr_short}
-English freeholders are required by the King to be trained in warfare, Yeoman archers are highly skilled ranged troops. 
+NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 ¬----------------
 
-{Sherwood_Archers}	Sherwood Archers
+{Sherwood_Archers}	NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 {Sherwood_Archers_descr}
-Hailing from Sherwood forest and trained in the hunt from a young age, these deadly archers have now turned their skills to hunting men. Wielding a longbow made of yew, these archers can spit a man at a hundred paces, this, coupled with their ability to camouflage themselves in any terrain, means they can lay many a terrible ambush.
+NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 {Sherwood_Archers_descr_short}
-Wielding a longbow made of yew, and able to hide in any terrain these men are excellent at ambushes, and are outstanding marksmen.
+NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 ¬----------------
 
