@@ -936,13 +936,13 @@ NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 ¬----------------
 
-{Polish_Shooters}	Strzelcy
+{Polish_Shooters}	NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 {Polish_Shooters_descr}
-Strzelcy, meaning shooter in Polish, are light horse troops created to counter the fast moving forces from the east used by the Russians and Tatars. Protected by light armour and wielding a smaller crossbow to their infantry comrades, these units use their mobility to stay out of trouble while they reload.
+NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 {Polish_Shooters_descr_short}
-Strzelcy, meaning shooter in Polish, are light horse troops protected by light armour using a small crossbow.
+NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 ¬----------------
 
