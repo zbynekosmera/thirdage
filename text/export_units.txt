@@ -929,10 +929,10 @@ NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 {Lithuanian_Cavalry}	NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 {Lithuanian_Cavalry_descr}
-Recruited by Polish generals for their speed, and ferocity, Lithuanian light cavalry are armed with a bow and a sword. Although not well armoured since their country is poor, they often like to fight hand to hand, as the bow is something of a secondary weapon for these men.
+NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 {Lithuanian_Cavalry_descr_short}
-Fierce East European horse archers. Lightly armoured, but still enjoy a good hand to hand scrap.
+NEPŘEKLÁDÁ SE, NEMĚLO BY SE NIKDY ZOBRAZIT!
 
 ¬----------------
 
