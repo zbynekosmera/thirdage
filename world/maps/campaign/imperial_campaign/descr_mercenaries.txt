@@ -1,0 +1,203 @@
+; pool    --> name of mercenary pool
+; regions --> list of regions belonging to pool
+; unit    --> name of mercenary unit
+;         --> exp X                           --> experience level of mercenary unit
+;         --> cost X                          --> cost to recruit mercenary unit
+;         --> replenish X - X                 --> upper and lower bounds on pool replenishment rate
+;         --> max X                           --> maximum pool size for unit
+;         --> initial X                       --> initial pool size for unit
+;         --> {optional} start_year X         --> year that unit becomes available {0 indicates no set start year}
+;         --> {optional} end_year X           --> last year that unit will be available {0 indicates no set end year}
+;         --> {optional} religions { A B C }  --> list of faction religions unit is available for {no entries indicates available for all religions}
+;         --> {optional} crusading            --> {requires one religion to have been specifed} unit only available to crusading/jihad armies
+;         --> {optional} events { A B C}      --> unit only available after all specified events have occurred, event is a string corresponding to descr_events.txt
+
+;RATE_H replenish 0.03 - 0.15 Common Ships		avg 0.09
+;RATE_B replenish 0.02 - 0.10 Rare Ships			avg 0.06
+;RATE_X replenish 0.01 - 0.05 V Rare Ships		avg 0.03
+;RATE_Z replenish 0.04 - 0.20 V Common Ships		avg 0.12
+
+;RATE_F replenish 0.18 - 0.5  Pilgrims							avg 0.34
+;RATE_K replenish 0.36 - 1.0 Pilgrims							avg 0.68
+;RATE_Q replenish 0.24 - 0.66 Pilgrims							avg 0.45
+;RATE_AD replenish 0.12 - 0.33 Eastern Pilgrims					avg 0.225
+;RATE_G replenish 0.15 - 0.35 Crusader Sergeants and Knights		avg 0.25
+;RATE_N replenish 0.08 - 0.17 Crusader Sergeants					avg	0.125
+;RATE_R replenish 0.12 - 0.28 Crusader Knights					avg 0.2
+;RATE_AC replenish 0.03 - 0.07 Great Cross						avg 0.05
+;RATE_AF replenish 0.07 - 0.17 Unhorsed Knights					avg 0.12
+
+;RATE_E replenish 0.02 - 0.04 Ribault etc		avg 0.03
+;RATE_O replenish 0.04 - 0.08 Ribault, Rocket Launcher	avg 0.06
+;RATE_P replenish 0.03 - 0.06 Rocket Launcher, Monster Bombard avg 0.045
+
+;RATE_AG replenish 0.11 - 0.33 Very Common 0.22
+
+;RATE_M replenish 0.08 - 0.25 Common			avg 0.165
+;RATE_Y = RATE_M
+;RATE_AH = RATE_M
+
+;RATE_A replenish 0.06 - 0.18 Less Common		avg 0.12
+;RATE_D RATE_A
+;RATE_V RATE_A
+;RATE_W RATE_A
+;RATE_AB RATE_A
+
+;RATE_C replenish 0.04 - 0.13 Crossbowmen etc	avg 0.085
+;RATE_I RATE_C
+
+;RATE_AE replenish 0.06 - 0.10 North African Ghazis 0.09
+
+;RATE_U replenish 0.03 - 0.10 Swiss crossbow avg 0.065
+
+;RATE_S replenish 0.02 - 0.10 Knights			avg 0.06
+;RATE_AA RATE_S
+
+;RATE_T replenish 0.02 - 0.07 Free company 		avg 0.045
+;RATE_J RATE_T
+
+;RATE_L replenish 0.01 - 0.06 Knights			avg 0.035
+
+
+pool Mordor
+	regions Gorgoroth_Province Morgul-Vale_Province Gorgoroth-South_Province Udun_Province Carnen_Province Morgai_Province Orc_Province East_Gorgoroth_Province
+	unit Mordor Orcs Invasion		exp 0 cost 270 replenish 1.00 - 3.00 max 40 initial 3 religions { catholic } 
+	unit Mordor Archers Invasion		exp 0 cost 250 replenish 1.00 - 3.00 max 40 initial 2 religions { catholic } 
+	unit Black Spiders Adult		exp 0 cost 1250 replenish 0.01 - 1.00 max 20 initial 0 religions { catholic }
+
+pool Orcs
+	regions Misty-Mountains_Province High-Pass_Province Carn-Dum_Province Mt-Gundabad_Province Central_Mountains_Province Outpost_Province Litash_Province
+	unit Mordor Orcs Invasion		exp 0 cost 270 replenish 1.00 - 3.00 max 40 initial 3 religions { catholic } 
+	unit Mordor Archers Invasion		exp 0 cost 250 replenish 1.00 - 3.00 max 40 initial 2 religions { catholic } 
+
+pool Isengard
+	regions Nan-Curunir_Province Dunland-Hills_Province Dunland_Province
+	unit Mordor Orcs Invasion		exp 0 cost 270 replenish 0.25 - 1.75 max 30 initial 3 religions { catholic } 
+	unit Mordor Archers Invasion		exp 0 cost 250 replenish 0.25 - 1.75 max 30 initial 2 religions { catholic } 
+	unit Hillmen,				exp 0 cost 520 replenish 0.01 - 1.00 max 20 initial 0 start_year 2993 religions { catholic }
+	unit Rhudaur Scouts,			exp 0 cost 590 replenish 0.01 - 1.00 max 20 initial 0 start_year 2987 religions { catholic }
+	unit Rhudaur Axemen,			exp 0 cost 570 replenish 0.01 - 1.00 max 20 initial 0 start_year 2998 religions { catholic }
+	unit Bandits,				exp 0 cost 200 replenish 0.25 - 1.75 max 30 initial 0 religions { northmen numenorian }
+
+pool Harad
+	regions Harad_Province Umbar_Province South-Umbar_Province Far-Harad_Province Gobel-Ancalimon_Province Near-Harad_Province Amrun_Province Harondor_Province Shafra_Province
+	unit merc cog,				exp 1 cost 1000 replenish 0.05 - 0.10 max 10 initial 0
+	unit Corsairs Mercs			exp 1 cost 280 replenish 1.00 - 3.00 max 40 initial 2 religions { catholic } 
+	unit Southron Spearmen Mercs		exp 0 cost 350 replenish 1.00 - 3.00 max 40 initial 2 religions { catholic } 
+	unit Harad Archers Mercs		exp 0 cost 300 replenish 1.00 - 3.00 max 40 initial 2 religions { catholic } 
+	unit Variag Lancers			exp 0 cost 960 replenish 0.25 - 1.75 max 30 initial 0 religions { catholic }
+	unit Bandits,				exp 0 cost 200 replenish 0.25 - 1.75 max 30 initial 0 religions { northmen numenorian }
+
+pool Khand
+	regions Haradwaith_Province Khand_Province Nurn_Province
+	unit Variag Lancers			exp 0 cost 920 replenish 1.00 - 3.00 max 40 initial 0 religions { catholic }
+	unit Bandits,				exp 0 cost 200 replenish 0.25 - 1.75 max 30 initial 0 religions { northmen numenorian }
+
+pool Rhun
+	regions Rhun_Province Morad_Province Near-Rhun_Province North-Rhun_Province Mistrand_Province Kelepar_Province Tirith-Thoron_Province
+	unit Balchoth Horde Mercs		exp 0 cost 330 replenish 1.00 - 3.00 max 40 initial 2 religions { catholic } 
+	unit Easterling Clansmen Mercs		exp 0 cost 350 replenish 1.00 - 3.00 max 40 initial 2 religions { catholic } 
+	unit Easterling Archers Mercs		exp 0 cost 320 replenish 1.00 - 3.00 max 40 initial 2 religions { catholic } 
+	unit Variag Lancers			exp 0 cost 960 replenish 0.25 - 1.75 max 30 initial 0 religions { catholic }
+	unit Bandits,				exp 0 cost 200 replenish 0.25 - 1.75 max 30 initial 0 religions { northmen numenorian }
+
+pool Gondor
+	regions Lossarnach_Province Lebennin_Province Belfalas_Province Anfalas_Province Lamedon_Province Tarnost_Province Pinnath-Gelin_Province Erech_Province Andrast_Province West_Lebennin_Province Ethring_Province
+	unit merc cog,				exp 0 cost 900 replenish 0.02 - 0.10 max 1 initial 0
+	unit Bandits,				exp 0 cost 200 replenish 1.00 - 3.00 max 40 initial 0 religions { northmen numenorian }
+
+pool Gondor2
+	regions Anorien_Province Cair-Andros_Province West-Osgiliath_Province East-Osgiliath_Province
+	unit Bandits,				exp 0 cost 200 replenish 1.00 - 3.00 max 40 initial 0 religions { northmen numenorian }
+
+pool Ithilien
+	regions South-Ithilien_Province Ithilien_Province Barad-Harn_Province Amon-Eithel_Province
+	unit merc cog,				exp 0 cost 900 replenish 0.02 - 0.10 max 10 initial 0
+	unit Mordor Orcs Invasion			exp 0 cost 270 replenish 1.00 - 3.00 max 40 initial 3 religions { catholic } 
+	unit Mordor Archers Invasion		exp 0 cost 250 replenish 1.00 - 3.00 max 40 initial 2 religions { catholic } 
+	unit Bandits,				exp 0 cost 200 replenish 1.00 - 3.00 max 40 initial 0 religions { northmen numenorian }
+
+pool NorthIthilien
+	regions North-Ithilien_Province
+	unit Mordor Orcs Invasion			exp 0 cost 270 replenish 1.00 - 3.00 max 40 initial 0 religions { catholic } 
+	unit Bandits,				exp 0 cost 200 replenish 0.25 - 1.75 max 30 initial 0 religions { northmen numenorian }
+
+pool Rohan
+	regions 	Minhiriath_Province Talsir_Province Lond_Angren_Province Kings-Land_Province Helms-Deep_Province Eastfold_Province Westfold_Province Adorn_Province Gap-of-Rohan_Province West-Emnet_Province East-Emnet_Province Harrowdale_Province Wold_Province 
+	unit merc cog,				exp 0 cost 900 replenish 0.02 - 0.10 max 10 initial 0
+	unit Bandits,				exp 0 cost 200 replenish 1.00 - 3.00 max 40 initial 0 religions { northmen numenorian }
+
+pool Eriador
+	regions Arthedain_Province Bree_Province Cardolan_Province Staddle_Province Weather-Hills_Province Enedwaith_Province Lake_Evendim_Province Athilin_Province
+	unit Bandits,				exp 0 cost 200 replenish 1.00 - 3.00 max 40 initial 0 religions { northmen numenorian }
+
+pool Tharbad
+	regions Lone-lands_Province Tharbad_Province
+	unit Bandits,				exp 0 cost 200 replenish 1.00 - 3.00 max 40 initial 0 religions { northmen numenorian }
+
+pool Hobbits
+	regions Bywater_Province Southfarthing_Province Shire_Province
+	unit Bandits,				exp 0 cost 200 replenish 0.25 - 1.75 max 30 initial 0 religions { northmen numenorian }
+
+pool High_Elves
+	regions Mithlond_Province Forlindon_Province Harlindon_Province Emyn-Beraid_Province
+	unit merc cog,				exp 0 cost 900 replenish 0.05 - 0.10 max 10 initial 0
+	unit Bandits,				exp 0 cost 200 replenish 0.25 - 1.75 max 30 initial 0 religions { northmen numenorian }
+
+pool Lorien
+	regions Lothlorien_Province Celebrant_Province
+	unit Bandits,				exp 0 cost 200 replenish 1.00 - 3.00 max 40 initial 0 religions { northmen numenorian }
+
+pool Mirkwood
+	regions Elven-Mirkwood_Province Central-Mirkwood_Province West-Mirkwood_Province New_Mirkwood_Province Deep-Mirkwood_Province
+	unit Black Spiders Adult		exp 0 cost 1250 replenish 0.25 - 1.75 max 30 initial 1 religions { catholic }
+	unit Bandits,				exp 0 cost 200 replenish 0.25 - 1.75 max 30 initial 0 religions { northmen numenorian }
+
+pool Entwoods
+	regions Fangorn_Province
+	unit Black Spiders Adult		exp 0 cost 1250 replenish 0.01 - 1.00 max 20 initial 0 religions { catholic }
+	unit Bandits,				exp 0 cost 200 replenish 0.25 - 1.75 max 30 initial 0 religions { northmen numenorian }
+
+pool Dwarves1
+	regions Ered-Luin_Province Nan-i-Naugrim_Province
+	unit merc cog,				exp 0 cost 900 replenish 0.02 - 0.10 max 10 initial 0
+	unit Bandits,				exp 0 cost 200 replenish 0.25 - 1.75 max 30 initial 0 religions { northmen numenorian }
+
+pool Dwarves2
+	regions Erebor_Province Iron-Hills_Province
+	unit Dale Cavalry,			exp 0 cost 780 replenish 0.25 - 1.75 max 30 initial 0 religions { islam }
+	unit Bandits,				exp 0 cost 200 replenish 0.25 - 1.75 max 30 initial 0 religions { northmen numenorian }
+
+pool Dale
+	regions Dale_Province Esgaroth_Province Celduin_Province Celduin-East_Province Dorwinion_Province
+	unit Dale Cavalry,			exp 0 cost 780 replenish 1.00 - 3.00 max 40 initial 1 religions { islam }
+	unit Bandits,				exp 0 cost 200 replenish 1.00 - 3.00 max 40 initial 0 religions { northmen numenorian }
+
+pool Rhovanion
+	regions Rhovanion_Province North-Rhovanion_Province Uldonavan_Province
+	unit Rhovanion Spearmen,		exp 0 cost 370 replenish 1.00 - 3.00 max 40 initial 0 religions { northmen numenorian islam }
+	unit Rhovanion Hunters,			exp 0 cost 370 replenish 1.00 - 3.00 max 40 initial 1 religions { northmen numenorian islam }
+	unit Rhovanion Rider,			exp 0 cost 590 replenish 1.00 - 3.00 max 40 initial 1 religions { northmen numenorian islam }
+	unit Black Spiders Adult		exp 0 cost 1250 replenish 0.01 - 1.00 max 20 initial 0 start_year 2986 religions { catholic }
+	unit Bandits,				exp 0 cost 200 replenish 0.25 - 1.75 max 30 initial 0 religions { northmen numenorian }
+
+pool Anduin_Vale
+	regions Lowest-Anduin-Vale_Province Lower-Anduin-Vale_Province Anduin-Vale_Province Wrakyaburg_Province
+	unit Beorning,				exp 0 cost 600 replenish 1.00 - 3.00 max 40 initial 1 start_year 2986 religions { northmen orthodox }
+	unit Bandits,				exp 0 cost 200 replenish 1.00 - 3.00 max 40 initial 0 religions { northmen numenorian }
+	unit Black Spiders Adult		exp 0 cost 1250 replenish 0.01 - 1.00 max 20 initial 0 start_year 2986 religions { catholic }
+
+pool Rhudaur
+	regions Ettenmoors_Province Imladris_Province Mitheithel_Province
+	unit Hillmen,				exp 0 cost 490 replenish 1.00 - 3.00 max 40 initial 1 religions { catholic }
+	unit Rhudaur Scouts,			exp 0 cost 580 replenish 1.00 - 3.00 max 40 initial 0 religions { catholic }
+	unit Rhudaur Axemen,			exp 0 cost 560 replenish 1.00 - 3.00 max 40 initial 1 start_year 2986 religions { catholic }
+	unit Bandits,				exp 0 cost 200 replenish 0.25 - 1.75 max 30 initial 0 religions { northmen numenorian }
+
+pool Gram
+	regions Mt-Gram_Province Carn-Dum_Province Mt-Gundabad_Province Litash_Province
+	unit Hillmen,				exp 0 cost 490 replenish 0.25 - 1.75 max 30 initial 0 religions { catholic }
+	unit Rhudaur Scouts,			exp 0 cost 580 replenish 0.25 - 1.75 max 30 initial 0 religions { catholic }
+	unit Rhudaur Axemen,			exp 0 cost 560 replenish 0.25 - 1.75 max 30 initial 0 start_year 2990 religions { catholic }
+	unit Bandits,				exp 0 cost 200 replenish 0.25 - 1.75 max 30 initial 0 religions { northmen numenorian }
+

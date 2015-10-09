@@ -1,0 +1,6514 @@
+;#####################################################################
+;############################# TATW 3.2 ##############################
+;#####################################################################
+
+campaign		imperial_campaign
+playable
+	sicily
+	milan
+	scotland
+	moors
+	turks
+	egypt
+	mongols
+	england
+	france
+	hre
+	portugal
+	spain
+	venice
+end
+unlockable
+
+end
+nonplayable
+	papal_states
+	byzantium
+	hungary
+	slave
+end
+
+
+start_date	2980 summer
+end_date	4080 winter
+timescale	0.25
+
+
+marian_reforms_disabled
+rebelling_characters_active
+gladiator_uprising_disabled
+night_battles_enabled
+show_date_as_turns
+brigand_spawn_value 900
+pirate_spawn_value 400
+free_upkeep_forts 2
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; >>>> start of resources section <<<<
+;
+;
+;resource	sugar
+;#######Wonders
+resource	cotton,		249,    127 ;Rammas Echor
+resource	dyes,		68,	248 ;Tower Hills
+resource	tin,		240,	168 ;Argonath A&B
+resource	sulfur,		238,	162 ;Amon Hen
+resource	spices,		180,	213 ;Durin's Tower
+resource	camels,		226,    249 ;Carrock
+;#######Villages
+resource	amber,		122,    251 ;Bree
+resource	amber,		95,     243 ;Shire
+resource	amber,		96,     252 ;Shire
+resource	amber,		83,     275 ;Nenuial
+resource	amber,		151,    210 ;dunland hills
+resource	amber,		115,    149 ;derwath
+resource	amber,		178,    119 ;anfalas
+resource	amber,		141,    132 ;pinnath gelin
+resource	amber,		219,    93  ;west lebennin
+resource	amber,		231,    113 ;lossarnach
+resource	amber,		213,    173 ;east emnet
+resource	amber,		327,    217 ;dorwinion
+resource	amber,		304,    201 ;rhovanion
+resource	amber,		190,    115 ;lamedon
+resource	amber,		240,    103 ;pelargir
+resource	amber,		161,    258 ;mitheithel
+;#######Animals
+resource	dogs,		327,	179 ;Horses	burh erm.
+resource	dogs,		363,	173 ;Horses	morad
+resource	dogs,		182,	172 ;Horses	west emnet
+resource	dogs,		190,	165 ;Horses	west emnet
+resource	dogs,		214,	163 ;Horses	east emnet
+resource	dogs,		179,	161 ;Horses	kings land
+resource	dogs,		120,    157 ;Horses	druwaith
+resource	dogs,		341,	248 ;Horses	kugavod
+resource	dogs,		303,	164 ;Horses	tirith thoron
+resource	dogs,		298,	199 ;Horses	rhovanost
+resource	dogs,		218,	272 ;Horses	framsburg
+resource	elephants,	263,    37  ;gobel
+resource	elephants,	370,	62  ;khand
+resource	elephants,	320,	44  ;harad
+resource	elephants,	196,	11  ;south umbar
+;#######Resources
+resource	chocolate,	182,	215 ;Mithril
+resource	coal,		227,    117 ;lossarnach
+resource	coal,		198,    120 ;ethring
+resource	coal,		181,    112 ;anfalas
+resource	coal,		211,    101 ;linhir
+resource	coal,		205,    194 ;limlight fort
+resource	coal,		164,    167 ;gineard
+resource	coal,		32,     252 ;harlond
+resource	coal,		82,     241 ;michel delving
+resource	coal,		134,    303 ;athilin
+resource	coal,		103,    267 ;annuminas
+resource	coal,		210,    230 ;gladden fields
+resource	coal,		230,    194 ;lothlorien
+resource	coal,		291,    252 ;riverrun
+resource	coal,		288,    263 ;dale
+resource	coal,		358,    187 ;mistrand
+resource	coal,		265,    62  ;harondor
+resource	coal,		135,    209 ;dunland
+resource	coal,		84,     216 ;allimir
+resource	fish,		239,	101 ;pelargir
+resource	fish,		180,	97  ;dol amroth
+resource	fish,		45,	236 ;harlindon
+resource	fish,		104,	166 ;lond angren
+resource	fish,		168,	7   ;vatavea
+resource	fish,		59,	246 ;mithlond
+resource	fish,		344,	195 ;mistrand
+resource	fish,		119,	332 ;ruskea
+resource	fish,		144,	23  ;erelond
+resource	fish,		147,	20  ;erelond
+resource	fish,		88,	182 ;eryn vorn
+resource	fish,		212,	56  ;kas shafra
+resource	fish,		206,	76  ;barad harn
+resource	fish,		201,	85  ;goben tolfalas
+resource	furs,		181,	268 ;trollshaws
+resource	marble,		183,	268 ;trollshaws
+resource	furs,		185,	268 ;trollshaws
+
+resource	furs,		252,	245 ;eryn dolen
+resource	furs,		125,	323 ;pitkaränta
+resource	furs,		99,	310 ;evendim
+resource	furs,		157,	310 ;evendim
+resource	furs,		61,	277 ;lune land
+resource	gold,		392,	212 ;kelepar
+resource	gold,		380,	150 ;upper khand
+resource	gold,		352,	190 ;mistrand
+resource	gold,		382,	254 ;kugavod
+resource	gold,		256,	268 ;thranduils halls
+resource	grain,		250,    53  ;gobel
+resource	grain,		196,	131 ;lamedon
+resource	grain,		28,	234 ;harlindon
+resource	grain,		182,	156 ;kings land
+resource	grain,		185,	115 ;lamedon
+resource	grain,		118,	98  ;andrast
+resource	grain,		113,	253 ;bree
+resource	grain,		138,	215 ;tharbad
+resource	grain,		117,	267 ;fornost
+resource	grain,		208,	27  ;umbar
+resource	grain,		285,	266 ;dale
+resource	grain,		285,	266 ;esgaroth
+resource	grain,		261,	55  ;amrun
+resource	grain,		243,	130 ;MT
+resource	grain,		247,	125 ;MT
+resource	grain,		366,	210 ;kelepar
+resource	grain,		336,	181 ;burh erma
+resource	grain,		217,	200 ;Caras
+resource	grain,		297,	240 ;celduin
+resource	grain,		196,	171 ;west emnet
+resource	grain,		222,	162 ;east emnet
+resource	grain,		221,	119 ;arnach
+resource	grain,		175,	5   ;south umbar
+resource	grain,		37,	250 ;forlindon
+resource	grain,		221,	119 ;arnach
+resource	grain,		365,	85  ;khand
+resource	grain,		326,	117 ;nurnen
+resource	grain,		314,	114 ;nurnen
+resource	grain,		99,     246 ;hobbiton
+resource	grain,		332,    160 ;rhunaer
+resource	grain,		230,    84  ;barad harn
+resource	iron,		279,    62  ;amrun
+resource	iron,		174,	137 ;tarlang
+resource	iron,		50,	292 ;ered luin
+resource	iron,		235,	125 ;minas tirith
+resource	iron,		195,	145 ;aldburg
+resource	iron,		118,	141 ;druwaith
+resource	iron,		185,	102 ;dol amroth
+resource	iron,		185,	225 ;moria
+resource	iron,		192,	299 ;gundabad
+resource	iron,		299,	140 ;gorgoroth
+resource	iron,		283,	119 ;gorgoroth
+resource	iron,		300,	124 ;gorgoroth south
+resource	iron,		275,	140 ;durthang
+resource	iron,		161,	222 ;eregion
+resource	iron,		154,	307 ;carn dum
+resource	iron,		179,	300 ;carn dum
+resource	iron,		327,	272 ;iron hills
+resource	iron,		339,	271 ;iron hills
+resource	iron,		319,	279 ;iron hills
+resource	iron,		60,	315 ;kibil dum
+resource	iron,		197,	276 ;orc outpost
+resource	iron,		263,	240 ;emyn
+resource	iron,		164,	191 ;isengard
+resource	iron,		163,	188 ;isengard
+resource	ivory,		302,	44  ;harad
+resource	ivory,		288,	16  ;far harad
+resource	ivory,		368,	39  ;haradwaith
+resource	marble,		213,	283 ;framsburg
+resource	marble,		224,	280 ;wrakyaburg
+resource	marble,		231,	253 ;beorns halls
+resource	marble,		228,	248 ;beorns halls
+resource	slaves,		372,	91  ;Khand
+resource	slaves,		126,	329 ;Ruskea Vene
+resource	slaves,		145,	21  ;Erelond
+resource	slaves,		357,	136 ;Nurn
+resource	silk,		204,	23  ;umbar
+resource	silk,		62,	256 ;mithlond
+resource	silk,		313,	64  ;hamen
+resource	silver,		211,	27  ;umbar
+resource	silver,		292,	270 ;erebor
+resource	silver,		48,	302 ;ered luin
+resource	silver,		230,	300 ;dains halls
+resource	silver,		204,	264 ;high pass
+resource	silver,		201,	247 ;high pass
+resource	silver,		312,	138 ;orc encampment
+resource	silver,		383,	72  ;khand
+resource	textiles,	233,	101 ;pelargir
+resource	textiles,	379,	220 ;rhun
+resource	textiles,	286,	258 ;esgaroth
+resource	textiles,	143,	219 ;tharbad
+resource	textiles,	207,	212 ;lothlorien
+resource	tobacco,	98,	238 ;southfarthing
+resource	tobacco,	91,	233 ;southfarthing
+resource	tobacco,	115,	245 ;bree
+resource	timber,		276,	216 ;rhovanion
+resource	timber,		279,	213 ;rhovanion
+resource	timber,		167,	186 ;isengard
+resource	timber,		147,	290 ;gram
+resource	timber,		84,	204 ;eryn
+resource	timber,		216,	104 ;linhir
+resource	timber,		264,	111 ;ithilien
+resource	timber,		106,	191 ;lond daer
+resource	timber,		202,	147 ;aldburg
+resource	timber,		318,	226 ;north rhovanion
+resource	timber,		118,	260 ;bree
+resource	timber,		360,	240 ;kugavod
+resource	timber,		25,	268 ;forlindon
+resource	timber,		120,	196 ;lond daer
+resource	timber,		262,	274 ;thranduils halls
+resource	timber,		251,	244 ;eryn dolen
+resource	timber,		338,	13  ;hyarmen
+resource	timber,		244,	209 ;dol guldur
+resource	timber,		302,	262 ;celduin
+resource	timber,		186,	310 ;gundabad
+resource	timber,		374,	220 ;rhun
+resource	timber,		214,	214 ;celebrant
+resource	timber,		246,	98  ;tir ethraid
+resource	wine,		48,	230 ;harlindon
+resource	wine,		66,	226 ;emyn beraid
+resource	wine,		333,	219 ;dorwinion
+resource	wine,		336,	225 ;dorwinion
+resource	wine,		327,	219 ;dorwinion
+resource	wine,		98,	282 ;evendim
+resource	wine,		287,	255 ;esgaroth
+resource	wine,		316,	248 ;east celduin
+resource	wine,		85,	250 ;southfarthing
+resource	wine,		101,	253 ;shire
+resource	wine,		156,	153 ;adorn
+resource	wine,		115,	209 ;argond
+resource	wool,		148,	133 ;pinnath
+resource	wool,		133,	255 ;weather hills
+resource	wool,		144,	145 ;Derwath
+resource	wool,		45,	281 ;ered luin
+resource	wool,		133,	110 ;anfalas
+resource	wool,		164,	123 ;anfalas
+resource	wool,		248,	293 ;dains halls
+resource	wool,		171,	278 ;ettenmoors
+resource	wool,		302,	229 ;north rhovanion
+resource	wool,		302,	278 ;erebor
+resource	iron,		282,	294 ;erebor
+resource	wool,		207,	114 ;dor-er-ernil
+resource	wool,		174,	152 ;kings land
+resource	wool,		149,	175 ;gineard
+resource	wool,		227,	181 ;wold
+resource	wool,		42,	216 ;harlindon
+resource	wool,		91,	247 ;michel delving
+resource	wool,		325,	189 ;uldonavan
+resource	wool,		221,	286 ;framsburg
+resource	wool,		156,	208 ;dunland hills
+resource	wool,		147,	203 ;dunland
+resource	wool,		125,	227 ;barrow downs
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; >>>> start of sound emitters section <<<<
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; >>>> start of events section <<<<
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; >>>> start of factions section <<<<
+;#################################################################
+;##########################  GONDOR  ############################# 23300
+;################################################################# 
+faction	sicily, balanced smith
+ai_label		 good
+denari	15000
+denari_kings_purse	4600
+settlement
+{
+	level huge_city
+	region Anorien_Province
+
+	year_founded 0
+	population 4252
+	plan_set default_set
+	faction_creator norway
+	building
+	{
+		type hinterland_info_building info_anorien
+	}
+	building
+	{
+		type core_building huge_stone_wall
+	}
+	building 
+	{
+		type hinterland_unique1 ecthelion
+	}
+	building
+	{
+		type hinterland_unique1 great_gates
+	}
+	building
+	{
+		type hinterland_unique1 great_walls
+	}
+	building
+	{
+		type hinterland_palantir anor_palantir
+	}
+	building
+	{
+		type city_hall council_chambers
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type c_missiles c_bowyer
+	}
+	building
+	{
+		type c_equestrian c_stables
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type gondor_academic gondor_alchemists_lab
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement  ;DONE
+{
+	level city
+	region Belfalas_Province
+
+	year_founded 0
+	population 4535
+	plan_set default_set
+	faction_creator sicily
+	building
+	{
+		type hinterland_info_building info_belfalas
+	}
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type c_equestrian c_stables
+	}
+	building
+	{
+		type c_missiles c_bowyer
+	}
+	building
+	{
+		type gondor_academic gondor_alchemy_school
+	}
+	building
+	{
+		type taverns inn
+	}
+	building
+	{
+		type city_hall council_chambers
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement  ;DONE
+{
+	level town
+	region Lossarnach_Province
+
+	year_founded 0
+	population 1568
+	plan_set default_set
+	faction_creator sicily
+	building
+	{
+		type hinterland_info_building info_lossarnach
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type gondor_academic gondor_alchemists_lab
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement  ;DONE
+{
+	level city
+	region Lebennin_Province
+
+	year_founded 0
+	population 4162
+	plan_set default_set
+	faction_creator sicily
+	building
+	{
+		type hinterland_info_building info_lebennin
+	}
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type gondor_academic gondor_alchemists_lab
+	}
+	building
+	{
+		type taverns inn
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port shipwright
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement  ;DONE
+{
+	level town
+	region West_Lebennin_Province
+
+	year_founded 0
+	population 2218
+	plan_set default_set
+	faction_creator sicily
+	building
+	{
+		type hinterland_info_building info_west_lebennin
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement  ;DONE
+{
+	level town
+	region Anfalas_Province
+
+	year_founded 0
+	population 1353
+	plan_set default_set
+	faction_creator sicily
+	building
+	{
+		type hinterland_info_building info_anfalas
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Lamedon_Province
+
+	year_founded 0
+	population 1506
+	plan_set default_set
+	faction_creator sicily
+	building
+	{
+		type hinterland_info_building info_lamedon
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type market corn_exchange
+	}
+}
+
+settlement castle
+{
+	level town
+	region Tarnost_Province
+
+	year_founded 0
+	population 1122
+	plan_set default_set
+	faction_creator sicily
+	building
+	{
+		type hinterland_info_building info_tarnost
+	}
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+	building
+	{
+		type castle_barracks mustering_hall
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement  ;DONE
+{
+	level village
+	region Pinnath-Gelin_Province
+
+	year_founded 0
+	population 975
+	plan_set default_set
+	faction_creator sicily
+	building
+	{
+		type hinterland_info_building2 info_pinnath-gelin
+	}
+	building
+	{
+		type barracks town_watch
+	}
+}
+
+settlement  ;DONE
+{
+	level village
+	region Erech_Province
+
+	year_founded 0
+	population 452
+	plan_set default_set
+	faction_creator sicily
+	building
+	{
+		type hinterland_info_building info_erech
+	}
+}
+
+settlement  ;DONE
+{
+	level town
+	region Ethring_Province
+
+	year_founded 0
+	population 1096
+	plan_set default_set
+	faction_creator sicily
+	building
+	{
+		type hinterland_info_building2 info_ethring
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+}
+
+settlement castle		;max: 2.5% -> 145 turns (+build times)
+{
+	level city
+	region West-Osgiliath_Province
+
+	year_founded 0
+	population 1256
+	plan_set default_set
+	faction_creator poland
+	building
+	{
+		type hinterland_info_building8 info_West-Osgiliath
+	}
+	building
+	{
+		type core_castle_building fortress
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+character	Denethor, named character, male, leader, age 65, x 239, y 128, portrait Denethor, hero_ability IRON_FIST
+traits Denethor 1 , hero_ability1 1 , Factionleader 1 , GoodCommander 1 , NaturalMilitarySkill 1 , Unjust 1 , Introvert 1 , PoliticsSkill 2 , ReligionStarter 1 , ChivalryLegacy 1
+ancillaries steward_gondor, palantir_authorisation, troops_gondor, drillmaster
+army
+unit		Gondor Bodyguard			exp 2 armour 0 weapon_lvl 0
+unit		Dismounted Kofm				exp 0 armour 0 weapon_lvl 0
+unit		Militia Archers				exp 0 armour 0 weapon_lvl 0
+unit		Militia Archers				exp 0 armour 0 weapon_lvl 0
+unit		Fountain Guard				exp 1 armour 0 weapon_lvl 0
+
+character	Faramir, named character, male, age 18, x 254, y 127, portrait Faramir, battle_model faramir, hero_ability CAPTAIN		;west osgiliath
+traits Faramir 1 , hero_ability2 1 , LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , GoodAmbusher 2 , Intelligent 1 , Aesthetic 1 , Just 1
+ancillaries warden, gondor_horn
+army
+unit		Ithilien Rangers_BG			exp 2 armour 0 weapon_lvl 0
+unit		Ithilien Rangers			exp 1 armour 0 weapon_lvl 0
+
+character	Forlong, named character, male, age 36, x 223, y 122, portrait Forlong								;lossarnach
+traits LoyaltyStarter 1 , GoodCommander 2 , ReligionStarter 1 , HaleAndHearty 1 , BattleChivalry 3
+army
+unit		Gondor Bodyguard			exp 1 armour 0 weapon_lvl 0
+unit		Axemen of Lossarnach			exp 0 armour 0 weapon_lvl 0
+unit		Axemen of Lossarnach			exp 1 armour 0 weapon_lvl 0
+
+character	Orodreth, named character, male, age 28, x 236, y 98										;pelargir
+traits LoyaltyStarter 1 , GoodCommander 1, StrategyChivalry 1 , GoodDefender 1 , ReligionStarter 1
+army
+unit		Gondor Bodyguard			exp 0 armour 0 weapon_lvl 0
+unit		Dismounted Kofm				exp 0 armour 0 weapon_lvl 0
+unit		Militia Archers				exp 0 armour 0 weapon_lvl 0
+unit		Marines					exp 1 armour 0 weapon_lvl 0
+
+character	Durven, named character, male, age 39, x 205, y 103										;linhir
+traits LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1
+army
+unit		Gondor Bodyguard			exp 1 armour 0 weapon_lvl 0
+unit		Dismounted Kofm				exp 1 armour 0 weapon_lvl 0
+unit		Dismounted Kofm				exp 0 armour 0 weapon_lvl 0
+unit		Militia Archers				exp 0 armour 0 weapon_lvl 0
+
+character	Imrahil, named character, male, age 30, x 175, y 106, portrait Imrahil								;belfalas
+traits LoyaltyStarter 1 , GoodCommander 2 , ReligionStarter 1 , GoodDefender 1 , StrategyChivalry 2 , BattleChivalry 1 , Just 1 , HaleAndHearty 2
+ancillaries prince_dol_amroth
+army
+unit		Swan Knights				exp 2 armour 0 weapon_lvl 0
+unit		Dismounted Kofm				exp 1 armour 0 weapon_lvl 0
+unit		Dismounted Kofm				exp 0 armour 0 weapon_lvl 0
+unit		Dol Amroth Knights			exp 0 armour 0 weapon_lvl 0
+
+character	Arveldir, named character, male, age 43, x 143, y 106										;anfalas
+traits LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , RansomChivalry 1
+ancillaries gondor_border
+army
+unit		Gondor Bodyguard			exp 2 armour 0 weapon_lvl 0
+unit		Dismounted Kofm				exp 0 armour 0 weapon_lvl 0
+unit		Dol Amroth Knights			exp 0 armour 0 weapon_lvl 0
+
+character	Angbor, named character, male, age 53, x 191, y 133										;lamedon
+traits LoyaltyStarter 1 , GoodCommander 2 , ReligionStarter 1 , Loyal 1 , Just 1
+army
+unit		Gondor Bodyguard			exp 1 armour 0 weapon_lvl 0
+unit		Dismounted Kofm				exp 0 armour 0 weapon_lvl 0
+
+character	Istdor, named character, male, age 47, x 196, y 113										;tarnost
+traits LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1
+army
+unit		Gondor Bodyguard			exp 0 armour 0 weapon_lvl 0
+unit		Dismounted Kofm				exp 0 armour 0 weapon_lvl 0
+
+character	Pelilas, named character, male, age 34, x 135, y 122										;pinnath gelin
+traits LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 
+army
+unit		Gondor Bodyguard			exp 1 armour 0 weapon_lvl 0
+unit		Dismounted Kofm				exp 0 armour 0 weapon_lvl 0
+unit		Dol Amroth Knights			exp 0 armour 0 weapon_lvl 0
+
+character	Duinhir, named character, male, age 46, x 184, y 140, portrait Duinhir								;erech
+traits LoyaltyStarter 1 , GoodCommander 1 , GoodAmbusher 1 , ReligionStarter 1 , Brave 1 , Loyal 1
+army
+unit		Blackroot Archers			exp 2 armour 0 weapon_lvl 0
+unit		Militia Archers				exp 0 armour 0 weapon_lvl 0
+
+character	Boromir, named character, male, heir, age 23, x 240, y 127, portrait Boromir, battle_model boromir, hero_ability SHIELD, label family_gondor1		;erech Born 2978
+traits Boromir 1 , hero_ability3 1 , Factionheir 1 , LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , Energetic 1 , Loyal 1
+ancillaries high_warden, gondor_horn, writings_isildur
+army
+unit		Kingsguard_BG				exp 1 armour 0 weapon_lvl 0
+
+character	Naerion, named character, male, age 31, x 203, y 125										;ethring
+traits LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , GoodTaxman 1
+army
+unit		Gondor Bodyguard			exp 1 armour 0 weapon_lvl 0
+unit		Dismounted Kofm				exp 0 armour 0 weapon_lvl 0
+
+character	Ohtar, admiral, male, age 32, x 205, y 94
+army
+unit		cog		exp 0 armour 0 weapon_lvl 0
+
+character	Borthor, spy, male, age 20, x 242, y 126
+traits NaturalSpySkill 1 , GoodSpy 1 
+
+;character	Anborn, assassin, male, age 20, x 120, y 248
+;traits GoodAssassin 5 , NaturalAssassinSkill 3 , AssassinsGuildMember 1 , AssassinsGuildTrained 1
+
+character_record	Finduilas, female, age 45, dead 38, never_a_leader	;born 2950
+
+relative 	Denethor, Finduilas, Imrahil, Boromir, Faramir, end
+
+;character	Bergil, admiral, male, age 36, x 241, y 165
+;army
+;unit		cog		exp 0 armour 0 weapon_lvl 0
+;
+;
+;#################################################################
+;##########################  ROHAN  ##############################
+;################################################################# 
+faction	milan, balanced smith
+ai_label		 good
+denari	12000
+denari_kings_purse	4800
+settlement
+{
+	level large_city
+	region Kings-Land_Province
+
+	year_founded 0
+	population 4182
+	plan_set default_set
+	faction_creator ireland
+	building
+	{
+		type hinterland_info_building2 info_kings-land
+	}
+	building
+	{
+		type core_building large_stone_wall
+	}
+	building
+	{
+		type hinterland_hall hall
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type c_equestrian c_stables
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type taverns inn
+	}
+	building
+	{
+		type academic alchemy_school
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement castle
+{
+	level city
+	region Helms-Deep_Province
+
+	year_founded 0
+	population 1568
+	plan_set default_set
+	faction_creator timurids
+	building
+	{
+		type hinterland_info_building2 info_helms-deep
+	}
+	building
+	{
+		type core_castle_building fortress
+	}
+	building
+	{
+		type hinterland_hornburg hornburg
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type castle_academic library
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Eastfold_Province
+
+	year_founded 0
+	population 2633
+	plan_set default_set
+	faction_creator milan
+	building
+	{
+		type hinterland_info_building2 info_Eastfold
+	}
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type c_equestrian c_stables
+	}
+	building
+	{
+		type academic alchemists_lab
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement castle
+{
+	level town
+	region Westfold_Province
+
+	year_founded 0
+	population 863
+	plan_set default_set
+	faction_creator milan
+	building
+	{
+		type hinterland_info_building2 info_Westfold
+	}
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+	building
+	{
+		type castle_barracks mustering_hall
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level village
+	region Gap-of-Rohan_Province
+
+	year_founded 0
+	population 709
+	plan_set default_set
+	faction_creator milan
+	building
+	{
+		type hinterland_info_building2 info_Gap-of-Rohan
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level town
+	region West-Emnet_Province
+
+	year_founded 0
+	population 1517
+	plan_set default_set
+	faction_creator milan
+	building
+	{
+		type hinterland_info_building2 info_west-emnet
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type academic alchemists_lab
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type market corn_exchange
+	}
+}
+
+settlement
+{
+	level town
+	region East-Emnet_Province
+
+	year_founded 0
+	population 1289
+	plan_set default_set
+	faction_creator milan
+	building
+	{
+		type hinterland_info_building2 info_east-emnet
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type c_equestrian c_stables
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement castle
+{
+	level village
+	region Harrowdale_Province
+
+	year_founded 0
+	population 431
+	plan_set default_set
+	faction_creator milan
+	building
+	{
+		type hinterland_info_building3 info_Harrowdale
+	}
+	building
+	{
+		type core_castle_building motte_and_bailey
+	}
+}
+
+settlement castle
+{
+	level town
+	region Adorn_Province
+
+	year_founded 0
+	population 1028
+	plan_set default_set
+	faction_creator milan
+	building
+	{
+		type hinterland_info_building2 info_west-emnet
+	}
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+}
+
+character	Thengel, named character, male, leader, age 50, x 186, y 154, portrait Thengel, hero_ability SHIELD, label family_rohan1
+traits Thengel 1 , hero_ability3 1 , Factionleader 1 , GoodCommander 3 , PoliticsSkill 2 , GoodAdministrator 2 , Austere 1 , GoodCavalryGeneral 1 , ReligionStarter 1 , Brave 1 , KindRuler 1
+ancillaries king_rohan
+army
+unit		rohan bodyguards		exp 2 armour 0 weapon_lvl 0
+unit		Royal Guard			exp 0 armour 0 weapon_lvl 0
+unit		militia				exp 0 armour 0 weapon_lvl 0
+unit		Rohan Axemen			exp 1 armour 0 weapon_lvl 0
+unit		rohan rider			exp 1 armour 0 weapon_lvl 0
+
+character	Gamling, named character, male, age 31, x 153, y 172, portrait Gamling									;gap of rohan
+traits LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , GoodAttacker 1 , StrategyChivalry 2
+army
+unit		rohan bodyguards		exp 2 armour 0 weapon_lvl 0
+unit		archers				exp 0 armour 0 weapon_lvl 0
+unit		rohan scouts			exp 1 armour 0 weapon_lvl 0
+
+character	Theoden, named character, male, heir, age 33, x 199, y 149, portrait Theoden, battle_model theoden, hero_ability CHARGE			;eastfold
+traits Theoden 1 , hero_ability4 1 , Factionheir 1 , LoyaltyStarter 1 , GoodCommander 2 , ReligionStarter 1 , GoodCavalryGeneral 1 , Loyal 1 , Just 1
+ancillaries rohan_first, helms_horn, herugrim
+army
+unit		rohan bodyguards		exp 1 armour 0 weapon_lvl 0
+unit		militia				exp 0 armour 0 weapon_lvl 0
+unit		archers				exp 0 armour 0 weapon_lvl 0
+unit		rohan rider			exp 0 armour 0 weapon_lvl 0
+
+character	Egbert, named character, male, age 21, x 170, y 175											;westfold
+traits LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 
+army
+unit		rohan bodyguards		exp 2 armour 0 weapon_lvl 0
+unit		Rohan Horsearchers		exp 0 armour 0 weapon_lvl 0
+unit		rohan scouts			exp 0 armour 0 weapon_lvl 0
+
+character	Erkenbrand, named character, male, age 36, x 167, y 157, portrait Erkenbrand, hero_ability IRON_FIST					;helms deep
+traits hero_ability1 1 , LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , GoodDefender 1 , ChivalryLegacy 1 , StrategyChivalry 1
+ancillaries commander_eorl
+army
+unit		rohan bodyguards		exp 1 armour 0 weapon_lvl 0
+unit		militia				exp 0 armour 0 weapon_lvl 0
+unit		Rohan Axemen			exp 0 armour 0 weapon_lvl 0
+unit		archers				exp 0 armour 0 weapon_lvl 0
+unit		rohan rider			exp 1 armour 0 weapon_lvl 0
+
+character	Leofara, named character, male, age 29, x 154, y 157											;adorn
+traits LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , Loyal 1 , Just 1
+army
+unit		rohan bodyguards		exp 0 armour 0 weapon_lvl 0
+unit		Rohan Axemen			exp 0 armour 0 weapon_lvl 0
+unit		archers				exp 0 armour 0 weapon_lvl 0
+
+character	Alric, named character, male, age 47, x 197, y 168											;west emnet
+traits LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , GoodDefender 1
+army
+unit		rohan bodyguards		exp 0 armour 0 weapon_lvl 0
+unit		militia				exp 0 armour 0 weapon_lvl 0
+unit		rohan scouts			exp 1 armour 0 weapon_lvl 0
+
+character	Theodred, named character, male, age 16, x 220, y 167, portrait Theodred								;east emnet
+traits LoyaltyStarter 1 , GoodCommander 2 , ReligionStarter 1 , Loyal 2 , Energetic 1 , Just 1
+ancillaries rohan_second
+army
+unit		rohan bodyguards		exp 2 armour 0 weapon_lvl 0
+unit		militia				exp 1 armour 0 weapon_lvl 0
+unit		rohan scouts			exp 1 armour 0 weapon_lvl 0
+
+character	Eomund, named character, male, age 25, x 186, y 148											;harrowdale
+traits LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , Loyal 1 , BattleChivalry 1 , CaptorChivalry 1
+ancillaries rohan_third
+army
+unit		rohan bodyguards		exp 1 armour 0 weapon_lvl 0
+unit		militia				exp 0 armour 0 weapon_lvl 0
+
+character	Cynegels, spy, male, age 22, x 183, y 157
+traits NaturalSpySkill 1 , GoodSpy 1 
+
+;character	Earpwald, assassin, male, age 20, x 167, y 158
+;traits GoodAssassin 5 , NaturalAssassinSkill 3 , AssassinsGuildMember 1 , AssassinsGuildTrained 1
+
+character_record	Morwen, female, age 49, alive, never_a_leader
+character_record	Elfhild, female, age 32, alive, never_a_leader
+character_record	Theodwyn, female, age 22, alive, never_a_leader
+character_record	Gleowyn, female, age 20, alive, never_a_leader
+character_record	Dernwyn, female, age 18, alive, never_a_leader
+character_record	Eomer, male, age 6, alive, never_a_leader
+character_record	Eowyn, female, age 5, alive, never_a_leader
+
+relative 	Thengel, Morwen, Theoden, Theodwyn, Gleowyn, Dernwyn, end
+relative 	Theoden, Elfhild, Theodred, end
+relative 	Eomund, Theodwyn, Eomer, Eowyn, end
+
+;#################################################################
+;##########################  DALE  ##############################
+;################################################################# 
+faction	scotland, balanced smith
+ai_label		 good
+denari 8000
+denari_kings_purse	2800
+settlement ;DONE
+{
+	level large_town
+	region Dale_Province
+
+	year_founded 0
+	population 4162
+	plan_set default_set
+	faction_creator scotland
+	building
+	{
+		type hinterland_info_building3 info_Dale
+	}
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type c_missiles c_bowyer
+	}
+	building
+	{
+		type academic alchemists_lab
+	}
+	building
+	{
+		type taverns inn
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement ;DONE
+{
+	level large_city
+	region Esgaroth_Province
+
+	year_founded 0
+	population 2457
+	plan_set default_set
+	faction_creator norway
+	building
+	{
+		type hinterland_info_building3 info_Esgaroth
+	}
+	building
+	{
+		type core_building large_stone_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type taverns inn
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type port port
+	}
+}
+
+settlement ;DONE
+{
+	level village
+	region Celduin_Province
+
+	year_founded 0
+	population 609
+	plan_set default_set
+	faction_creator scotland
+	building
+	{
+		type hinterland_info_building3 info_Celduin
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement ;DONE
+{
+	level town
+	region Celduin-East_Province
+
+	year_founded 0
+	population 1303
+	plan_set default_set
+	faction_creator scotland
+	building
+	{
+		type hinterland_info_building3 info_Celduin
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+}
+
+character	Bard, named character, male, leader, age 45, x 291, y 265, portrait Bard, hero_ability CAPTAIN, label family_dale1 ;dale
+traits Bard 1 , hero_ability3 1 , Factionleader 1 , GoodCommander 2 , NaturalMilitarySkill 1 , PublicFaith 2 , GoodAdministrator 2 , BattleChivalry 1 , StrategyChivalry 2 , ReligionStarter 1 , Brave 1
+ancillaries king_dale, troops_dale, dragonslayer
+army
+unit		Bardian Archers				exp 2 armour 0 weapon_lvl 0
+unit		Dale Swordmasters			exp 0 armour 0 weapon_lvl 0
+unit		Dale Longbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Watchmen				exp 1 armour 0 weapon_lvl 0
+unit		Dalesmen				exp 0 armour 0 weapon_lvl 0
+
+character	Bain, named character, male, heir, age 19, x 288, y 258, portrait Bain, hero_ability IRON_FIST ;esgaroth
+traits Factionheir 1 , hero_ability1 1 , LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , GoodDefender 1 , HaleAndHearty 1 , BattleChivalry 2
+ancillaries lord_esgaroth
+army
+unit		Bardian Archers				exp 1 armour 0 weapon_lvl 0
+unit		Dale Longbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Watchmen				exp 1 armour 0 weapon_lvl 0
+unit		Watchmen				exp 0 armour 0 weapon_lvl 0
+
+character	Hawin, named character, male, age 35, x 295, y 247 ;celduin
+traits LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , GoodAdministrator 1 , Loyal 1 , Just 1
+ancillaries dale_chancellor
+army
+unit		Bardian Archers				exp 0 armour 0 weapon_lvl 0
+unit		Watchmen				exp 1 armour 0 weapon_lvl 0
+unit		Watchmen				exp 0 armour 0 weapon_lvl 0
+
+character	Vidusith, named character, male, age 21, x 311, y 239 ;east celduin
+traits GoodCommander 2 , NaturalMilitarySkill 1 , BattleChivalry 1 , ReligionStarter 1
+army
+unit		Bardian Archers				exp 1 armour 0 weapon_lvl 0
+unit		Athala Rangers				exp 2 armour 0 weapon_lvl 0
+unit		Dale Longbowmen				exp 0 armour 0 weapon_lvl 0
+unit		Watchmen				exp 0 armour 0 weapon_lvl 0
+
+character	Thiudamir, spy, male, age 20, x 308, y 238
+traits NaturalSpySkill 1 , GoodSpy 1 
+
+character_record	Sigrid, female, age 37, alive, never_a_leader
+character_record	Biarn, male, age 15, alive, never_a_leader
+
+relative 	Bard, Sigrid, Bain, Biarn, end
+
+
+;#################################################################
+;##########################  DWARVES  ############################ 9100
+;################################################################# 
+faction	moors, balanced smith
+ai_label		 dwarf
+denari	8000
+denari_kings_purse	3500
+settlement
+{
+	level huge_city
+	region Erebor_Province
+
+	year_founded 0
+	population 5236
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type hinterland_info_building3 info_Erebor
+	}
+	building
+	{
+		type core_building huge_stone_wall
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type temple_muslim masjid
+	}
+	building
+	{
+		type taverns inn
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type market corn_exchange
+	}
+}
+
+settlement castle
+{
+	level town
+	region Ered-Luin_Province
+
+	year_founded 0
+	population 1397
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type hinterland_info_building3 info_Ered-Luin
+	}
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+	building
+	{
+		type hinterland_castle_mines c_mines
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type temple_muslim_castle c_small_masjid
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+}
+
+settlement	;DONE
+{
+	level town
+	region Nan-i-Naugrim_Province
+
+	year_founded 0
+	population 1935
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type hinterland_info_building3 info_Ered-Luin
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building 
+	{
+		type hinterland_unique1 thorin
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type temple_muslim small_masjid
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement castle	;DONE
+{
+	level large_town
+	region Iron-Hills_Province
+
+	year_founded 0
+	population 1378
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type hinterland_info_building3 info_Iron-Hills
+	}
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type hinterland_castle_mines c_mines
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type castle_smith c_blacksmith
+	}
+	building
+	{
+		type temple_muslim_castle c_small_masjid
+	}
+	building
+	{
+		type castle_siege c_ballista_range
+	} 
+}
+
+character	Dain, named character, male, leader, age 54, x 292, y 269, portrait Dain, hero_ability DWARVES	;, label family_dwarves1
+traits Dain 1 , hero_ability5 1 , Factionleader 1 , GoodCommander 2 , Energetic 1 , ReligionStarter 1 , GoodAttacker 1 , Brave 1 , ChivalryLegacy 2
+ancillaries leader_dwarf, king_mountain
+army
+unit		Noble Bodyguards			exp 3 armour 0 weapon_lvl 0
+unit		Dragonslayers				exp 2 armour 0 weapon_lvl 0
+unit		Miners					exp 0 armour 0 weapon_lvl 0
+unit		Dwarven Warriors			exp 1 armour 0 weapon_lvl 0
+
+character	Gloin, named character, male, age 36, x 329, y 271, portrait Gloin				;Iron Hills
+traits LoyaltyStarter 1 , GoodCommander 2 , ReligionStarter 1 , HaleAndHearty 1 , BattleChivalry 2
+army
+unit		Noble Bodyguards			exp 1 armour 0 weapon_lvl 0
+unit		Iron Guard				exp 1 armour 0 weapon_lvl 0
+unit		Miners					exp 0 armour 0 weapon_lvl 0
+unit		Miners					exp 0 armour 0 weapon_lvl 0
+unit		Dwarven Warriors			exp 0 armour 0 weapon_lvl 0
+
+character	Balin, named character, male, age 53, x 295, y 271, portrait Balin, hero_ability IRON_FIST	;erebor2
+traits hero_ability1 1 , LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , GoodAttacker 2
+ancillaries balin_axe
+army
+unit		Noble Bodyguards			exp 1 armour 0 weapon_lvl 0
+unit		Clan Warriors				exp 0 armour 0 weapon_lvl 0
+
+character	Gimli, named character, male, age 24, x 61, y 315, portrait Gimli, battle_model gimli, hero_ability SHIELD		;Naugrim
+traits Gimli 1 , hero_ability3 1 , LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , GoodAttacker 2 , Brave 1 , Loyal 1 , RansomChivalry 1
+ancillaries troops_dwarf, gimli_axe, gimli_axe_small
+army
+unit		Noble Bodyguards			exp 1 armour 0 weapon_lvl 0
+unit		Miners					exp 1 armour 0 weapon_lvl 0
+unit		Dwarven Warriors			exp 0 armour 0 weapon_lvl 0
+
+character	Thorin, named character, male, heir, age 25, x 51, y 290, portrait Thorin			;Thorin's Halls
+traits Factionheir 1 , LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , GoodDefender 1 , Brave 1 , HaleAndHearty 1 , RansomChivalry 1
+ancillaries dwarf_halls, dwarf_music
+army
+unit		Noble Bodyguards			exp 2 armour 0 weapon_lvl 0
+unit		Clan Warriors				exp 0 armour 0 weapon_lvl 0
+unit		Miners					exp 0 armour 0 weapon_lvl 0
+unit		Miners					exp 0 armour 0 weapon_lvl 0
+unit		Axethrowers				exp 0 armour 0 weapon_lvl 0
+unit		Dwarven Warriors			exp 1 armour 0 weapon_lvl 0
+
+character	Nar, spy, male, age 24, x 292, y 268
+traits NaturalSpySkill 2 , GoodSpy 2 
+
+character_record	Thora, female, age 48, alive, never_a_leader
+
+relative 	Dain, Thora, Thorin, end
+
+;#################################################################
+;##########################  ERIADOR #############################
+;################################################################# 
+faction	turks, balanced smith
+ai_label		 good
+denari	10000
+denari_kings_purse	4200
+settlement ;DONE
+{
+	level large_town
+	region Bree_Province
+
+	year_founded 0
+	population 3452
+	plan_set default_set
+	faction_creator turks
+	building
+	{
+		type hinterland_info_building3 info_Bree
+	}
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type pony pony
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type academic alchemists_lab
+	}
+	building
+	{
+		type taverns inn
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+}
+
+settlement ;DONE
+{
+	level town
+	region Staddle_Province
+
+	year_founded 0
+	population 798
+	plan_set default_set
+	faction_creator turks
+	building
+	{
+		type hinterland_info_building4 info_Staddle
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement castle ;DONE
+{
+	level town
+	region Arthedain_Province
+
+	year_founded 0
+	population 862
+	plan_set default_set
+	faction_creator turks
+	building
+	{
+		type hinterland_info_building4 info_Arthedain
+	}
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+	building
+	{
+		type castle_barracks mustering_hall
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement ;DONE
+{
+	level large_town
+	region Lake_Evendim_Province
+
+	year_founded 0
+	population 2203
+	plan_set default_set
+	faction_creator turks
+	building
+	{
+		type hinterland_info_building4 info_Lake_Evendim
+	}
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level village
+	region Southfarthing_Province
+
+	year_founded 0
+	population 321
+	plan_set default_set
+	faction_creator norway
+	building
+	{
+		type hinterland_info_building9 info_Bywater
+	}
+	building
+	{
+		type hobbit hobbit
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level village
+	region Shire_Province
+
+	year_founded 0
+	population 285
+	plan_set default_set
+	faction_creator timurids
+	building
+	{
+		type hinterland_info_building10 info_Shire
+	}
+	building
+	{
+		type hobbit hobbit
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level town
+	region Bywater_Province
+
+	year_founded 0
+	population 615
+	plan_set default_set
+	faction_creator turks
+	building
+	{
+		type hinterland_info_building9 info_Bywater
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type hobbit hobbit
+	}
+	building
+	{
+		type dragon_inn dragon_inn
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+character	Aragorn, named character, male, leader, age 38, x 119, y 248, battle_model aragorn, portrait Aragon, hero_ability STRIDER, label strider1 ;Bree
+traits Aragorn 1 , hero_ability6 1 , Factionleader 1 , GoodCommander 3 , PublicFaith 1 , ReligionStarter 1 , GoodAttacker 1 , Brave 2 , Just 2 , KindRuler 2 , Loyal 2
+ancillaries king_eriador, elendilmir, anduril, major_bree
+army
+unit		Grey Company				exp 3 armour 0 weapon_lvl 0
+unit		Breeland Militia			exp 0 armour 0 weapon_lvl 0
+unit		Breeland Militia			exp 0 armour 0 weapon_lvl 0
+unit		Bree Archer Militia			exp 0 armour 0 weapon_lvl 0
+unit		Merchants				exp 0 armour 0 weapon_lvl 0
+unit		Lumbermen				exp 1 armour 0 weapon_lvl 0
+
+character	Gandalf, named character, male, age 22, x 117, y 248, battle_model gandalf, portrait Gandalf, hero_ability GANDALF
+traits Gandalf 1 , hero_ability7 1 , LoyaltyStarter 1 , GoodCommander 2 , ReligionStarter 1 , GoodAttacker 1 , Loyal 1 , Just 2 , StrategyChivalry 1
+ancillaries staff_gandalf, glamdring, narya
+army
+unit		Mounted Dunedain BG			exp 2 armour 1 weapon_lvl 0
+
+character	Eldarion, named character, male, age 45, x 129, y 239 ;staddle
+traits LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1
+army
+unit		Mounted Dunedain BG			exp 1 armour 0 weapon_lvl 0
+unit		Breeland Militia			exp 0 armour 0 weapon_lvl 0
+unit		Bree Archer Militia			exp 0 armour 0 weapon_lvl 0
+
+character	Araphor, named character, male, heir, age 16, x 114, y 272, label family_eriador1 ;Fornost
+traits Factionheir 1 , LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , Brave 1 , Just 1
+army
+unit		Mounted Dunedain BG			exp 1 armour 0 weapon_lvl 0
+unit		Lumbermen				exp 0 armour 0 weapon_lvl 0
+unit		Dunedain Rangers			exp 2 armour 0 weapon_lvl 0
+unit		Greenway Sentries			exp 1 armour 0 weapon_lvl 0
+
+character	Halbarad, named character, male, age 28, x 101, y 264, portrait Halbarad 	;lake evendim
+traits LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , HaleAndHearty 1 , BattleChivalry 2 , CaptorChivalry 1
+ancillaries eriador_border
+army
+unit		Mounted Dunedain BG			exp 1 armour 0 weapon_lvl 0
+unit		Breeland Militia			exp 0 armour 0 weapon_lvl 0
+unit		Bree Archer Militia			exp 0 armour 0 weapon_lvl 0
+
+character	Aravir, named character, male, age 16, x 90, y 243 				;michel delving
+traits LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , Brave 1
+army
+unit		Hobbit Infantry				exp 2 armour 0 weapon_lvl 0
+unit		Hobbit Infantry				exp 0 armour 0 weapon_lvl 0
+unit		Bandobras Archers			exp 1 armour 0 weapon_lvl 0
+
+character	Arahael, named character, male, age 28, x 94, y 247				;hobbiton
+traits LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , HaleAndHearty 1 , CaptorChivalry 1
+army
+unit		Hobbit Infantry				exp 0 armour 0 weapon_lvl 0
+unit		Hobbit Infantry				exp 1 armour 0 weapon_lvl 0
+
+character	Bregon, named character, male, age 36, x 95, y 236 				;longbottom
+traits LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , Just 1
+army
+unit		Hobbit Infantry				exp 0 armour 0 weapon_lvl 0
+unit		Hobbit Archers				exp 0 armour 0 weapon_lvl 0
+
+character	Argeleb, spy, male, age 24, x 115, y 256
+traits NaturalSpySkill 1 , GoodSpy 1
+
+;character	Barliman, diplomat, male, age 27, x 239, y 126
+;traits GoodDiplomat 1 
+
+character_record	Adel, female, age 34, alive, never_a_leader
+character_record	Darla, female, age 18, alive, never_a_leader
+character_record	Araval, male, age 15, alive, never_a_leader
+character_record	Araglas, male, age 13, alive, never_a_leader
+
+relative 	Aragorn, Adel, Araphor, Araval, Araglas, end
+relative 	Halbarad, Darla, end
+
+;#################################################################
+;##########################  HIGH ELVES  ######################### 
+;################################################################# 
+faction	egypt, balanced smith
+ai_label		 good
+denari	8000
+denari_kings_purse	4000
+settlement	;DONE
+{
+	level large_city
+	region Imladris_Province
+
+	year_founded 0
+	population 2125
+	plan_set default_set
+	faction_creator timurids
+	building
+	{
+		type hinterland_info_building4 info_Imladris
+	}
+	building
+	{
+		type core_building large_stone_wall
+	}
+	building
+	{
+		type hinterland_elrond_house elrond_house
+	}
+	building
+	{
+		type hinterland_gilraen gilraen
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type c_missiles c_bowyer
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement	;DONE
+{
+	level large_town
+	region Mithlond_Province
+
+	year_founded 0
+	population 3061
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type hinterland_info_building4 info_Mithlond
+	}
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type c_missiles c_bowyer
+	}
+	building
+	{
+		type art artist_studio
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port shipwright
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement	;DONE
+{
+	level town
+	region Forlindon_Province
+
+	year_founded 0
+	population 1256
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type hinterland_info_building4 info_Forlindon
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type c_missiles c_bowyer
+	}
+	building
+	{
+		type art artist_studio
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement	;DONE
+{
+	level town
+	region Harlindon_Province
+
+	year_founded 0
+	population 1482
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type hinterland_info_building4 info_Harlindon
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type c_missiles c_bowyer
+	}
+	building
+	{
+		type art artist_studio
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type port port
+	}
+}
+
+settlement ;DONE
+{
+	level village
+	region Emyn-Beraid_Province
+
+	year_founded 0
+	population 674
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type hinterland_info_building4 info_Emyn-Beraid
+	}
+	building
+	{
+		type hinterland_palantir elostirion_palantir
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type port shipwright
+	}
+}
+
+character	Elrond, named character, male, leader, age 50, x 185, y 249, portrait Elrond, hero_ability ELROND	;, label family_he1
+traits Elrond 1 , hero_ability9 1 , Factionleader 1 , GoodCommander 2 , NaturalMilitarySkill 1 , PublicFaith 2 , MathematicsSkill 1 , ReligionStarter 1 , GoodAttacker 1 , Just 2 , KindRuler 2 , BattleChivalry 2
+ancillaries vilya, leader_council, librarian, lord_imladris, haldhafang
+army
+unit		Elf Spear_BG				exp 3 armour 0 weapon_lvl 0
+unit		Elf Archer2				exp 0 armour 0 weapon_lvl 0
+unit		Homeguard Warriors			exp 1 armour 0 weapon_lvl 0
+
+character	Cirdan, named character, male, age 54, x 60, y 252, portrait Cirdan ;mithlond
+traits Cirdan 1 , LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , Loyal 1 , KindRuler 1 , MathematicsSkill 2 , GoodBuilder 1 , ChivalryLegacy 2
+ancillaries lord_mithlond, palantir_authorisation
+army
+unit		Elf Nobel Mount				exp 2 armour 0 weapon_lvl 0
+unit		Homeguard Warriors			exp 1 armour 0 weapon_lvl 0
+unit		High Sword				exp 0 armour 0 weapon_lvl 0
+unit		Elf Archer2				exp 0 armour 0 weapon_lvl 0
+
+character	Glorfindel, named character, male, age 46, x 31, y 248, portrait Glorfindel, battle_model glorfindel, hero_ability Light_of_the_Faith ;forlindon
+traits Glorfindel 1 , hero_ability10 1 , LoyaltyStarter 1 , GoodCommander 2 , ReligionStarter 1 , GoodAttacker 1 , Brave 1 , Just 1 , BattleChivalry 2
+ancillaries troops_helf
+army
+unit		Elf Nobel Mount				exp 3 armour 0 weapon_lvl 0
+unit		Lindon Longspears			exp 1 armour 0 weapon_lvl 0
+unit		Elf Archer2				exp 0 armour 0 weapon_lvl 0
+
+character	Elrohir, named character, male, age 21, x 39, y 232, portrait Elrohir, battle_model elrohir ;harlindon
+traits Elrohir 1 , LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , Loyal 1 , StrategyChivalry 1 , ChivalryLegacy 2
+army
+unit		Elf Nobel Mount				exp 0 armour 0 weapon_lvl 0
+unit		High Sword				exp 1 armour 0 weapon_lvl 0
+unit		Elf Archer2				exp 0 armour 0 weapon_lvl 0
+
+character	Elladan, named character, male, heir, age 22, x 66, y 238, portrait Elladan, battle_model elladan ;emyn beraid
+traits Elladan 1 , LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , Brave 1 , Loyal 1 , ChivalryLegacy 2
+army
+unit		Elf Nobel Mount				exp 1 armour 0 weapon_lvl 0
+unit		Elf Archer2				exp 0 armour 0 weapon_lvl 0
+
+character	Maldor, admiral, male, age 38, x 34, y 237
+army
+unit		dromon		exp 0 armour 0 weapon_lvl 0
+
+character	Aransadorien, spy, male, age 26, x 57, y 248
+traits NaturalSpySkill 1 , GoodSpy 1 
+
+character_record	Celebrian, female, age 48, alive, never_a_leader
+character_record	Arwen, female, age 18, alive, never_a_leader
+
+relative 	Elrond, Celebrian, Elladan, Elrohir, Arwen, end
+
+;#################################################################
+;##########################  SILVAN ELVES  ####################### 9900
+;################################################################# 
+faction	mongols, balanced smith
+ai_label		 good
+denari	8000
+denari_kings_purse	4300
+settlement	;DONE
+{
+	level large_town
+	region Elven-Mirkwood_Province
+
+	year_founded 0
+	population 3226
+	plan_set default_set
+	faction_creator mongols
+	building
+	{
+		type hinterland_info_building5 info_Elven-Mirkwood
+	}
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type c_missiles c_bowyer
+	}
+	building
+	{
+		type art artist_gallery
+	}
+	building
+	{
+		type taverns inn
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement	;DONE
+{
+	level town
+	region Lothlorien_Province
+
+	year_founded 0
+	population 1410
+	plan_set default_set
+	faction_creator mongols
+	building
+	{
+		type hinterland_info_building5 info_Lothlorien
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type c_missiles c_bowyer
+	}
+	building
+	{
+		type art artist_studio
+	}
+	building
+	{
+		type market corn_exchange
+	}
+}
+
+settlement
+{
+	level large_city
+	region Celebrant_Province
+
+	year_founded 0
+	population 3074
+	plan_set default_set
+	faction_creator denmark
+	building
+	{
+		type hinterland_info_building5 info_Celebrant
+	}
+	building
+	{
+		type core_building large_stone_wall
+	}
+	building
+	{
+		type hinterland_palantir mirror_of_galadriel
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type c_missiles c_bowyer
+	}
+	building
+	{
+		type art artist_studio
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+character	Thranduil, named character, male, leader, age 47, x 261, y 271, portrait Thranduil, battle_model thranduil, label family_se1 ;elven mirkwood
+traits Thranduil 1 , Factionleader 1 , LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , GoodAmbusher 1 , KindRuler 2 , StrategyChivalry 1
+ancillaries king_silvan, emeralds_girion
+army
+unit		Elf Bodyguard				exp 2 armour 0 weapon_lvl 0
+unit		Elf Guard				exp 1 armour 0 weapon_lvl 0
+unit		Elf Archer				exp 0 armour 0 weapon_lvl 0
+unit		Silvan Sword				exp 1 armour 0 weapon_lvl 0
+unit		Silvan Spear				exp 0 armour 0 weapon_lvl 0
+
+character	Legolas, named character, male, heir, age 22, x 259, y 268, portrait Legolas, battle_model legolas ;near thranduil
+traits Legolas 1 , Factionheir 1 , LoyaltyStarter 1 , GoodCommander 2 , ReligionStarter 1 , Brave 1 , GoodAmbusher 2 , Loyal 2 , Just 1
+ancillaries troops_silvan, light_earendil
+army
+unit		Elf Bodyguard				exp 1 armour 0 weapon_lvl 0
+unit		Silvan Archer				exp 1 armour 0 weapon_lvl 0
+
+character	Celeborn, named character, male, age 32, x 205, y 213, portrait Celeborn, hero_ability SHIELD
+traits Celeborn 1 , hero_ability3 1 , LoyaltyStarter 1 , GoodCommander 2 , ReligionStarter 1 , GoodDefender 1 , PoliticsSkill 1 , Loyal 1 , Just 1 , BattleChivalry 2
+ancillaries nenya, king_lorien
+army
+unit		Elf Bodyguard				exp 2 armour 0 weapon_lvl 0
+unit		Elf Archer				exp 1 armour 0 weapon_lvl 0
+unit		Elf Archer				exp 0 armour 0 weapon_lvl 0
+unit		Silvan Spear				exp 0 armour 0 weapon_lvl 0
+
+character	Haldir, named character, male, age 37, x 217, y 210, portrait Haldir, battle_model haldir, hero_ability SILVAN ;celebrant
+traits Haldir 1 , hero_ability11 1 , LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , Loyal 1 , BattleChivalry 1 , ChivalryLegacy 1
+ancillaries troops_gala
+army
+unit		Elf Bodyguard				exp 2 armour 0 weapon_lvl 0
+unit		Elf Archer				exp 1 armour 0 weapon_lvl 0
+unit		Silvan Spear				exp 0 armour 0 weapon_lvl 0
+unit		Silvan Archer				exp 2 armour 0 weapon_lvl 0
+
+character	Cofniben, spy, male, age 36, x 207, y 213
+traits NaturalSpySkill 1 , GoodSpy 1 
+
+character	Erudagrian, spy, male, age 47, x 264, y 261
+traits NaturalSpySkill 1 , GoodSpy 2
+
+character_record	Meldiriel, female, age 40, alive, never_a_leader
+character_record	Caladwen, female, age 18, alive, never_a_leader
+
+relative 	Thranduil, Meldiriel, Legolas, Caladwen, end
+relative 	Haldir, Caladwen, end
+
+;#################################################################
+;##########################  MORDOR  ############################# 15600
+;################################################################# 
+faction	england, balanced smith
+ai_label		 evil
+denari	14000
+denari_kings_purse	4200
+settlement castle
+{
+	level large_city
+	region Gorgoroth_Province
+
+	year_founded 0
+	population 5254
+	plan_set default_set
+	faction_creator timurids
+	building
+	{
+		type hinterland_info_building5 info_Gorgoroth
+	}
+	building
+	{
+		type core_castle_building citadel
+	}
+	building
+	{
+		type hinterland_unique1 barad
+	}
+	building
+	{
+		type hinterland_palantir ithil_palantir
+	}
+	building
+	{
+		type temple_catholic_castle chapel
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+	building
+	{
+		type hinterland_castle_mines c_mines
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement	;DONE
+{
+	level large_town
+	region Carnen_Province
+
+	year_founded 0
+	population 2978
+	plan_set default_set
+	faction_creator england
+	building
+	{
+		type hinterland_info_building5 info_Mordor
+	}
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type temple_catholic church
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type taverns brothel
+	}
+}
+
+settlement castle	;DONE
+{
+	level village
+	region Gorgoroth-South_Province
+
+	year_founded 0
+	population 1325
+	plan_set default_set
+	faction_creator england
+	building
+	{
+		type hinterland_info_building5 info_Mordor
+	}
+	building
+	{
+		type core_castle_building motte_and_bailey
+	}
+	building
+	{
+		type castle_barracks mustering_hall
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement	;DONE
+{
+	level village
+	region East_Gorgoroth_Province
+
+	year_founded 0
+	population 1102
+	plan_set default_set
+	faction_creator england
+	building
+	{
+		type hinterland_info_building5 info_Mordor
+	}
+	building
+	{
+		type barracks town_watch
+	}
+}
+
+settlement castle	;DONE
+{
+	level city
+	region Udun_Province
+
+	year_founded 0
+	population 1302
+	plan_set default_set
+	faction_creator norway
+	building
+	{
+		type hinterland_info_building5 info_Udun
+	}
+	building
+	{
+		type core_castle_building fortress
+	}
+	building
+	{
+		type hinterland_unique1 gate
+	}
+	building
+	{
+		type hinterland_teeth teeth
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type castle_barracks mustering_hall
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement castle	;DONE
+{
+	level village
+	region Morgai_Province
+
+	year_founded 0
+	population 776
+	plan_set default_set
+	faction_creator england
+	building
+	{
+		type hinterland_info_building5 info_Mordor
+	}
+	building
+	{
+		type core_castle_building motte_and_bailey
+	}
+	building
+	{
+		type castle_barracks mustering_hall
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement	;DONE
+{
+	level town
+	region Orc_Province
+
+	year_founded 0
+	population 1244
+	plan_set default_set
+	faction_creator england
+	building
+	{
+		type hinterland_info_building5 info_Mordor
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement castle	;DONE
+{
+	level city
+	region Morgul-Vale_Province
+
+	year_founded 0
+	population 2648
+	plan_set default_set
+	faction_creator denmark
+	building
+	{
+		type hinterland_info_building5 info_Morgul-Vale
+	}
+	building
+	{
+		type core_castle_building fortress
+	}
+	building
+	{
+		type temple_catholic_castle chapel
+	}
+	building
+	{
+		type castle_barracks mustering_hall
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement castle	;DONE
+{
+	level large_city
+	region Deep-Mirkwood_Province
+
+	year_founded 0
+	population 1963
+	plan_set default_set
+	faction_creator norway
+	building
+	{
+		type hinterland_info_building5 info_Deep-Mirkwood
+	}
+	building
+	{
+		type core_castle_building citadel
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+}
+
+settlement castle	;DONE
+{
+	level town
+	region Cirith_Province
+
+	year_founded 0
+	population 1345
+	plan_set default_set
+	faction_creator england
+	building
+	{
+		type hinterland_info_building5 info_Mordor
+	}
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+	building
+	{
+		type castle_barracks mustering_hall
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level large_city
+	region East-Osgiliath_Province
+
+	year_founded 0
+	population 825
+	plan_set default_set
+	faction_creator poland
+	building
+	{
+		type hinterland_info_building8 info_East-Osgiliath
+	}
+	building
+	{
+		type core_building large_stone_wall
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+character	Nazgula, named character, male, leader, age 41, x 290, y 138, portrait nazgul1, battle_model witchking, hero_ability Terror_of_the_Witch_King, label family_mordor1
+traits Witchking 1 , hero_ability12 1 , FactionleaderTO 1 , LoyaltyStarter 1 , GoodCommander 3 , BattleScarred 2 , BattleDread 1 , CaptorDread 1 , GoodAttacker 1 , NightBattleCapable 1
+ancillaries ring_witchking, king_mordor, witchkings_flail
+army
+unit		Black Numenorians			exp 3 armour 0 weapon_lvl 0
+unit		Orc Band				exp 0 armour 0 weapon_lvl 0
+unit		Orc Band				exp 1 armour 0 weapon_lvl 0
+unit		Mordor Orcs				exp 0 armour 0 weapon_lvl 0
+unit		Mordor Scouts				exp 0 armour 0 weapon_lvl 0
+unit		Mordor Scouts				exp 0 armour 0 weapon_lvl 0
+
+character	Nazgulc, named character, male, heir, age 25, x 273, y 125, portrait nazgul4, battle_model mounted_nazgul, hero_ability Terror_of_the_Nazgul
+traits Nazgul 1 , hero_ability13 1 , FactionheirTO 1 , LoyaltyStarter 1 , GoodCommander 2 , BattleScarred 3 , StrategyDread 1 , GoodAttacker 1 , NightBattleCapable 1
+ancillaries ring_nazgul, troops_mordor_west, nazgul_sword
+army
+unit		Black Numenorians			exp 2 armour 0 weapon_lvl 0
+unit		Orc Band				exp 1 armour 0 weapon_lvl 0
+unit		Orc Band				exp 0 armour 0 weapon_lvl 0
+unit		Mordor Orcs				exp 0 armour 0 weapon_lvl 0
+unit		Mordor Scouts				exp 0 armour 0 weapon_lvl 0
+
+character	Nagzag, named character, male, age 23, x 256, y 127				;east osgiliath
+traits LoyaltyStarter 1 , GoodCommander 1, BattleDread 1 , NightBattleCapable 1
+army
+unit		Uruk Bodyguards				exp 1 armour 0 weapon_lvl 0
+unit		Mordor Scouts				exp 1 armour 0 weapon_lvl 0
+unit		Mordor Orcs				exp 0 armour 0 weapon_lvl 0
+
+character	Mauthak, named character, male, age 22, x 298, y 124				;south gorgoroth
+traits LoyaltyStarter 1 , GoodCommander 1, BattleDread 1 , NightBattleCapable 1
+;ancillaries one_ring
+army
+unit		Uruk Bodyguards				exp 1 armour 0 weapon_lvl 0
+unit		Orc Band				exp 0 armour 0 weapon_lvl 0
+
+character	Grishnakh, named character, male, age 23, x 273, y 149, portrait Grishnak, battle_model grish, hero_ability WHIPING ;udun
+traits hero_ability14 1 , LoyaltyStarter 1 , GoodCommander 2, BattleDread 2 , Bloodthirsty 1 , NightBattleCapable 1
+ancillaries morannon, orc_drum
+army
+unit		Uruk Bodyguards				exp 2 armour 0 weapon_lvl 0
+unit		Morannon Guard				exp 1 armour 0 weapon_lvl 0
+unit		Orc Band				exp 0 armour 0 weapon_lvl 0
+unit		Mordor Orcs				exp 0 armour 0 weapon_lvl 0
+unit		Mordor Scouts				exp 0 armour 0 weapon_lvl 0
+
+character	Zagmuz, named character, male, age 21, x 319, y 116				;carnen
+traits LoyaltyStarter 1 , GoodCommander 1 , CaptorDread 1 , NightBattleCapable 1
+army
+unit		Uruk Bodyguards				exp 1 armour 0 weapon_lvl 0
+unit		Orc Band				exp 1 armour 0 weapon_lvl 0
+unit		Orc Band				exp 0 armour 0 weapon_lvl 0
+
+character	Nazguld, named character, male, age 24, x 247, y 210, portrait nazgul3, battle_model mounted_nazgul, hero_ability Terror_of_the_Nazgul
+traits Nazgul 1 , hero_ability13 1 , LoyaltyStarter 1 , GoodCommander 3 , BattleScarred 2, BattleDread 1 , CaptorDread 1 , GoodAttacker 1 , NightBattleCapable 1
+ancillaries ring_nazgul, troops_mordor_north, blade_khamul
+army
+unit		Black Numenorians			exp 4 armour 0 weapon_lvl 0
+unit		Orc Band				exp 0 armour 0 weapon_lvl 0
+unit		Mordor Orcs				exp 1 armour 0 weapon_lvl 0
+unit		Mordor Archers				exp 1 armour 0 weapon_lvl 0
+unit		Mordor Scouts				exp 1 armour 0 weapon_lvl 0
+
+character	Laglug, named character, male, age 22, x 273, y 141, hero_ability ORC_DRAUGHT	;morgai
+traits hero_ability18 1 , LoyaltyStarter 1 , GoodCommander 1, StrategyDread 1 , Bloodthirsty 1 , NightBattleCapable 1
+army
+unit		Uruk Bodyguards				exp 1 armour 0 weapon_lvl 0
+unit		Orc Band				exp 0 armour 0 weapon_lvl 0
+unit		Mordor Scouts				exp 0 armour 0 weapon_lvl 0
+
+character	Lundush, general, male, age 19, x 281, y 135 					;orc camp
+army
+unit		Mordor Orcs				exp 0 armour 0 weapon_lvl 0
+unit		2handed Orcs				exp 1 armour 0 weapon_lvl 0
+unit		Mordor Scouts				exp 0 armour 0 weapon_lvl 0
+
+character	Ufluk, named character, male, age 18, x 277, y 125				;cirith
+traits LoyaltyStarter 1 , GoodCommander 1, Bloodthirsty 1 , NightBattleCapable 1
+army
+unit		Uruk Bodyguards				exp 1 armour 0 weapon_lvl 0
+unit		Orc Band				exp 0 armour 0 weapon_lvl 0
+
+character	Muzlun, named character, male, age 19, x 309, y 136, hero_ability ORC_DRAUGHT	;east gorgoroth
+traits hero_ability18 1 , LoyaltyStarter 1 , GoodCommander 2 , NightBattleCapable 1
+army
+unit		Uruk Bodyguards				exp 0 armour 0 weapon_lvl 0
+unit		Orc Band				exp 1 armour 0 weapon_lvl 0
+unit		Mordor Orcs				exp 0 armour 0 weapon_lvl 0
+
+character	Lunmaz, spy, male, age 20, x 275, y 148 
+traits NaturalSpySkill 1 , GoodSpy 1 
+
+character	Gornag, spy, male, age 20, x 245, y 210 
+traits NaturalSpySkill 1 , GoodSpy 1 
+
+character_record	Urd, female, age 41, alive, never_a_leader
+
+relative 	Nazgula, Urd, Nazgulc, Nazguld, Grishnakh, Mauthak, Zagmuz, Muzlun, end
+
+
+;#################################################################
+;##########################  ISENGARD  ###########################  5300
+;################################################################# 
+faction	france, balanced smith
+ai_label		 evil
+denari	7500
+denari_kings_purse	3400
+settlement castle
+{
+	level large_city
+	region Nan-Curunir_Province
+
+	year_founded 0
+	population 3649
+	plan_set default_set
+	faction_creator denmark
+	building
+	{
+		type hinterland_info_building6 info_Nan-Curunir
+	}
+	building
+	{
+		type core_castle_building citadel
+	}
+	building
+	{
+		type hinterland_unique1 orthanc
+	}
+	building
+	{
+		type hinterland_palantir orthanc_palantir
+	}
+	building
+	{
+		type temple_catholic_castle chapel
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type hinterland_castle_mines c_mines
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Dunland_Province
+
+	year_founded 0
+	population 2107
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building6 info_Dunland
+	}
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level town
+	region Dunland-Hills_Province
+
+	year_founded 0
+	population 1042
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building11 info_Dunland_Hills
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type barracks town_watch
+	}
+}
+
+character	Saruman, named character, male, leader, age 56, x 164, y 189, battle_model saruman, portrait saruman, hero_ability THE_VOICE
+traits Saruman 1 , hero_ability15 1 , FactionleaderTO 1 , GoodCommander 2 , PublicFaith 1 , ReligionStarter 1 , StrategyDread 1 , RhetoricSkill 1
+ancillaries king_isengard, palantir_authorisation, staff_saruman
+army
+unit		Orthanc Guard_BG			exp 2 armour 0 weapon_lvl 0
+unit		Dunlendings				exp 0 armour 0 weapon_lvl 0
+unit		Snaga Skirmishers			exp 1 armour 0 weapon_lvl 0
+unit		Snaga Archers				exp 0 armour 0 weapon_lvl 0
+
+character	Ugluk, named character, male, heir, age 40, x 164, y 187, portrait Ugluk, battle_model ugluk, hero_ability URUK_HAI
+traits Ugluk 1 , hero_ability16 1 , FactionheirTO 1 , GoodCommander 2 , PublicFaith 1 , ReligionStarter 1 , StrategyDread 1 , CaptorDread 1 , NightBattleCapable 1
+ancillaries isen_armour, ring_isengard
+army
+unit		Uruk-Hai Bodyguards			exp 1 armour 0 weapon_lvl 0
+unit		Uruk-Hai Raiders			exp 0 armour 0 weapon_lvl 0
+unit		Uruk-Hai Raiders			exp 0 armour 0 weapon_lvl 0
+
+character	Ufthak, named character, male, age 23, x 159, y 207, portrait Urukhai				;dunland hills
+traits LoyaltyStarter 1 , GoodCommander 1 , BattleDread 1 , NightBattleCapable 1
+army
+unit		Uruk-Hai Bodyguards			exp 1 armour 0 weapon_lvl 0
+unit		Dunlendings				exp 1 armour 0 weapon_lvl 0
+unit		Snaga Skirmishers			exp 0 armour 0 weapon_lvl 0
+unit		Snaga Archers				exp 0 armour 0 weapon_lvl 0
+
+character	Yagthak, named character, male, age 24, x 145, y 199, portrait Dunland, battle_model yagthak	;dunland
+traits Yagthak 1 , Hatesmilan 1 , LoyaltyStarter 1 , GoodCommander 1 , Bloodthirsty 1 , NightBattleCapable 1
+ancillaries king_dunland
+army
+unit		Dunlending Axemen BG			exp 2 armour 0 weapon_lvl 0
+unit		Dunlending Axemen			exp 0 armour 0 weapon_lvl 0
+unit		Dunlendings				exp 1 armour 0 weapon_lvl 0
+unit		Dunlendings				exp 0 armour 0 weapon_lvl 0
+
+character	Grima, diplomat, male, age 26, x 162, y 184, portrait Grima
+traits grima_diplomat 1 , GoodDiplomat 1 , SmoothTalker 1 , Secretive 1 , HighPersonalSecurity 1 
+
+;character	Maugor, spy, male, age 26, x 162, y 184
+;traits NaturalSpySkill 1 , GoodSpy 1 
+
+character_record	Urd, female, age 40, alive, never_a_leader
+
+relative 	Saruman, Urd, Ugluk, Yagthak, Ufthak, end
+
+;#################################################################
+;##########################  ORCS MM  ############################ 7000
+;################################################################# 
+faction	hre, balanced smith
+ai_label		 evil
+denari	10000
+denari_kings_purse	3600
+settlement ;DONE
+{
+	level town
+	region High-Pass_Province
+
+	year_founded 0
+	population 2984
+	plan_set default_set
+	faction_creator hre
+	building
+	{
+		type hinterland_info_building6 info_High-Pass
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement ;DONE
+{
+	level huge_city
+	region Misty-Mountains_Province
+
+	year_founded 0
+	population 2443
+	plan_set default_set
+	faction_creator teutonic_order
+	building
+	{
+		type hinterland_info_building6 info_Moria
+	}
+	building
+	{
+		type core_building huge_stone_wall
+	}
+	building
+	{
+		type hinterland_unique1 chamber
+	}
+	building
+	{
+		type hinterland_unique1 stair
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
+}
+
+settlement castle ;DONE
+{
+	level town
+	region Grey-Mountains_Province
+
+	year_founded 0
+	population 1135
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type hinterland_info_building6 info_Grey-Mountains
+	}
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+	building
+	{
+		type castle_barracks mustering_hall
+	}
+}
+
+settlement castle ;DONE
+{
+	level village
+	region Central_Mountains_Province
+
+	year_founded 0
+	population 804
+	plan_set default_set
+	faction_creator hre
+	building
+	{
+		type hinterland_info_building6 info_Misty-Mountains
+	}
+	building
+	{
+		type core_castle_building motte_and_bailey
+	}
+	building
+	{
+		type castle_barracks mustering_hall
+	}
+}
+
+settlement castle
+{
+	level village
+	region Outpost_Province
+
+	year_founded 0
+	population 532
+	plan_set default_set
+	faction_creator hre
+	building
+	{
+		type hinterland_info_building6 info_Misty-Mountains
+	}
+	building
+	{
+		type core_castle_building motte_and_bailey
+	}
+}
+
+character	Uglag, named character, male, leader, age 45, x 183, y 215, hero_ability LEGION ;MM
+traits FactionleaderTO 1 , hero_ability17 1 , GoodCommander 2 , PublicFaith 1 , ReligionStarter 1 , StrategyDread 1 , GoodAttacker 1 , NightBattleCapable 1
+ancillaries king_oomm, oomm_moria
+army
+unit		Moria Bodyguards			exp 2 armour 0 weapon_lvl 0
+unit		Snaga Skirmishers			exp 0 armour 0 weapon_lvl 0
+unit		Goblin Orcs				exp 1 armour 0 weapon_lvl 0
+unit		Snaga Archers				exp 0 armour 0 weapon_lvl 0
+unit		Snaga Skirmishers			exp 0 armour 0 weapon_lvl 0
+
+character	Burz, named character, male, heir, age 28, x 207, y 253, hero_ability WHIPING ;high pass
+traits FactionheirTO 1 , hero_ability14 1 , LoyaltyStarter 1 , GoodCommander 1 , BattleDread 1 , CaptorDread 1 , GoodAttacker 1 , NightBattleCapable 1
+ancillaries slasher
+army
+unit		Moria Bodyguards			exp 1 armour 0 weapon_lvl 0
+unit		Snaga Skirmishers			exp 0 armour 0 weapon_lvl 0
+unit		Snaga Skirmishers			exp 1 armour 0 weapon_lvl 0
+unit		Goblin Orcs				exp 1 armour 0 weapon_lvl 0
+unit		Goblin Orcs				exp 0 armour 0 weapon_lvl 0
+
+character	Ugrad, named character, male, age 22, x 237, y 298, hero_ability ORC_DRAUGHT ;grey mountains
+traits hero_ability18 1 , LoyaltyStarter 1 , GoodCommander 1 , GoodAttacker 1 , StrategyDread 1 , NightBattleCapable 1
+army
+unit		Moria Bodyguards			exp 1 armour 0 weapon_lvl 0
+unit		Snaga Skirmishers			exp 1 armour 0 weapon_lvl 0
+unit		Snaga Skirmishers			exp 0 armour 0 weapon_lvl 0
+unit		Goblin Orcs				exp 0 armour 0 weapon_lvl 0
+unit		Snaga Archers				exp 0 armour 0 weapon_lvl 0
+
+character	Lunug, named character, male, age 25, x 191, y 235 ;mountain fort
+traits LoyaltyStarter 1 , GoodCommander 1 , NightBattleCapable 1
+army
+unit		Moria Bodyguards			exp 2 armour 0 weapon_lvl 0
+unit		Snaga Skirmishers			exp 0 armour 0 weapon_lvl 0
+unit		Snaga Skirmishers			exp 1 armour 0 weapon_lvl 0
+
+character	Radzag, named character, male, age 21, x 197, y 272 ;outpost
+traits LoyaltyStarter 1 , GoodCommander 1 , CaptorDread 1 , NightBattleCapable 1
+army
+unit		Moria Bodyguards			exp 0 armour 0 weapon_lvl 0
+unit		Goblin Wargs				exp 0 armour 0 weapon_lvl 0
+
+character	Ugduf, spy, male, age 26, x 207, y 255
+traits NaturalSpySkill 1 , GoodSpy 1 
+
+character_record	Urd, female, age 45, alive, never_a_leader
+
+relative 	Uglag, Urd, Burz, Lunug, Ugrad, Radzag, end
+
+
+;#################################################################
+;##########################  ANGMAR  ############################ 2200
+;################################################################# 
+faction	portugal, balanced smith
+ai_label		 evil
+denari	10000
+denari_kings_purse	3700
+settlement ;DONE
+{
+	level town
+	region Mt-Gram_Province
+
+	year_founded 0
+	population 1846
+	plan_set default_set
+	faction_creator portugal
+	building
+	{
+		type hinterland_info_building6 info_Mt-Gram
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type barracks town_watch
+	}
+}
+
+settlement castle ;DONE
+{
+	level large_city
+	region Carn-Dum_Province
+
+	year_founded 0
+	population 948
+	plan_set default_set
+	faction_creator portugal
+	building
+	{
+		type hinterland_info_building6 info_Carn-Dum
+	}
+	building
+	{
+		type core_castle_building citadel
+	}
+	building
+	{
+		type castle_barracks mustering_hall
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement ;DONE
+{
+	level town
+	region Mt-Gundabad_Province
+
+	year_founded 0
+	population 2851
+	plan_set default_set
+	faction_creator portugal
+	building
+	{
+		type hinterland_info_building6 info_Mt-Gundabad
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement castle ;DONE
+{
+	level village
+	region Litash_Province
+
+	year_founded 0
+	population 773
+	plan_set default_set
+	faction_creator portugal
+	building
+	{
+		type hinterland_info_building6 info_Misty-Mountains
+	}
+	building
+	{
+		type core_castle_building motte_and_bailey
+	}
+}
+
+character	Gorduf, named character, male, leader, age 39, x 151, y 307, hero_ability LEGION ;carn dum
+traits FactionleaderTO 1 , hero_ability17 1 , GoodCommander 2 , PublicFaith 1 , ReligionStarter 1 , StrategyDread 1 , NightBattleCapable 1
+ancillaries king_oog, slasher
+army
+unit		Moria Bodyguards			exp 2 armour 0 weapon_lvl 0
+unit		Snaga Band				exp 0 armour 0 weapon_lvl 0
+unit		Snaga Band				exp 1 armour 0 weapon_lvl 0
+unit		Snaga Archers				exp 0 armour 0 weapon_lvl 0
+unit		Goblin Spears				exp 1 armour 0 weapon_lvl 0
+
+character	Lagbug, named character, male, heir, age 20, x 162, y 292, hero_ability WHIPING ;gram
+traits FactionheirTO 1 , hero_ability14 1 , LoyaltyStarter 1 , GoodCommander 1 , BattleDread 1 , CaptorDread 1 , GoodAttacker 1 , NightBattleCapable 1
+army
+unit		Moria Bodyguards			exp 1 armour 0 weapon_lvl 0
+unit		Orc Fellers				exp 0 armour 0 weapon_lvl 0
+unit		Snaga Band				exp 1 armour 0 weapon_lvl 0
+unit		Goblin Spears				exp 0 armour 0 weapon_lvl 0
+
+;character	Lughorn, named character, male, age 19, x 107, y 320 ;pitkaränta
+;traits LoyaltyStarter 1 , GoodCommander 1 , BattleDread 1 , NightBattleCapable 1
+;army
+;unit		Moria Bodyguards			exp 1 armour 0 weapon_lvl 0
+;unit		Snaga Band				exp 1 armour 0 weapon_lvl 0
+;unit		Goblin Spears				exp 0 armour 0 weapon_lvl 0
+;unit		Goblin Spears				exp 0 armour 0 weapon_lvl 0
+;unit		Snaga Archers				exp 0 armour 0 weapon_lvl 0
+
+character	Lunul, named character, male, age 18, x 181, y 293, hero_ability ORC_DRAUGHT
+traits hero_ability18 1 , LoyaltyStarter 1 , GoodCommander 2 , NightBattleCapable 1
+army
+unit		Moria Bodyguards			exp 1 armour 0 weapon_lvl 0
+unit		Snaga Band				exp 0 armour 0 weapon_lvl 0
+unit		Goblin Spears				exp 1 armour 0 weapon_lvl 0
+unit		Snaga Archers				exp 0 armour 0 weapon_lvl 0
+
+character	Lughorn, named character, male, age 19, x 193, y 299 ;gundabad
+traits LoyaltyStarter 1 , GoodCommander 1 , NightBattleCapable 1
+army
+unit		Moria Bodyguards			exp 2 armour 0 weapon_lvl 0
+unit		Mountain Trolls				exp 0 armour 0 weapon_lvl 0
+unit		Snaga Band				exp 0 armour 0 weapon_lvl 0
+unit		Goblin Spears				exp 1 armour 0 weapon_lvl 0
+unit		Snaga Archers				exp 0 armour 0 weapon_lvl 0
+
+character	Muzgor, spy, male, age 28, x 151, y 305
+traits NaturalSpySkill 1 , GoodSpy 1 
+
+character_record	Urd, female, age 38, alive, never_a_leader
+
+relative 	Gorduf, Urd, Lagbug, Lughorn, Lunul, end
+
+;#################################################################
+;##########################  HARAD  ############################## 19100
+;################################################################# 
+faction	spain, balanced smith
+ai_label		 evil
+denari	12000
+denari_kings_purse	3600
+settlement
+{
+	level large_town
+	region Harad_Province
+
+	year_founded 0
+	population 2936
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type hinterland_info_building7 info_Harad
+	}
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type c_missiles c_bowyer
+	}
+	building
+	{  
+		type temple_catholic small_church
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads highways
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type market corn_exchange
+	}
+}
+
+settlement castle
+{
+	level town
+	region Gobel-Ancalimon_Province
+
+	year_founded 0
+	population 1452
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type hinterland_info_building7 info_South-Umbar
+	}
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+	building
+	{
+		type castle_barracks mustering_hall
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+	building
+	{
+		type hinterland_castle_roads c_highways
+	}
+}
+
+settlement
+{
+	level town
+	region Near-Harad_Province
+
+	year_founded 0
+	population 1273
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type hinterland_info_building7 info_Near-Harad
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type hinterland_roads highways
+	}
+}
+
+settlement castle
+{
+	level town
+	region Amrun_Province
+
+	year_founded 0
+	population 982
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type hinterland_info_building7 info_Harad
+	}
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+	building
+	{
+		type castle_barracks mustering_hall
+	}
+	building
+	{
+		type temple_catholic_castle small_chapel
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement
+{
+	level huge_city
+	region Umbar_Province
+
+	year_founded 0
+	population 4524
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type hinterland_info_building7 info_Umbar
+	}
+	building
+	{
+		type core_building huge_stone_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type temple_catholic church
+	}
+	building
+	{
+		type taverns inn
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type city_hall council_chambers
+	}
+	building
+	{
+		type port shipwright
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads highways
+	}
+}
+
+settlement
+{
+	level town
+	region South-Umbar_Province
+
+	year_founded 0
+	population 1376
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type hinterland_info_building7 info_Haradwaith
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads highways
+	}
+}
+
+settlement
+{
+	level town
+	region Harondor_Province
+
+	year_founded 0
+	population 1456
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type hinterland_info_building7 info_Harondor
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level village
+	region Far-Harad_Province
+
+	year_founded 0
+	population 886
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type hinterland_info_building7 info_Harad
+	}
+	building
+	{
+		type hinterland_roads highways
+	}
+}
+
+settlement
+{
+	level town
+	region Shafra_Province
+
+	year_founded 0
+	population 1083
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type hinterland_info_building7 info_Haradwaith
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type hinterland_roads highways
+	}
+}
+
+settlement
+{
+	level village
+	region Haradwaith_Province
+
+	year_founded 0
+	population 759
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type hinterland_info_building7 info_Harad
+	}
+	building
+	{
+		type hinterland_roads highways
+	}
+}
+
+settlement
+{
+	level village
+	region Southharondor_Province
+
+	year_founded 0
+	population 856
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type hinterland_info_building7 info_Harondor
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+character	Khuzaymah, named character, male, leader, age 46, x 284, y 41, portrait Haradking, hero_ability WRATH, label family_harad1
+traits Factionleader 1 , hero_ability19 1 , LoyaltyStarter 1 , GoodCommander 1 , Energetic 1 , ReligionStarter 1 , GoodAttacker 1 , GoodAmbusher 1 , HaleAndHearty 2
+ancillaries king_harad
+army
+unit		Serpent Bodyguard			exp 2 armour 0 weapon_lvl 0
+unit		Hasharii				exp 1 armour 0 weapon_lvl 0
+unit		Desert Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Harad Archers				exp 0 armour 0 weapon_lvl 0
+
+character	Qusay, named character, male, heir, age 28, x 205, y 26, portrait Haradheir ;umbar
+traits Factionheir 1 , LoyaltyStarter 1 , GoodCommander 1 , GoodAttacker 1 , Brave 1 , ReligionStarter 1 , HaleAndHearty 1
+ancillaries black_corsair, harad_fleet, spear_fuinur
+army
+unit		Serpent Bodyguard			exp 2 armour 0 weapon_lvl 0
+unit		Corsairs				exp 3 armour 0 weapon_lvl 0
+unit		Corsairs				exp 2 armour 0 weapon_lvl 0
+unit		Corsair Archers				exp 1 armour 0 weapon_lvl 0
+
+character	Jubayr, named character, male, age 31, x 172, y 7, portrait Corsair ;south umbar
+traits LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1
+army
+unit		Serpent Bodyguard			exp 0 armour 0 weapon_lvl 0
+unit		Corsairs				exp 1 armour 0 weapon_lvl 0
+unit		Desert Spearmen				exp 0 armour 0 weapon_lvl 0
+
+character	Utbah, named character, male, age 26, x 349, y 47, portrait Beastmasterfar, hero_ability VENOM ;haradwaith
+traits hero_ability20 1 , LoyaltyStarter 1 , GoodCommander 2 , Energetic 1
+army
+unit		Serpent Bodyguard			exp 1 armour 0 weapon_lvl 0
+unit		Beastmaster Cav				exp 1 armour 0 weapon_lvl 0
+unit		Desert Spearmen				exp 0 armour 0 weapon_lvl 0
+
+character	Musab, named character, male, age 26, x 257, y 52, portrait Beastmaster ;gobel
+traits LoyaltyStarter 1 , GoodCommander 2 , ReligionStarter 1
+army
+unit		Serpent Bodyguard			exp 1 armour 0 weapon_lvl 0
+unit		Desert Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Harad Archers				exp 1 armour 0 weapon_lvl 0
+
+character	Jibran, named character, male, age 22, x 316, y 65, portrait Haradcom ;near harad
+traits LoyaltyStarter 1 , GoodCommander 1 , GoodAttacker 1 , ReligionStarter 1 , Energetic 1
+ancillaries troops_harad
+army
+unit		Serpent Bodyguard			exp 1 armour 0 weapon_lvl 0
+unit		Desert Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Desert Spearmen				exp 1 armour 0 weapon_lvl 0
+unit		Harad Archers				exp 0 armour 0 weapon_lvl 0
+
+character	Yaman, named character, male, age 36, x 281, y 58, portrait Harad ;amrun
+traits LoyaltyStarter 1 , GoodCommander 1 , GoodAmbusher 1
+army
+unit		Serpent Bodyguard			exp 1 armour 0 weapon_lvl 0
+unit		Desert Spearmen				exp 0 armour 0 weapon_lvl 0
+
+character	Ubaadah, named character, male, age 21, x 269, y 74, portrait Haradrim ;harondor
+traits LoyaltyStarter 1 , GoodCommander 2 , GoodAttacker 1 , ReligionStarter 1 , Energetic 1
+army
+unit		Serpent Bodyguard			exp 0 armour 0 weapon_lvl 0
+unit		Desert Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Harad Archers				exp 0 armour 0 weapon_lvl 0
+
+character	Ghasaan, named character, male, age 46, x 209, y 55, portrait Corsairnorth ;Kas shafra
+traits LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , Energetic 1
+army
+unit		Serpent Bodyguard			exp 1 armour 0 weapon_lvl 0
+unit		Desert Spearmen				exp 1 armour 0 weapon_lvl 0
+unit		Harad Archers				exp 0 armour 0 weapon_lvl 0
+
+character	Haarith, named character, male, age 37, x 295, y 17, portrait Haradchief, hero_ability VENOM ;far harad
+traits hero_ability20 1 , LoyaltyStarter 1 , GoodCommander 2 , GoodAmbusher 2 , ReligionStarter 1 , Energetic 1 , HaleAndHearty 1
+ancillaries harad_chief
+army
+unit		Serpent Bodyguard			exp 1 armour 0 weapon_lvl 0
+unit		Half Men				exp 0 armour 0 weapon_lvl 0
+unit		Desert Spearmen				exp 1 armour 0 weapon_lvl 0
+unit		Harad Archers				exp 1 armour 0 weapon_lvl 0
+
+character	Hannad, named character, male, age 33, x 233, y 64 ;has yayb
+traits LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , Energetic 1 , Brave 1
+army
+unit		Serpent Bodyguard			exp 0 armour 0 weapon_lvl 0
+unit		Desert Spearmen				exp 0 armour 0 weapon_lvl 0
+
+character	Dirar, admiral, male, age 44, x 173, y 36
+traits FamousPirate 1
+army
+unit		dhow		exp 2 armour 0 weapon_lvl 0
+unit		dhow		exp 1 armour 0 weapon_lvl 0
+
+;character	Khaldoon, general, male, age 29, x 173, y 36
+;army
+;unit		Corsairs				exp 1 armour 0 weapon_lvl 0
+;
+character	Udayl, spy, male, age 26, x 255, y 61
+traits NaturalSpySkill 1 , GoodSpy 1 
+
+character_record	Sawda, female, age 43, alive, never_a_leader
+character_record	Nusaybah, female, age 21, alive, never_a_leader
+
+relative 	Khuzaymah, Sawda, Qusay, Musab, Nusaybah, end
+
+;#################################################################
+;#######################   RHUN   ################################ 9600
+;################################################################# 
+faction	venice, balanced smith
+ai_label		 evil
+denari	10000
+denari_kings_purse	3500
+settlement ;DONE
+{
+	level large_town
+	region Mistrand_Province
+
+	year_founded 0
+	population 3328
+	plan_set default_set
+	faction_creator venice
+	building
+	{
+		type hinterland_info_building7 info_Mistrand
+	}
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type hinterland_roads highways
+	}
+}
+
+settlement ;DONE
+{
+	level city
+	region Rhun_Province
+
+	year_founded 0
+	population 4294
+	plan_set default_set
+	faction_creator venice
+	building
+	{
+		type hinterland_info_building7 info_Mistrand
+	}
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type c_equestrian c_stables
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads highways
+	}
+	building
+	{
+		type market corn_exchange
+	}
+}
+
+settlement ;DONE
+{
+	level village
+	region Near-Rhun_Province
+
+	year_founded 0
+	population 814
+	plan_set default_set
+	faction_creator venice
+	building
+	{
+		type hinterland_info_building7 info_Near-Rhun
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement ;DONE
+{
+	level town
+	region Kelepar_Province
+
+	year_founded 0
+	population 1358
+	plan_set default_set
+	faction_creator venice
+	building
+	{
+		type hinterland_info_building7 info_Rhun
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type hinterland_roads highways
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement ;DONE
+{
+	level town
+	region Morad_Province
+
+	year_founded 0
+	population 1491
+	plan_set default_set
+	faction_creator venice
+	building
+	{
+		type hinterland_info_building7 info_Rhun
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+	building
+	{
+		type hinterland_roads highways
+	}
+}
+
+settlement ;DONE
+{
+	level town
+	region Nurn_Province
+
+	year_founded 0
+	population 1113
+	plan_set default_set
+	faction_creator venice
+	building
+	{
+		type hinterland_info_building7 info_Rhun
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type hinterland_roads highways
+	}
+}
+
+settlement ;DONE
+{
+	level town
+	region Eastrhun_Province
+
+	year_founded 0
+	population 1348
+	plan_set default_set
+	faction_creator venice
+	building
+	{
+		type hinterland_info_building7 info_Rhun
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type hinterland_roads highways
+	}
+}
+
+character	Borthand, named character, male, leader, age 45, x 356, y 191, portrait Rhunking, hero_ability WRATH, label family_rhun1 ;mistrand
+traits Factionleader 1 , hero_ability19 1 , NaturalMilitarySkill 1 , GoodDefender 1 , PoliticsSkill 3 , GoodAdministrator 2 , Austere 1 , ReligionStarter 1 , GoodAttacker 1 , Cultured 1 , HaleAndHearty 2
+ancillaries king_rhun, apothecary
+army
+unit		Kataphracts Bodyguard			exp 2 armour 0 weapon_lvl 0
+unit		Easterling Clansmen			exp 0 armour 0 weapon_lvl 0
+unit		Easterling Archers			exp 0 armour 0 weapon_lvl 0
+unit		Rhunnic Swordsmen			exp 0 armour 0 weapon_lvl 0
+
+character	Margoz, named character, male, heir, age 27, x 383, y 221, portrait Rhunheir ;rhun
+traits Factionheir 1 , LoyaltyStarter 1 , GoodCommander 2 , GoodAttacker 1 , Energetic 1 , ReligionStarter 1 , Cultured 1 , HaleAndHearty 1
+ancillaries king_khand, scatha_gold
+army
+unit		Kataphracts Bodyguard			exp 2 armour 0 weapon_lvl 0
+unit		Halberdiers				exp 1 armour 0 weapon_lvl 0
+unit		Rhunnic Elite Infantry			exp 0 armour 0 weapon_lvl 0
+unit		Easterling Clansmen			exp 1 armour 0 weapon_lvl 0
+
+character	Kustig, named character, male, age 29, x 368, y 177, portrait Balchoth, hero_ability VENOM ;morad
+traits hero_ability20 1 , LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , Brave 1 , Cultured 1
+ancillaries king_balchoth
+army
+unit		Kataphracts Bodyguard			exp 0 armour 0 weapon_lvl 0
+unit		Balchoth Horde				exp 3 armour 0 weapon_lvl 0
+unit		Balchoth Horde				exp 2 armour 0 weapon_lvl 0
+
+character	Ulfang, named character, male, age 41, x 378, y 150, portrait Khand ;nurn
+traits LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , Brave 1 , Energetic 1
+army
+unit		Kataphracts Bodyguard			exp 0 armour 0 weapon_lvl 0
+unit		Variag Raiders				exp 2 armour 0 weapon_lvl 0
+unit		Balchoth Horde				exp 1 armour 0 weapon_lvl 0
+unit		Balchoth Horde				exp 2 armour 0 weapon_lvl 0
+
+character	Edgu, named character, male, age 34, x 330, y 157, portrait Loke ;near rhun
+traits LoyaltyStarter 1 , GoodCommander 2 , GoodAttacker 1 , ReligionStarter 1 , Cultured 1
+ancillaries troops_rhun
+army
+unit		Kataphracts Bodyguard			exp 1 armour 0 weapon_lvl 0
+unit		Rhunnic Swordsmen			exp 0 armour 0 weapon_lvl 0
+unit		Easterling Archers			exp 0 armour 0 weapon_lvl 0
+
+character	Bori, named character, male, age 24, x 361, y 209, portrait Easterling ;kelepar
+traits LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1
+army
+unit		Kataphracts Bodyguard			exp 0 armour 0 weapon_lvl 0
+unit		Easterling Clansmen			exp 1 armour 0 weapon_lvl 0
+unit		Rhunnic Swordsmen			exp 0 armour 0 weapon_lvl 0				exp 1 armour 0 weapon_lvl 0
+
+character	Ulwarth, named character, male, age 41, x 337, y 179	;Burh erm.
+traits LoyaltyStarter 1 , GoodCommander 2 , GoodAttacker 1 , ReligionStarter 1 , Cultured 1
+army
+unit		Kataphracts Bodyguard			exp 1 armour 0 weapon_lvl 0
+unit		Easterling Clansmen			exp 1 armour 0 weapon_lvl 0
+unit		Easterling Clansmen			exp 0 armour 0 weapon_lvl 0
+unit		Easterling Archers			exp 0 armour 0 weapon_lvl 0
+
+character	Kargi, spy, male, age 26, x 325, y 168
+traits NaturalSpySkill 1 , GoodSpy 1 
+
+character_record	Mareke, female, age 41, alive, never_a_leader
+character_record	Tigkiz, female, age 18, alive, never_a_leader
+character_record	Uldor, male, age 14, alive, never_a_leader
+
+relative 	Borthand, Mareke, Margoz, Bori, Tigkiz, Uldor, end
+
+;#################################################################
+;##########################  SAURON  #############################
+;################################################################# 
+faction	papal_states, balanced smith
+ai_label	papal_faction
+;undiscovered
+denari	10000
+denari_kings_purse	5
+settlement
+{
+	level town
+	region Sauron_Province
+
+	year_founded 0
+	population 500
+	plan_set default_set
+	faction_creator papal_states
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type temple_catholic small_church
+	}
+}
+
+;character	The_Dark_Lord, named character, male, leader, age 18, x 397, y 339, portrait sauron, label hidden_sauron1
+;traits IAmPope 1 , GoodCommander 1 , GoodAdministrator 2 , Austere 1 , ReligionStarter 1, HighPersonalSecurity 3 , HaleAndHearty 2 
+;ancillaries doctor
+;army
+;unit		SE Bodyguard				exp 8 armour 0 weapon_lvl 0
+
+;character	Naghur, named character, male, leader, age 18, x 397, y 339
+;traits LoyaltyStarter 1 , Loyal 4 , GoodCommander 1 , GoodAdministrator 2 , Austere 1 , ReligionStarter 1, ReligiousActivity 4 , HighPersonalSecurity 3 , HaleAndHearty 2 
+;ancillaries doctor
+;army
+;unit		SE Bodyguard				exp 8 armour 0 weapon_lvl 0
+
+character	Burz, inquisitor, male, age 19, x 396, y 339
+traits NaturalInquisitorSkill 2
+
+character	Yaghur, inquisitor, male, age 29, x 256, y 173
+traits NaturalInquisitorSkill 1 
+
+;#################################################################
+;##########################  ARNOR  ##############################
+;################################################################# 
+faction	byzantium, balanced smith
+ai_label	good
+dead_until_resurrected
+denari	5000
+denari_kings_purse	500
+
+;################################################################# 
+;Used as an emerging faction for spawning characters and armies
+;for Palantiri and Mirror. 
+
+faction	hungary, balanced smith
+ai_label	default 
+dead_until_resurrected
+denari	10000
+denari_kings_purse	3000
+
+;#################################################################
+;############################  SLAVE  ############################
+;################################################################# 
+faction	slave, balanced smith
+ai_label	slave_faction
+denari	5000
+denari_kings_purse	500
+settlement   ;DONE
+{
+	level town
+	region Andrast_Province
+
+	year_founded 0
+	population 1123
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building8 info_Andrast
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+}
+
+settlement ;DONE
+{
+	level town
+	region Central-Mirkwood_Province
+
+	year_founded 0
+	population 876  
+	plan_set default_set
+	faction_creator mongols
+	building
+	{
+		type hinterland_info_building5 info_Mirkwood
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement	;DONE
+{
+	level town
+	region West-Mirkwood_Province
+
+	year_founded 0
+	population 1105
+	plan_set default_set
+	faction_creator mongols
+	building
+	{
+		type hinterland_info_building11 info_West-Mirkwood
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement castle	;DONE
+{
+	level town
+	region New_Mirkwood_Province
+
+	year_founded 0
+	population 507
+	plan_set default_set
+	faction_creator mongols
+	building
+	{
+		type hinterland_info_building5 info_Mirkwood
+	}
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+	building
+	{
+		type castle_barracks mustering_hall
+	}
+}
+
+settlement ;DONE
+{
+	level village
+	region Mitheithel_Province
+
+	year_founded 0
+	population 636
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building10 info_Mitheithel
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement	;DONE
+{
+	level village
+	region Lond_Angren_Province
+
+	year_founded 0
+	population 603
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building8 info_Enedwaith
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement ;DONE
+{
+	level town
+	region Minhiriath_Province
+
+	year_founded 0
+	population 1408
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building9 info_Druwaith-Iaur
+	}	
+	building
+	{
+		type core_building wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Druwaith-Iaur_Province
+
+	year_founded 0
+	population 685
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building8 info_Enedwaith
+	}	
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type port port
+	}
+}
+
+settlement ;DONE
+{
+	level town
+	region Talsir_Province
+
+	year_founded 0
+	population 1284
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building8 info_Enedwaith
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+}
+
+settlement ;DONE
+{
+	level town
+	region Evendim_Province
+
+	year_founded 0
+	population 733
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building9 info_Evendim
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement ;DONE
+{
+	level large_town
+	region Khand_Province
+
+	year_founded 0
+	population 1766
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type hinterland_info_building11 info_Khand
+	}
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type taverns brothel
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads highways
+	}
+}
+
+settlement ;DONE
+{
+	level town
+	region North-Rhun_Province
+
+	year_founded 0
+	population 1056
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building7 info_Near-Rhun
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type hinterland_roads highways
+	}
+}
+
+settlement ;DONE
+{
+	level town
+	region Lune-land_Province
+
+	year_founded 0
+	population 602
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building9 info_Lune-land
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type hinterland_roads roads
+	}	
+}
+
+settlement ;DONE
+{
+	level village
+	region Ettenmoors_Province
+
+	year_founded 0
+	population 618
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building11 info_Ettenmoors
+	}	
+}
+
+settlement ;DONE
+{
+	level village
+	region Withered-Heath_Province
+
+	year_founded 0
+	population 720
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building11 info_Withered-Heath
+	}
+}
+
+settlement castle ;DONE
+{
+	level town
+	region Ithilien_Province
+
+	year_founded 0
+	population 741
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building8 info_Ithilien
+	}
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+	building
+	{
+		type castle_barracks mustering_hall
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement ;DONE
+{
+	level town
+	region South-Ithilien_Province
+
+	year_founded 0
+	population 886
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building8 info_Ithilien
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type c_missiles c_bowyer
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level town
+	region Lone-lands_Province
+
+	year_founded 0
+	population 897
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building11 info_Lone-lands
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level village
+	region Tharbad_Province
+
+	year_founded 0
+	population 496
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building11 info_Lone-lands
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level town
+	region Wrakyaburg_Province
+
+	year_founded 0
+	population 752
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building9 info_Anduin-Vale
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type barracks town_watch
+	}
+}
+
+settlement castle ;DONE
+{
+	level town
+	region Anduin-Vale_Province
+
+	year_founded 0
+	population 685
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building9 info_Anduin-Vale
+	}
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+	building
+	{
+		type castle_barracks mustering_hall
+	}
+	building
+	{
+		type castle_port c_port
+	}
+}
+
+settlement ;DONE
+{
+	level town
+	region Lower-Anduin-Vale_Province
+
+	year_founded 0
+	population 1385
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building11 info_Anduin-Vale2
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type smith leather_tanner
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type port port
+	}
+}
+
+settlement
+{
+	level village
+	region Lowest-Anduin-Vale_Province
+
+	year_founded 0
+	population 634
+	plan_set default_set
+	faction_creator milan
+	building
+	{
+		type hinterland_info_building11 info_Anduin-Vale2
+	}
+}
+
+settlement
+{
+	level town
+	region Rhovanion_Province
+
+	year_founded 0
+	population 1236
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building10 info_Rhovanion
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+}
+
+settlement castle ;DONE
+{
+	level town
+	region North-Rhovanion_Province
+
+	year_founded 0
+	population 766
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building10 info_North-Rhovanion
+	}
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+	building
+	{
+		type castle_barracks mustering_hall
+	}
+	building
+	{
+		type missiles bowyer
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement ;DONE
+{
+	level town
+	region Dorwinion_Province
+
+	year_founded 0
+	population 1852
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building10 info_Dorwinion
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type port port
+	}
+}
+
+settlement castle	;DONE
+{
+	level large_town
+	region Uldonavan_Province
+
+	year_founded 0
+	population 835
+	plan_set default_set
+	faction_creator scotland
+	building
+	{
+		type hinterland_info_building10 info_Rhovanion
+	}
+	building
+	{
+		type core_castle_building castle
+	}
+	building
+	{
+		type castle_barracks mustering_hall
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement castle ;DONE
+{
+	level town
+	region Wilderland_Province
+
+	year_founded 0
+	population 495
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building10 info_Wilderland
+	}
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+	building
+	{
+		type castle_barracks mustering_hall
+	}
+}
+
+settlement ;DONE
+{
+	level village
+	region Dagorlad_Province
+
+	year_founded 0
+	population 469
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building10 info_Dagorlad
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement castle
+{
+	level city
+	region North-Ithilien_Province
+
+	year_founded 0
+	population 314
+	plan_set default_set
+	faction_creator ireland
+	building
+	{
+		type hinterland_info_building8 info_Ithilien
+	}
+	building
+	{
+		type core_castle_building fortress
+	}
+	building
+	{
+		type hinterland_castle_roads c_roads
+	}
+}
+
+settlement ;DONE
+{
+	level village
+	region Gladden-Fields_Province
+
+	year_founded 0
+	population 613
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building9 info_Gladden-Fields
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement	;DONE
+{
+	level town
+	region Wold_Province
+
+	year_founded 0
+	population 1036
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building9 info_Wold
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement castle
+{
+	level city
+	region Cair-Andros_Province
+
+	year_founded 0
+	population 925
+	plan_set default_set
+	faction_creator hungary
+	building
+	{
+		type hinterland_info_building8 info_Cair-Andros
+	}
+	building
+	{
+		type core_castle_building fortress
+	}
+	building
+	{
+		type castle_barracks mustering_hall
+	}
+	building
+	{
+		type castle_smith c_leather_tanner
+	}
+}
+
+settlement
+{
+	level town
+	region Tolfalas_Province
+
+	year_founded 0
+	population 602
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building8 info_Tolfalas
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Barad-Harn_Province
+
+	year_founded 0
+	population 1234
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building7 info_Harondor
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Tirith-Thoron_Province
+
+	year_founded 0
+	population 706
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building7 info_Near-Rhun
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+}
+
+settlement
+{
+	level town
+	region Amon-Eithel_Province
+
+	year_founded 0
+	population 827
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building7 info_Harondor
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Enedwaith_Province
+
+	year_founded 0
+	population 765
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building8 info_Minhiriath
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level village
+	region Fangorn_Province
+
+	year_founded 0
+	population 301
+	plan_set default_set
+	faction_creator mongols
+	building
+	{
+		type hinterland_info_building10 info_Fangorn
+	}
+}
+
+settlement	;DONE
+{
+	level town
+	region Eregion_Province
+
+	year_founded 0
+	population 972
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type hinterland_info_building10 info_Eregion
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type guild_gwaith_i_mirdain_guild gwaith_i_mirdain_guild
+	}
+}
+
+settlement castle 
+{
+	level town
+	region East_Cardolan_Province
+
+	year_founded 0
+	population 422
+	plan_set default_set
+	faction_creator turks
+	building
+	{
+		type hinterland_info_building9 info_East_Cardolan
+	}
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+	building
+	{
+		type port port
+	}
+}
+
+settlement
+{
+	level village
+	region North_Minhiriath_Province
+
+	year_founded 0
+	population 463
+	plan_set default_set
+	faction_creator turks
+	building
+	{
+		type hinterland_info_building8 info_Minhiriath
+	}
+}
+
+settlement
+{
+	level village
+	region Forodwaith_Province
+
+	year_founded 0
+	population 418
+	plan_set default_set
+	faction_creator slave
+	building
+	{
+		type hinterland_info_building8 info_Forodwaith
+	}
+}
+
+settlement castle
+{
+	level village
+	region Border_Province
+
+	year_founded 0
+	population 572
+	plan_set default_set
+	faction_creator milan
+	building
+	{
+		type hinterland_info_building9 info_Border
+	}
+	building
+	{
+		type core_castle_building motte_and_bailey
+	}
+}
+
+settlement
+{
+	level village
+	region Wildlands_Province
+
+	year_founded 0
+	population 478
+	plan_set default_set
+	faction_creator turks
+	building
+	{
+		type hinterland_info_building8 info_Forodwaith
+	}
+}
+
+settlement
+{
+	level village
+	region Cardolan_Province
+
+	year_founded 0
+	population 546
+	plan_set default_set
+	faction_creator england
+	building
+	{
+		type hinterland_info_building9 info_East_Cardolan
+	}
+}
+
+settlement
+{
+	level town
+	region Erelond_Province
+
+	year_founded 0
+	population 956
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type hinterland_info_building7 info_Rhun
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+}
+
+settlement
+{
+	level village
+	region Druadain_Province
+
+	year_founded 0
+	population 382
+	plan_set default_set
+	faction_creator milan
+	building
+	{
+		type hinterland_info_building11 info_Druadain
+	}
+}
+
+settlement
+{
+	level village
+	region Athilin_Province
+
+	year_founded 0
+	population 791
+	plan_set default_set
+	faction_creator turks
+	building
+	{
+		type hinterland_info_building11 info_Athilin
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+
+settlement castle
+{
+	level village
+	region Ruskea_Province
+
+	year_founded 0
+	population 489
+	plan_set default_set
+	faction_creator milan
+	building
+	{
+		type hinterland_info_building8 info_Forodwaith
+	}
+	building
+	{
+		type core_castle_building motte_and_bailey
+	}
+}
+
+settlement castle
+{
+	level city
+	region Weather-Hills_Province
+
+	year_founded 0
+	population 680
+	plan_set default_set
+	faction_creator teutonic_order
+	building
+	{
+		type hinterland_info_building3 info_Weather-Hills
+	}
+	building
+	{
+		type core_castle_building fortress
+	}
+	building
+	{
+		type castle_barracks mustering_hall
+	}
+}
+
+character	sub_faction sicily, Colfinmen, general, male, age 34, x 254, y 115 ;ithilien
+army
+unit		Woodsmen			exp 1 armour 0 weapon_lvl 0
+unit		Woodsmen			exp 0 armour 0 weapon_lvl 0
+unit		Hunters				exp 1 armour 0 weapon_lvl 0
+unit		Hunters				exp 0 armour 0 weapon_lvl 0
+unit		Hunters				exp 0 armour 0 weapon_lvl 0
+unit		Hunters				exp 1 armour 0 weapon_lvl 0
+
+;VIA SCRIPT
+;character	sub_faction sicily, Merendir, general, male, age 42, x 261, y 142 ;north ithilien
+;army
+;unit		Woodsmen			exp 1 armour 0 weapon_lvl 0
+;unit		Woodsmen			exp 0 armour 0 weapon_lvl 0
+;unit		Woodsmen			exp 0 armour 0 weapon_lvl 0
+;unit		Hunters				exp 1 armour 0 weapon_lvl 0
+;unit		Hunters				exp 1 armour 0 weapon_lvl 0
+;unit		Hunters				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction sicily, Faelthor, general, male, age 26, x 253, y 138 ;cair andros
+army
+unit		Thane Spearmen			exp 1 armour 0 weapon_lvl 0
+unit		Thane Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Thane Swordsmen			exp 1 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction sicily, Pilimor, general, male, age 52, x 261, y 93 ;south ithilien
+army
+unit		Norse Archers			exp 2 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+unit		Fyrd Axemen			exp 1 armour 0 weapon_lvl 0
+unit		Fyrd Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Fyrd Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction sicily, Arthion, general, male, age 43, x 247, y 77 ;amon eithel
+army
+unit		Fyrd Axemen			exp 1 armour 0 weapon_lvl 0
+unit		Fyrd Spearmen			exp 1 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 1 armour 0 weapon_lvl 0
+unit		Bandits				exp 1 armour 0 weapon_lvl 0
+unit		Bandits				exp 1 armour 0 weapon_lvl 0
+
+;VIA SCRIPT
+;character	sub_faction sicily, Curudor, general, male, age 25, x 209, y 79 ;barad harn
+;army
+;unit		Fyrd Spearmen			exp 2 armour 0 weapon_lvl 0
+;unit		Fyrd Spearmen			exp 1 armour 0 weapon_lvl 0
+;unit		Thane Swordsmen			exp 0 armour 0 weapon_lvl 0
+;unit		Thane Swordsmen			exp 0 armour 0 weapon_lvl 0
+;unit		Thane Swordsmen			exp 0 armour 0 weapon_lvl 0
+;unit		Thane Spearmen			exp 1 armour 0 weapon_lvl 0
+;unit		Thane Spearmen			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction sicily, Himdor, general, male, age 26, x 199, y 83 ;tolfalas
+army
+unit		Huntsmen			exp 1 armour 0 weapon_lvl 0
+unit		Fyrd Axemen			exp 0 armour 0 weapon_lvl 0
+unit		Fyrd Spearmen			exp 2 armour 0 weapon_lvl 0
+unit		Fyrd Spearmen			exp 1 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 1 armour 0 weapon_lvl 0
+
+character	sub_faction scotland, Grim, general, male, age 43, x 322, y 197 ;Uldonavan
+army
+unit		Rhovanion Spearmen		exp 1 armour 0 weapon_lvl 0
+unit		Rhovanion Spearmen		exp 0 armour 0 weapon_lvl 0
+unit		Rhovanion Hunters		exp 2 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+unit		Fyrd Axemen			exp 1 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scotland, Vandergast, general, male, age 46, x 293, y 212 ;rhovanion
+army
+unit		Rhovanion Rider			exp 2 armour 0 weapon_lvl 0
+unit		Rhovanion Spearmen		exp 1 armour 0 weapon_lvl 0
+unit		Rhovanion Hunters		exp 1 armour 0 weapon_lvl 0
+unit		Rhovanion Hunters		exp 1 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+
+;VIA SCRIPT
+;character	sub_faction scotland, Gangleren, general, male, age 36, x 305, y 226 ;north rhovanion
+;army
+;unit		Rhovanion Spearmen		exp 1 armour 0 weapon_lvl 0
+;unit		Rhovanion Spearmen		exp 0 armour 0 weapon_lvl 0
+;unit		Rhovanion Hunters		exp 2 armour 0 weapon_lvl 0
+;unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+;unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+
+;VIA SCRIPT
+;character	sub_faction scotland, Holden, general, male, age 52, x 333, y 223 ;dorwinion
+;army
+;unit		english kings huscarls		exp 2 armour 0 weapon_lvl 0
+;unit		english kings huscarls		exp 1 armour 0 weapon_lvl 0
+;unit		Thane Swordsmen			exp 0 armour 0 weapon_lvl 0
+;unit		Thane Spearmen			exp 0 armour 0 weapon_lvl 0
+;unit		Norse Archers			exp 1 armour 0 weapon_lvl 0
+;unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+;unit		Huntsmen			exp 0 armour 0 weapon_lvl 0
+
+;VIA SCRIPT
+;character	sub_faction scotland, Hross, general, male, age 35, x 358, y 229 ;north rhun
+;army
+;unit		Woodsmen			exp 1 armour 0 weapon_lvl 0
+;unit		Woodsmen			exp 0 armour 0 weapon_lvl 0
+;unit		Fyrd Axemen			exp 1 armour 0 weapon_lvl 0
+;unit		Fyrd Spearmen			exp 0 armour 0 weapon_lvl 0
+;unit		Thane Spearmen			exp 1 armour 0 weapon_lvl 0
+;unit		Thane Spearmen			exp 0 armour 0 weapon_lvl 0
+;unit		Hunters				exp 1 armour 0 weapon_lvl 0
+;unit		Hunters				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction scotland, Irkenwin, general, male, age 31, x 284, y 299 ;withered heath
+army
+unit		Woodsmen			exp 1 armour 0 weapon_lvl 0
+
+;VIA SCRIPT
+;character	sub_faction venice, Sacal, general, male, age 52, x 370, y 90 ;khand
+;army
+;unit		Variag Spearmen Militia		exp 2 armour 0 weapon_lvl 0
+;unit		Variag Spearmen Militia		exp 0 armour 0 weapon_lvl 0
+;unit		Variag Spearmen Militia		exp 1 armour 0 weapon_lvl 0
+;unit		Variag Archer Militia		exp 3 armour 0 weapon_lvl 0
+;unit		Variag Archer Militia		exp 1 armour 0 weapon_lvl 0
+
+character	sub_faction milan, Eadmod, general, male, age 28, x 229, y 284 ;wrakyaburg
+army
+unit		Beorning			exp 2 armour 0 weapon_lvl 0
+unit		Fyrd Axemen			exp 0 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 1 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 1 armour 0 weapon_lvl 0
+
+;VIA SCRIPT
+;character	sub_faction milan, Freawine, general, male, age 46, x 229, y 251 ;beorn
+;army
+;unit		Beorning			exp 2 armour 0 weapon_lvl 0
+;unit		Beorning			exp 1 armour 0 weapon_lvl 0
+;unit		Norse Archers			exp 1 armour 0 weapon_lvl 0
+;unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+;unit		Huntsmen			exp 0 armour 0 weapon_lvl 0
+;unit		Huntsmen			exp 0 armour 0 weapon_lvl 0
+
+;VIA SCRIPT
+;character	sub_faction milan, Glaothain, general, male, age 37, x 213, y 288 ;framsburg
+;army
+;unit		Huntsmen			exp 0 armour 0 weapon_lvl 0
+;unit		Huntsmen			exp 1 armour 0 weapon_lvl 0
+;unit		Fyrd Axemen			exp 0 armour 0 weapon_lvl 0
+;unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+
+;VIA SCRIPT
+;character	sub_faction milan, Glaothain, general, male, age 37, x 163, y 216 ;Eregion
+;army
+;unit		Mordor Orcs Invasion		exp 1 armour 0 weapon_lvl 0
+;unit		Mordor Orcs Invasion		exp 0 armour 0 weapon_lvl 0
+;unit		Mordor Orcs Invasion		exp 1 armour 0 weapon_lvl 0
+;unit		Mordor Archers Invasion		exp 0 armour 0 weapon_lvl 0
+;unit		Mordor Archers Invasion		exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction england, Yagor, general, male, age 25, x 256, y 229 ;c mirkwood
+army
+unit		Mordor Orcs Invasion			exp 1 armour 0 weapon_lvl 0
+unit		Mordor Orcs Invasion			exp 1 armour 0 weapon_lvl 0
+unit		Mordor Orcs Invasion			exp 0 armour 0 weapon_lvl 0
+unit		Mordor Archers Invasion			exp 0 armour 0 weapon_lvl 0
+unit		Mordor Archers Invasion			exp 0 armour 0 weapon_lvl 0
+
+;VIA SCRIPT
+;character	sub_faction scotland, Thiudakind, general, male, age 26, x 253, y 247 ;west mirkwood
+;army
+;unit		Woodsmen			exp 1 armour 0 weapon_lvl 0
+;unit		Woodsmen			exp 2 armour 0 weapon_lvl 0
+;unit		Woodsmen			exp 1 armour 0 weapon_lvl 0
+;unit		Hunters				exp 0 armour 0 weapon_lvl 0
+;unit		Hunters				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction milan, Eohere, general, male, age 43, x 237, y 234 ;rhosgobel
+army
+unit		Beorning			exp 1 armour 0 weapon_lvl 0
+unit		Fyrd Axemen			exp 0 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 1 armour 0 weapon_lvl 0
+
+character	sub_faction milan, Herumer, general, male, age 32, x 207, y 228 ;gladden fields
+army
+unit		Fyrd Axemen			exp 1 armour 0 weapon_lvl 0
+unit		Fyrd Axemen			exp 0 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 1 armour 0 weapon_lvl 0
+unit		Hunters				exp 1 armour 0 weapon_lvl 0
+unit		Hunters				exp 1 armour 0 weapon_lvl 0
+
+character	sub_faction scotland, Witherkind, general, male, age 52, x 268, y 180 ;wilderlands
+army
+unit		Huntsmen			exp 1 armour 0 weapon_lvl 0
+unit		Fyrd Axemen			exp 1 armour 0 weapon_lvl 0
+unit		Fyrd Axemen			exp 0 armour 0 weapon_lvl 0
+unit		Fyrd Spearmen			exp 0 armour 0 weapon_lvl 0
+
+;VIA SCRIPT
+;character	sub_faction scotland, Widin, general, male, age 27, x 305, y 175 ;tirith toron
+;army
+;unit		Rhovanion Rider			exp 1 armour 0 weapon_lvl 0
+;unit		Rhovanion Rider			exp 0 armour 0 weapon_lvl 0
+;unit		Rhovanion Hunters		exp 1 armour 0 weapon_lvl 0
+;unit		Fyrd Axemen			exp 0 armour 0 weapon_lvl 0
+;unit		Fyrd Spearmen			exp 0 armour 0 weapon_lvl 0
+;unit		Fyrd Spearmen			exp 1 armour 0 weapon_lvl 0
+
+;VIA SCRIPT
+;character	sub_faction sicily, Aranarth, general, male, age 23, x 116, y 100 ;andrast
+;army
+;unit		Fyrd Axemen			exp 1 armour 0 weapon_lvl 0
+;unit		Fyrd Spearmen			exp 0 armour 0 weapon_lvl 0
+;unit		Fyrd Spearmen			exp 1 armour 0 weapon_lvl 0
+;unit		Norse Archers			exp 2 armour 0 weapon_lvl 0
+;unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+;unit		Norse Archers			exp 1 armour 0 weapon_lvl 0
+
+character	sub_faction milan, Heostor, general, male, age 25, x 109, y 167 ;lond angren
+army
+unit		Huntsmen			exp 1 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 0 armour 0 weapon_lvl 0
+unit		Fyrd Axemen			exp 1 armour 0 weapon_lvl 0
+unit		Fyrd Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		english huscarls		exp 1 armour 0 weapon_lvl 0
+
+character	sub_faction milan, Eohere, general, male, age 48, x 102, y 189 ;lond daer
+army
+unit		Woodsmen			exp 1 armour 0 weapon_lvl 0
+unit		english huscarls		exp 1 armour 0 weapon_lvl 0
+unit		english huscarls		exp 0 armour 0 weapon_lvl 0
+unit		Fyrd Spearmen			exp 2 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 1 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction turks, Aragost, general, male, age 28, x 144, y 217 ;tharbad north
+army
+unit		Thane Swordsmen			exp 0 armour 0 weapon_lvl 0
+unit		Thane Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Fyrd Spearmen			exp 2 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 1 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction turks, Arvedui, general, male, age 28, x 144, y 215 ;tharbad south
+army
+unit		Thane Swordsmen			exp 0 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 0 armour 0 weapon_lvl 0
+unit		Fyrd Spearmen			exp 2 armour 0 weapon_lvl 0
+
+;VIA SCRIPT
+;character	sub_faction egypt, Ceberlandon, general, male, age 51, x 79, y 205 ;enedwaith
+;army
+;unit		Woodsmen			exp 1 armour 0 weapon_lvl 0
+;unit		Woodsmen			exp 0 armour 0 weapon_lvl 0
+;unit		Fyrd Axemen			exp 1 armour 0 weapon_lvl 0
+;unit		Fyrd Axemen			exp 1 armour 0 weapon_lvl 0
+;unit		Fyrd Spearmen			exp 0 armour 0 weapon_lvl 0
+;unit		Hunters				exp 1 armour 0 weapon_lvl 0
+;unit		Hunters				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction turks, Amlaith, general, male, age 29, x 85, y 292 ;evendim
+army
+unit		Fyrd Spearmen			exp 1 armour 0 weapon_lvl 0
+unit		Fyrd Axemen			exp 2 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 1 armour 0 weapon_lvl 0
+unit		Hunters				exp 1 armour 0 weapon_lvl 0
+unit		Hunters				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction turks, Meluiven, general, male, age 21, x 90, y 218 ;allimir
+army
+unit		Fyrd Axemen			exp 2 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 1 armour 0 weapon_lvl 0
+unit		Hunters				exp 1 armour 0 weapon_lvl 0
+unit		Hunters				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction turks, Malvegil, general, male, age 33, x 68, y 277 ;lune land
+army
+unit		Fyrd Axemen			exp 2 armour 0 weapon_lvl 0
+unit		Fyrd Axemen			exp 1 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 1 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 0 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 1 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction hre, Lunlag, general, male, age 44, x 178, y 277 ;ettenmoors
+army
+unit		Woodsmen				exp 1 armour 0 weapon_lvl 0
+
+character	sub_faction turks, Araphant, general, male, age 27, x 157, y 242 ;mitheithel
+army
+unit		Fyrd Axemen			exp 2 armour 0 weapon_lvl 0
+unit		Fyrd Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Fyrd Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 0 armour 0 weapon_lvl 0
+
+;VIA SCRIPT
+;character	sub_faction egypt, Hirnaeranin, general, male, age 36, x 177, y 194 ;fangorn
+;army
+;unit		Woodsmen			exp 1 armour 0 weapon_lvl 0
+;unit		Hunters				exp 1 armour 0 weapon_lvl 0
+;unit		Hunters				exp 1 armour 0 weapon_lvl 0
+;unit		Hunters				exp 0 armour 0 weapon_lvl 0
+;unit		Hunters				exp 1 armour 0 weapon_lvl 0
+
+;VIA SCRIPT
+;character	sub_faction milan, Tondbert, general, male, age 41, x 228, y 183 ;wold
+;army
+;unit		Fyrd Axemen			exp 1 armour 0 weapon_lvl 0
+;unit		Fyrd Axemen			exp 0 armour 0 weapon_lvl 0
+;unit		Fyrd Spearmen			exp 1 armour 0 weapon_lvl 0
+;unit		Thane Spearmen			exp 0 armour 0 weapon_lvl 0
+;unit		Norse Archers			exp 2 armour 0 weapon_lvl 0
+;unit		Norse Archers			exp 1 armour 0 weapon_lvl 0
+
+;VIA SCRIPT
+;character	sub_faction milan, Brego, general, male, age 42, x 140, y 146 ;derwath
+;army
+;unit		Fyrd Axemen			exp 1 armour 0 weapon_lvl 0
+;unit		Fyrd Axemen			exp 0 armour 0 weapon_lvl 0
+;unit		Fyrd Spearmen			exp 1 armour 0 weapon_lvl 0
+;unit		english huscarls		exp 1 armour 0 weapon_lvl 0
+;unit		english huscarls		exp 0 armour 0 weapon_lvl 0
+;unit		Norse Archers			exp 1 armour 0 weapon_lvl 0
+;unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction milan, Guthmer, general, male, age 27, x 117, y 208 ;Argond
+army
+unit		Fyrd Axemen			exp 1 armour 0 weapon_lvl 0
+unit		english huscarls		exp 0 armour 0 weapon_lvl 0
+unit		Hunters				exp 1 armour 0 weapon_lvl 0
+unit		Fyrd Spearmen			exp 1 armour 0 weapon_lvl 0
+unit		Thane Spearmen			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction milan, Eoheort, general, male, age 25, x 200, y 198 ;wold border
+army
+unit		Huntsmen			exp 1 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 0 armour 0 weapon_lvl 0
+unit		Hunters				exp 1 armour 0 weapon_lvl 0
+unit		Fyrd Axemen			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction turks, Mablung, general, male, age 49, x 107, y 320 ;pitkaränta
+army
+unit		Fyrd Spearmen			exp 1 armour 0 weapon_lvl 0
+unit		Fyrd Axemen			exp 2 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 0 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 1 armour 0 weapon_lvl 0
+
+;VIA SCRIPT
+;character	sub_faction aztecs, Arahad, general, male, age 36, x 95, y 236 ;longbottom
+;army
+;unit		Hobbit Infantry			exp 0 armour 0 weapon_lvl 0
+;unit		Hobbit Archers			exp 0 armour 0 weapon_lvl 0
+
+;VIA SCRIPT
+;character	sub_faction aztecs, Arvedui, general, male, age 27, x 90, y 243 ;michel delving
+;army
+;unit		Hobbit Infantry			exp 2 armour 0 weapon_lvl 0
+;unit		Hobbit Infantry			exp 0 armour 0 weapon_lvl 0
+;unit		Hobbit Archers			exp 0 armour 0 weapon_lvl 0
+;unit		Bandobras Archers		exp 1 armour 0 weapon_lvl 0
+
+;VIA SCRIPT
+;character	sub_faction aztecs, Beleg, general, male, age 33, x 94, y 247 ;hobbiton
+;army
+;unit		Hobbit Infantry			exp 0 armour 0 weapon_lvl 0
+;unit		Hobbit Infantry			exp 1 armour 0 weapon_lvl 0
+;unit		Hobbit Archers			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction england, Ugnag, general, male, age 52, x 113, y 234 ;cardolan
+army
+unit		Mordor Orcs Invasion				exp 1 armour 0 weapon_lvl 0
+unit		Mordor Orcs Invasion				exp 0 armour 0 weapon_lvl 0
+unit		Mordor Orcs Invasion				exp 0 armour 0 weapon_lvl 0
+unit		Mordor Archers Invasion				exp 0 armour 0 weapon_lvl 0
+unit		Mordor Orcs Invasion				exp 0 armour 0 weapon_lvl 0
+unit		Mordor Archers Invasion				exp 0 armour 0 weapon_lvl 0
+
+;VIA SCRIPT
+;character	sub_faction spain, Haarith, general, male, age 32, x 143, y 21 ;erelond
+;army
+;unit		Corsairs Mercs			exp 2 armour 0 weapon_lvl 0
+;unit		Corsairs Mercs			exp 0 armour 0 weapon_lvl 0
+;unit		Corsairs Mercs			exp 1 armour 0 weapon_lvl 0
+;unit		Harad Archers Mercs		exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction milan, Earconbert, general, male, age 34, x 227, y 137 ;druedain forest
+army
+unit		Woodsmen				exp 1 armour 0 weapon_lvl 0
+unit		Woodsmen				exp 1 armour 0 weapon_lvl 0
+unit		Huntsmen				exp 2 armour 0 weapon_lvl 0
+unit		Huntsmen				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction turks, Arassuil, general, male, age 51, x 130, y 295 ;athilin
+army
+unit		Fyrd Spearmen				exp 1 armour 0 weapon_lvl 0
+unit		Huntsmen				exp 0 armour 0 weapon_lvl 0
+unit		Huntsmen				exp 0 armour 0 weapon_lvl 0
+unit		Fyrd Axemen				exp 1 armour 0 weapon_lvl 0
+
+character	sub_faction turks, Argonui, general, male, age 37, x 127, y 330 ;ruskea vene
+army
+unit		Fyrd Axemen			exp 2 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 0 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 1 armour 0 weapon_lvl 0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; AMBUSHES ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+character	sub_faction england, Lunul, named character, male, age 23, x 173, y 244, label ambush_rivendell1 	;rivendell X
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Cave Trolls2				exp 1 armour 0 weapon_lvl 0
+unit		Cave Trolls2				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction england, Mauduf, named character, male, age 23, x 177, y 252, label ambush_rivendell2 	;rivendell X
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Cave Trolls2				exp 4 armour 0 weapon_lvl 0
+
+character	sub_faction slave, Arassuil, named character, male, age 23, x 58, y 213 ;harlindon
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Bandits				exp 0 armour 0 weapon_lvl 0
+unit		Bandits				exp 1 armour 0 weapon_lvl 0
+unit		Bandits				exp 0 armour 0 weapon_lvl 0
+unit		Fyrd Axemen			exp 0 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 1 armour 0 weapon_lvl 0
+
+character	sub_faction slave, Arvegil, named character, male, age 23, x 126, y 280, label ambush_fornost1 ;fornost
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Fyrd Axemen			exp 0 armour 0 weapon_lvl 0
+unit		Fyrd Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Fyrd Axemen			exp 1 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 0 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction england, Lagrat, named character, male, age 23, x 111, y 229, label ambush_cardolan1 ; cardolan
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Mordor Orcs Invasion		exp 0 armour 0 weapon_lvl 0
+unit		Mordor Orcs Invasion		exp 1 armour 0 weapon_lvl 0
+unit		Mordor Orcs Invasion		exp 0 armour 0 weapon_lvl 0
+unit		Mordor Orcs Invasion		exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction slave, Celebrindor, named character, male, age 23, x 101, y 243 ;shire
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Bandits				exp 0 armour 0 weapon_lvl 0
+unit		Bandits				exp 1 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction slave, Mablung, named character, male, age 23, x 143, y 237, label ambush_staddle1 ;staddle
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Fyrd Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Fyrd Axemen			exp 1 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 1 armour 0 weapon_lvl 0
+unit		Fyrd Axemen			exp 0 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction slave, Baldor, named character, male, age 23, x 92, y 221 ;allimir
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Bandits				exp 0 armour 0 weapon_lvl 0
+unit		Bandits				exp 1 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 2 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction slave, Andhun, named character, male, age 23, x 131, y 214 ;argond
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Fyrd Axemen			exp 1 armour 0 weapon_lvl 0
+unit		Fyrd Axemen			exp 0 armour 0 weapon_lvl 0
+unit		Fyrd Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 1 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 1 armour 0 weapon_lvl 0
+
+character	sub_faction slave, Cearl, named character, male, age 23, x 110, y 248, label ambush_bree1 ;bree X
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Bandits				exp 2 armour 0 weapon_lvl 0
+unit		Bandits				exp 2 armour 0 weapon_lvl 0
+unit		Bandits				exp 1 armour 0 weapon_lvl 0
+
+character	sub_faction slave, Coenred, named character, male, age 23, x 143, y 210, label ambush_dunland1 ;dunland X
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Fyrd Axemen			exp 1 armour 0 weapon_lvl 0
+unit		Fyrd Axemen			exp 1 armour 0 weapon_lvl 0
+unit		Fyrd Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Thane Swordsmen			exp 1 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction england, Lungaz, named character, male, age 23, x 158, y 218, label ambush_eregion1 ;eregion X
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Mordor Orcs Invasion		exp 1 armour 0 weapon_lvl 0
+unit		Mordor Orcs Invasion		exp 0 armour 0 weapon_lvl 0
+unit		Mordor Orcs Invasion		exp 0 armour 0 weapon_lvl 0
+unit		Mordor Orcs Invasion		exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction slave, Derngar, named character, male, age 43, x 208, y 145 ;Eastfold
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Bandits				exp 0 armour 0 weapon_lvl 0
+unit		Bandits				exp 1 armour 0 weapon_lvl 0
+unit		Bandits				exp 1 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction slave, Cynefrid, named character, male, age 23, x 120, y 188, label ambush_enedwaith1 ;east enedwaith X
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Fyrd Spearmen			exp 2 armour 0 weapon_lvl 0
+unit		Fyrd Axemen			exp 0 armour 0 weapon_lvl 0
+unit		Fyrd Axemen			exp 1 armour 0 weapon_lvl 0
+unit		Thane Swordsmen			exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction slave, Deorwine, named character, male, age 23, x 171, y 130, label ambush_anfalas1 ;anfalas X
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Fyrd Axemen			exp 1 armour 0 weapon_lvl 0
+unit		Fyrd Axemen			exp 0 armour 0 weapon_lvl 0
+unit		Fyrd Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction slave, Eadric, named character, male, age 23, x 126, y 132, label ambush_pinnaht1 ;pinnath gelin X
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Bandits				exp 2 armour 0 weapon_lvl 0
+unit		Bandits				exp 0 armour 0 weapon_lvl 0
+unit		Bandits				exp 1 armour 0 weapon_lvl 0
+
+character	sub_faction slave, Eafa, named character, male, age 23, x 214, y 101, label ambush_lebennin1 ;west lebennin X
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Fyrd Axemen			exp 2 armour 0 weapon_lvl 0
+unit		Fyrd Axemen			exp 1 armour 0 weapon_lvl 0
+unit		Fyrd Axemen			exp 0 armour 0 weapon_lvl 0
+unit		Fyrd Spearmen			exp 2 armour 0 weapon_lvl 0
+unit		Thane Swordsmen			exp 1 armour 0 weapon_lvl 0
+
+character	sub_faction slave, Deor, named character, male, age 23, x 188, y 92, label ambush_belfalas1 ;belfalas X
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Huntsmen			exp 1 armour 0 weapon_lvl 0
+unit		Bandits				exp 0 armour 0 weapon_lvl 0
+unit		Bandits				exp 1 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction sicily, Baranor, named character, male, age 25, x 236, y 88, label south_ithil1 ;south ithilien X
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Bandits				exp 0 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 1 armour 0 weapon_lvl 0
+unit		Bandits				exp 0 armour 0 weapon_lvl 0
+unit		Bandits				exp 1 armour 0 weapon_lvl 0
+
+character	sub_faction sicily, Curuion, named character, male, age 43, x 259, y 104, label ambush_ithilen1 ;ithilien X
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Ithilien Rangers		exp 2 armour 0 weapon_lvl 0
+unit		Ithilien Rangers		exp 1 armour 0 weapon_lvl 0
+unit		Ithilien Rangers		exp 3 armour 0 weapon_lvl 0
+unit		Ithilien Rangers		exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction sicily, Dinemen, named character, male, age 38, x 261, y 123, label ambush_ithilen2 ;ithilien X
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Ithilien Rangers		exp 2 armour 0 weapon_lvl 0
+unit		Ithilien Rangers		exp 3 armour 0 weapon_lvl 0
+unit		Ithilien Rangers		exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction slave, Folca, named character, male, age 23, x 217, y 84 ;west harondor
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Fyrd Axemen			exp 0 armour 0 weapon_lvl 0
+unit		Fyrd Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 1 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction venice, Yumruk, named character, male, age 23, x 362, y 69, label ambush_khand1 ;Khand X
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Variag Spearmen Militia		exp 2 armour 0 weapon_lvl 0
+unit		Variag Archer Militia		exp 1 armour 0 weapon_lvl 0
+unit		Variag Spearmen Militia		exp 1 armour 0 weapon_lvl 0
+unit		Variag Archer Militia		exp 1 armour 0 weapon_lvl 0
+unit		Variag Archer Militia		exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction slave, Fulthain, named character, male, age 23, x 228, y 274 ;wrakyaburg
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Bandits				exp 1 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 2 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 1 armour 0 weapon_lvl 0
+unit		Bandits				exp 0 armour 0 weapon_lvl 0
+unit		Bandits				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction england, Maunag, named character, male, age 23, x 257, y 206 ;deep mirkwood
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Black Spiders Adult		exp 0 armour 0 weapon_lvl 0
+unit		Black Spiders Adult		exp 0 armour 0 weapon_lvl 0
+unit		Black Spiders Adult		exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction england, Nagluk, named character, male, age 23, x 268, y 230 ;east mirkwood
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Black Spiders Adult		exp 0 armour 0 weapon_lvl 0
+unit		Black Spiders Adult		exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction england, Radlag, named character, male, age 23, x 253, y 227, label ambush_spiders1 ;central mirkwood
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Black Spiders Adult		exp 0 armour 0 weapon_lvl 0
+unit		Black Spiders Adult		exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction england, Shagrat, named character, male, age 23, x 261, y 252 ;west mirkwood 
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Black Spiders Adult		exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction slave, Glaomer, named character, male, age 23, x 312, y 219 ;north rhovanion
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Rhovanion Spearmen		exp 1 armour 0 weapon_lvl 0
+unit		Rhovanion Spearmen		exp 0 armour 0 weapon_lvl 0
+unit		Rhovanion Hunters		exp 2 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction slave, Guthbrand, named character, male, age 23, x 293, y 195 ;rhovanion
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Rhovanion Rider			exp 2 armour 0 weapon_lvl 0
+unit		Rhovanion Spearmen		exp 1 armour 0 weapon_lvl 0
+unit		Rhovanion Hunters		exp 1 armour 0 weapon_lvl 0
+unit		Rhovanion Hunters		exp 1 armour 0 weapon_lvl 0
+unit		Norse Archers			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction slave, Haleth, named character, male, age 23, x 300, y 242, label ambush_dale1 ;riverrun
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Bandits				exp 2 armour 0 weapon_lvl 0
+unit		Bandits				exp 0 armour 0 weapon_lvl 0
+unit		Bandits				exp 1 armour 0 weapon_lvl 0
+
+character	sub_faction slave, Herefara, named character, male, age 23, x 270, y 277, label ambush_dale2 ;dale
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Bandits				exp 3 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 1 armour 0 weapon_lvl 0
+unit		Bandits				exp 0 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 1 armour 0 weapon_lvl 0
+
+character	sub_faction slave, Immin, named character, male, age 23, x 350, y 227 ;kugavod
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Fyrd Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Fyrd Axemen			exp 1 armour 0 weapon_lvl 0
+unit		Fyrd Axemen			exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction slave, Peada, named character, male, age 23, x 76, y 276 ;lunelaith
+traits LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
+army
+unit		Bandits				exp 1 armour 0 weapon_lvl 0
+unit		Bandits				exp 0 armour 0 weapon_lvl 0
+unit		Bandits				exp 1 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 2 armour 0 weapon_lvl 0
+unit		Huntsmen			exp 0 armour 0 weapon_lvl 0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; >>>> start of diplomacy section <<<<
+
+faction_standings	england,		-1.0	slave
+faction_standings	england,		-0.9	sicily
+faction_standings	england,		-0.7	milan
+faction_standings	england,		-0.5	scotland
+faction_standings	england,		-0.3	mongols
+faction_standings	england,		0.8	spain
+faction_standings	england,		0.8	venice
+faction_standings	england,		1.0	papal_states
+faction_standings	england,		1.0	france
+faction_standings	england,		1.0	hre
+faction_standings	england,		1.0	portugal
+faction_standings	france,			-1.0	slave
+faction_standings	france,			-0.9	milan
+faction_standings	france,			-0.6	turks
+faction_standings	france,			-0.5	egypt
+faction_standings	france,			0.4	spain
+faction_standings	france,			0.4	venice
+faction_standings	france,			1.0	papal_states
+faction_standings	france,			1.0	england
+faction_standings	france,			1.0	hre
+faction_standings	france,			1.0	portugal
+faction_standings	hre,			-1.0	slave
+faction_standings	hre,			-0.9	mongols
+faction_standings	hre,			-0.8	moors
+faction_standings	hre,			-0.8	turks
+faction_standings	hre,			-0.7	egypt
+faction_standings	hre,			-0.5	milan
+faction_standings	hre,			0.4	spain
+faction_standings	hre,			0.4	venice
+faction_standings	hre,			1.0	papal_states
+faction_standings	hre,			1.0	england
+faction_standings	hre,			1.0	france
+faction_standings	hre,			1.0	portugal
+faction_standings	portugal,		-1.0	slave
+faction_standings	portugal,		-0.9	turks
+faction_standings	portugal,		-0.7	moors
+faction_standings	portugal,		-0.6	egypt
+faction_standings	portugal,		-0.5	mongols
+faction_standings	portugal,		0.4	spain
+faction_standings	portugal,		0.4	venice
+faction_standings	portugal,		1.0	papal_states
+faction_standings	portugal,		1.0	england
+faction_standings	portugal,		1.0	france
+faction_standings	portugal,		1.0	hre
+faction_standings	spain,			-1.0	slave
+faction_standings	spain,			-0.8	sicily
+faction_standings	spain,			0.5	venice
+faction_standings	spain,			0.4	france
+faction_standings	spain,			0.4	hre
+faction_standings	spain,			0.4	portugal
+faction_standings	spain,			0.8	england
+faction_standings	spain,			1.0	papal_states
+faction_standings	venice,			-1.0	slave
+faction_standings	venice,			-0.9	scotland
+faction_standings	venice,			-0.7	mongols
+faction_standings	venice,			-0.6	moors
+faction_standings	venice,			0.5	spain
+faction_standings	venice,			0.4	france
+faction_standings	venice,			0.4	hre
+faction_standings	venice,			0.4	portugal
+faction_standings	venice,			0.8	england
+faction_standings	venice,			1.0	papal_states
+faction_standings	sicily,			0.9	milan
+faction_standings	sicily,			-1.0	slave
+faction_standings	sicily,			-0.9	england
+faction_standings	sicily,			-0.8	spain
+faction_standings	milan,			0.9	sicily
+faction_standings	milan,			0.7	turks
+faction_standings	milan,			-1.0	slave
+faction_standings	milan,			-0.9	france
+faction_standings	milan,			-0.7	england
+faction_standings	milan,			-0.5	hre
+faction_standings	scotland,		1.0	moors
+faction_standings	scotland,		0.7	mongols
+faction_standings	scotland,		-1.0	slave
+faction_standings	scotland,		-0.9	venice
+faction_standings	scotland,		-0.5	england
+faction_standings	moors,			1.0	scotland
+faction_standings	moors,			0.5	turks
+faction_standings	moors,			0.2	egypt
+faction_standings	moors,			-1.0	slave
+faction_standings	moors,			-0.8	hre
+faction_standings	moors,			-0.7	portugal
+faction_standings	moors,			-0.6	venice
+faction_standings	turks,			0.9	egypt
+faction_standings	turks,			0.7	milan
+faction_standings	turks,			0.5	moors
+faction_standings	turks,			-1.0	slave
+faction_standings	turks,			-0.9	portugal
+faction_standings	turks,			-0.8	hre
+faction_standings	turks,			-0.6	france
+faction_standings	egypt,			0.9	mongols
+faction_standings	egypt,			0.9	turks
+faction_standings	egypt,			0.2	moors
+faction_standings	egypt,			-1.0	slave
+faction_standings	egypt,			-0.7	hre
+faction_standings	egypt,			-0.6	portugal
+faction_standings	egypt,			-0.5	france
+faction_standings	mongols,		0.9	egypt
+faction_standings	mongols,		0.7	scotland
+faction_standings	mongols,		-1.0	slave
+faction_standings	mongols,		-0.9	hre
+faction_standings	mongols,		-0.7	venice
+faction_standings	mongols,		-0.5	portugal
+faction_standings	mongols,		-0.3	england
+faction_standings	papal_states,		-1.0	slave
+faction_standings	papal_states,		-1.0	sicily
+faction_standings	papal_states,		-1.0	milan
+faction_standings	papal_states,		-1.0	scotland
+faction_standings	papal_states,		-1.0	moors
+faction_standings	papal_states,		-1.0	turks
+faction_standings	papal_states,		-1.0	egypt
+faction_standings	papal_states,		-1.0	mongols
+faction_standings	papal_states,		1.0	england
+faction_standings	papal_states,		1.0	france
+faction_standings	papal_states,		1.0	hre
+faction_standings	papal_states,		1.0	spain
+faction_standings	papal_states,		1.0	venice
+faction_standings	papal_states,		1.0	portugal
+
+faction_relationships 	england, at_war_with 	slave
+faction_relationships 	england, at_war_with 	sicily
+faction_relationships 	england, at_war_with 	mongols
+;faction_relationships 	england, allied_with 	papal_states
+faction_relationships 	france, at_war_with 	slave
+faction_relationships 	france, at_war_with 	milan
+;faction_relationships 	france, allied_with 	papal_states
+faction_relationships 	hre, at_war_with 	slave
+faction_relationships 	hre, at_war_with 	moors
+faction_relationships 	hre, at_war_with 	mongols
+faction_relationships 	hre, at_war_with 	egypt
+faction_relationships 	hre, allied_with 	portugal
+;faction_relationships 	hre, allied_with 	papal_states
+faction_relationships 	spain, at_war_with 	slave
+faction_relationships 	spain, at_war_with 	sicily
+faction_relationships 	spain, protectorate_of	england
+faction_relationships 	venice, at_war_with 	slave
+faction_relationships 	venice, at_war_with 	scotland
+faction_relationships 	venice, protectorate_of	england
+faction_relationships 	sicily, at_war_with 	slave
+faction_relationships 	sicily, at_war_with 	england
+faction_relationships 	sicily, at_war_with 	spain
+faction_relationships 	sicily, allied_with 	milan
+faction_relationships 	milan, at_war_with 	slave
+faction_relationships 	milan, at_war_with 	france
+faction_relationships 	milan, allied_with 	sicily
+faction_relationships 	scotland, allied_with 	moors
+faction_relationships 	scotland, at_war_with 	slave
+faction_relationships 	scotland, at_war_with 	venice
+faction_relationships 	moors, allied_with 	scotland
+faction_relationships 	moors, at_war_with 	slave
+faction_relationships 	moors, at_war_with 	hre
+faction_relationships 	moors, at_war_with 	portugal
+faction_relationships 	turks, at_war_with 	slave
+faction_relationships 	turks, allied_with 	egypt
+faction_relationships 	egypt, at_war_with 	slave
+faction_relationships 	egypt, at_war_with 	hre
+faction_relationships 	egypt, allied_with 	turks
+faction_relationships 	mongols, at_war_with 	slave
+faction_relationships 	mongols, at_war_with 	hre
+faction_relationships 	mongols, at_war_with 	england
+faction_relationships 	portugal, at_war_with 	slave
+faction_relationships 	portugal, at_war_with 	moors
+faction_relationships 	portugal, allied_with 	hre
+;faction_relationships 	portugal, allied_with 	papal_states
+faction_relationships 	papal_states, at_war_with 	slave
+;faction_relationships 	papal_states, allied_with 	england
+;faction_relationships 	papal_states, allied_with 	france
+;faction_relationships 	papal_states, allied_with 	hre
+;faction_relationships 	papal_states, allied_with 	spain
+;faction_relationships 	papal_states, allied_with 	venice
+;faction_relationships 	papal_states, allied_with 	portugal
+faction_relationships 	slave, at_war_with 	england, france, hre, spain, venice, sicily, milan, scotland, moors, turks, egypt, mongols, portugal, papal_states
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; >>>> start of regions section <<<<
+region Umbar_Province
+farming_level 0
+famine_threat 0
+watchtower 	179 28
+
+region Andrast_Province
+farming_level 0
+famine_threat 0
+watchtower 	82 84
+
+region Belfalas_Province
+farming_level 0
+famine_threat 0
+watchtower 	186 87
+
+;region Erebor_Province
+;farming_level 0
+;famine_threat 0
+;watchtower 	291 268
+
+region Barad-Harn_Province
+farming_level 0
+famine_threat 0
+watchtower 	209 67
+
+region Carnen_Province
+farming_level 0
+famine_threat 0
+watchtower 	365 117
+
+region Carnen_Province
+farming_level 0
+famine_threat 0
+watchtower 	328 130
+
+region Forlindon_Province
+farming_level 0
+famine_threat 0
+watchtower 	28 241
+
+region Harlindon_Province
+farming_level 0
+famine_threat 0
+watchtower 	46 236
+
+region Harlindon_Province
+farming_level 0
+famine_threat 0
+watchtower 	26 217
+
+region Emyn-Beraid_Province
+farming_level 0
+famine_threat 0
+watchtower 	70 260
+
+region Druwaith-Iaur_Province
+farming_level 0
+famine_threat 0
+watchtower 	101 185
+
+region Shafra_Province
+farming_level 0
+famine_threat 0
+watchtower 	226 61
+
+region Ered-Luin_Province
+farming_level 0
+famine_threat 0
+watchtower 	69 312
+
+region Ered-Luin_Province
+farming_level 0
+famine_threat 0
+watchtower 	48 301
+
+region Mistrand_Province
+farming_level 0
+famine_threat 0
+watchtower 	351 200
+
+region Morad_Province
+farming_level 0
+famine_threat 0
+watchtower 	338 172
+
+region Near-Harad_Province
+farming_level 0
+famine_threat 0
+watchtower 	352 79
+
+region Harad_Province
+farming_level 0
+famine_threat 0
+watchtower 	270 51
+
+region East-Emnet_Province
+farming_level 0
+famine_threat 0
+watchtower 	238 162
+
+region Misty-Mountains_Province
+farming_level 0
+famine_threat 0
+watchtower 	180 213
+
+;#################
+;##### FORTS #####
+;#################
+
+region Misty-Mountains_Province
+farming_level 0
+famine_threat 0
+fort 	176 217 stone_fort_d culture northern_european
+;WORKING (graben)
+
+region Ettenmoors_Province
+farming_level 0
+famine_threat 0
+fort 	176 273 stone_fort_e culture northern_european
+;WORKING (partly water)
+
+region Elven-Mirkwood_Province
+farming_level 0
+famine_threat 0
+fort 	243 283 stone_fort_e culture northern_european
+;WORKING (partly water)
+
+region Anorien_Province
+farming_level 0
+famine_threat 0
+fort 	218 142 stone_fort_c culture northern_european
+;WORKING (simplest square)
+
+region Mistrand_Province
+farming_level 0
+famine_threat 0
+fort 	339 180 knightly_order_fort_b culture northern_european
+;WORKING (hill stakes)
+
+region North-Rhun_Province
+farming_level 0
+famine_threat 0
+fort 	336 228 stone_fort_d culture northern_european
+;WORKING (graben)
+
+region North-Rhovanion_Province
+farming_level 0
+famine_threat 0
+fort 	321 217 knightly_order_fort_b culture northern_european
+;WORKING (hill stakes)
+
+region Amrun_Province
+farming_level 0
+famine_threat 0
+fort 	272 65 knightly_order_fort_b culture northern_european
+;WORKING (hill stakes)
+
+region Carn-Dum_Province
+farming_level 0
+famine_threat 0
+fort 	134 305 stone_fort_d culture northern_european
+;WORKING (graben)
+
+region Umbar_Province
+farming_level 0
+famine_threat 0
+fort 	203 41 stone_fort_c culture northern_european
+;WORKING (simplest square)
+
+region Gobel-Ancalimon_Province
+farming_level 0
+famine_threat 0
+fort 	244 55 stone_fort_c culture northern_european
+;WORKING (simplest square)
+
+;RAMMAS ECHOR FORTS
+;#################
+;region Anorien_Province
+;farming_level 0
+;famine_threat 0
+;fort 	242 132 stone_fort_d culture northern_european
+
+;region Anorien_Province
+;farming_level 0
+;famine_threat 0
+;fort 	249 127 stone_fort_c culture northern_european
+
+;region Anorien_Province
+;farming_level 0
+;famine_threat 0
+;fort 	237 125 knightly_order_fort_b culture northern_european
+
+;#################
+;region High-Pass_Province
+;farming_level 0
+;famine_threat 0
+;fort 	197 272 stone_fort_c culture northern_european
+;WORKING (simplest square)
+
+
+script
+campaign_script.txt

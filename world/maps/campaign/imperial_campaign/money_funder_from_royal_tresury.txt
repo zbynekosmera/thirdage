@@ -1,0 +1,1361 @@
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+		monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType turks
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury < 9500
+
+		increment_kings_purse turks -5
+		add_money turks 499
+	end_monitor
+
+	

@@ -1,0 +1,56 @@
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 1
+		and not IsFactionAIControlled
+		and RandomPercent <= 80
+
+		increment_kings_purse turks 5
+		add_money turks 12500
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 10
+		and not IsFactionAIControlled
+		and RandomPercent <= 50
+
+		increment_kings_purse turks 5
+		add_money turks 20000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 20
+		and not IsFactionAIControlled
+		and RandomPercent <= 40
+
+		increment_kings_purse turks 5
+		add_money turks 25000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 30
+		and not IsFactionAIControlled
+		and RandomPercent <= 25
+
+		increment_kings_purse turks 5
+		add_money turks 40000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 40
+		and not IsFactionAIControlled
+		and RandomPercent <= 20
+
+		increment_kings_purse turks 5
+		add_money turks 10000
+		add_money turks 40000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 50
+		and not IsFactionAIControlled
+		and RandomPercent <= 10
+
+		increment_kings_purse turks 5
+		add_money turks 20000
+		add_money turks 40000
+		add_money turks 40000
+	end_monitor
