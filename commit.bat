@@ -1,6 +1,10 @@
 echo start commitu
 
-git commit -am "Dalsi uprava, automaticky komit"
+git add -A
+
+git status
+
+git commit -m "Dalsi uprava, automaticky komit"
 
 git push
 
