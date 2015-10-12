@@ -10202,19 +10202,21 @@ building dragon_inn
 {
     levels dragon_inn 
     {
-        dragon_inn city requires factions { turks, byzantium, }  and hidden_resource shire
+        dragon_inn city requires factions { turks, byzantium, }  and hidden_resource hobbits and event_counter large_city_barracks 1
         {
             capability
             {
                 trade_base_income_bonus bonus 1 requires event_counter Shire_edb 0
                 trade_base_income_bonus bonus 2 requires event_counter Shire_edb 1
-;                population_growth_bonus bonus 1 requires event_counter Shire_edb 1
+                recruit_pool "Hobbit Archers"  0   0.2   2  0  requires factions { turks, byzantium, } 
+                recruit_pool "Hobbit Infantry"  0   0.25   2  0  requires factions { turks, byzantium, }
+                recruit_pool "Bandobras Archers"  0   0.15   2  0  requires factions { turks, byzantium, } 
 trade_base_income_bonus bonus 3
                 free_upkeep bonus 2
             }
             material wooden
-            construction  4 
-            cost  3600
+            construction  8 
+            cost  5600
             settlement_min town
             upgrades
             {
@@ -10239,8 +10241,8 @@ trade_base_income_bonus bonus 3
                 free_upkeep bonus 2
             }
             material wooden
-            construction  4 
-            cost  4000
+            construction  8 
+            cost  6000
             settlement_min large_town
             upgrades
             {
