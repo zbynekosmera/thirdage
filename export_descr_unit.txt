@@ -3503,7 +3503,7 @@ stat_mental      10, normal, untrained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 100, 220, 50, 50, 360, 4, 100
+stat_cost        1, 100, 270, 50, 50, 360, 4, 100
 armour_ug_levels 0
 armour_ug_models bandits
 ownership        slave, turks
@@ -7088,7 +7088,7 @@ stat_mental      12, normal, trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 490, 190, 50, 50, 490, 3, 150
+stat_cost        1, 490, 240, 50, 50, 490, 3, 150
 armour_ug_levels 0, 1
 armour_ug_models hillmen, hillmen_upg
 ownership        slave, portugal
@@ -7123,7 +7123,7 @@ stat_mental      13, normal, trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 560, 230, 75, 75, 560, 3, 150
+stat_cost        1, 560, 290, 75, 75, 560, 3, 150
 armour_ug_levels 2, 3
 armour_ug_models rhudaur_axemen, rhudaur_axemen_upg
 ownership        slave, portugal
@@ -7159,7 +7159,7 @@ stat_mental      10, normal, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 580, 240, 75, 75, 580, 2, 250
+stat_cost        1, 580, 300, 75, 75, 580, 2, 250
 armour_ug_levels 0, 1
 armour_ug_models rhudaur_scouts, rhudaur_scouts_upg
 ownership        slave, portugal
@@ -9093,7 +9093,7 @@ stat_mental      12, normal, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 920, 320, 100, 100, 920, 3, 150
+stat_cost        1, 920, 390, 100, 100, 920, 3, 150
 armour_ug_levels 3
 armour_ug_models variag_cavalry
 ownership        slave, spain, venice
@@ -9126,7 +9126,7 @@ stat_mental      12, normal, trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 370, 170, 85, 85, 370, 3, 150
+stat_cost        1, 370, 210, 85, 85, 370, 3, 150
 armour_ug_levels 0
 armour_ug_models rhovanion_spearmen
 ownership        slave, scotland
@@ -9160,7 +9160,7 @@ stat_mental      12, normal, trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 370, 170, 85, 85, 370, 3, 150
+stat_cost        1, 370, 210, 85, 85, 370, 3, 150
 armour_ug_levels 1
 armour_ug_models rhovanion_hunters
 ownership        slave, scotland
@@ -9195,7 +9195,7 @@ stat_mental      12, normal, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 590, 220, 100, 100, 590, 4, 100
+stat_cost        1, 590, 270, 100, 100, 590, 4, 100
 armour_ug_levels 1
 armour_ug_models rhovanion_rider 
 ownership        slave, scotland
@@ -9229,7 +9229,7 @@ stat_mental      13, normal, trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 550, 230, 65, 65, 550, 2, 250
+stat_cost        1, 550, 310, 65, 65, 550, 2, 250
 armour_ug_levels 1
 armour_ug_models beorning
 ownership        slave, scotland, milan, mongols
@@ -9431,7 +9431,7 @@ stat_mental      10, normal, trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 460, 190, 65, 65, 460, 4, 100
+stat_cost        1, 460, 240, 65, 65, 460, 4, 100
 armour_ug_levels 2, 3
 armour_ug_models mordor_orcs, mordor_orcs_upg
 ownership        slave
@@ -9464,7 +9464,7 @@ stat_mental      8, normal, trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 410, 180, 65, 65, 410, 4, 100
+stat_cost        1, 410, 230, 65, 65, 410, 4, 100
 armour_ug_levels 2, 3
 armour_ug_models mordor_archers, mordor_archers_upg
 ownership        slave
@@ -9496,7 +9496,7 @@ stat_mental      14, impetuous, trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 450, 180, 50, 50, 450, 3, 150
+stat_cost        1, 450, 230, 50, 50, 450, 3, 150
 armour_ug_levels 0, 1
 armour_ug_models corsairs, corsairs_upg
 ownership        slave
@@ -9527,7 +9527,7 @@ stat_mental      12, normal, trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 470, 200, 60, 60, 470, 4, 100
+stat_cost        1, 470, 250, 60, 60, 470, 4, 100
 armour_ug_levels 1, 2
 armour_ug_models southron_spearmen, southron_spearmen_upg
 ownership        slave
@@ -9559,7 +9559,7 @@ stat_mental      9, normal, trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 340, 150, 50, 50, 340, 4, 100
+stat_cost        1, 340, 190, 50, 50, 340, 4, 100
 armour_ug_levels 0, 1
 armour_ug_models harad_archers, harad_archers_upg
 ownership        slave
@@ -9591,7 +9591,7 @@ stat_mental      10, normal, trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 390, 170, 50, 50, 390, 4, 100
+stat_cost        1, 390, 210, 50, 50, 390, 4, 100
 armour_ug_levels 0, 1
 armour_ug_models rhunbh, rhunbh_upg
 ownership        slave
@@ -9623,7 +9623,7 @@ stat_mental      12, normal, trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 430, 180, 60, 60, 430, 4, 100
+stat_cost        1, 430, 230, 60, 60, 430, 4, 100
 armour_ug_levels 0, 1
 armour_ug_models rhunec, rhunec_upg
 ownership        slave
@@ -9655,7 +9655,7 @@ stat_mental      9, normal, trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 370, 160, 60, 60, 370, 4, 100
+stat_cost        1, 370, 200, 60, 60, 370, 4, 100
 armour_ug_levels 0, 1
 armour_ug_models rhunea, rhunea_upg
 ownership        slave
@@ -11631,7 +11631,7 @@ stat_mental      20, impetuous, untrained
 stat_charge_dist 80
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 1250, 350, 100, 400, 1250, 6, 300
+stat_cost        1, 1250, 420, 100, 400, 1250, 6, 300
 armour_ug_levels 2
 armour_ug_models Elephant_Crew3
 ownership        slave, england
