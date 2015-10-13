@@ -4,7 +4,7 @@ git add -A
 
 git status
 
-git commit -m "Dalsi uprava, automaticky komit"
+git commit -m "Dalsi uprava, automaticky komit z prace."
 
 git push
 
