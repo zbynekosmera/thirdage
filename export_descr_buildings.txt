@@ -10217,7 +10217,7 @@ trade_base_income_bonus bonus 3
             material wooden
             construction  8 
             cost  5600
-            settlement_min town
+            settlement_min village
             upgrades
             {
             }
