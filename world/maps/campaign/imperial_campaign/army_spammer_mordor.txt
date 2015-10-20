@@ -18,17 +18,17 @@ monitor_event FactionTurnStart FactionType england
 		faction england
 		character random_name, named character, age 30, x 296, y 136
 		traits LoyaltyStarter 1 , NaturalMilitarySkill 1 , ReligionStarter 1 ,  Loyal 1 , Disciplinarian 1, BattleChivalry 1, PublicFaith 1
-		unit		Uruk Bodyguards			exp 1 armour 0 weapon_lvl 0
-		unit		Mordor Orcs			exp 1 armour 0 weapon_lvl 0
-		unit		Mordor Orcs			exp 1 armour 0 weapon_lvl 0
-		unit		Mordor Orcs			exp 1 armour 0 weapon_lvl 0
-		unit		Mordor Orcs			exp 1 armour 0 weapon_lvl 0
-		unit		Mordor Orcs			exp 1 armour 0 weapon_lvl 0
-		unit		Mordor Orcs			exp 1 armour 0 weapon_lvl 0
-		unit		2handed Orcs			exp 1 armour 0 weapon_lvl 0
-		unit		2handed Orcs			exp 1 armour 0 weapon_lvl 0
-		unit		Mountain Trolls			exp 1 armour 0 weapon_lvl 0
-		unit		Mountain Trolls			exp 1 armour 0 weapon_lvl 0
+		unit		Uruk Bodyguards			exp 0 armour 0 weapon_lvl 0
+		unit		Mordor Orcs			exp 0 armour 0 weapon_lvl 0
+		unit		Mordor Orcs			exp 0 armour 0 weapon_lvl 0
+		unit		Mordor Orcs			exp 0 armour 0 weapon_lvl 0
+		unit		Mordor Orcs			exp 0 armour 0 weapon_lvl 0
+		unit		Mordor Orcs			exp 0 armour 0 weapon_lvl 0
+		unit		Mordor Orcs			exp 0 armour 0 weapon_lvl 0
+		unit		2handed Orcs			exp 0 armour 0 weapon_lvl 0
+		unit		2handed Orcs			exp 0 armour 0 weapon_lvl 0
+		unit		Mountain Trolls			exp 0 armour 0 weapon_lvl 0
+		unit		Mountain Trolls			exp 0 armour 0 weapon_lvl 0
 	end
 
 	inc_counter verbovani -5
@@ -44,17 +44,17 @@ monitor_event FactionTurnStart FactionType england
 		faction england
 		character random_name, named character, age 30, x 296, y 136
 		traits LoyaltyStarter 1 , NaturalMilitarySkill 2 , ReligionStarter 1 ,  Loyal 2 , Disciplinarian 2, BattleChivalry 2, PublicFaith 2
-		unit		Uruk Bodyguards			exp 2 armour 1 weapon_lvl 0
-		unit		Mordor Orcs			exp 2 armour 1 weapon_lvl 0
-		unit		Mordor Orcs			exp 2 armour 1 weapon_lvl 0
-		unit		2handed Orcs			exp 2 armour 1 weapon_lvl 0
-		unit		2handed Orcs			exp 2 armour 1 weapon_lvl 0
-		unit		2handed Orcs			exp 2 armour 1 weapon_lvl 0
-		unit		Mordor Halberd			exp 2 armour 1 weapon_lvl 0
-		unit		Mordor Halberd			exp 2 armour 1 weapon_lvl 0
-		unit		Mountain Trolls			exp 2 armour 1 weapon_lvl 0
-		unit		Mountain Trolls			exp 2 armour 1 weapon_lvl 0
-		unit		Battle Trolls			exp 2 armour 1 weapon_lvl 0
+		unit		Uruk Bodyguards			exp 3 armour 1 weapon_lvl 0
+		unit		Mordor Orcs			exp 3 armour 1 weapon_lvl 0
+		unit		Mordor Orcs			exp 3 armour 1 weapon_lvl 0
+		unit		2handed Orcs			exp 3 armour 1 weapon_lvl 0
+		unit		2handed Orcs			exp 3 armour 1 weapon_lvl 0
+		unit		2handed Orcs			exp 3 armour 1 weapon_lvl 0
+		unit		Mordor Halberd			exp 3 armour 1 weapon_lvl 0
+		unit		Mordor Halberd			exp 3 armour 1 weapon_lvl 0
+		unit		Mountain Trolls			exp 3 armour 1 weapon_lvl 0
+		unit		Mountain Trolls			exp 3 armour 1 weapon_lvl 0
+		unit		Battle Trolls			exp 3 armour 1 weapon_lvl 0
 	end
 
 	inc_counter verbovani -5
@@ -62,6 +62,32 @@ end_monitor
 
 monitor_event FactionTurnStart FactionType england
 	and I_TurnNumber >= 100
+	and I_TurnNumber < 150
+	and not IsFactionAIControlled
+	and I_CompareCounter verbovani >= 5
+
+	spawn_army
+		faction england
+		character random_name, named character, age 30, x 296, y 136
+		traits LoyaltyStarter 1 , NaturalMilitarySkill 2 , ReligionStarter 1 ,  Loyal 2 , Disciplinarian 2, BattleChivalry 2, PublicFaith 2
+		unit		Uruk Bodyguards			exp 6 armour 2 weapon_lvl 1
+		unit		2handed Orcs			exp 6 armour 2 weapon_lvl 1
+		unit		2handed Orcs			exp 6 armour 2 weapon_lvl 1
+		unit		2handed Orcs			exp 6 armour 2 weapon_lvl 1
+		unit		2handed Orcs			exp 6 armour 2 weapon_lvl 1
+		unit		Mordor Halberd			exp 6 armour 2 weapon_lvl 1
+		unit		Mordor Halberd			exp 6 armour 2 weapon_lvl 1
+		unit		Mountain Trolls			exp 6 armour 2 weapon_lvl 1
+		unit		Mountain Trolls			exp 6 armour 2 weapon_lvl 1
+		unit		Battle Trolls			exp 6 armour 2 weapon_lvl 1
+		unit		Battle Trolls			exp 6 armour 2 weapon_lvl 1
+	end
+
+	inc_counter verbovani -5
+end_monitor
+
+monitor_event FactionTurnStart FactionType england
+	and I_TurnNumber >= 150
 	and not IsFactionAIControlled
 	and I_CompareCounter verbovani >= 5
 
@@ -69,15 +95,15 @@ monitor_event FactionTurnStart FactionType england
 		faction england
 		character random_name, named character, age 30, x 296, y 136
 		traits LoyaltyStarter 1 , NaturalMilitarySkill 4 , ReligionStarter 1 ,  Loyal 4 , Disciplinarian 4, BattleChivalry 4, PublicFaith 4
-		unit		Uruk Bodyguards			exp 3 armour 3 weapon_lvl 1
-		unit		Mordor Halberd			exp 3 armour 3 weapon_lvl 1
-		unit		Mordor Halberd			exp 3 armour 3 weapon_lvl 1
-		unit		Mordor Halberd			exp 3 armour 3 weapon_lvl 1
-		unit		Mordor Halberd			exp 3 armour 3 weapon_lvl 1
-		unit		Mordor Halberd			exp 3 armour 3 weapon_lvl 1
-		unit		Mordor Halberd			exp 3 armour 3 weapon_lvl 1
-		unit		Battle Trolls			exp 3 armour 3 weapon_lvl 1
-		unit		Battle Trolls			exp 3 armour 3 weapon_lvl 1
+		unit		Uruk Bodyguards			exp 9 armour 3 weapon_lvl 1
+		unit		Mordor Halberd			exp 9 armour 3 weapon_lvl 1
+		unit		Mordor Halberd			exp 9 armour 3 weapon_lvl 1
+		unit		Mordor Halberd			exp 9 armour 3 weapon_lvl 1
+		unit		Mordor Halberd			exp 9 armour 3 weapon_lvl 1
+		unit		Mordor Halberd			exp 9 armour 3 weapon_lvl 1
+		unit		Mordor Halberd			exp 9 armour 3 weapon_lvl 1
+		unit		Battle Trolls			exp 9 armour 3 weapon_lvl 1
+		unit		Battle Trolls			exp 9 armour 3 weapon_lvl 1
 		unit		Battle Trolls			exp 3 armour 3 weapon_lvl 1
 		unit		Battle Trolls			exp 3 armour 3 weapon_lvl 1
 	end
