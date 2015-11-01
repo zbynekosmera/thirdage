@@ -2517,7 +2517,7 @@ Trait Brave
         Threshold  16 
 
         Effect Authority  2 
-        Effect TroopMorale  2 
+        Effect TroopMorale  5 
 
 
 
@@ -12539,13 +12539,49 @@ Trigger Battle_Siege_Defender_Lost
     Affects BadSiegeDefender  1  Chance  100 
 
 ;------------------------------------------
-Trigger Battle_General_Took_Hits
+Trigger Battle_General_Took_Hits1
     WhenToTest PostBattle
 
-    Condition GeneralHPLostRatioinBattle > 0.3
+    Condition GeneralHPLostRatioinBattle > 0.1
 
-    Affects BattleScarred  1  Chance  10 
-    Affects Brave  1  Chance  20 
+    Affects BattleScarred  1  Chance  20 
+    Affects Brave  1  Chance  10 
+
+;------------------------------------------
+Trigger Battle_General_Took_Hits2
+    WhenToTest PostBattle
+
+    Condition GeneralHPLostRatioinBattle > 0.2
+
+    Affects BattleScarred  1  Chance  30 
+    Affects Brave  1  Chance  10 
+
+;------------------------------------------
+Trigger Battle_General_Took_Hits3
+    WhenToTest PostBattle
+
+    Condition GeneralHPLostRatioinBattle > 0.4
+
+    Affects BattleScarred  1  Chance  40 
+    Affects Brave  1  Chance  5 
+
+;------------------------------------------
+Trigger Battle_General_Took_Hits4
+    WhenToTest PostBattle
+
+    Condition GeneralHPLostRatioinBattle > 0.6
+
+    Affects BattleScarred  1  Chance  50 
+    Affects Brave  1  Chance  5 
+
+;------------------------------------------
+Trigger Battle_General_Took_Hits5
+    WhenToTest PostBattle
+
+    Condition GeneralHPLostRatioinBattle > 0.8
+
+    Affects BattleScarred  1  Chance  60 
+    Affects Brave  1  Chance  5 
 
 ;------------------------------------------
 Trigger Battle_Berserker_Actions
