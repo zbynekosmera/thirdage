@@ -6404,16 +6404,16 @@ trade_base_income_bonus bonus 1
         {
             capability
             {
-                recruit_pool "Mountain Trolls"  1   0.05   1  0  requires factions { england, }
-                recruit_pool "Cave Trolls"  1   0.05   1  0  requires factions { hre, }
+                recruit_pool "Mountain Trolls"  1   0.06   1  0  requires factions { england, }
+                recruit_pool "Cave Trolls"  1   0.06   1  0  requires factions { hre, }
                 recruit_pool "Mountain Trolls"  1   0.02   1  0  requires factions { portugal, }
                 recruit_pool "Snow Trolls"  1   0.04   1  0  requires factions { portugal, }
-                recruit_pool "Mountain Trolls"  1   0.05   1  0  requires factions { england, }
-                recruit_pool "Cave Trolls"  1   0.05   1  0  requires factions { hre, }
+                recruit_pool "Mountain Trolls"  1   0.06   1  0  requires factions { england, }
+                recruit_pool "Cave Trolls"  1   0.06   1  0  requires factions { hre, }
                 recruit_pool "Mountain Trolls"  1   0.02   1  0  requires factions { portugal, }
                 recruit_pool "Snow Trolls"  1   0.04   1  0  requires factions { portugal, }
-                recruit_pool "Mountain Trolls"  1   0.05   1  0  requires factions { england, }
-                recruit_pool "Cave Trolls"  1   0.05   1  0  requires factions { hre, }
+                recruit_pool "Mountain Trolls"  1   0.06   1  0  requires factions { england, }
+                recruit_pool "Cave Trolls"  1   0.06   1  0  requires factions { hre, }
                 recruit_pool "Mountain Trolls"  1   0.02   1  0  requires factions { portugal, }
                 recruit_pool "Snow Trolls"  1   0.04   1  0  requires factions { portugal, }
 trade_base_income_bonus bonus 2
