@@ -69,7 +69,7 @@ monitor_event FactionTurnStart FactionType england
 	spawn_army
 		faction england
 		character random_name, named character, age 30, x 296, y 136
-		traits LoyaltyStarter 1 , NaturalMilitarySkill 2 , ReligionStarter 1 ,  Loyal 2 , Disciplinarian 2, BattleChivalry 2, PublicFaith 2
+		traits LoyaltyStarter 1 , NaturalMilitarySkill 3 , ReligionStarter 1 ,  Loyal 3 , Disciplinarian 3, BattleChivalry 3, PublicFaith 3
 		unit		Uruk Bodyguards			exp 6 armour 2 weapon_lvl 1
 		unit		2handed Orcs			exp 6 armour 2 weapon_lvl 1
 		unit		2handed Orcs			exp 6 armour 2 weapon_lvl 1
@@ -94,7 +94,7 @@ monitor_event FactionTurnStart FactionType england
 	spawn_army
 		faction england
 		character random_name, named character, age 30, x 296, y 136
-		traits LoyaltyStarter 1 , NaturalMilitarySkill 4 , ReligionStarter 1 ,  Loyal 4 , Disciplinarian 4, BattleChivalry 4, PublicFaith 4
+		traits LoyaltyStarter 1 , NaturalMilitarySkill 4 , ReligionStarter 1 ,  Loyal 4 , Disciplinarian 3, BattleChivalry 4, PublicFaith 4
 		unit		Uruk Bodyguards			exp 9 armour 3 weapon_lvl 1
 		unit		Mordor Halberd			exp 9 armour 3 weapon_lvl 1
 		unit		Mordor Halberd			exp 9 armour 3 weapon_lvl 1
