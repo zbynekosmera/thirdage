@@ -2292,7 +2292,7 @@ Trait Disciplinarian
         EffectsDescription Drillmaster_effects_desc
         Threshold  2 
 
-        Effect TroopMorale -1 
+        Effect TroopMorale 2 
         Effect MovementPoints  3 
 
     Level Harsh_Taskmaster
@@ -2302,7 +2302,7 @@ Trait Disciplinarian
 
         Effect Command  1 
         Effect Authority  1 
-        Effect TroopMorale -2 
+        Effect TroopMorale 3 
         Effect MovementPoints  4 
         Effect Law  1 
 
