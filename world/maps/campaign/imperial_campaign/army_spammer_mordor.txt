@@ -13,6 +13,7 @@ monitor_event FactionTurnStart FactionType england
 	and I_TurnNumber < 50
 	and not IsFactionAIControlled
 	and I_CompareCounter verbovani >= 5
+	and I_SettlementOwner Gorgoroth = england
 
 	spawn_army
 		faction england
@@ -39,6 +40,7 @@ monitor_event FactionTurnStart FactionType england
 	and I_TurnNumber < 100
 	and not IsFactionAIControlled
 	and I_CompareCounter verbovani >= 5
+	and I_SettlementOwner Gorgoroth = england
 
 	spawn_army
 		faction england
@@ -65,6 +67,7 @@ monitor_event FactionTurnStart FactionType england
 	and I_TurnNumber < 150
 	and not IsFactionAIControlled
 	and I_CompareCounter verbovani >= 5
+	and I_SettlementOwner Gorgoroth = england
 
 	spawn_army
 		faction england
@@ -90,6 +93,7 @@ monitor_event FactionTurnStart FactionType england
 	and I_TurnNumber >= 150
 	and not IsFactionAIControlled
 	and I_CompareCounter verbovani >= 5
+	and I_SettlementOwner Gorgoroth = england
 
 	spawn_army
 		faction england
