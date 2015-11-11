@@ -6498,9 +6498,9 @@ building mumakil_castle
         {
             capability
             {
-                recruit_pool "Mumakil"  1   0.07   2  0  requires factions { spain, }
-                recruit_pool "Mumakil"  1   0.07   2  0  requires factions { spain, }
-                recruit_pool "Mumakil"  1   0.07   2  0  requires factions { spain, }
+                recruit_pool "Mumakil"  1   0.07   2  0  requires factions { spain, venice, }
+                recruit_pool "Mumakil"  1   0.07   2  0  requires factions { spain, venice, }
+                recruit_pool "Mumakil"  1   0.07   2  0  requires factions { spain, venice, }
 trade_base_income_bonus bonus 1
             }
             material wooden
