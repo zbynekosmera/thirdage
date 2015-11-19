@@ -2524,7 +2524,6 @@ Trait Brave
 ;------------------------------------------
 Trait Coward
     Characters family
-    NoGoingBackLevel  3 
     AntiTraits Brave
 
     Level Faltering_Courage
