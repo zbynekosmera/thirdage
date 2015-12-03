@@ -206,7 +206,7 @@ banner holy      crusade
 soldier          Varangian_Guard, 60, 0, 1
 officer	         gondor_captain_early_flag
 officer	         gondor_captain_early_flag
-mount_effect     horse +1, camel +1, elephant -4
+mount_effect     horse +1, camel +1, elephant -1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 3
@@ -278,7 +278,7 @@ banner holy      crusade
 soldier          marines, 60, 0, 1
 officer	         gondor_captain_early_flag
 officer	         gondor_captain_early_flag
-mount_effect     elephant -10
+mount_effect     elephant -1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, cannot_skirmish, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 3
@@ -458,7 +458,7 @@ banner holy      crusade
 soldier          fountain_guard, 60, 0, 1.8
 officer	         gondor_captain_early_flag
 officer	         gondor_captain_early_flag
-mount_effect     horse +3, camel +3, elephant -4
+mount_effect     horse +3, camel +3, elephant -1
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square, schiltrom
 stat_health      1, 3
@@ -639,7 +639,7 @@ banner holy      crusade
 soldier          rangers, 60, 0, 1
 officer	         gondor_captain_early_flag
 officer	         gondor_captain_early_flag
-mount_effect     elephant +3
+mount_effect     elephant +5
 attributes       sea_faring, hide_improved_forest, extreme_range, very_hardy, can_withdraw, cannot_skirmish, stakes, stakes, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 3
@@ -676,7 +676,7 @@ soldier          kofm, 30, 0, 1
 officer	         gondor_captain_early_flag
 officer	         gondor_captain_early_flag
 mount            northern heavy horse
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge
 formation        2, 4.4, 3, 6, 2, square
 stat_health      1, 3
@@ -713,7 +713,7 @@ soldier          gondor_cavalry, 30, 0, 1
 officer	         gondor_captain_early_flag
 officer	         gondor_captain_early_flag
 mount            gondor horse
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, legionary_name, can_formed_charge, knight
 formation        2, 4.4, 3, 6, 2, square
 stat_health      1, 3
@@ -750,7 +750,7 @@ soldier          swan_knights, 30, 0, 1
 officer	         gondor_captain_early_flag
 officer	         gondor_captain_early_flag
 mount            barded horse
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, knight
 formation        2, 4.4, 3, 6, 2, square, wedge
 stat_health      1, 3
@@ -785,7 +785,7 @@ banner faction   main_cavalry
 banner holy      crusade
 soldier          Gondor_Bodyguard, 12, 0, 1
 mount            gondor horse
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, knight, general_unit, free_upkeep_unit
 formation        2, 4.4, 3, 6, 2, square
 stat_health      1, 1
@@ -961,7 +961,7 @@ banner faction   main_infantry
 banner holy      crusade
 soldier          Dismounted_Huscarls, 60, 0, 1
 officer	         rohan_captain_early_flag
-mount_effect     elephant -4
+mount_effect     elephant -1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 3
@@ -1031,7 +1031,7 @@ banner faction   main_infantry
 banner holy      crusade
 soldier          Varangian_Guard, 60, 0, 1.2
 officer	         rohan_captain_early_flag
-mount_effect     horse +1, camel +1, elephant -4
+mount_effect     horse +1, camel +1, elephant -1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 3
@@ -1205,7 +1205,7 @@ banner holy      crusade
 soldier          rohan_scouts, 30, 0, 1
 officer	         rohan_captain_early_flag
 mount            northern heavy horse
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw
 formation        2, 4.4, 3, 6, 2, square
 stat_health      1, 3
@@ -1241,7 +1241,7 @@ banner holy      crusade
 soldier          rohan_rider, 36, 0, 1
 officer	         rohan_captain_early_flag
 mount            eorlingas horse
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, can_formed_charge
 formation        2, 4.4, 3, 6, 2, square
 stat_health      1, 3
@@ -1277,7 +1277,7 @@ banner holy      crusade
 soldier          rohan_mounted_archers, 30, 0, 1
 officer	         rohan_captain_early_flag
 mount            eorlingas horse
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, cannot_skirmish
 formation        2, 4.4, 3, 6, 3, square
 stat_health      1, 3
@@ -1313,7 +1313,7 @@ banner holy      crusade
 soldier          rohan_mounted_heavy_archers, 30, 0, 1
 officer	         rohan_captain_early_flag
 mount            eorlingas horse
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, cannot_skirmish
 formation        2, 4.4, 3, 6, 3, square
 stat_health      1, 3
@@ -1349,7 +1349,7 @@ banner holy      crusade
 soldier          rohirrim_riders, 30, 0, 1
 officer	         rohan_captain_early_flag
 mount            eorlingas horse
-mount_effect     horse +2, elephant -10
+mount_effect     horse +2, elephant -1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, cannot_skirmish
 formation        2, 4.4, 3, 6, 3, square
 stat_health      1, 3
@@ -1385,7 +1385,7 @@ banner holy      crusade
 soldier          eorlingas, 30, 0, 1
 officer	         rohan_captain_early_flag
 mount            eorlingas horse
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, knight
 formation        2, 4.4, 3, 6, 2, square
 stat_health      1, 3
@@ -1421,7 +1421,7 @@ banner holy      crusade
 soldier          royal_guard, 30, 0, 1
 officer	         rohan_captain_early_flag
 mount            eorlingas horse
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, knight
 formation        2, 4.4, 3, 6, 2, square
 stat_health      1, 3
@@ -1456,7 +1456,7 @@ banner faction   main_cavalry
 banner holy      crusade
 soldier          rohan_bodyguards, 15, 0, 1
 mount            eorlingas horse
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, knight, general_unit, free_upkeep_unit
 formation        2, 4.4, 3, 6, 2, square
 stat_health      1, 1
@@ -1639,7 +1639,7 @@ banner faction   main_infantry
 banner holy      crusade
 soldier          barding_hird, 48, 0, 1.2
 officer	         highel_captain_early_flag
-mount_effect     horse +6, camel +6, elephant -3
+mount_effect     horse +6, camel +6, elephant -1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 3
@@ -1781,7 +1781,7 @@ banner faction 	 main_infantry
 banner holy  	 crusade
 soldier          Dismounted_Huscarls, 48, 0, 1.2
 officer 	 highel_captain_early_flag
-mount_effect	 elephant -4
+mount_effect	 elephant -1
 attributes 	 sea_faring, hide_forest, very_hardy, can_withdraw, free_upkeep_unit
 move_speed_mod 	 1.1
 formation 	 1.2, 1.2, 2.4, 2.4, 4, square
@@ -1818,7 +1818,7 @@ banner holy      crusade
 soldier          imladris_riders, 24, 0, 1
 officer	         highel_captain_early_flag
 mount            simple horse
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, cannot_skirmish
 formation        2, 4.4, 3, 6, 3, square
 stat_health      1, 3
@@ -1854,7 +1854,7 @@ banner holy      crusade
 soldier          homeguard_cav, 24, 0, 1
 officer	         highel_captain_early_flag
 mount            simple horse
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge
 formation        2, 4.4, 3, 6, 2, square
 stat_health      1, 3
@@ -1890,7 +1890,7 @@ banner holy      crusade
 soldier          elf_lance, 24, 0, 1
 officer	         highel_captain_early_flag
 mount            simple horse
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, knight
 formation        2, 4.4, 3, 6, 2, square
 stat_health      1, 3
@@ -1925,7 +1925,7 @@ banner faction   main_cavalry
 banner holy      crusade
 soldier          Elf_Nobel_Mount, 10, 0, 1
 mount            elven horse
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, general_unit, free_upkeep_unit
 formation        2, 4.4, 3, 6, 2, square
 stat_health      1, 1
@@ -2177,7 +2177,7 @@ banner faction   main_infantry
 banner holy      crusade
 soldier          silvan_axe, 48, 0, 1
 officer          silvan_captain_early_flag
-mount_effect     horse +1, camel +1, elephant -4
+mount_effect     horse +1, camel +1, elephant -1
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 3
@@ -2284,7 +2284,7 @@ banner holy      crusade
 soldier          silvan_mounted_archers, 24, 0, 1
 officer	         silvan_captain_early_flag
 mount            simple horse
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, cannot_skirmish
 formation        2, 4.4, 3, 6, 3, square
 stat_health      1, 3
@@ -2357,7 +2357,7 @@ banner faction   main_infantry
 banner holy      crusade
 soldier          dwarven_warriors, 60, 0, 1.5
 officer          dwarf_captain_early_flag
-mount_effect     elephant -4
+mount_effect     elephant -1
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 2
@@ -2392,7 +2392,7 @@ banner faction   main_infantry
 banner holy      crusade
 soldier          dwarven_warriors, 60, 0, 1.5
 officer          dwarf_captain_early_flag
-mount_effect     elephant -4
+mount_effect     elephant -1
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall
 stat_health      1, 2
@@ -2426,7 +2426,7 @@ voice_type       Heavy
 banner faction   main_infantry
 soldier          dwarven_halberdmen, 60, 0, 1.8
 officer          dwarf_captain_early_flag
-mount_effect     elephant -3
+mount_effect     elephant +1
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, free_upkeep_unit
 move_speed_mod   1.2
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -2462,7 +2462,7 @@ banner faction   main_infantry
 banner holy      crusade
 soldier          warriors, 60, 0, 1.5
 officer          dwarf_captain_early_flag
-mount_effect     horse +1, camel +1, elephant -4
+mount_effect     horse +1, camel +1, elephant -1
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 2
@@ -2497,7 +2497,7 @@ banner faction   main_spear
 banner holy      crusade
 soldier          dwarven_pikemen, 60, 0, 2.0
 officer          dwarf_captain_early_flag
-mount_effect     elephant -1
+mount_effect     elephant +1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, pike, free_upkeep_unit
 move_speed_mod   0.7
 formation        1.2, 1.2, 2.4, 2.4, 8, square, phalanx
@@ -2568,7 +2568,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          axethrowers, 60, 0, 1.8
 officer          dwarf_captain_early_flag
-mount_effect     elephant -10
+mount_effect     elephant -1
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, cannot_skirmish, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 2
@@ -2603,7 +2603,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          dwarven_crossbowmen, 60, 0, 1.5
 officer          dwarf_captain_early_flag
-mount_effect     elephant -20
+mount_effect     elephant -2
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, stakes, stakes, crossbow, free_upkeep_unit, cannot_skirmish
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 2
@@ -2638,7 +2638,7 @@ banner faction   main_infantry
 banner holy      crusade
 soldier          warriors, 60, 0, 2.0
 officer          dwarf_captain_early_flag
-mount_effect     horse +1, camel +1, elephant -4
+mount_effect     horse +1, camel +1, elephant +1
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 2
@@ -2673,7 +2673,7 @@ banner faction   main_infantry
 banner holy      crusade
 soldier          dwarven_warriors, 60, 0, 2.0
 officer          dwarf_captain_early_flag
-mount_effect     elephant -4
+mount_effect     elephant +4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall
 stat_health      1, 2
@@ -2708,7 +2708,7 @@ banner faction   main_infantry
 banner holy      crusade
 soldier          khazad_guard, 60, 0, 2.0
 officer          dwarf_captain_early_flag
-mount_effect     elephant -4
+mount_effect     elephant -1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall
 stat_health      1, 2
@@ -2742,7 +2742,7 @@ voice_type       General
 banner faction   main_infantry
 banner holy      crusade
 soldier          bodyguard, 30, 0, 2.0
-mount_effect     elephant -4
+mount_effect     elephant -1
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall
 stat_health      1, 1
@@ -2783,7 +2783,7 @@ banner faction   main_infantry
 banner holy      crusade
 soldier          axemen, 60, 0, 1
 officer          dale_captain_early_flag
-mount_effect     elephant -4
+mount_effect     elephant -1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, no_custom
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 3
@@ -2887,7 +2887,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Afghan_Javelinmen, 60, 0, 1
 officer	         dale_captain_early_flag
-mount_effect     elephant -10
+mount_effect     elephant -1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, cannot_skirmish, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 3
@@ -2922,7 +2922,7 @@ banner faction   main_infantry
 banner holy      crusade
 soldier          dalesmen, 60, 0, 1
 officer          dale_captain_early_flag
-mount_effect     horse +1, camel +1, elephant -4
+mount_effect     horse +1, camel +1, elephant -1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 3
@@ -3026,7 +3026,7 @@ banner faction   main_infantry
 banner holy      crusade
 soldier          barding_hird, 60, 0, 1.2
 officer          dale_captain_early_flag
-mount_effect     elephant -3
+mount_effect     elephant -1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
 move_speed_mod   0.7
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -3307,7 +3307,7 @@ banner holy      crusade
 soldier          dale_yeomen, 30, 0, 1
 officer	         dale_captain_early_flag
 mount            merchant horse
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -4
 attributes       sea_faring, hide_forest, can_withdraw
 formation        2, 4.4, 3, 6, 2, square
 stat_health      1, 3
@@ -3343,7 +3343,7 @@ banner holy      crusade
 soldier          horseguards, 30, 0, 1
 officer	         dale_captain_early_flag
 mount            mailed horse2
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge
 formation        2, 4.4, 3, 6, 2, square
 stat_health      1, 3
@@ -3379,7 +3379,7 @@ banner holy      crusade
 soldier          earls, 30, 0, 1
 officer          dale_captain_early_flag
 mount            barded horse2
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge
 formation        2, 4.4, 3, 6, 3, square
 stat_health      1, 3
@@ -3522,7 +3522,7 @@ banner faction   main_infantry
 banner holy      crusade
 soldier          dalesmen, 60, 0, 1
 officer          eriador_captain_early_flag
-mount_effect     horse +1, camel +1, elephant -4
+mount_effect     horse +1, camel +1, elephant -1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 3
@@ -3837,7 +3837,7 @@ banner holy      crusade
 soldier          greenway_guards, 30, 0, 1
 officer	         eriador_captain_early_flag
 mount            northern heavy horse
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge
 formation        2, 4.4, 3, 6, 2, square
 stat_health      1, 3
@@ -3873,7 +3873,7 @@ banner holy      crusade
 soldier          merchants, 24, 0, 1
 officer	         eriador_captain_early_flag
 mount            merchant horse
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge
 formation        2, 4.4, 3, 6, 3, square
 stat_health      1, 3
@@ -3909,7 +3909,7 @@ banner holy      crusade
 soldier          mounted_br, 24, 0, 1
 officer	         eriador_captain_early_flag
 mount            northern heavy horse
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge
 formation        2, 4.4, 3, 6, 2, square, wedge
 stat_health      1, 3
@@ -3944,7 +3944,7 @@ banner faction   main_cavalry
 banner holy      crusade
 soldier          mounted_br, 10, 0, 1
 mount            northern heavy horse
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, general_unit, free_upkeep_unit
 formation        2, 4.4, 3, 6, 2, square
 stat_health      1, 1
@@ -3979,7 +3979,7 @@ banner faction   main_cavalry
 banner holy      crusade
 soldier          grey_company2, 30, 0, 1
 mount            northern heavy horse
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, free_upkeep_unit
 formation        2, 4.4, 3, 6, 3, square
 stat_health      1, 2
@@ -4237,7 +4237,7 @@ soldier          arnor_sergeants, 30, 0, 1
 officer	         arnor_captain_early_flag
 officer	         arnor_captain_early_flag
 mount            northern heavy horse
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, knight
 formation        2, 4.4, 3, 6, 2, square
 stat_health      1, 3
@@ -4274,7 +4274,7 @@ soldier          arnor_knights, 30, 0, 1
 officer	         arnor_captain_early_flag
 officer	         arnor_captain_early_flag
 mount            northern heavy horse
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge, knight
 formation        2, 4.4, 3, 6, 2, square
 stat_health      1, 3
@@ -4311,7 +4311,7 @@ soldier          dunedain_knights2, 24, 0, 1
 officer	         arnor_captain_early_flag
 officer	         arnor_captain_early_flag
 mount            barded horse3
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, knight
 formation        2, 4.4, 3, 6, 2, square, wedge
 stat_health      1, 3
@@ -4347,7 +4347,7 @@ banner faction   main_cavalry
 banner holy      crusade
 soldier          arnor_knights, 12, 0, 1
 mount            northern heavy horse
-mount_effect     elephant -4, camel -4
+mount_effect     elephant -1, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, knight, general_unit, free_upkeep_unit
 formation        2, 4.4, 3, 6, 2, square
 stat_health      1, 1
@@ -4387,7 +4387,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Afghan_Javelinmen, 60, 0, 1
 officer	         rhun_captain_early_flag
-mount_effect     elephant -10
+mount_effect     elephant -1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, cannot_skirmish, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 3
@@ -4492,7 +4492,7 @@ banner faction   main_infantry
 banner holy      crusade
 soldier          Janissary_Heavy_Inf, 60, 0, 1.2
 officer	         rhun_captain_early_flag
-mount_effect     horse +6, camel +6, elephant -3
+mount_effect     horse +6, camel +6, elephant -1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 3
@@ -4563,7 +4563,7 @@ banner faction   main_infantry
 banner holy      crusade
 soldier          Dismounted_Huscarls, 60, 0, 1.2
 officer	         rhun_captain_early_flag
-mount_effect     elephant -4
+mount_effect     elephant -1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 3
@@ -4633,7 +4633,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          crossbowmen, 60, 0, 1.2
 officer	         rhun_captain_early_flag
-mount_effect     elephant -20
+mount_effect     elephant -2
 attributes       sea_faring, hide_forest, can_withdraw, crossbow, cannot_skirmish, free_upkeep_unit
 formation        1.5, 1.5, 3.0, 3.0, 4, square
 stat_health      1, 3
@@ -4953,7 +4953,7 @@ banner faction   main_infantry
 banner holy      crusade
 soldier          Varangian_Guard, 100, 0, 1
 officer	         mordor_captain_early_flag
-mount_effect     horse +1, camel +1, elephant -4
+mount_effect     horse +1, camel +1, elephant -1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        1.5, 1.5, 3.0, 3.0, 5, square
 stat_health      1, 2
@@ -5057,7 +5057,7 @@ banner faction   main_infantry
 banner holy      crusade
 soldier          mordor_halberd, 80, 0, 1.2
 officer	         mordor_captain_early_flag
-mount_effect     elephant -3
+mount_effect     elephant -1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
 move_speed_mod   0.8
 formation        1.5, 1.5, 3.0, 3.0, 5, square
