@@ -6518,7 +6518,7 @@ stat_mental      30, disciplined, trained
 stat_charge_dist 60
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 4200, 1280, 350, 350, 4200, 1, 450
+stat_cost        1, 4600, 1400, 350, 350, 4200, 1, 450
 armour_ug_levels 1, 2, 3, 4
 armour_ug_models Elephant_Crew2, Elephant_Crew2_upg
 ownership        spain, venice
