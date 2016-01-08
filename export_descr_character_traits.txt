@@ -15796,7 +15796,7 @@ Trigger birth_with_sanitation
     Condition IsGeneral
           and FactionBuildingExists >= public_baths
 
-    Affects HaleAndHearty  1  Chance  15 
+    Affects HaleAndHearty  1  Chance  25 
 
 ;------------------------------------------
 Trigger birth_with_sanitation2
@@ -15805,7 +15805,7 @@ Trigger birth_with_sanitation2
     Condition IsGeneral
           and FactionBuildingExists >= aqueduct
 
-    Affects HaleAndHearty  1  Chance  10 
+    Affects HaleAndHearty  1  Chance  20 
 
 ;------------------------------------------
 Trigger birth_with_religious_catholic
