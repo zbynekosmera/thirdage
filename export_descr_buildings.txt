@@ -186,7 +186,7 @@ trade_base_income_bonus bonus 4
             }
             material stone
             construction  8
-            cost  7800
+            cost  8800
             settlement_min city
             upgrades
             {
@@ -215,7 +215,7 @@ trade_base_income_bonus bonus 5
             }
             material stone
             construction  10
-            cost  12000
+            cost  18000
             settlement_min large_city
             upgrades
             {
@@ -309,7 +309,7 @@ trade_base_income_bonus bonus 3
             }
             material stone
             construction  6
-            cost  4800 
+            cost  5800 
             settlement_min town
             upgrades
             {
@@ -339,7 +339,7 @@ trade_base_income_bonus bonus 4
             }
             material stone
             construction  7
-            cost  6500 
+            cost  9500 
             settlement_min large_town
             upgrades
             {
@@ -369,7 +369,7 @@ trade_base_income_bonus bonus 5
             }
             material stone
             construction  10
-            cost  12000 
+            cost  22000 
             settlement_min city
             upgrades
             {
