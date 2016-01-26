@@ -7146,7 +7146,7 @@ building professional_military
     convert_to c_professional_military
     levels military_academy officers_academy 
     {
-        military_academy castle requires factions { sicily, byzantium, turks, }  and building_present_min_level castle_barracks barracks
+        military_academy castle requires factions { sicily, byzantium, turks, }  and building_present_min_level castle_barracks barracks and event_counter dunedain_turks 1
         {
             convert_to 0
             capability
@@ -7163,7 +7163,7 @@ trade_base_income_bonus bonus 3
                 officers_academy
             }
         }
-        officers_academy castle requires factions { sicily, byzantium, turks, }  and building_present_min_level castle_barracks armoury
+        officers_academy castle requires factions { sicily, byzantium, turks, }  and building_present_min_level castle_barracks armoury and event_counter dunedain_turks 1
         {
             convert_to 1
             capability
@@ -7189,7 +7189,7 @@ building c_professional_military
     convert_to professional_military
     levels c_military_academy c_officers_academy 
     {
-        c_military_academy city requires factions { sicily, byzantium, turks, }  and building_present_min_level barracks militia_drill_square
+        c_military_academy city requires factions { sicily, byzantium, turks, }  and building_present_min_level barracks militia_drill_square and event_counter dunedain_turks 1
         {
             convert_to 0
             capability
@@ -7206,7 +7206,7 @@ trade_base_income_bonus bonus 3
                 c_officers_academy
             }
         }
-        c_officers_academy city requires factions { sicily, byzantium, turks, }  and building_present_min_level barracks militia_barracks
+        c_officers_academy city requires factions { sicily, byzantium, turks, }  and building_present_min_level barracks militia_barracks and event_counter dunedain_turks 1
         {
             convert_to 1
             capability
