@@ -8425,6 +8425,2597 @@ end_monitor
 
 ;########################### MONEY INVESTMENTS ##############################
 
+	monitor_event FactionTurnStart FactionType sicily
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 2000000
+
+		increment_kings_purse sicily 50
+		add_money sicily -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType milan
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 2000000
+
+		increment_kings_purse milan 50
+		add_money milan -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType scotland
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 2000000
+
+		increment_kings_purse scotland 50
+		add_money scotland -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType moors
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 2000000
+
+		increment_kings_purse moors 50
+		add_money moors -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 2000000
+
+		increment_kings_purse turks 50
+		add_money turks -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 2000000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 2000000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 2000000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 2000000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 2000000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 2000000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 2000000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 2000000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType england
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 2000000
+
+		increment_kings_purse england 50
+		add_money england -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType france
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 2000000
+
+		increment_kings_purse france 50
+		add_money france -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType hre
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 2000000
+
+		increment_kings_purse hre 50
+		add_money hre -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType portugal
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 2000000
+
+		increment_kings_purse portugal 50
+		add_money portugal -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType spain
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 2000000
+
+		increment_kings_purse spain 50
+		add_money spain -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType venice
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 2000000
+
+		increment_kings_purse venice 50
+		add_money venice -5000
+	end_monitor
+
+
+
+	monitor_event FactionTurnStart FactionType sicily
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1900000
+
+		increment_kings_purse sicily 50
+		add_money sicily -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType milan
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1900000
+
+		increment_kings_purse milan 50
+		add_money milan -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType scotland
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1900000
+
+		increment_kings_purse scotland 50
+		add_money scotland -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType moors
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1900000
+
+		increment_kings_purse moors 50
+		add_money moors -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1900000
+
+		increment_kings_purse turks 50
+		add_money turks -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1900000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1900000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1900000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1900000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1900000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1900000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1900000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1900000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType england
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1900000
+
+		increment_kings_purse england 50
+		add_money england -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType france
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1900000
+
+		increment_kings_purse france 50
+		add_money france -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType hre
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1900000
+
+		increment_kings_purse hre 50
+		add_money hre -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType portugal
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1900000
+
+		increment_kings_purse portugal 50
+		add_money portugal -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType spain
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1900000
+
+		increment_kings_purse spain 50
+		add_money spain -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType venice
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1900000
+
+		increment_kings_purse venice 50
+		add_money venice -5000
+	end_monitor
+
+
+
+	monitor_event FactionTurnStart FactionType sicily
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1800000
+
+		increment_kings_purse sicily 50
+		add_money sicily -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType milan
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1800000
+
+		increment_kings_purse milan 50
+		add_money milan -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType scotland
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1800000
+
+		increment_kings_purse scotland 50
+		add_money scotland -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType moors
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1800000
+
+		increment_kings_purse moors 50
+		add_money moors -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1800000
+
+		increment_kings_purse turks 50
+		add_money turks -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1800000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1800000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1800000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1800000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1800000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1800000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1800000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1800000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType england
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1800000
+
+		increment_kings_purse england 50
+		add_money england -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType france
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1800000
+
+		increment_kings_purse france 50
+		add_money france -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType hre
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1800000
+
+		increment_kings_purse hre 50
+		add_money hre -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType portugal
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1800000
+
+		increment_kings_purse portugal 50
+		add_money portugal -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType spain
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1800000
+
+		increment_kings_purse spain 50
+		add_money spain -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType venice
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1800000
+
+		increment_kings_purse venice 50
+		add_money venice -5000
+	end_monitor
+
+
+
+	monitor_event FactionTurnStart FactionType sicily
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1700000
+
+		increment_kings_purse sicily 50
+		add_money sicily -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType milan
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1700000
+
+		increment_kings_purse milan 50
+		add_money milan -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType scotland
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1700000
+
+		increment_kings_purse scotland 50
+		add_money scotland -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType moors
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1700000
+
+		increment_kings_purse moors 50
+		add_money moors -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1700000
+
+		increment_kings_purse turks 50
+		add_money turks -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1700000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1700000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1700000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1700000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1700000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1700000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1700000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1700000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType england
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1700000
+
+		increment_kings_purse england 50
+		add_money england -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType france
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1700000
+
+		increment_kings_purse france 50
+		add_money france -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType hre
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1700000
+
+		increment_kings_purse hre 50
+		add_money hre -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType portugal
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1700000
+
+		increment_kings_purse portugal 50
+		add_money portugal -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType spain
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1700000
+
+		increment_kings_purse spain 50
+		add_money spain -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType venice
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1700000
+
+		increment_kings_purse venice 50
+		add_money venice -5000
+	end_monitor
+
+
+
+	monitor_event FactionTurnStart FactionType sicily
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1600000
+
+		increment_kings_purse sicily 50
+		add_money sicily -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType milan
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1600000
+
+		increment_kings_purse milan 50
+		add_money milan -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType scotland
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1600000
+
+		increment_kings_purse scotland 50
+		add_money scotland -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType moors
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1600000
+
+		increment_kings_purse moors 50
+		add_money moors -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1600000
+
+		increment_kings_purse turks 50
+		add_money turks -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1600000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1600000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1600000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1600000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1600000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1600000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1600000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1600000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType england
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1600000
+
+		increment_kings_purse england 50
+		add_money england -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType france
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1600000
+
+		increment_kings_purse france 50
+		add_money france -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType hre
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1600000
+
+		increment_kings_purse hre 50
+		add_money hre -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType portugal
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1600000
+
+		increment_kings_purse portugal 50
+		add_money portugal -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType spain
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1600000
+
+		increment_kings_purse spain 50
+		add_money spain -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType venice
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1600000
+
+		increment_kings_purse venice 50
+		add_money venice -5000
+	end_monitor
+
+
+
+	monitor_event FactionTurnStart FactionType sicily
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1500000
+
+		increment_kings_purse sicily 50
+		add_money sicily -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType milan
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1500000
+
+		increment_kings_purse milan 50
+		add_money milan -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType scotland
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1500000
+
+		increment_kings_purse scotland 50
+		add_money scotland -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType moors
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1500000
+
+		increment_kings_purse moors 50
+		add_money moors -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1500000
+
+		increment_kings_purse turks 50
+		add_money turks -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1500000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1500000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1500000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1500000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1500000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1500000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1500000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1500000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType england
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1500000
+
+		increment_kings_purse england 50
+		add_money england -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType france
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1500000
+
+		increment_kings_purse france 50
+		add_money france -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType hre
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1500000
+
+		increment_kings_purse hre 50
+		add_money hre -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType portugal
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1500000
+
+		increment_kings_purse portugal 50
+		add_money portugal -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType spain
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1500000
+
+		increment_kings_purse spain 50
+		add_money spain -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType venice
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1500000
+
+		increment_kings_purse venice 50
+		add_money venice -5000
+	end_monitor
+
+
+
+	monitor_event FactionTurnStart FactionType sicily
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1400000
+
+		increment_kings_purse sicily 50
+		add_money sicily -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType milan
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1400000
+
+		increment_kings_purse milan 50
+		add_money milan -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType scotland
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1400000
+
+		increment_kings_purse scotland 50
+		add_money scotland -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType moors
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1400000
+
+		increment_kings_purse moors 50
+		add_money moors -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1400000
+
+		increment_kings_purse turks 50
+		add_money turks -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1400000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1400000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1400000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1400000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1400000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1400000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1400000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1400000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType england
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1400000
+
+		increment_kings_purse england 50
+		add_money england -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType france
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1400000
+
+		increment_kings_purse france 50
+		add_money france -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType hre
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1400000
+
+		increment_kings_purse hre 50
+		add_money hre -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType portugal
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1400000
+
+		increment_kings_purse portugal 50
+		add_money portugal -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType spain
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1400000
+
+		increment_kings_purse spain 50
+		add_money spain -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType venice
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1400000
+
+		increment_kings_purse venice 50
+		add_money venice -5000
+	end_monitor
+
+
+
+	monitor_event FactionTurnStart FactionType sicily
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1300000
+
+		increment_kings_purse sicily 50
+		add_money sicily -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType milan
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1300000
+
+		increment_kings_purse milan 50
+		add_money milan -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType scotland
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1300000
+
+		increment_kings_purse scotland 50
+		add_money scotland -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType moors
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1300000
+
+		increment_kings_purse moors 50
+		add_money moors -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1300000
+
+		increment_kings_purse turks 50
+		add_money turks -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1300000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1300000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1300000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1300000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1300000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1300000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1300000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1300000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType england
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1300000
+
+		increment_kings_purse england 50
+		add_money england -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType france
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1300000
+
+		increment_kings_purse france 50
+		add_money france -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType hre
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1300000
+
+		increment_kings_purse hre 50
+		add_money hre -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType portugal
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1300000
+
+		increment_kings_purse portugal 50
+		add_money portugal -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType spain
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1300000
+
+		increment_kings_purse spain 50
+		add_money spain -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType venice
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1300000
+
+		increment_kings_purse venice 50
+		add_money venice -5000
+	end_monitor
+
+
+
+	monitor_event FactionTurnStart FactionType sicily
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1200000
+
+		increment_kings_purse sicily 50
+		add_money sicily -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType milan
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1200000
+
+		increment_kings_purse milan 50
+		add_money milan -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType scotland
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1200000
+
+		increment_kings_purse scotland 50
+		add_money scotland -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType moors
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1200000
+
+		increment_kings_purse moors 50
+		add_money moors -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1200000
+
+		increment_kings_purse turks 50
+		add_money turks -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1200000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1200000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1200000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1200000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1200000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1200000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1200000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1200000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType england
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1200000
+
+		increment_kings_purse england 50
+		add_money england -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType france
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1200000
+
+		increment_kings_purse france 50
+		add_money france -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType hre
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1200000
+
+		increment_kings_purse hre 50
+		add_money hre -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType portugal
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1200000
+
+		increment_kings_purse portugal 50
+		add_money portugal -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType spain
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1200000
+
+		increment_kings_purse spain 50
+		add_money spain -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType venice
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1200000
+
+		increment_kings_purse venice 50
+		add_money venice -5000
+	end_monitor
+
+
+
+	monitor_event FactionTurnStart FactionType sicily
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1100000
+
+		increment_kings_purse sicily 50
+		add_money sicily -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType milan
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1100000
+
+		increment_kings_purse milan 50
+		add_money milan -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType scotland
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1100000
+
+		increment_kings_purse scotland 50
+		add_money scotland -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType moors
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1100000
+
+		increment_kings_purse moors 50
+		add_money moors -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1100000
+
+		increment_kings_purse turks 50
+		add_money turks -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1100000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1100000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1100000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1100000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1100000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1100000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1100000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1100000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType england
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1100000
+
+		increment_kings_purse england 50
+		add_money england -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType france
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1100000
+
+		increment_kings_purse france 50
+		add_money france -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType hre
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1100000
+
+		increment_kings_purse hre 50
+		add_money hre -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType portugal
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1100000
+
+		increment_kings_purse portugal 50
+		add_money portugal -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType spain
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1100000
+
+		increment_kings_purse spain 50
+		add_money spain -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType venice
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1100000
+
+		increment_kings_purse venice 50
+		add_money venice -5000
+	end_monitor
+
+
+
+	monitor_event FactionTurnStart FactionType sicily
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1000000
+
+		increment_kings_purse sicily 50
+		add_money sicily -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType milan
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1000000
+
+		increment_kings_purse milan 50
+		add_money milan -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType scotland
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1000000
+
+		increment_kings_purse scotland 50
+		add_money scotland -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType moors
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1000000
+
+		increment_kings_purse moors 50
+		add_money moors -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1000000
+
+		increment_kings_purse turks 50
+		add_money turks -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1000000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1000000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1000000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1000000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1000000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1000000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1000000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1000000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType england
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1000000
+
+		increment_kings_purse england 50
+		add_money england -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType france
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1000000
+
+		increment_kings_purse france 50
+		add_money france -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType hre
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1000000
+
+		increment_kings_purse hre 50
+		add_money hre -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType portugal
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1000000
+
+		increment_kings_purse portugal 50
+		add_money portugal -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType spain
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1000000
+
+		increment_kings_purse spain 50
+		add_money spain -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType venice
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 1000000
+
+		increment_kings_purse venice 50
+		add_money venice -5000
+	end_monitor
+
+
+
+	monitor_event FactionTurnStart FactionType sicily
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 900000
+
+		increment_kings_purse sicily 50
+		add_money sicily -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType milan
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 900000
+
+		increment_kings_purse milan 50
+		add_money milan -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType scotland
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 900000
+
+		increment_kings_purse scotland 50
+		add_money scotland -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType moors
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 900000
+
+		increment_kings_purse moors 50
+		add_money moors -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 900000
+
+		increment_kings_purse turks 50
+		add_money turks -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 900000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 900000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 900000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 900000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 900000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 900000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 900000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 900000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType england
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 900000
+
+		increment_kings_purse england 50
+		add_money england -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType france
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 900000
+
+		increment_kings_purse france 50
+		add_money france -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType hre
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 900000
+
+		increment_kings_purse hre 50
+		add_money hre -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType portugal
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 900000
+
+		increment_kings_purse portugal 50
+		add_money portugal -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType spain
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 900000
+
+		increment_kings_purse spain 50
+		add_money spain -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType venice
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 900000
+
+		increment_kings_purse venice 50
+		add_money venice -5000
+	end_monitor
+
+
+
+	monitor_event FactionTurnStart FactionType sicily
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 800000
+
+		increment_kings_purse sicily 50
+		add_money sicily -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType milan
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 800000
+
+		increment_kings_purse milan 50
+		add_money milan -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType scotland
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 800000
+
+		increment_kings_purse scotland 50
+		add_money scotland -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType moors
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 800000
+
+		increment_kings_purse moors 50
+		add_money moors -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 800000
+
+		increment_kings_purse turks 50
+		add_money turks -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 800000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 800000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 800000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 800000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 800000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 800000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 800000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 800000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType england
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 800000
+
+		increment_kings_purse england 50
+		add_money england -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType france
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 800000
+
+		increment_kings_purse france 50
+		add_money france -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType hre
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 800000
+
+		increment_kings_purse hre 50
+		add_money hre -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType portugal
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 800000
+
+		increment_kings_purse portugal 50
+		add_money portugal -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType spain
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 800000
+
+		increment_kings_purse spain 50
+		add_money spain -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType venice
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 800000
+
+		increment_kings_purse venice 50
+		add_money venice -5000
+	end_monitor
+
+
+	monitor_event FactionTurnStart FactionType sicily
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 700000
+
+		increment_kings_purse sicily 50
+		add_money sicily -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType milan
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 700000
+
+		increment_kings_purse milan 50
+		add_money milan -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType scotland
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 700000
+
+		increment_kings_purse scotland 50
+		add_money scotland -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType moors
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 700000
+
+		increment_kings_purse moors 50
+		add_money moors -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 700000
+
+		increment_kings_purse turks 50
+		add_money turks -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 700000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 700000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 700000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 700000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 700000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 700000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 700000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 700000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType england
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 700000
+
+		increment_kings_purse england 50
+		add_money england -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType france
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 700000
+
+		increment_kings_purse france 50
+		add_money france -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType hre
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 700000
+
+		increment_kings_purse hre 50
+		add_money hre -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType portugal
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 700000
+
+		increment_kings_purse portugal 50
+		add_money portugal -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType spain
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 700000
+
+		increment_kings_purse spain 50
+		add_money spain -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType venice
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 700000
+
+		increment_kings_purse venice 50
+		add_money venice -5000
+	end_monitor
+
+
+	monitor_event FactionTurnStart FactionType sicily
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 600000
+
+		increment_kings_purse sicily 50
+		add_money sicily -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType milan
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 600000
+
+		increment_kings_purse milan 50
+		add_money milan -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType scotland
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 600000
+
+		increment_kings_purse scotland 50
+		add_money scotland -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType moors
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 600000
+
+		increment_kings_purse moors 50
+		add_money moors -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType turks
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 600000
+
+		increment_kings_purse turks 50
+		add_money turks -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 600000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 600000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 600000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType egypt
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 600000
+
+		increment_kings_purse egypt 50
+		add_money egypt -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 600000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 600000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 600000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType mongols
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 600000
+
+		increment_kings_purse mongols 50
+		add_money mongols -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType england
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 600000
+
+		increment_kings_purse england 50
+		add_money england -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType france
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 600000
+
+		increment_kings_purse france 50
+		add_money france -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType hre
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 600000
+
+		increment_kings_purse hre 50
+		add_money hre -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType portugal
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 600000
+
+		increment_kings_purse portugal 50
+		add_money portugal -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType spain
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 600000
+
+		increment_kings_purse spain 50
+		add_money spain -5000
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType venice
+		and I_TurnNumber > 0
+		and not IsFactionAIControlled
+		and Treasury > 600000
+
+		increment_kings_purse venice 50
+		add_money venice -5000
+	end_monitor
+
 
 	monitor_event FactionTurnStart FactionType england
 		and I_TurnNumber > 0
