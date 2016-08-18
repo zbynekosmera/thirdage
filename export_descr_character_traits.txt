@@ -1571,8 +1571,9 @@ Trait Elrohir
         Threshold  1 
 
         Effect HitPoints 5
+        Effect Command 1
         Effect Chivalry 2
-        Effect Loyalty 2
+        Effect Loyalty 3
         Effect Authority 1
         Effect PersonalSecurity 1
         Effect Level 5 
