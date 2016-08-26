@@ -1305,6 +1305,10 @@ settlement ;DONE
 	}
 	building
 	{
+		type missiles bowyer
+	}
+	building
+	{
 		type academic alchemists_lab
 	}
 	building
@@ -1352,6 +1356,10 @@ settlement ;DONE
 	}
 	building
 	{
+		type missiles bowyer
+	}
+	building
+	{
 		type taverns inn
 	}
 	building
@@ -1389,6 +1397,10 @@ settlement ;DONE
 	{
 		type hinterland_farms farms
 	}
+	building
+	{
+		type missiles bowyer
+	}
 }
 
 settlement ;DONE
@@ -1411,6 +1423,10 @@ settlement ;DONE
 	building
 	{
 		type barracks town_watch
+	}
+	building
+	{
+		type missiles bowyer
 	}
 }
 
