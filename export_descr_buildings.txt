@@ -6530,42 +6530,42 @@ building siege
             capability
             {
 trade_base_income_bonus bonus 1
-                recruit_pool "Elves Ballista"  1   0.10   2  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource forest
-                recruit_pool "Elves Ballista"  1   0.07   1  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource grasland
-                recruit_pool "Elves Ballista"  1   0.05   1  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
-                recruit_pool "High Elves Ballista"  1   0.10   2  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource forest
-                recruit_pool "High Elves Ballista"  1   0.07   1  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource grasland
-                recruit_pool "High Elves Ballista"  1   0.05   1  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
-                recruit_pool "Dwarf Ballista"  1   0.12   2  0  requires factions { moors, }  and region_religion islam  25 and hidden_resource mountains
-                recruit_pool "Dwarf Ballista"  1   0.08   1  0  requires factions { moors, }  and region_religion islam  25 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Dwarf Ballista"  1   0.06   1  0  requires factions { moors, }  and region_religion islam  25 and hidden_resource desert
-                recruit_pool "Gondor Ballista"  1   0.12   2  0  requires factions { sicily, }  and region_religion numenorian 25 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Gondor Ballista"  1   0.08   1  0  requires factions { sicily, }  and region_religion numenorian 25 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Harad Ballista"  1   0.12   2  0  requires factions { spain, }  and region_religion catholic 25 and hidden_resource desert or hidden_resource grasland
-                recruit_pool "Harad Ballista"  1   0.08   1  0  requires factions { spain, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource mountains
-                recruit_pool "Rhun Ballista"  1   0.12   2  0  requires factions { venice, }  and region_religion catholic 25 and hidden_resource desert or hidden_resource grasland
-                recruit_pool "Rhun Ballista"  1   0.08   1  0  requires factions { venice, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource mountains
-                recruit_pool "Dale Ballista"  1   0.12   2  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Dale Ballista"  1   0.08   1  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Rohan Ballista"  1   0.12   2  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Rohan Ballista"  1   0.08   1  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Eriador Ballista"  1   0.12   2  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource forest
-                recruit_pool "Eriador Ballista"  1   0.12   2  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource grasland
-                recruit_pool "Eriador Ballista"  1   0.08   1  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource desert
-                recruit_pool "Eriador Ballista"  1   0.08   1  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource mountains
-                recruit_pool "Arnor Ballista"  1   0.12   2  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource forest
-                recruit_pool "Arnor Ballista"  1   0.12   2  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource grasland
-                recruit_pool "Arnor Ballista"  1   0.08   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource desert
-                recruit_pool "Arnor Ballista"  1   0.08   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource mountains
-                recruit_pool "Mordor Ballista"  1   0.12   2  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource mountains
-                recruit_pool "Mordor Ballista"  1   0.08   1  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource grasland
-                recruit_pool "Mordor Ballista"  1   0.06   1  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
-                recruit_pool "Isengard Ballista"  1   0.12   2  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource mountains
-                recruit_pool "Isengard Ballista"  1   0.08   1  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource grasland
-                recruit_pool "Isengard Ballista"  1   0.06   1  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
-                recruit_pool "Orcs Ballista"  1   0.12   2  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource mountains
-                recruit_pool "Orcs Ballista"  1   0.08   1  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource grasland
-                recruit_pool "Orcs Ballista"  1   0.06   1  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
+                recruit_pool "Elves Ballista"  1   0.10   3  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource forest
+                recruit_pool "Elves Ballista"  1   0.07   3  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource grasland
+                recruit_pool "Elves Ballista"  1   0.05   3  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
+                recruit_pool "High Elves Ballista"  1   0.10   3  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource forest
+                recruit_pool "High Elves Ballista"  1   0.07   3  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource grasland
+                recruit_pool "High Elves Ballista"  1   0.05   3  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
+                recruit_pool "Dwarf Ballista"  1   0.12   3  0  requires factions { moors, }  and region_religion islam  25 and hidden_resource mountains
+                recruit_pool "Dwarf Ballista"  1   0.08   3  0  requires factions { moors, }  and region_religion islam  25 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Dwarf Ballista"  1   0.06   3  0  requires factions { moors, }  and region_religion islam  25 and hidden_resource desert
+                recruit_pool "Gondor Ballista"  1   0.12   3  0  requires factions { sicily, }  and region_religion numenorian 25 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Gondor Ballista"  1   0.08   3  0  requires factions { sicily, }  and region_religion numenorian 25 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Harad Ballista"  1   0.12   3  0  requires factions { spain, }  and region_religion catholic 25 and hidden_resource desert or hidden_resource grasland
+                recruit_pool "Harad Ballista"  1   0.08   3  0  requires factions { spain, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource mountains
+                recruit_pool "Rhun Ballista"  1   0.12   3  0  requires factions { venice, }  and region_religion catholic 25 and hidden_resource desert or hidden_resource grasland
+                recruit_pool "Rhun Ballista"  1   0.08   3  0  requires factions { venice, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource mountains
+                recruit_pool "Dale Ballista"  1   0.12   3  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Dale Ballista"  1   0.08   3  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Rohan Ballista"  1   0.12   3  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Rohan Ballista"  1   0.08   3  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Eriador Ballista"  1   0.12   3  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource forest
+                recruit_pool "Eriador Ballista"  1   0.12   3  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource grasland
+                recruit_pool "Eriador Ballista"  1   0.08   3  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource desert
+                recruit_pool "Eriador Ballista"  1   0.08   3  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource mountains
+                recruit_pool "Arnor Ballista"  1   0.12   3  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource forest
+                recruit_pool "Arnor Ballista"  1   0.12   3  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource grasland
+                recruit_pool "Arnor Ballista"  1   0.08   3  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource desert
+                recruit_pool "Arnor Ballista"  1   0.08   3  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource mountains
+                recruit_pool "Mordor Ballista"  1   0.12   3  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource mountains
+                recruit_pool "Mordor Ballista"  1   0.08   3  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource grasland
+                recruit_pool "Mordor Ballista"  1   0.06   3  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
+                recruit_pool "Isengard Ballista"  1   0.12   3  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource mountains
+                recruit_pool "Isengard Ballista"  1   0.08   3  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource grasland
+                recruit_pool "Isengard Ballista"  1   0.06   3  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
+                recruit_pool "Orcs Ballista"  1   0.12   3  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource mountains
+                recruit_pool "Orcs Ballista"  1   0.08   3  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource grasland
+                recruit_pool "Orcs Ballista"  1   0.06   3  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
             }
             material wooden
             construction  4
@@ -6582,76 +6582,76 @@ trade_base_income_bonus bonus 1
             capability
             {
 trade_base_income_bonus bonus 2
-                recruit_pool "Elves Ballista"  1   0.08   1  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource forest
-                recruit_pool "Elves Ballista"  1   0.06   1  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource grasland
-                recruit_pool "Elves Ballista"  1   0.04   1  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
-                recruit_pool "High Elves Ballista"  1   0.08   1  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource forest
-                recruit_pool "High Elves Ballista"  1   0.06   1  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource grasland
-                recruit_pool "High Elves Ballista"  1   0.04   1  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
-                recruit_pool "Elves Catapult"  1   0.10   2  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource forest
-                recruit_pool "Elves Catapult"  1   0.07   1  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource grasland
-                recruit_pool "Elves Catapult"  1   0.05   1  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
-                recruit_pool "High Elves Catapult"  1   0.10   2  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource forest
-                recruit_pool "High Elves Catapult"  1   0.07   1  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource grasland
-                recruit_pool "High Elves Catapult"  1   0.05   1  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
-                recruit_pool "Dwarf Ballista"  1   0.08   1  0  requires factions { moors, }  and region_religion islam 25 and hidden_resource mountains
-                recruit_pool "Dwarf Ballista"  1   0.06   1  0  requires factions { moors, }  and region_religion islam 25 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Dwarf Ballista"  1   0.04   1  0  requires factions { moors, }  and region_religion islam 25 and hidden_resource desert
-                recruit_pool "Dwarf Catapult"  1   0.12   2  0  requires factions { moors, }  and region_religion islam 33 and hidden_resource mountains
-                recruit_pool "Dwarf Catapult"  1   0.08   1  0  requires factions { moors, }  and region_religion islam 33 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Dwarf Catapult"  1   0.06   1  0  requires factions { moors, }  and region_religion islam 33 and hidden_resource desert
-                recruit_pool "Gondor Catapult"  1   0.12   2  0  requires factions { sicily, }  and region_religion numenorian 33 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Gondor Catapult"  1   0.08   1  0  requires factions { sicily, }  and region_religion numenorian 33 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Harad Catapult"  1   0.12   2  0  requires factions { spain, }  and region_religion catholic 33 and hidden_resource desert or hidden_resource grasland
-                recruit_pool "Harad Catapult"  1   0.08   1  0  requires factions { spain, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource mountains
-                recruit_pool "Rhun Catapult"  1   0.12   2  0  requires factions { venice, }  and region_religion catholic 33 and hidden_resource desert or hidden_resource grasland
-                recruit_pool "Rhun Catapult"  1   0.08   1  0  requires factions { venice, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource mountains
-                recruit_pool "Dale Catapult"  1   0.12   2  0  requires factions { scotland, }  and region_religion northmen 33 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Dale Catapult"  1   0.08   1  0  requires factions { scotland, }  and region_religion northmen 33 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Rohan Catapult"  1   0.12   2  0  requires factions { milan, }  and region_religion northmen 33 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Rohan Catapult"  1   0.08   1  0  requires factions { milan, }  and region_religion northmen 33 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Gondor Ballista"  1   0.08   1  0  requires factions { sicily, }  and region_religion numenorian 25 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Gondor Ballista"  1   0.06   1  0  requires factions { sicily, }  and region_religion numenorian 25 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Harad Ballista"  1   0.08   1  0  requires factions { spain, }  and region_religion catholic 25 and hidden_resource desert or hidden_resource grasland
-                recruit_pool "Harad Ballista"  1   0.06   1  0  requires factions { spain, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource mountains
-                recruit_pool "Rhun Ballista"  1   0.08   1  0  requires factions { venice, }  and region_religion catholic 25 and hidden_resource desert or hidden_resource grasland
-                recruit_pool "Rhun Ballista"  1   0.06   1  0  requires factions { venice, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource mountains
-                recruit_pool "Dale Ballista"  1   0.08   1  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Dale Ballista"  1   0.06   1  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Rohan Ballista"  1   0.08   1  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Rohan Ballista"  1   0.06   1  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Eriador Ballista"  1   0.08   1  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource forest
-                recruit_pool "Eriador Ballista"  1   0.08   1  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource grasland
-                recruit_pool "Eriador Ballista"  1   0.06   1  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource desert
-                recruit_pool "Eriador Ballista"  1   0.06   1  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource mountains
-                recruit_pool "Eriador Catapult"  1   0.12   2  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource forest
-                recruit_pool "Eriador Catapult"  1   0.12   2  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource grasland
-                recruit_pool "Eriador Catapult"  1   0.08   1  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource desert
-                recruit_pool "Eriador Catapult"  1   0.08   1  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource mountains
-                recruit_pool "Arnor Ballista"  1   0.08   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource forest
-                recruit_pool "Arnor Ballista"  1   0.08   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource grasland
-                recruit_pool "Arnor Ballista"  1   0.06   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource desert
-                recruit_pool "Arnor Ballista"  1   0.06   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource mountains
-                recruit_pool "Arnor Catapult"  1   0.12   2  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource forest
-                recruit_pool "Arnor Catapult"  1   0.12   2  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource grasland
-                recruit_pool "Arnor Catapult"  1   0.08   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource desert
-                recruit_pool "Arnor Catapult"  1   0.08   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource mountains
-                recruit_pool "Mordor Ballista"  1   0.08   1  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource mountains
-                recruit_pool "Mordor Ballista"  1   0.06   1  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource grasland
-                recruit_pool "Mordor Ballista"  1   0.04   1  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
-                recruit_pool "Isengard Ballista"  1   0.08   1  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource mountains
-                recruit_pool "Isengard Ballista"  1   0.06   1  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource grasland
-                recruit_pool "Isengard Ballista"  1   0.04   1  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
-                recruit_pool "Orcs Ballista"  1   0.08   1  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource mountains
-                recruit_pool "Orcs Ballista"  1   0.06   1  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource grasland
-                recruit_pool "Orcs Ballista"  1   0.04   1  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
-                recruit_pool "Mordor Catapult"  1   0.08   1  0  requires factions { england, }  and hidden_resource trolls
-                recruit_pool "Isengard Catapult"  1   0.12   2  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource mountains
-                recruit_pool "Isengard Catapult"  1   0.08   1  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource grasland
-                recruit_pool "Isengard Catapult"  1   0.06   1  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource desert
-                recruit_pool "Orcs Catapult"  1   0.12   2  0  requires factions { hre, portugal, england, }  and region_religion catholic 33 and hidden_resource mountains
-                recruit_pool "Orcs Catapult"  1   0.08   1  0  requires factions { hre, portugal, england, }  and region_religion catholic 33 and hidden_resource grasland
-                recruit_pool "Orcs Catapult"  1   0.06   1  0  requires factions { hre, portugal, england, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource desert
+                recruit_pool "Elves Ballista"  1   0.08   4  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource forest
+                recruit_pool "Elves Ballista"  1   0.06   4  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource grasland
+                recruit_pool "Elves Ballista"  1   0.04   4  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
+                recruit_pool "High Elves Ballista"  1   0.08   4  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource forest
+                recruit_pool "High Elves Ballista"  1   0.06   4  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource grasland
+                recruit_pool "High Elves Ballista"  1   0.04   4  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
+                recruit_pool "Elves Catapult"  1   0.10   4  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource forest
+                recruit_pool "Elves Catapult"  1   0.07   4  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource grasland
+                recruit_pool "Elves Catapult"  1   0.05   4  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
+                recruit_pool "High Elves Catapult"  1   0.10   4  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource forest
+                recruit_pool "High Elves Catapult"  1   0.07   4  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource grasland
+                recruit_pool "High Elves Catapult"  1   0.05   4  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
+                recruit_pool "Dwarf Ballista"  1   0.08   4  0  requires factions { moors, }  and region_religion islam 25 and hidden_resource mountains
+                recruit_pool "Dwarf Ballista"  1   0.06   4  0  requires factions { moors, }  and region_religion islam 25 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Dwarf Ballista"  1   0.04   4  0  requires factions { moors, }  and region_religion islam 25 and hidden_resource desert
+                recruit_pool "Dwarf Catapult"  1   0.12   4  0  requires factions { moors, }  and region_religion islam 33 and hidden_resource mountains
+                recruit_pool "Dwarf Catapult"  1   0.08   4  0  requires factions { moors, }  and region_religion islam 33 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Dwarf Catapult"  1   0.06   4  0  requires factions { moors, }  and region_religion islam 33 and hidden_resource desert
+                recruit_pool "Gondor Catapult"  1   0.12   4  0  requires factions { sicily, }  and region_religion numenorian 33 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Gondor Catapult"  1   0.08   4  0  requires factions { sicily, }  and region_religion numenorian 33 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Harad Catapult"  1   0.12   4  0  requires factions { spain, }  and region_religion catholic 33 and hidden_resource desert or hidden_resource grasland
+                recruit_pool "Harad Catapult"  1   0.08   4  0  requires factions { spain, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource mountains
+                recruit_pool "Rhun Catapult"  1   0.12   4  0  requires factions { venice, }  and region_religion catholic 33 and hidden_resource desert or hidden_resource grasland
+                recruit_pool "Rhun Catapult"  1   0.08   4  0  requires factions { venice, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource mountains
+                recruit_pool "Dale Catapult"  1   0.12   4  0  requires factions { scotland, }  and region_religion northmen 33 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Dale Catapult"  1   0.08   4  0  requires factions { scotland, }  and region_religion northmen 33 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Rohan Catapult"  1   0.12   4  0  requires factions { milan, }  and region_religion northmen 33 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Rohan Catapult"  1   0.08   4  0  requires factions { milan, }  and region_religion northmen 33 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Gondor Ballista"  1   0.08   4  0  requires factions { sicily, }  and region_religion numenorian 25 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Gondor Ballista"  1   0.06   4  0  requires factions { sicily, }  and region_religion numenorian 25 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Harad Ballista"  1   0.08   4  0  requires factions { spain, }  and region_religion catholic 25 and hidden_resource desert or hidden_resource grasland
+                recruit_pool "Harad Ballista"  1   0.06   4  0  requires factions { spain, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource mountains
+                recruit_pool "Rhun Ballista"  1   0.08   4  0  requires factions { venice, }  and region_religion catholic 25 and hidden_resource desert or hidden_resource grasland
+                recruit_pool "Rhun Ballista"  1   0.06   4  0  requires factions { venice, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource mountains
+                recruit_pool "Dale Ballista"  1   0.08   4  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Dale Ballista"  1   0.06   4  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Rohan Ballista"  1   0.08   4  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Rohan Ballista"  1   0.06   4  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Eriador Ballista"  1   0.08   4  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource forest
+                recruit_pool "Eriador Ballista"  1   0.08   4  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource grasland
+                recruit_pool "Eriador Ballista"  1   0.06   4  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource desert
+                recruit_pool "Eriador Ballista"  1   0.06   4  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource mountains
+                recruit_pool "Eriador Catapult"  1   0.12   4  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource forest
+                recruit_pool "Eriador Catapult"  1   0.12   4  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource grasland
+                recruit_pool "Eriador Catapult"  1   0.08   4  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource desert
+                recruit_pool "Eriador Catapult"  1   0.08   4  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource mountains
+                recruit_pool "Arnor Ballista"  1   0.08   4  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource forest
+                recruit_pool "Arnor Ballista"  1   0.08   4  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource grasland
+                recruit_pool "Arnor Ballista"  1   0.06   4  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource desert
+                recruit_pool "Arnor Ballista"  1   0.06   4  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource mountains
+                recruit_pool "Arnor Catapult"  1   0.12   4  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource forest
+                recruit_pool "Arnor Catapult"  1   0.12   4  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource grasland
+                recruit_pool "Arnor Catapult"  1   0.08   4  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource desert
+                recruit_pool "Arnor Catapult"  1   0.08   4  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource mountains
+                recruit_pool "Mordor Ballista"  1   0.08   4  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource mountains
+                recruit_pool "Mordor Ballista"  1   0.06   4  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource grasland
+                recruit_pool "Mordor Ballista"  1   0.04   4  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
+                recruit_pool "Isengard Ballista"  1   0.08   4  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource mountains
+                recruit_pool "Isengard Ballista"  1   0.06   4  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource grasland
+                recruit_pool "Isengard Ballista"  1   0.04   4  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
+                recruit_pool "Orcs Ballista"  1   0.08   4  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource mountains
+                recruit_pool "Orcs Ballista"  1   0.06   4  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource grasland
+                recruit_pool "Orcs Ballista"  1   0.04   4  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
+                recruit_pool "Mordor Catapult"  1   0.08   4  0  requires factions { england, }  and hidden_resource trolls
+                recruit_pool "Isengard Catapult"  1   0.12   4  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource mountains
+                recruit_pool "Isengard Catapult"  1   0.08   4  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource grasland
+                recruit_pool "Isengard Catapult"  1   0.06   4  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource desert
+                recruit_pool "Orcs Catapult"  1   0.12   4  0  requires factions { hre, portugal, england, }  and region_religion catholic 33 and hidden_resource mountains
+                recruit_pool "Orcs Catapult"  1   0.08   4  0  requires factions { hre, portugal, england, }  and region_religion catholic 33 and hidden_resource grasland
+                recruit_pool "Orcs Catapult"  1   0.06   4  0  requires factions { hre, portugal, england, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource desert
             }
             material wooden
             construction  5
@@ -6668,82 +6668,82 @@ trade_base_income_bonus bonus 2
             capability
             {
 trade_base_income_bonus bonus 3
-                recruit_pool "Gondor Trebuchet"  1   0.12   2  0  requires factions { sicily, }  and region_religion numenorian 50 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Gondor Trebuchet"  1   0.06   1  0  requires factions { sicily, }  and region_religion numenorian 50 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Arnor Trebuchet"  1   0.12   2  0  requires factions { byzantium, turks, }  and region_religion numenorian 50 and event_counter dunedain_turks 1 and hidden_resource forest
-                recruit_pool "Arnor Trebuchet"  1   0.12   2  0  requires factions { byzantium, turks, }  and region_religion numenorian 50 and event_counter dunedain_turks 1 and hidden_resource grasland
-                recruit_pool "Arnor Trebuchet"  1   0.06   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 50 and event_counter dunedain_turks 1 and hidden_resource desert
-                recruit_pool "Arnor Trebuchet"  1   0.06   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 50 and event_counter dunedain_turks 1 and hidden_resource mountains
-                recruit_pool "Elves Ballista"  1   0.08   1  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource forest
-                recruit_pool "Elves Ballista"  1   0.06   1  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource grasland
-                recruit_pool "Elves Ballista"  1   0.04   1  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
-                recruit_pool "High Elves Ballista"  1   0.08   1  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource forest
-                recruit_pool "High Elves Ballista"  1   0.06   1  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource grasland
-                recruit_pool "High Elves Ballista"  1   0.04   1  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
-                recruit_pool "Elves Catapult"  1   0.10   2  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource forest
-                recruit_pool "Elves Catapult"  1   0.07   1  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource grasland
-                recruit_pool "Elves Catapult"  1   0.05   1  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
-                recruit_pool "High Elves Catapult"  1   0.10   2  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource forest
-                recruit_pool "High Elves Catapult"  1   0.07   1  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource grasland
-                recruit_pool "High Elves Catapult"  1   0.05   1  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
-                recruit_pool "Dwarf Ballista"  1   0.08   1  0  requires factions { moors, }  and region_religion islam 25 and hidden_resource mountains
-                recruit_pool "Dwarf Ballista"  1   0.06   1  0  requires factions { moors, }  and region_religion islam 25 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Dwarf Ballista"  1   0.04   1  0  requires factions { moors, }  and region_religion islam 25 and hidden_resource desert
-                recruit_pool "Dwarf Catapult"  1   0.12   2  0  requires factions { moors, }  and region_religion islam 33 and hidden_resource mountains
-                recruit_pool "Dwarf Catapult"  1   0.08   1  0  requires factions { moors, }  and region_religion islam 33 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Dwarf Catapult"  1   0.06   1  0  requires factions { moors, }  and region_religion islam 33 and hidden_resource desert
-                recruit_pool "Gondor Catapult"  1   0.12   2  0  requires factions { sicily, }  and region_religion numenorian 33 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Gondor Catapult"  1   0.08   1  0  requires factions { sicily, }  and region_religion numenorian 33 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Harad Catapult"  1   0.12   2  0  requires factions { spain, }  and region_religion catholic 33 and hidden_resource desert or hidden_resource grasland
-                recruit_pool "Harad Catapult"  1   0.08   1  0  requires factions { spain, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource mountains
-                recruit_pool "Rhun Catapult"  1   0.12   2  0  requires factions { venice, }  and region_religion catholic 33 and hidden_resource desert or hidden_resource grasland
-                recruit_pool "Rhun Catapult"  1   0.08   1  0  requires factions { venice, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource mountains
-                recruit_pool "Dale Catapult"  1   0.12   2  0  requires factions { scotland, }  and region_religion northmen 33 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Dale Catapult"  1   0.08   1  0  requires factions { scotland, }  and region_religion northmen 33 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Rohan Catapult"  1   0.12   2  0  requires factions { milan, }  and region_religion northmen 33 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Rohan Catapult"  1   0.08   1  0  requires factions { milan, }  and region_religion northmen 33 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Gondor Ballista"  1   0.08   1  0  requires factions { sicily, }  and region_religion numenorian 25 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Gondor Ballista"  1   0.06   1  0  requires factions { sicily, }  and region_religion numenorian 25 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Harad Ballista"  1   0.08   1  0  requires factions { spain, }  and region_religion catholic 25 and hidden_resource desert or hidden_resource grasland
-                recruit_pool "Harad Ballista"  1   0.06   1  0  requires factions { spain, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource mountains
-                recruit_pool "Rhun Ballista"  1   0.08   1  0  requires factions { venice, }  and region_religion catholic 25 and hidden_resource desert or hidden_resource grasland
-                recruit_pool "Rhun Ballista"  1   0.06   1  0  requires factions { venice, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource mountains
-                recruit_pool "Dale Ballista"  1   0.08   1  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Dale Ballista"  1   0.06   1  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Rohan Ballista"  1   0.08   1  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Rohan Ballista"  1   0.06   1  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Eriador Ballista"  1   0.08   1  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource forest
-                recruit_pool "Eriador Ballista"  1   0.08   1  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource grasland
-                recruit_pool "Eriador Ballista"  1   0.06   1  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource desert
-                recruit_pool "Eriador Ballista"  1   0.06   1  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource mountains
-                recruit_pool "Eriador Catapult"  1   0.12   2  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource forest
-                recruit_pool "Eriador Catapult"  1   0.12   2  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource grasland
-                recruit_pool "Eriador Catapult"  1   0.08   1  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource desert
-                recruit_pool "Eriador Catapult"  1   0.08   1  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource mountains
-                recruit_pool "Arnor Ballista"  1   0.08   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource forest
-                recruit_pool "Arnor Ballista"  1   0.08   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource grasland
-                recruit_pool "Arnor Ballista"  1   0.06   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource desert
-                recruit_pool "Arnor Ballista"  1   0.06   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource mountains
-                recruit_pool "Arnor Catapult"  1   0.12   2  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource forest
-                recruit_pool "Arnor Catapult"  1   0.12   2  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource grasland
-                recruit_pool "Arnor Catapult"  1   0.08   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource desert
-                recruit_pool "Arnor Catapult"  1   0.08   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource mountains
-                recruit_pool "Mordor Ballista"  1   0.08   1  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource mountains
-                recruit_pool "Mordor Ballista"  1   0.06   1  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource grasland
-                recruit_pool "Mordor Ballista"  1   0.04   1  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
-                recruit_pool "Isengard Ballista"  1   0.08   1  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource mountains
-                recruit_pool "Isengard Ballista"  1   0.06   1  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource grasland
-                recruit_pool "Isengard Ballista"  1   0.04   1  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
-                recruit_pool "Orcs Ballista"  1   0.08   1  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource mountains
-                recruit_pool "Orcs Ballista"  1   0.06   1  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource grasland
-                recruit_pool "Orcs Ballista"  1   0.04   1  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
-                recruit_pool "Mordor Catapult"  1   0.08   1  0  requires factions { england, }  and hidden_resource trolls
-                recruit_pool "Isengard Catapult"  1   0.12   2  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource mountains
-                recruit_pool "Isengard Catapult"  1   0.08   1  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource grasland
-                recruit_pool "Isengard Catapult"  1   0.06   1  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource desert
-                recruit_pool "Orcs Catapult"  1   0.12   2  0  requires factions { hre, portugal, england, }  and region_religion catholic 33 and hidden_resource mountains
-                recruit_pool "Orcs Catapult"  1   0.08   1  0  requires factions { hre, portugal, england, }  and region_religion catholic 33 and hidden_resource grasland
-                recruit_pool "Orcs Catapult"  1   0.06   1  0  requires factions { hre, portugal, england, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource desert
+                recruit_pool "Gondor Trebuchet"  1   0.12   5  0  requires factions { sicily, }  and region_religion numenorian 50 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Gondor Trebuchet"  1   0.06   5  0  requires factions { sicily, }  and region_religion numenorian 50 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Arnor Trebuchet"  1   0.12   5  0  requires factions { byzantium, turks, }  and region_religion numenorian 50 and event_counter dunedain_turks 1 and hidden_resource forest
+                recruit_pool "Arnor Trebuchet"  1   0.12   5  0  requires factions { byzantium, turks, }  and region_religion numenorian 50 and event_counter dunedain_turks 1 and hidden_resource grasland
+                recruit_pool "Arnor Trebuchet"  1   0.06   5  0  requires factions { byzantium, turks, }  and region_religion numenorian 50 and event_counter dunedain_turks 1 and hidden_resource desert
+                recruit_pool "Arnor Trebuchet"  1   0.06   5  0  requires factions { byzantium, turks, }  and region_religion numenorian 50 and event_counter dunedain_turks 1 and hidden_resource mountains
+                recruit_pool "Elves Ballista"  1   0.08   5  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource forest
+                recruit_pool "Elves Ballista"  1   0.06   5  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource grasland
+                recruit_pool "Elves Ballista"  1   0.04   5  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
+                recruit_pool "High Elves Ballista"  1   0.08   5  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource forest
+                recruit_pool "High Elves Ballista"  1   0.06   5  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource grasland
+                recruit_pool "High Elves Ballista"  1   0.04   5  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
+                recruit_pool "Elves Catapult"  1   0.10   5  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource forest
+                recruit_pool "Elves Catapult"  1   0.07   5  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource grasland
+                recruit_pool "Elves Catapult"  1   0.05   5  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
+                recruit_pool "High Elves Catapult"  1   0.10   5  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource forest
+                recruit_pool "High Elves Catapult"  1   0.07   5  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource grasland
+                recruit_pool "High Elves Catapult"  1   0.05   5  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
+                recruit_pool "Dwarf Ballista"  1   0.08   5  0  requires factions { moors, }  and region_religion islam 25 and hidden_resource mountains
+                recruit_pool "Dwarf Ballista"  1   0.06   5  0  requires factions { moors, }  and region_religion islam 25 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Dwarf Ballista"  1   0.04   5  0  requires factions { moors, }  and region_religion islam 25 and hidden_resource desert
+                recruit_pool "Dwarf Catapult"  1   0.12   5  0  requires factions { moors, }  and region_religion islam 33 and hidden_resource mountains
+                recruit_pool "Dwarf Catapult"  1   0.08   5  0  requires factions { moors, }  and region_religion islam 33 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Dwarf Catapult"  1   0.06   5  0  requires factions { moors, }  and region_religion islam 33 and hidden_resource desert
+                recruit_pool "Gondor Catapult"  1   0.12   5  0  requires factions { sicily, }  and region_religion numenorian 33 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Gondor Catapult"  1   0.08   5  0  requires factions { sicily, }  and region_religion numenorian 33 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Harad Catapult"  1   0.12   5  0  requires factions { spain, }  and region_religion catholic 33 and hidden_resource desert or hidden_resource grasland
+                recruit_pool "Harad Catapult"  1   0.08   5  0  requires factions { spain, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource mountains
+                recruit_pool "Rhun Catapult"  1   0.12   5  0  requires factions { venice, }  and region_religion catholic 33 and hidden_resource desert or hidden_resource grasland
+                recruit_pool "Rhun Catapult"  1   0.08   5  0  requires factions { venice, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource mountains
+                recruit_pool "Dale Catapult"  1   0.12   5  0  requires factions { scotland, }  and region_religion northmen 33 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Dale Catapult"  1   0.08   5  0  requires factions { scotland, }  and region_religion northmen 33 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Rohan Catapult"  1   0.12   5  0  requires factions { milan, }  and region_religion northmen 33 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Rohan Catapult"  1   0.08   5  0  requires factions { milan, }  and region_religion northmen 33 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Gondor Ballista"  1   0.08   5  0  requires factions { sicily, }  and region_religion numenorian 25 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Gondor Ballista"  1   0.06   5  0  requires factions { sicily, }  and region_religion numenorian 25 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Harad Ballista"  1   0.08   5  0  requires factions { spain, }  and region_religion catholic 25 and hidden_resource desert or hidden_resource grasland
+                recruit_pool "Harad Ballista"  1   0.06   5  0  requires factions { spain, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource mountains
+                recruit_pool "Rhun Ballista"  1   0.08   5  0  requires factions { venice, }  and region_religion catholic 25 and hidden_resource desert or hidden_resource grasland
+                recruit_pool "Rhun Ballista"  1   0.06   5  0  requires factions { venice, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource mountains
+                recruit_pool "Dale Ballista"  1   0.08   5  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Dale Ballista"  1   0.06   5  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Rohan Ballista"  1   0.08   5  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Rohan Ballista"  1   0.06   5  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Eriador Ballista"  1   0.08   5  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource forest
+                recruit_pool "Eriador Ballista"  1   0.08   5  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource grasland
+                recruit_pool "Eriador Ballista"  1   0.06   5  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource desert
+                recruit_pool "Eriador Ballista"  1   0.06   5  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource mountains
+                recruit_pool "Eriador Catapult"  1   0.12   5  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource forest
+                recruit_pool "Eriador Catapult"  1   0.12   5  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource grasland
+                recruit_pool "Eriador Catapult"  1   0.08   5  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource desert
+                recruit_pool "Eriador Catapult"  1   0.08   5  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource mountains
+                recruit_pool "Arnor Ballista"  1   0.08   5  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource forest
+                recruit_pool "Arnor Ballista"  1   0.08   5  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource grasland
+                recruit_pool "Arnor Ballista"  1   0.06   5  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource desert
+                recruit_pool "Arnor Ballista"  1   0.06   5  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource mountains
+                recruit_pool "Arnor Catapult"  1   0.12   5  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource forest
+                recruit_pool "Arnor Catapult"  1   0.12   5  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource grasland
+                recruit_pool "Arnor Catapult"  1   0.08   5  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource desert
+                recruit_pool "Arnor Catapult"  1   0.08   5  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource mountains
+                recruit_pool "Mordor Ballista"  1   0.08   5  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource mountains
+                recruit_pool "Mordor Ballista"  1   0.06   5  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource grasland
+                recruit_pool "Mordor Ballista"  1   0.04   5  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
+                recruit_pool "Isengard Ballista"  1   0.08   5  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource mountains
+                recruit_pool "Isengard Ballista"  1   0.06   5  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource grasland
+                recruit_pool "Isengard Ballista"  1   0.04   5  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
+                recruit_pool "Orcs Ballista"  1   0.08   5  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource mountains
+                recruit_pool "Orcs Ballista"  1   0.06   5  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource grasland
+                recruit_pool "Orcs Ballista"  1   0.04   5  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
+                recruit_pool "Mordor Catapult"  1   0.08   5  0  requires factions { england, }  and hidden_resource trolls
+                recruit_pool "Isengard Catapult"  1   0.12   5  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource mountains
+                recruit_pool "Isengard Catapult"  1   0.08   5  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource grasland
+                recruit_pool "Isengard Catapult"  1   0.06   5  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource desert
+                recruit_pool "Orcs Catapult"  1   0.12   5  0  requires factions { hre, portugal, england, }  and region_religion catholic 33 and hidden_resource mountains
+                recruit_pool "Orcs Catapult"  1   0.08   5  0  requires factions { hre, portugal, england, }  and region_religion catholic 33 and hidden_resource grasland
+                recruit_pool "Orcs Catapult"  1   0.06   5  0  requires factions { hre, portugal, england, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource desert
             }
             material wooden
             construction  6
@@ -6769,42 +6769,42 @@ building castle_siege
             capability
             {
 trade_base_income_bonus bonus 1
-                recruit_pool "Elves Ballista"  1   0.10   2  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource forest
-                recruit_pool "Elves Ballista"  1   0.07   1  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource grasland
-                recruit_pool "Elves Ballista"  1   0.05   1  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
-                recruit_pool "High Elves Ballista"  1   0.10   2  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource forest
-                recruit_pool "High Elves Ballista"  1   0.07   1  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource grasland
-                recruit_pool "High Elves Ballista"  1   0.05   1  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
-                recruit_pool "Dwarf Ballista"  1   0.12   2  0  requires factions { moors, }  and region_religion islam  25 and hidden_resource mountains
-                recruit_pool "Dwarf Ballista"  1   0.08   1  0  requires factions { moors, }  and region_religion islam  25 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Dwarf Ballista"  1   0.06   1  0  requires factions { moors, }  and region_religion islam  25 and hidden_resource desert
-                recruit_pool "Gondor Ballista"  1   0.12   2  0  requires factions { sicily, }  and region_religion numenorian 25 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Gondor Ballista"  1   0.08   1  0  requires factions { sicily, }  and region_religion numenorian 25 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Harad Ballista"  1   0.12   2  0  requires factions { spain, }  and region_religion catholic 25 and hidden_resource desert or hidden_resource grasland
-                recruit_pool "Harad Ballista"  1   0.08   1  0  requires factions { spain, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource mountains
-                recruit_pool "Rhun Ballista"  1   0.12   2  0  requires factions { venice, }  and region_religion catholic 25 and hidden_resource desert or hidden_resource grasland
-                recruit_pool "Rhun Ballista"  1   0.08   1  0  requires factions { venice, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource mountains
-                recruit_pool "Dale Ballista"  1   0.12   2  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Dale Ballista"  1   0.08   1  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Rohan Ballista"  1   0.12   2  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Rohan Ballista"  1   0.08   1  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Eriador Ballista"  1   0.12   2  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource forest
-                recruit_pool "Eriador Ballista"  1   0.12   2  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource grasland
-                recruit_pool "Eriador Ballista"  1   0.08   1  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource desert
-                recruit_pool "Eriador Ballista"  1   0.08   1  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource mountains
-                recruit_pool "Arnor Ballista"  1   0.12   2  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource forest
-                recruit_pool "Arnor Ballista"  1   0.12   2  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource grasland
-                recruit_pool "Arnor Ballista"  1   0.08   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource desert
-                recruit_pool "Arnor Ballista"  1   0.08   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource mountains
-                recruit_pool "Mordor Ballista"  1   0.12   2  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource mountains
-                recruit_pool "Mordor Ballista"  1   0.08   1  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource grasland
-                recruit_pool "Mordor Ballista"  1   0.06   1  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
-                recruit_pool "Isengard Ballista"  1   0.12   2  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource mountains
-                recruit_pool "Isengard Ballista"  1   0.08   1  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource grasland
-                recruit_pool "Isengard Ballista"  1   0.06   1  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
-                recruit_pool "Orcs Ballista"  1   0.12   2  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource mountains
-                recruit_pool "Orcs Ballista"  1   0.08   1  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource grasland
-                recruit_pool "Orcs Ballista"  1   0.06   1  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
+                recruit_pool "Elves Ballista"  1   0.10   3  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource forest
+                recruit_pool "Elves Ballista"  1   0.07   3  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource grasland
+                recruit_pool "Elves Ballista"  1   0.05   3  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
+                recruit_pool "High Elves Ballista"  1   0.10   3  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource forest
+                recruit_pool "High Elves Ballista"  1   0.07   3  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource grasland
+                recruit_pool "High Elves Ballista"  1   0.05   3  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
+                recruit_pool "Dwarf Ballista"  1   0.12   3  0  requires factions { moors, }  and region_religion islam  25 and hidden_resource mountains
+                recruit_pool "Dwarf Ballista"  1   0.08   3  0  requires factions { moors, }  and region_religion islam  25 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Dwarf Ballista"  1   0.06   3  0  requires factions { moors, }  and region_religion islam  25 and hidden_resource desert
+                recruit_pool "Gondor Ballista"  1   0.12   3  0  requires factions { sicily, }  and region_religion numenorian 25 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Gondor Ballista"  1   0.08   3  0  requires factions { sicily, }  and region_religion numenorian 25 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Harad Ballista"  1   0.12   3  0  requires factions { spain, }  and region_religion catholic 25 and hidden_resource desert or hidden_resource grasland
+                recruit_pool "Harad Ballista"  1   0.08   3  0  requires factions { spain, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource mountains
+                recruit_pool "Rhun Ballista"  1   0.12   3  0  requires factions { venice, }  and region_religion catholic 25 and hidden_resource desert or hidden_resource grasland
+                recruit_pool "Rhun Ballista"  1   0.08   3  0  requires factions { venice, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource mountains
+                recruit_pool "Dale Ballista"  1   0.12   3  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Dale Ballista"  1   0.08   3  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Rohan Ballista"  1   0.12   3  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Rohan Ballista"  1   0.08   3  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Eriador Ballista"  1   0.12   3  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource forest
+                recruit_pool "Eriador Ballista"  1   0.12   3  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource grasland
+                recruit_pool "Eriador Ballista"  1   0.08   3  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource desert
+                recruit_pool "Eriador Ballista"  1   0.08   3  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource mountains
+                recruit_pool "Arnor Ballista"  1   0.12   3  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource forest
+                recruit_pool "Arnor Ballista"  1   0.12   3  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource grasland
+                recruit_pool "Arnor Ballista"  1   0.08   3  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource desert
+                recruit_pool "Arnor Ballista"  1   0.08   3  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource mountains
+                recruit_pool "Mordor Ballista"  1   0.12   3  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource mountains
+                recruit_pool "Mordor Ballista"  1   0.08   3  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource grasland
+                recruit_pool "Mordor Ballista"  1   0.06   3  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
+                recruit_pool "Isengard Ballista"  1   0.12   3  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource mountains
+                recruit_pool "Isengard Ballista"  1   0.08   3  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource grasland
+                recruit_pool "Isengard Ballista"  1   0.06   3  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
+                recruit_pool "Orcs Ballista"  1   0.12   3  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource mountains
+                recruit_pool "Orcs Ballista"  1   0.08   3  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource grasland
+                recruit_pool "Orcs Ballista"  1   0.06   3  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
             }
             material wooden
             construction  4
@@ -6821,76 +6821,76 @@ trade_base_income_bonus bonus 1
             capability
             {
 trade_base_income_bonus bonus 2
-                recruit_pool "Elves Ballista"  1   0.08   1  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource forest
-                recruit_pool "Elves Ballista"  1   0.06   1  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource grasland
-                recruit_pool "Elves Ballista"  1   0.04   1  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
-                recruit_pool "High Elves Ballista"  1   0.08   1  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource forest
-                recruit_pool "High Elves Ballista"  1   0.06   1  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource grasland
-                recruit_pool "High Elves Ballista"  1   0.04   1  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
-                recruit_pool "Elves Catapult"  1   0.10   2  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource forest
-                recruit_pool "Elves Catapult"  1   0.07   1  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource grasland
-                recruit_pool "Elves Catapult"  1   0.05   1  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
-                recruit_pool "High Elves Catapult"  1   0.10   2  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource forest
-                recruit_pool "High Elves Catapult"  1   0.07   1  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource grasland
-                recruit_pool "High Elves Catapult"  1   0.05   1  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
-                recruit_pool "Dwarf Ballista"  1   0.08   1  0  requires factions { moors, }  and region_religion islam 25 and hidden_resource mountains
-                recruit_pool "Dwarf Ballista"  1   0.06   1  0  requires factions { moors, }  and region_religion islam 25 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Dwarf Ballista"  1   0.04   1  0  requires factions { moors, }  and region_religion islam 25 and hidden_resource desert
-                recruit_pool "Dwarf Catapult"  1   0.12   2  0  requires factions { moors, }  and region_religion islam 33 and hidden_resource mountains
-                recruit_pool "Dwarf Catapult"  1   0.08   1  0  requires factions { moors, }  and region_religion islam 33 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Dwarf Catapult"  1   0.06   1  0  requires factions { moors, }  and region_religion islam 33 and hidden_resource desert
-                recruit_pool "Gondor Catapult"  1   0.12   2  0  requires factions { sicily, }  and region_religion numenorian 33 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Gondor Catapult"  1   0.08   1  0  requires factions { sicily, }  and region_religion numenorian 33 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Harad Catapult"  1   0.12   2  0  requires factions { spain, }  and region_religion catholic 33 and hidden_resource desert or hidden_resource grasland
-                recruit_pool "Harad Catapult"  1   0.08   1  0  requires factions { spain, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource mountains
-                recruit_pool "Rhun Catapult"  1   0.12   2  0  requires factions { venice, }  and region_religion catholic 33 and hidden_resource desert or hidden_resource grasland
-                recruit_pool "Rhun Catapult"  1   0.08   1  0  requires factions { venice, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource mountains
-                recruit_pool "Dale Catapult"  1   0.12   2  0  requires factions { scotland, }  and region_religion northmen 33 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Dale Catapult"  1   0.08   1  0  requires factions { scotland, }  and region_religion northmen 33 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Rohan Catapult"  1   0.12   2  0  requires factions { milan, }  and region_religion northmen 33 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Rohan Catapult"  1   0.08   1  0  requires factions { milan, }  and region_religion northmen 33 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Gondor Ballista"  1   0.08   1  0  requires factions { sicily, }  and region_religion numenorian 25 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Gondor Ballista"  1   0.06   1  0  requires factions { sicily, }  and region_religion numenorian 25 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Harad Ballista"  1   0.08   1  0  requires factions { spain, }  and region_religion catholic 25 and hidden_resource desert or hidden_resource grasland
-                recruit_pool "Harad Ballista"  1   0.06   1  0  requires factions { spain, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource mountains
-                recruit_pool "Rhun Ballista"  1   0.08   1  0  requires factions { venice, }  and region_religion catholic 25 and hidden_resource desert or hidden_resource grasland
-                recruit_pool "Rhun Ballista"  1   0.06   1  0  requires factions { venice, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource mountains
-                recruit_pool "Dale Ballista"  1   0.08   1  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Dale Ballista"  1   0.06   1  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Rohan Ballista"  1   0.08   1  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Rohan Ballista"  1   0.06   1  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Eriador Ballista"  1   0.08   1  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource forest
-                recruit_pool "Eriador Ballista"  1   0.08   1  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource grasland
-                recruit_pool "Eriador Ballista"  1   0.06   1  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource desert
-                recruit_pool "Eriador Ballista"  1   0.06   1  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource mountains
-                recruit_pool "Eriador Catapult"  1   0.12   2  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource forest
-                recruit_pool "Eriador Catapult"  1   0.12   2  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource grasland
-                recruit_pool "Eriador Catapult"  1   0.08   1  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource desert
-                recruit_pool "Eriador Catapult"  1   0.08   1  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource mountains
-                recruit_pool "Arnor Ballista"  1   0.08   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource forest
-                recruit_pool "Arnor Ballista"  1   0.08   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource grasland
-                recruit_pool "Arnor Ballista"  1   0.06   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource desert
-                recruit_pool "Arnor Ballista"  1   0.06   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource mountains
-                recruit_pool "Arnor Catapult"  1   0.12   2  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource forest
-                recruit_pool "Arnor Catapult"  1   0.12   2  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource grasland
-                recruit_pool "Arnor Catapult"  1   0.08   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource desert
-                recruit_pool "Arnor Catapult"  1   0.08   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource mountains
-                recruit_pool "Mordor Ballista"  1   0.08   1  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource mountains
-                recruit_pool "Mordor Ballista"  1   0.06   1  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource grasland
-                recruit_pool "Mordor Ballista"  1   0.04   1  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
-                recruit_pool "Isengard Ballista"  1   0.08   1  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource mountains
-                recruit_pool "Isengard Ballista"  1   0.06   1  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource grasland
-                recruit_pool "Isengard Ballista"  1   0.04   1  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
-                recruit_pool "Orcs Ballista"  1   0.08   1  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource mountains
-                recruit_pool "Orcs Ballista"  1   0.06   1  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource grasland
-                recruit_pool "Orcs Ballista"  1   0.04   1  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
-                recruit_pool "Mordor Catapult"  1   0.08   1  0  requires factions { england, }  and hidden_resource trolls
-                recruit_pool "Isengard Catapult"  1   0.12   2  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource mountains
-                recruit_pool "Isengard Catapult"  1   0.08   1  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource grasland
-                recruit_pool "Isengard Catapult"  1   0.06   1  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource desert
-                recruit_pool "Orcs Catapult"  1   0.12   2  0  requires factions { hre, portugal, england, }  and region_religion catholic 33 and hidden_resource mountains
-                recruit_pool "Orcs Catapult"  1   0.08   1  0  requires factions { hre, portugal, england, }  and region_religion catholic 33 and hidden_resource grasland
-                recruit_pool "Orcs Catapult"  1   0.06   1  0  requires factions { hre, portugal, england, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource desert
+                recruit_pool "Elves Ballista"  1   0.08   4  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource forest
+                recruit_pool "Elves Ballista"  1   0.06   4  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource grasland
+                recruit_pool "Elves Ballista"  1   0.04   4  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
+                recruit_pool "High Elves Ballista"  1   0.08   4  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource forest
+                recruit_pool "High Elves Ballista"  1   0.06   4  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource grasland
+                recruit_pool "High Elves Ballista"  1   0.04   4  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
+                recruit_pool "Elves Catapult"  1   0.10   4  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource forest
+                recruit_pool "Elves Catapult"  1   0.07   4  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource grasland
+                recruit_pool "Elves Catapult"  1   0.05   4  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
+                recruit_pool "High Elves Catapult"  1   0.10   4  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource forest
+                recruit_pool "High Elves Catapult"  1   0.07   4  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource grasland
+                recruit_pool "High Elves Catapult"  1   0.05   4  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
+                recruit_pool "Dwarf Ballista"  1   0.08   4  0  requires factions { moors, }  and region_religion islam 25 and hidden_resource mountains
+                recruit_pool "Dwarf Ballista"  1   0.06   4  0  requires factions { moors, }  and region_religion islam 25 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Dwarf Ballista"  1   0.04   4  0  requires factions { moors, }  and region_religion islam 25 and hidden_resource desert
+                recruit_pool "Dwarf Catapult"  1   0.12   4  0  requires factions { moors, }  and region_religion islam 33 and hidden_resource mountains
+                recruit_pool "Dwarf Catapult"  1   0.08   4  0  requires factions { moors, }  and region_religion islam 33 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Dwarf Catapult"  1   0.06   4  0  requires factions { moors, }  and region_religion islam 33 and hidden_resource desert
+                recruit_pool "Gondor Catapult"  1   0.12   4  0  requires factions { sicily, }  and region_religion numenorian 33 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Gondor Catapult"  1   0.08   4  0  requires factions { sicily, }  and region_religion numenorian 33 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Harad Catapult"  1   0.12   4  0  requires factions { spain, }  and region_religion catholic 33 and hidden_resource desert or hidden_resource grasland
+                recruit_pool "Harad Catapult"  1   0.08   4  0  requires factions { spain, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource mountains
+                recruit_pool "Rhun Catapult"  1   0.12   4  0  requires factions { venice, }  and region_religion catholic 33 and hidden_resource desert or hidden_resource grasland
+                recruit_pool "Rhun Catapult"  1   0.08   4  0  requires factions { venice, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource mountains
+                recruit_pool "Dale Catapult"  1   0.12   4  0  requires factions { scotland, }  and region_religion northmen 33 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Dale Catapult"  1   0.08   4  0  requires factions { scotland, }  and region_religion northmen 33 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Rohan Catapult"  1   0.12   4  0  requires factions { milan, }  and region_religion northmen 33 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Rohan Catapult"  1   0.08   4  0  requires factions { milan, }  and region_religion northmen 33 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Gondor Ballista"  1   0.08   4  0  requires factions { sicily, }  and region_religion numenorian 25 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Gondor Ballista"  1   0.06   4  0  requires factions { sicily, }  and region_religion numenorian 25 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Harad Ballista"  1   0.08   4  0  requires factions { spain, }  and region_religion catholic 25 and hidden_resource desert or hidden_resource grasland
+                recruit_pool "Harad Ballista"  1   0.06   4  0  requires factions { spain, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource mountains
+                recruit_pool "Rhun Ballista"  1   0.08   4  0  requires factions { venice, }  and region_religion catholic 25 and hidden_resource desert or hidden_resource grasland
+                recruit_pool "Rhun Ballista"  1   0.06   4  0  requires factions { venice, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource mountains
+                recruit_pool "Dale Ballista"  1   0.08   4  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Dale Ballista"  1   0.06   4  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Rohan Ballista"  1   0.08   4  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Rohan Ballista"  1   0.06   4  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Eriador Ballista"  1   0.08   4  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource forest
+                recruit_pool "Eriador Ballista"  1   0.08   4  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource grasland
+                recruit_pool "Eriador Ballista"  1   0.06   4  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource desert
+                recruit_pool "Eriador Ballista"  1   0.06   4  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource mountains
+                recruit_pool "Eriador Catapult"  1   0.12   4  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource forest
+                recruit_pool "Eriador Catapult"  1   0.12   4  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource grasland
+                recruit_pool "Eriador Catapult"  1   0.08   4  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource desert
+                recruit_pool "Eriador Catapult"  1   0.08   4  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource mountains
+                recruit_pool "Arnor Ballista"  1   0.08   4  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource forest
+                recruit_pool "Arnor Ballista"  1   0.08   4  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource grasland
+                recruit_pool "Arnor Ballista"  1   0.06   4  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource desert
+                recruit_pool "Arnor Ballista"  1   0.06   4  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource mountains
+                recruit_pool "Arnor Catapult"  1   0.12   4  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource forest
+                recruit_pool "Arnor Catapult"  1   0.12   4  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource grasland
+                recruit_pool "Arnor Catapult"  1   0.08   4  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource desert
+                recruit_pool "Arnor Catapult"  1   0.08   4  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource mountains
+                recruit_pool "Mordor Ballista"  1   0.08   4  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource mountains
+                recruit_pool "Mordor Ballista"  1   0.06   4  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource grasland
+                recruit_pool "Mordor Ballista"  1   0.04   4  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
+                recruit_pool "Isengard Ballista"  1   0.08   4  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource mountains
+                recruit_pool "Isengard Ballista"  1   0.06   4  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource grasland
+                recruit_pool "Isengard Ballista"  1   0.04   4  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
+                recruit_pool "Orcs Ballista"  1   0.08   4  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource mountains
+                recruit_pool "Orcs Ballista"  1   0.06   4  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource grasland
+                recruit_pool "Orcs Ballista"  1   0.04   4  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
+                recruit_pool "Mordor Catapult"  1   0.08   4  0  requires factions { england, }  and hidden_resource trolls
+                recruit_pool "Isengard Catapult"  1   0.12   4  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource mountains
+                recruit_pool "Isengard Catapult"  1   0.08   4  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource grasland
+                recruit_pool "Isengard Catapult"  1   0.06   4  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource desert
+                recruit_pool "Orcs Catapult"  1   0.12   4  0  requires factions { hre, portugal, england, }  and region_religion catholic 33 and hidden_resource mountains
+                recruit_pool "Orcs Catapult"  1   0.08   4  0  requires factions { hre, portugal, england, }  and region_religion catholic 33 and hidden_resource grasland
+                recruit_pool "Orcs Catapult"  1   0.06   4  0  requires factions { hre, portugal, england, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource desert
             }
             material wooden
             construction  5
@@ -6907,82 +6907,82 @@ trade_base_income_bonus bonus 2
             capability
             {
 trade_base_income_bonus bonus 3
-                recruit_pool "Gondor Trebuchet"  1   0.12   2  0  requires factions { sicily, }  and region_religion numenorian 50 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Gondor Trebuchet"  1   0.06   1  0  requires factions { sicily, }  and region_religion numenorian 50 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Arnor Trebuchet"  1   0.12   2  0  requires factions { byzantium, turks, }  and region_religion numenorian 50 and event_counter dunedain_turks 1 and hidden_resource forest
-                recruit_pool "Arnor Trebuchet"  1   0.12   2  0  requires factions { byzantium, turks, }  and region_religion numenorian 50 and event_counter dunedain_turks 1 and hidden_resource grasland
-                recruit_pool "Arnor Trebuchet"  1   0.06   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 50 and event_counter dunedain_turks 1 and hidden_resource desert
-                recruit_pool "Arnor Trebuchet"  1   0.06   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 50 and event_counter dunedain_turks 1 and hidden_resource mountains
-                recruit_pool "Elves Ballista"  1   0.08   1  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource forest
-                recruit_pool "Elves Ballista"  1   0.06   1  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource grasland
-                recruit_pool "Elves Ballista"  1   0.04   1  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
-                recruit_pool "High Elves Ballista"  1   0.08   1  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource forest
-                recruit_pool "High Elves Ballista"  1   0.06   1  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource grasland
-                recruit_pool "High Elves Ballista"  1   0.04   1  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
-                recruit_pool "Elves Catapult"  1   0.10   2  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource forest
-                recruit_pool "Elves Catapult"  1   0.07   1  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource grasland
-                recruit_pool "Elves Catapult"  1   0.05   1  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
-                recruit_pool "High Elves Catapult"  1   0.10   2  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource forest
-                recruit_pool "High Elves Catapult"  1   0.07   1  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource grasland
-                recruit_pool "High Elves Catapult"  1   0.05   1  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
-                recruit_pool "Dwarf Ballista"  1   0.08   1  0  requires factions { moors, }  and region_religion islam 25 and hidden_resource mountains
-                recruit_pool "Dwarf Ballista"  1   0.06   1  0  requires factions { moors, }  and region_religion islam 25 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Dwarf Ballista"  1   0.04   1  0  requires factions { moors, }  and region_religion islam 25 and hidden_resource desert
-                recruit_pool "Dwarf Catapult"  1   0.12   2  0  requires factions { moors, }  and region_religion islam 33 and hidden_resource mountains
-                recruit_pool "Dwarf Catapult"  1   0.08   1  0  requires factions { moors, }  and region_religion islam 33 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Dwarf Catapult"  1   0.06   1  0  requires factions { moors, }  and region_religion islam 33 and hidden_resource desert
-                recruit_pool "Gondor Catapult"  1   0.12   2  0  requires factions { sicily, }  and region_religion numenorian 33 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Gondor Catapult"  1   0.08   1  0  requires factions { sicily, }  and region_religion numenorian 33 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Harad Catapult"  1   0.12   2  0  requires factions { spain, }  and region_religion catholic 33 and hidden_resource desert or hidden_resource grasland
-                recruit_pool "Harad Catapult"  1   0.08   1  0  requires factions { spain, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource mountains
-                recruit_pool "Rhun Catapult"  1   0.12   2  0  requires factions { venice, }  and region_religion catholic 33 and hidden_resource desert or hidden_resource grasland
-                recruit_pool "Rhun Catapult"  1   0.08   1  0  requires factions { venice, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource mountains
-                recruit_pool "Dale Catapult"  1   0.12   2  0  requires factions { scotland, }  and region_religion northmen 33 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Dale Catapult"  1   0.08   1  0  requires factions { scotland, }  and region_religion northmen 33 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Rohan Catapult"  1   0.12   2  0  requires factions { milan, }  and region_religion northmen 33 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Rohan Catapult"  1   0.08   1  0  requires factions { milan, }  and region_religion northmen 33 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Gondor Ballista"  1   0.08   1  0  requires factions { sicily, }  and region_religion numenorian 25 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Gondor Ballista"  1   0.06   1  0  requires factions { sicily, }  and region_religion numenorian 25 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Harad Ballista"  1   0.08   1  0  requires factions { spain, }  and region_religion catholic 25 and hidden_resource desert or hidden_resource grasland
-                recruit_pool "Harad Ballista"  1   0.06   1  0  requires factions { spain, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource mountains
-                recruit_pool "Rhun Ballista"  1   0.08   1  0  requires factions { venice, }  and region_religion catholic 25 and hidden_resource desert or hidden_resource grasland
-                recruit_pool "Rhun Ballista"  1   0.06   1  0  requires factions { venice, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource mountains
-                recruit_pool "Dale Ballista"  1   0.08   1  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Dale Ballista"  1   0.06   1  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Rohan Ballista"  1   0.08   1  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource forest or hidden_resource grasland
-                recruit_pool "Rohan Ballista"  1   0.06   1  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Eriador Ballista"  1   0.08   1  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource forest
-                recruit_pool "Eriador Ballista"  1   0.08   1  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource grasland
-                recruit_pool "Eriador Ballista"  1   0.06   1  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource desert
-                recruit_pool "Eriador Ballista"  1   0.06   1  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource mountains
-                recruit_pool "Eriador Catapult"  1   0.12   2  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource forest
-                recruit_pool "Eriador Catapult"  1   0.12   2  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource grasland
-                recruit_pool "Eriador Catapult"  1   0.08   1  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource desert
-                recruit_pool "Eriador Catapult"  1   0.08   1  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource mountains
-                recruit_pool "Arnor Ballista"  1   0.08   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource forest
-                recruit_pool "Arnor Ballista"  1   0.08   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource grasland
-                recruit_pool "Arnor Ballista"  1   0.06   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource desert
-                recruit_pool "Arnor Ballista"  1   0.06   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource mountains
-                recruit_pool "Arnor Catapult"  1   0.12   2  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource forest
-                recruit_pool "Arnor Catapult"  1   0.12   2  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource grasland
-                recruit_pool "Arnor Catapult"  1   0.08   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource desert
-                recruit_pool "Arnor Catapult"  1   0.08   1  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource mountains
-                recruit_pool "Mordor Ballista"  1   0.08   1  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource mountains
-                recruit_pool "Mordor Ballista"  1   0.06   1  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource grasland
-                recruit_pool "Mordor Ballista"  1   0.04   1  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
-                recruit_pool "Isengard Ballista"  1   0.08   1  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource mountains
-                recruit_pool "Isengard Ballista"  1   0.06   1  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource grasland
-                recruit_pool "Isengard Ballista"  1   0.04   1  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
-                recruit_pool "Orcs Ballista"  1   0.08   1  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource mountains
-                recruit_pool "Orcs Ballista"  1   0.06   1  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource grasland
-                recruit_pool "Orcs Ballista"  1   0.04   1  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
-                recruit_pool "Mordor Catapult"  1   0.08   1  0  requires factions { england, }  and hidden_resource trolls
-                recruit_pool "Isengard Catapult"  1   0.12   2  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource mountains
-                recruit_pool "Isengard Catapult"  1   0.08   1  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource grasland
-                recruit_pool "Isengard Catapult"  1   0.06   1  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource desert
-                recruit_pool "Orcs Catapult"  1   0.12   2  0  requires factions { hre, portugal, england, }  and region_religion catholic 33 and hidden_resource mountains
-                recruit_pool "Orcs Catapult"  1   0.08   1  0  requires factions { hre, portugal, england, }  and region_religion catholic 33 and hidden_resource grasland
-                recruit_pool "Orcs Catapult"  1   0.06   1  0  requires factions { hre, portugal, england, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource desert
+                recruit_pool "Gondor Trebuchet"  1   0.12   5  0  requires factions { sicily, }  and region_religion numenorian 50 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Gondor Trebuchet"  1   0.06   5  0  requires factions { sicily, }  and region_religion numenorian 50 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Arnor Trebuchet"  1   0.12   5  0  requires factions { byzantium, turks, }  and region_religion numenorian 50 and event_counter dunedain_turks 1 and hidden_resource forest
+                recruit_pool "Arnor Trebuchet"  1   0.12   5  0  requires factions { byzantium, turks, }  and region_religion numenorian 50 and event_counter dunedain_turks 1 and hidden_resource grasland
+                recruit_pool "Arnor Trebuchet"  1   0.06   5  0  requires factions { byzantium, turks, }  and region_religion numenorian 50 and event_counter dunedain_turks 1 and hidden_resource desert
+                recruit_pool "Arnor Trebuchet"  1   0.06   5  0  requires factions { byzantium, turks, }  and region_religion numenorian 50 and event_counter dunedain_turks 1 and hidden_resource mountains
+                recruit_pool "Elves Ballista"  1   0.08   5  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource forest
+                recruit_pool "Elves Ballista"  1   0.06   5  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource grasland
+                recruit_pool "Elves Ballista"  1   0.04   5  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
+                recruit_pool "High Elves Ballista"  1   0.08   5  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource forest
+                recruit_pool "High Elves Ballista"  1   0.06   5  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource grasland
+                recruit_pool "High Elves Ballista"  1   0.04   5  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
+                recruit_pool "Elves Catapult"  1   0.10   5  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource forest
+                recruit_pool "Elves Catapult"  1   0.07   5  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource grasland
+                recruit_pool "Elves Catapult"  1   0.05   5  0  requires factions { mongols, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
+                recruit_pool "High Elves Catapult"  1   0.10   5  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource forest
+                recruit_pool "High Elves Catapult"  1   0.07   5  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource grasland
+                recruit_pool "High Elves Catapult"  1   0.05   5  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource mountains or hidden_resource desert
+                recruit_pool "Dwarf Ballista"  1   0.08   5  0  requires factions { moors, }  and region_religion islam 25 and hidden_resource mountains
+                recruit_pool "Dwarf Ballista"  1   0.06   5  0  requires factions { moors, }  and region_religion islam 25 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Dwarf Ballista"  1   0.04   5  0  requires factions { moors, }  and region_religion islam 25 and hidden_resource desert
+                recruit_pool "Dwarf Catapult"  1   0.12   5  0  requires factions { moors, }  and region_religion islam 33 and hidden_resource mountains
+                recruit_pool "Dwarf Catapult"  1   0.08   5  0  requires factions { moors, }  and region_religion islam 33 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Dwarf Catapult"  1   0.06   5  0  requires factions { moors, }  and region_religion islam 33 and hidden_resource desert
+                recruit_pool "Gondor Catapult"  1   0.12   5  0  requires factions { sicily, }  and region_religion numenorian 33 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Gondor Catapult"  1   0.08   5  0  requires factions { sicily, }  and region_religion numenorian 33 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Harad Catapult"  1   0.12   5  0  requires factions { spain, }  and region_religion catholic 33 and hidden_resource desert or hidden_resource grasland
+                recruit_pool "Harad Catapult"  1   0.08   5  0  requires factions { spain, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource mountains
+                recruit_pool "Rhun Catapult"  1   0.12   5  0  requires factions { venice, }  and region_religion catholic 33 and hidden_resource desert or hidden_resource grasland
+                recruit_pool "Rhun Catapult"  1   0.08   5  0  requires factions { venice, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource mountains
+                recruit_pool "Dale Catapult"  1   0.12   5  0  requires factions { scotland, }  and region_religion northmen 33 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Dale Catapult"  1   0.08   5  0  requires factions { scotland, }  and region_religion northmen 33 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Rohan Catapult"  1   0.12   5  0  requires factions { milan, }  and region_religion northmen 33 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Rohan Catapult"  1   0.08   5  0  requires factions { milan, }  and region_religion northmen 33 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Gondor Ballista"  1   0.08   5  0  requires factions { sicily, }  and region_religion numenorian 25 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Gondor Ballista"  1   0.06   5  0  requires factions { sicily, }  and region_religion numenorian 25 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Harad Ballista"  1   0.08   5  0  requires factions { spain, }  and region_religion catholic 25 and hidden_resource desert or hidden_resource grasland
+                recruit_pool "Harad Ballista"  1   0.06   5  0  requires factions { spain, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource mountains
+                recruit_pool "Rhun Ballista"  1   0.08   5  0  requires factions { venice, }  and region_religion catholic 25 and hidden_resource desert or hidden_resource grasland
+                recruit_pool "Rhun Ballista"  1   0.06   5  0  requires factions { venice, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource mountains
+                recruit_pool "Dale Ballista"  1   0.08   5  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Dale Ballista"  1   0.06   5  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Rohan Ballista"  1   0.08   5  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource forest or hidden_resource grasland
+                recruit_pool "Rohan Ballista"  1   0.06   5  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Eriador Ballista"  1   0.08   5  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource forest
+                recruit_pool "Eriador Ballista"  1   0.08   5  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource grasland
+                recruit_pool "Eriador Ballista"  1   0.06   5  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource desert
+                recruit_pool "Eriador Ballista"  1   0.06   5  0  requires factions { turks, }  and region_religion northmen 25 and event_counter northmen_turks 1 and hidden_resource mountains
+                recruit_pool "Eriador Catapult"  1   0.12   5  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource forest
+                recruit_pool "Eriador Catapult"  1   0.12   5  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource grasland
+                recruit_pool "Eriador Catapult"  1   0.08   5  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource desert
+                recruit_pool "Eriador Catapult"  1   0.08   5  0  requires factions { turks, }  and region_religion northmen 33 and event_counter northmen_turks 1 and hidden_resource mountains
+                recruit_pool "Arnor Ballista"  1   0.08   5  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource forest
+                recruit_pool "Arnor Ballista"  1   0.08   5  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource grasland
+                recruit_pool "Arnor Ballista"  1   0.06   5  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource desert
+                recruit_pool "Arnor Ballista"  1   0.06   5  0  requires factions { byzantium, turks, }  and region_religion numenorian 25 and event_counter dunedain_turks 1 and hidden_resource mountains
+                recruit_pool "Arnor Catapult"  1   0.12   5  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource forest
+                recruit_pool "Arnor Catapult"  1   0.12   5  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource grasland
+                recruit_pool "Arnor Catapult"  1   0.08   5  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource desert
+                recruit_pool "Arnor Catapult"  1   0.08   5  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource mountains
+                recruit_pool "Mordor Ballista"  1   0.08   5  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource mountains
+                recruit_pool "Mordor Ballista"  1   0.06   5  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource grasland
+                recruit_pool "Mordor Ballista"  1   0.04   5  0  requires factions { england, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
+                recruit_pool "Isengard Ballista"  1   0.08   5  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource mountains
+                recruit_pool "Isengard Ballista"  1   0.06   5  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource grasland
+                recruit_pool "Isengard Ballista"  1   0.04   5  0  requires factions { france, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
+                recruit_pool "Orcs Ballista"  1   0.08   5  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource mountains
+                recruit_pool "Orcs Ballista"  1   0.06   5  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource grasland
+                recruit_pool "Orcs Ballista"  1   0.04   5  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
+                recruit_pool "Mordor Catapult"  1   0.08   5  0  requires factions { england, }  and hidden_resource trolls
+                recruit_pool "Isengard Catapult"  1   0.12   5  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource mountains
+                recruit_pool "Isengard Catapult"  1   0.08   5  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource grasland
+                recruit_pool "Isengard Catapult"  1   0.06   5  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource desert
+                recruit_pool "Orcs Catapult"  1   0.12   5  0  requires factions { hre, portugal, england, }  and region_religion catholic 33 and hidden_resource mountains
+                recruit_pool "Orcs Catapult"  1   0.08   5  0  requires factions { hre, portugal, england, }  and region_religion catholic 33 and hidden_resource grasland
+                recruit_pool "Orcs Catapult"  1   0.06   5  0  requires factions { hre, portugal, england, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource desert
             }
             material wooden
             construction  6
