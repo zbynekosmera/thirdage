@@ -6335,7 +6335,7 @@ building forest_camps
 {
     levels hunting_camp lumber_camp 
     {
-        hunting_camp  requires factions { turks, }  and event_counter northmen_turks 1 
+        hunting_camp  requires factions { turks, }  
         {
             capability
             {
@@ -6351,13 +6351,13 @@ trade_base_income_bonus bonus 1
                 lumber_camp
             }
         }
-        lumber_camp  requires factions { turks, }  and event_counter northmen_turks 1 
+        lumber_camp  requires factions { turks, }   
         {
             capability
             {
                 recruit_pool "Woodland Hunters"  1   0.11   3  0  requires factions { turks, }  and region_religion northmen 10 
                 recruit_pool "Lumbermen"  1   0.3   9  0  requires factions { turks, }  and region_religion northmen 10 
-trade_base_income_bonus bonus 2
+trade_base_income_bonus bonus 3
             }
             material wooden
             construction  3
