@@ -10213,6 +10213,7 @@ building dragon_inn
                 recruit_pool "Bandobras Archers"  0   0.15   2  0  requires factions { turks, byzantium, } 
 trade_base_income_bonus bonus 3
                 free_upkeep bonus 2
+                happiness_bonus bonus 1
             }
             material wooden
             construction  8 
@@ -10237,7 +10238,7 @@ building pony
             capability
             {
                 trade_base_income_bonus bonus 1
-trade_base_income_bonus bonus 3
+trade_base_income_bonus bonus 4
                 free_upkeep bonus 2
             }
             material wooden
@@ -10267,8 +10268,9 @@ building hobbit
                 recruit_pool "Bandobras Archers"  0   0.1   3  0  requires factions { turks, byzantium, } 
                 law_bonus bonus -6 requires event_counter smials_riot 1
                 recruitment_slots 1
-trade_base_income_bonus bonus 2
+trade_base_income_bonus bonus 5
                 free_upkeep bonus 2
+		population_growth_bonus bonus 1
             }
             material wooden
             construction  22 
