@@ -901,10 +901,6 @@ settlement
 	}
 	building
 	{
-		type equestrian stables
-	}
-	building
-	{
 		type smith leather_tanner
 	}
 	building
@@ -956,10 +952,6 @@ settlement castle
 	}
 	building
 	{
-		type c_equestrian c_stables
-	}
-	building
-	{
 		type equestrian stables
 	}
 	building
@@ -1007,10 +999,6 @@ settlement
 	}
 	building
 	{
-		type equestrian stables
-	}
-	building
-	{
 		type academic alchemists_lab
 	}
 	building
@@ -1050,14 +1038,6 @@ settlement castle
 	}
 	building
 	{
-		type c_equestrian c_stables
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
 		type castle_smith c_leather_tanner
 	}
 	building
@@ -1082,14 +1062,6 @@ settlement
 	building
 	{
 		type barracks town_watch
-	}
-	building
-	{
-		type c_equestrian c_stables
-	}
-	building
-	{
-		type equestrian stables
 	}
 	building
 	{
@@ -1121,14 +1093,6 @@ settlement
 	building
 	{
 		type barracks town_watch
-	}
-	building
-	{
-		type c_equestrian c_stables
-	}
-	building
-	{
-		type equestrian stables
 	}
 	building
 	{
@@ -1171,10 +1135,6 @@ settlement
 	}
 	building
 	{
-		type equestrian stables
-	}
-	building
-	{
 		type smith leather_tanner
 	}
 	building
@@ -1200,14 +1160,6 @@ settlement castle
 	{
 		type core_castle_building motte_and_bailey
 	}
-	building
-	{
-		type c_equestrian c_stables
-	}
-	building
-	{
-		type equestrian stables
-	}
 }
 
 settlement castle
@@ -1226,14 +1178,6 @@ settlement castle
 	building
 	{
 		type core_castle_building wooden_castle
-	}
-	building
-	{
-		type c_equestrian c_stables
-	}
-	building
-	{
-		type equestrian stables
 	}
 }
 
