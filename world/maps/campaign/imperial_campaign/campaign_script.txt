@@ -1962,7 +1962,7 @@ monitor_conditions I_CompareCounter barad_timer2 = 2
 	spawn_army
 	faction england
 	character	Sauron, named character, age 22, x 289, y 137, portrait sauron, hero_ability SAURON, label sauron1
-	traits Sauron 1, NightBattleCapable 1
+	traits Sauron 1, TrainAdmin 7 , NightBattleCapable 1
 		unit	Sauron Elephants	soldiers 1 exp 6 armour 0 weapon_lvl 0
 		unit	Mordor Halberd		exp 3 armour 0 weapon_lvl 0
 		unit	Mordor Halberd		exp 3 armour 0 weapon_lvl 0
@@ -2132,7 +2132,7 @@ monitor_event CharacterTurnStart CharacterIsLocal
 	spawn_army 
 	faction england
 	character	Sauron, named character, age 22, x 289, y 137, portrait sauron, hero_ability SAURON, label sauron1
-	traits Sauron 1, NightBattleCapable 1
+	traits Sauron 1, TrainAdmin 7 , NightBattleCapable 1
 		unit	Sauron Elephants	soldiers 1 exp 6 armour 0 weapon_lvl 0
 		unit	Mordor Halberd		exp 3 armour 0 weapon_lvl 0
 		unit	Mordor Halberd		exp 3 armour 0 weapon_lvl 0
@@ -2179,7 +2179,7 @@ monitor_event CharacterTurnStart CharacterIsLocal
 	spawn_army 
 	faction england
 	character	Sauron, named character, age 22, x 289, y 137, portrait sauron, hero_ability SAURON, label sauron1
-	traits Sauron 1, NightBattleCapable 1
+	traits Sauron 1, TrainAdmin 7 , NightBattleCapable 1
 		unit	Sauron Elephants	soldiers 1 exp 6 armour 0 weapon_lvl 0
 		unit	Mordor Halberd		exp 3 armour 0 weapon_lvl 0
 		unit	Mordor Halberd		exp 3 armour 0 weapon_lvl 0
@@ -2226,7 +2226,7 @@ monitor_event CharacterTurnStart CharacterIsLocal
 	spawn_army 
 	faction england
 	character	Sauron, named character, age 22, x 289, y 137, portrait sauron, hero_ability SAURON, label sauron1
-	traits Sauron 1, NightBattleCapable 1
+	traits Sauron 1, TrainAdmin 7 , NightBattleCapable 1
 		unit	Sauron Elephants	soldiers 1 exp 6 armour 0 weapon_lvl 0
 		unit	Mordor Halberd		exp 3 armour 0 weapon_lvl 0
 		unit	Mordor Halberd		exp 3 armour 0 weapon_lvl 0
@@ -2273,7 +2273,7 @@ monitor_event CharacterTurnStart CharacterIsLocal
 	spawn_army 
 	faction england
 	character	Sauron, named character, age 22, x 289, y 137, portrait sauron, hero_ability SAURON, label sauron1
-	traits Sauron 1, NightBattleCapable 1
+	traits Sauron 1, TrainAdmin 7 , NightBattleCapable 1
 		unit	Sauron Elephants	soldiers 1 exp 6 armour 0 weapon_lvl 0
 		unit	Mordor Halberd		exp 3 armour 0 weapon_lvl 0
 		unit	Mordor Halberd		exp 3 armour 0 weapon_lvl 0
@@ -2320,7 +2320,7 @@ monitor_event CharacterTurnStart CharacterIsLocal
 	spawn_army 
 	faction england
 	character	Sauron, named character, age 22, x 289, y 137, portrait sauron, hero_ability SAURON, label sauron1
-	traits Sauron 1, NightBattleCapable 1
+	traits Sauron 1, TrainAdmin 7 , NightBattleCapable 1
 		unit	Sauron Elephants	soldiers 1 exp 6 armour 0 weapon_lvl 0
 		unit	Mordor Halberd		exp 3 armour 0 weapon_lvl 0
 		unit	Mordor Halberd		exp 3 armour 0 weapon_lvl 0
@@ -2372,7 +2372,7 @@ monitor_event CharacterTurnStart CharacterIsLocal
 		spawn_army 
 		faction england
 		character	Sauron, named character, age 22, x 289, y 137, portrait sauron, hero_ability SAURON, label sauron_player1, direction S
-		traits Sauron 1, NightBattleCapable 1 , Slow 1
+		traits Sauron 1, TrainAdmin 7 , NightBattleCapable 1 , Slow 1
 		unit	Sauron Elephants	soldiers 1 exp 6 armour 0 weapon_lvl 0
 		unit	Mordor Halberd		exp 1 armour 0 weapon_lvl 0
 		unit	Mordor Halberd		exp 3 armour 0 weapon_lvl 0
@@ -3724,7 +3724,7 @@ monitor_event CharacterTurnEnd CharacterIsLocal
 	spawn_army 
 	faction england
 	character	Nazgula, named character, x 293, y 133, portrait nazgul1, battle_model witchking, hero_ability Terror_of_the_Witch_King, label family_mordor1
-	traits Witchking 1 , hero_ability12 1 , FactionleaderTO 1 , LoyaltyStarter 1 , GoodCommander 3 , BattleScarred 2 , BattleDread 1 , CaptorDread 1 , GoodAttacker 1 , NightBattleCapable 1
+	traits Witchking 1 , hero_ability12 1 , FactionleaderTO 1 , LoyaltyStarter 1 , GoodCommander 3 , TrainAdmin 4 , BattleScarred 2 , BattleDread 1 , CaptorDread 1 , GoodAttacker 1 , NightBattleCapable 1
 		unit	Black Numenorians	exp 2 armour 1 weapon_lvl 0
 		unit	Mordor Orcs Mercs	exp 3 armour 0 weapon_lvl 0
 		unit	Mordor Orcs Mercs	exp 1 armour 0 weapon_lvl 0
@@ -5644,7 +5644,7 @@ and I_EventCounter aragorn_accepted = 1
 	spawn_army 
 	faction sicily
 	character	Aragorn, named character, age 48, x 236, y 124, portrait Aragon, battle_model elessar, hero_ability STRIDER
-	traits Elessar 1 , hero_ability6 1 , NaturalMilitarySkill 4 , PublicFaith 1 , ReligionStarter 1 , GoodAttacker 1 , Brave 2 , Just 2 , KindRuler 2 , Loyal 2 , VictorVirtue 1
+	traits Elessar 1 , hero_ability6 1 , NaturalMilitarySkill 4 , TrainAdmin 5 , PublicFaith 1 , ReligionStarter 1 , GoodAttacker 1 , Brave 2 , Just 2 , KindRuler 2 , Loyal 2 , VictorVirtue 1
 		unit	Gondor Bodyguard		exp 2 armour 1 weapon_lvl 0
 	end
 	
@@ -5717,7 +5717,7 @@ monitor_event BuildingCompleted SettlementName Misty-Mountains
 	spawn_army 
 	faction hre
 	character	Balrog, named character, age 42, x 182, y 216, portrait Balrog
-	traits LoyaltyStarter 1 , Balrog 1 , ReligionStarter 1 , NightBattleCapable 1
+	traits LoyaltyStarter 1 , Balrog 1 , ReligionStarter 1 , TrainAdmin 6 , NightBattleCapable 1
 		unit	Balrog		soldiers 1 exp 1 armour 0 weapon_lvl 0
 	end
 	move_strat_camera 182, 216
@@ -5771,7 +5771,7 @@ monitor_event FactionTurnStart FactionType england
 	spawn_army 
 	faction england
 	character	Nazgulb, named character, age 32, x 290, y 138, battle_model mounted_nazgul, portrait nazgul2, hero_ability Terror_of_the_Nazgul
-	traits Nazgul 1 , hero_ability12 1 , LoyaltyStarter 3 , GoodCommander 3 , BattleScarred 2, BattleDread 1 , CaptorDread 1 , GoodAttacker 1 , NightBattleCapable 1
+	traits Nazgul 1 , hero_ability12 1 , LoyaltyStarter 3 , GoodCommander 3 , TrainAdmin 3 , BattleScarred 2, BattleDread 1 , CaptorDread 1 , GoodAttacker 1 , NightBattleCapable 1
 		unit	Black Numenorians		exp 3 armour 1 weapon_lvl 0
 	end
 	set_counter nazgul 1
@@ -5785,7 +5785,7 @@ monitor_event FactionTurnStart FactionType england
 	spawn_army 
 	faction england
 	character	Nazgule, named character, age 30, x 290, y 138, battle_model mounted_nazgul, portrait nazgul5, hero_ability Terror_of_the_Nazgul
-	traits Nazgul 1 , hero_ability12 1 , LoyaltyStarter 3 , GoodCommander 3 , BattleScarred 1, BattleDread 1 , CaptorDread 1 , GoodAttacker 1 , NightBattleCapable 1
+	traits Nazgul 1 , hero_ability12 1 , LoyaltyStarter 3 , GoodCommander 3 , TrainAdmin 3 , BattleScarred 1, BattleDread 1 , CaptorDread 1 , GoodAttacker 1 , NightBattleCapable 1
 		unit	Black Numenorians		exp 3 armour 1 weapon_lvl 0
 	end
 	set_counter nazgul 1
@@ -5799,7 +5799,7 @@ monitor_event FactionTurnStart FactionType england
 	spawn_army 
 	faction england
 	character	Nazgulf, named character, age 34, x 290, y 138, battle_model mounted_nazgul, portrait nazgul6, hero_ability Terror_of_the_Nazgul
-	traits Nazgul 1 , hero_ability12 1 , LoyaltyStarter 3 , GoodCommander 3 , BattleScarred 2, BattleDread 1 , CaptorDread 1 , NightBattleCapable 1
+	traits Nazgul 1 , hero_ability12 1 , LoyaltyStarter 3 , GoodCommander 3 , TrainAdmin 3 , BattleScarred 2, BattleDread 1 , CaptorDread 1 , NightBattleCapable 1
 		unit	Black Numenorians		exp 3 armour 1 weapon_lvl 0
 	end
 	set_counter nazgul 1
@@ -5813,7 +5813,7 @@ monitor_event FactionTurnStart FactionType england
 	spawn_army 
 	faction england
 	character	Nazgulg, named character, age 38, x 290, y 138, battle_model mounted_nazgul, portrait nazgul7, hero_ability Terror_of_the_Nazgul
-	traits Nazgul 1 , hero_ability12 1 , LoyaltyStarter 2 , GoodCommander 3 , BattleScarred 2, BattleDread 1 , CaptorDread 1 , GoodAttacker 1 , NightBattleCapable 1
+	traits Nazgul 1 , hero_ability12 1 , LoyaltyStarter 2 , GoodCommander 3 , TrainAdmin 3 , BattleScarred 2, BattleDread 1 , CaptorDread 1 , GoodAttacker 1 , NightBattleCapable 1
 		unit	Black Numenorians		exp 3 armour 1 weapon_lvl 0
 	end
 	set_counter nazgul 1
@@ -5827,7 +5827,7 @@ monitor_event FactionTurnStart FactionType england
 	spawn_army 
 	faction england
 	character	Nazgulh, named character, age 42, x 290, y 138, battle_model mounted_nazgul, portrait nazgul8, hero_ability Terror_of_the_Nazgul
-	traits Nazgul 1 , hero_ability12 1 , LoyaltyStarter 3 , GoodCommander 3 , BattleScarred 2, BattleDread 1 , CaptorDread 1 , GoodAttacker 1 , NightBattleCapable 1
+	traits Nazgul 1 , hero_ability12 1 , LoyaltyStarter 3 , GoodCommander 3 , TrainAdmin 3 , BattleScarred 2, BattleDread 1 , CaptorDread 1 , GoodAttacker 1 , NightBattleCapable 1
 		unit	Black Numenorians		exp 3 armour 1 weapon_lvl 0
 	end
 	set_counter nazgul 1
@@ -5841,7 +5841,7 @@ monitor_event FactionTurnStart FactionType england
 	spawn_army 
 	faction england
 	character	Nazguli, named character, age 48, x 290, y 138, battle_model mounted_nazgul, portrait nazgul9, hero_ability Terror_of_the_Nazgul
-	traits Nazgul 1, LoyaltyStarter 3 , GoodCommander 3 , BattleScarred 2, BattleDread 1 , CaptorDread 1 , GoodAttacker 1 , NightBattleCapable 1
+	traits Nazgul 1, LoyaltyStarter 3 , GoodCommander 3 , TrainAdmin 3 , BattleScarred 2, BattleDread 1 , CaptorDread 1 , GoodAttacker 1 , NightBattleCapable 1
 		unit	Black Numenorians		exp 3 armour 1 weapon_lvl 0
 	end
 	set_counter nazgul 1

@@ -747,7 +747,7 @@ settlement castle		;max: 2.5% -> 145 turns (+build times)
 }
 
 character	Denethor, named character, male, leader, age 65, x 239, y 128, portrait Denethor, hero_ability IRON_FIST
-traits Denethor 1 , hero_ability1 1 , Factionleader 1 , GoodCommander 1 , NaturalMilitarySkill 3 , Unjust 1 , Introvert 1 , PoliticsSkill 2 , ReligionStarter 1 , ChivalryLegacy 1
+traits Denethor 1 , hero_ability1 1 , Factionleader 1 , GoodCommander 1 , NaturalMilitarySkill 3 , TrainAdmin 4 , Unjust 1 , Introvert 1 , PoliticsSkill 2 , ReligionStarter 1 , ChivalryLegacy 1
 ancillaries steward_gondor, palantir_authorisation, troops_gondor, drillmaster
 army
 unit		Gondor Bodyguard			exp 2 armour 0 weapon_lvl 0
@@ -757,7 +757,7 @@ unit		Militia Archers				exp 0 armour 0 weapon_lvl 0
 unit		Fountain Guard				exp 1 armour 0 weapon_lvl 0
 
 character	Faramir, named character, male, age 18, x 254, y 127, portrait Faramir, battle_model faramir, hero_ability CAPTAIN		;west osgiliath
-traits Faramir 1 , hero_ability2 1 , LoyaltyStarter 1 , NaturalMilitarySkill 4 , ReligionStarter 1 , GoodAmbusher 2 , Intelligent 1 , Aesthetic 1 , Just 1
+traits Faramir 1 , hero_ability2 1 , LoyaltyStarter 1 , NaturalMilitarySkill 4 , TrainAdmin 3 , ReligionStarter 1 , GoodAmbusher 2 , Intelligent 1 , Aesthetic 1 , Just 1
 ancillaries warden, gondor_horn
 army
 unit		Ithilien Rangers_BG			exp 2 armour 0 weapon_lvl 0
@@ -787,7 +787,7 @@ unit		Dismounted Kofm				exp 0 armour 0 weapon_lvl 0
 unit		Militia Archers				exp 0 armour 0 weapon_lvl 0
 
 character	Imrahil, named character, male, age 30, x 175, y 106, portrait Imrahil								;belfalas
-traits LoyaltyStarter 1 , NaturalMilitarySkill 2 , ReligionStarter 1 , GoodDefender 1 , StrategyChivalry 2 , BattleChivalry 1 , Just 1 , HaleAndHearty 2
+traits LoyaltyStarter 1 , NaturalMilitarySkill 2 , TrainAdmin 3 , ReligionStarter 1 , GoodDefender 1 , StrategyChivalry 2 , BattleChivalry 1 , Just 1 , HaleAndHearty 2
 ancillaries prince_dol_amroth
 army
 unit		Swan Knights				exp 2 armour 0 weapon_lvl 0
@@ -829,7 +829,7 @@ unit		Blackroot Archers			exp 2 armour 0 weapon_lvl 0
 unit		Militia Archers				exp 0 armour 0 weapon_lvl 0
 
 character	Boromir, named character, male, heir, age 23, x 240, y 127, portrait Boromir, battle_model boromir, hero_ability SHIELD, label family_gondor1		;erech Born 2978
-traits Boromir 1 , hero_ability3 1 , Factionheir 1 , LoyaltyStarter 1 , NaturalMilitarySkill 2 , ReligionStarter 1 , Energetic 1 , Loyal 1
+traits Boromir 1 , hero_ability3 1 , Factionheir 1 , LoyaltyStarter 1 , NaturalMilitarySkill 2 , TrainAdmin 2 , ReligionStarter 1 , Energetic 1 , Loyal 1
 ancillaries high_warden, gondor_horn, writings_isildur
 army
 unit		Kingsguard_BG				exp 1 armour 0 weapon_lvl 0
@@ -1238,7 +1238,7 @@ settlement castle
 }
 
 character	Thengel, named character, male, leader, age 50, x 186, y 154, portrait Thengel, hero_ability SHIELD, label family_rohan1
-traits Thengel 1 , hero_ability3 1 , Factionleader 1 , GoodCommander 3 , PoliticsSkill 2 , GoodAdministrator 2 , Austere 1 , GoodCavalryGeneral 1 , ReligionStarter 1 , Brave 1 , KindRuler 1
+traits Thengel 1 , hero_ability3 1 , Factionleader 1 , GoodCommander 3 , TrainAdmin 3 , PoliticsSkill 2 , GoodAdministrator 2 , Austere 1 , GoodCavalryGeneral 1 , ReligionStarter 1 , Brave 1 , KindRuler 1
 ancillaries king_rohan
 army
 unit		rohan bodyguards		exp 2 armour 0 weapon_lvl 0
@@ -1255,7 +1255,7 @@ unit		archers				exp 0 armour 0 weapon_lvl 0
 unit		rohan scouts			exp 1 armour 0 weapon_lvl 0
 
 character	Theoden, named character, male, heir, age 33, x 199, y 149, portrait Theoden, battle_model theoden, hero_ability CHARGE			;eastfold
-traits Theoden 1 , hero_ability4 1 , Factionheir 1 , LoyaltyStarter 1 , GoodCommander 2 , ReligionStarter 1 , GoodCavalryGeneral 1 , Loyal 1 , Just 1
+traits Theoden 1 , hero_ability4 1 , Factionheir 1 , LoyaltyStarter 1 , GoodCommander 2 , TrainAdmin 2 , ReligionStarter 1 , GoodCavalryGeneral 1 , Loyal 1 , Just 1
 ancillaries rohan_first, helms_horn, herugrim
 army
 unit		rohan bodyguards		exp 1 armour 0 weapon_lvl 0
@@ -1487,7 +1487,7 @@ settlement ;DONE
 }
 
 character	Bard, named character, male, leader, age 45, x 291, y 265, portrait Bard, hero_ability CAPTAIN, label family_dale1 ;dale
-traits Bard 1 , hero_ability3 1 , Factionleader 1 , GoodCommander 1 , NaturalMilitarySkill 2 , PublicFaith 2 , GoodAdministrator 2 , BattleChivalry 1 , StrategyChivalry 2 , ReligionStarter 1 , Brave 1
+traits Bard 1 , hero_ability3 1 , Factionleader 1 , GoodCommander 1 , NaturalMilitarySkill 2 , TrainAdmin 3 , PublicFaith 2 , GoodAdministrator 2 , BattleChivalry 1 , StrategyChivalry 2 , ReligionStarter 1 , Brave 1
 ancillaries king_dale, troops_dale, dragonslayer
 army
 unit		Bardian Archers				exp 2 armour 0 weapon_lvl 0
@@ -1497,7 +1497,7 @@ unit		Watchmen				exp 1 armour 0 weapon_lvl 0
 unit		Dalesmen				exp 0 armour 0 weapon_lvl 0
 
 character	Bain, named character, male, heir, age 19, x 288, y 258, portrait Bain, hero_ability IRON_FIST ;esgaroth
-traits Factionheir 1 , hero_ability1 1 , LoyaltyStarter 1 , NaturalMilitarySkill 1 , ReligionStarter 1 , GoodDefender 1 , HaleAndHearty 1 , BattleChivalry 2
+traits Factionheir 1 , hero_ability1 1 , LoyaltyStarter 1 , NaturalMilitarySkill 1 , TrainAdmin 2 , ReligionStarter 1 , GoodDefender 1 , HaleAndHearty 1 , BattleChivalry 2
 ancillaries lord_esgaroth
 army
 unit		Bardian Archers				exp 1 armour 0 weapon_lvl 0
@@ -1710,7 +1710,7 @@ settlement castle	;DONE
 }
 
 character	Dain, named character, male, leader, age 54, x 292, y 269, portrait Dain, hero_ability DWARVES	;, label family_dwarves1
-traits Dain 1 , hero_ability5 1 , Factionleader 1 , GoodCommander 2 , Energetic 1 , ReligionStarter 1 , GoodAttacker 1 , Brave 1 , ChivalryLegacy 2
+traits Dain 1 , hero_ability5 1 , Factionleader 1 , GoodCommander 2 , TrainAdmin 4 , Energetic 1 , ReligionStarter 1 , GoodAttacker 1 , Brave 1 , ChivalryLegacy 2
 ancillaries leader_dwarf, king_mountain
 army
 unit		Noble Bodyguards			exp 3 armour 0 weapon_lvl 0
@@ -1735,7 +1735,7 @@ unit		Noble Bodyguards			exp 1 armour 0 weapon_lvl 0
 unit		Clan Warriors				exp 0 armour 0 weapon_lvl 0
 
 character	Gimli, named character, male, age 24, x 61, y 315, portrait Gimli, battle_model gimli, hero_ability SHIELD		;Naugrim
-traits Gimli 1 , hero_ability3 1 , LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , GoodAttacker 2 , Brave 1 , Loyal 1 , RansomChivalry 1
+traits Gimli 1 , hero_ability3 1 , LoyaltyStarter 1 , GoodCommander 1 , TrainAdmin 3 , ReligionStarter 1 , GoodAttacker 2 , Brave 1 , Loyal 1 , RansomChivalry 1
 ancillaries troops_dwarf, gimli_axe, gimli_axe_small
 army
 unit		Noble Bodyguards			exp 1 armour 0 weapon_lvl 0
@@ -1989,7 +1989,7 @@ settlement
 }
 
 character	Aragorn, named character, male, leader, age 38, x 119, y 248, battle_model aragorn, portrait Aragon, hero_ability STRIDER, label strider1 ;Bree
-traits Aragorn 1 , hero_ability6 1 , Factionleader 1 , NaturalMilitarySkill 4 , PublicFaith 1 , ReligionStarter 1 , GoodAttacker 1 , Brave 2 , Just 2 , KindRuler 2 , Loyal 2
+traits Aragorn 1 , hero_ability6 1 , Factionleader 1 , NaturalMilitarySkill 4 , TrainAdmin 5 , PublicFaith 1 , ReligionStarter 1 , GoodAttacker 1 , Brave 2 , Just 2 , KindRuler 2 , Loyal 2
 ancillaries king_eriador, elendilmir, anduril, major_bree
 army
 unit		Grey Company				exp 3 armour 0 weapon_lvl 0
@@ -2000,7 +2000,7 @@ unit		Merchants				exp 0 armour 0 weapon_lvl 0
 unit		Lumbermen				exp 1 armour 0 weapon_lvl 0
 
 character	Gandalf, named character, male, age 22, x 117, y 248, battle_model gandalf, portrait Gandalf, hero_ability GANDALF
-traits Gandalf 1 , hero_ability7 1 , LoyaltyStarter 1 , NaturalMilitarySkill 3 , ReligionStarter 1 , GoodAttacker 1 , Loyal 1 , Just 2 , StrategyChivalry 1
+traits Gandalf 1 , hero_ability7 1 , LoyaltyStarter 1 , NaturalMilitarySkill 3 , TrainAdmin 6 , ReligionStarter 1 , GoodAttacker 1 , Loyal 1 , Just 2 , StrategyChivalry 1
 ancillaries staff_gandalf, glamdring, narya
 army
 unit		Mounted Dunedain BG			exp 2 armour 1 weapon_lvl 0
@@ -2304,7 +2304,7 @@ settlement ;DONE
 }
 
 character	Elrond, named character, male, leader, age 50, x 185, y 249, portrait Elrond, hero_ability ELROND	;, label family_he1
-traits Elrond 1 , hero_ability9 1 , Factionleader 1 , GoodCommander 1 , NaturalMilitarySkill 3 , PublicFaith 2 , MathematicsSkill 1 , ReligionStarter 1 , GoodAttacker 1 , Just 2 , KindRuler 2 , BattleChivalry 2
+traits Elrond 1 , hero_ability9 1 , Factionleader 1 , GoodCommander 1 , NaturalMilitarySkill 3 , TrainAdmin 5 , PublicFaith 2 , MathematicsSkill 1 , ReligionStarter 1 , GoodAttacker 1 , Just 2 , KindRuler 2 , BattleChivalry 2
 ancillaries vilya, leader_council, librarian, lord_imladris, haldhafang
 army
 unit		Elf Spear_BG				exp 3 armour 0 weapon_lvl 0
@@ -2312,7 +2312,7 @@ unit		Elf Archer2				exp 0 armour 0 weapon_lvl 0
 unit		Homeguard Warriors			exp 1 armour 0 weapon_lvl 0
 
 character	Cirdan, named character, male, age 54, x 60, y 252, portrait Cirdan ;mithlond
-traits Cirdan 1 , LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , Loyal 1 , KindRuler 1 , MathematicsSkill 2 , GoodBuilder 1 , ChivalryLegacy 2
+traits Cirdan 1 , LoyaltyStarter 1 , GoodCommander 1 , TrainAdmin 5 , ReligionStarter 1 , Loyal 1 , KindRuler 1 , MathematicsSkill 2 , GoodBuilder 1 , ChivalryLegacy 2
 ancillaries lord_mithlond, palantir_authorisation
 army
 unit		Elf Nobel Mount				exp 2 armour 0 weapon_lvl 0
@@ -2321,7 +2321,7 @@ unit		High Sword				exp 0 armour 0 weapon_lvl 0
 unit		Elf Archer2				exp 0 armour 0 weapon_lvl 0
 
 character	Glorfindel, named character, male, age 46, x 31, y 248, portrait Glorfindel, battle_model glorfindel, hero_ability Light_of_the_Faith ;forlindon
-traits Glorfindel 1 , hero_ability10 1 , LoyaltyStarter 1 , NaturalMilitarySkill 2 , ReligionStarter 1 , GoodAttacker 1 , Brave 1 , Just 1 , BattleChivalry 2
+traits Glorfindel 1 , hero_ability10 1 , LoyaltyStarter 1 , NaturalMilitarySkill 2 , TrainAdmin 5 , ReligionStarter 1 , GoodAttacker 1 , Brave 1 , Just 1 , BattleChivalry 2
 ancillaries troops_helf
 army
 unit		Elf Nobel Mount				exp 3 armour 0 weapon_lvl 0
@@ -2329,14 +2329,14 @@ unit		Lindon Longspears			exp 1 armour 0 weapon_lvl 0
 unit		Elf Archer2				exp 0 armour 0 weapon_lvl 0
 
 character	Elrohir, named character, male, age 21, x 39, y 232, portrait Elrohir, battle_model elrohir ;harlindon
-traits Elrohir 1 , LoyaltyStarter 1 , NaturalMilitarySkill 2 , ReligionStarter 1 , Loyal 1 , StrategyChivalry 1 , ChivalryLegacy 2
+traits Elrohir 1 , LoyaltyStarter 1 , NaturalMilitarySkill 2 , TrainAdmin 3 , ReligionStarter 1 , Loyal 1 , StrategyChivalry 1 , ChivalryLegacy 2
 army
 unit		Elf Nobel Mount				exp 0 armour 0 weapon_lvl 0
 unit		High Sword				exp 1 armour 0 weapon_lvl 0
 unit		Elf Archer2				exp 0 armour 0 weapon_lvl 0
 
 character	Elladan, named character, male, heir, age 22, x 66, y 238, portrait Elladan, battle_model elladan ;emyn beraid
-traits Elladan 1 , LoyaltyStarter 1 , NaturalMilitarySkill 2 , ReligionStarter 1 , Brave 1 , Loyal 1 , ChivalryLegacy 2
+traits Elladan 1 , LoyaltyStarter 1 , NaturalMilitarySkill 2 , TrainAdmin 3 , ReligionStarter 1 , Brave 1 , Loyal 1 , ChivalryLegacy 2
 army
 unit		Elf Nobel Mount				exp 1 armour 0 weapon_lvl 0
 unit		Elf Archer2				exp 0 armour 0 weapon_lvl 0
@@ -2506,7 +2506,7 @@ settlement
 }
 
 character	Thranduil, named character, male, leader, age 47, x 261, y 271, portrait Thranduil, battle_model thranduil, label family_se1 ;elven mirkwood
-traits Thranduil 1 , Factionleader 1 , LoyaltyStarter 1 , NaturalMilitarySkill 2 , ReligionStarter 1 , GoodAmbusher 1 , KindRuler 2 , StrategyChivalry 1
+traits Thranduil 1 , Factionleader 1 , LoyaltyStarter 1 , NaturalMilitarySkill 2 , TrainAdmin 4 , ReligionStarter 1 , GoodAmbusher 1 , KindRuler 2 , StrategyChivalry 1
 ancillaries king_silvan, emeralds_girion
 army
 unit		Elf Bodyguard				exp 2 armour 0 weapon_lvl 0
@@ -2516,14 +2516,14 @@ unit		Silvan Sword				exp 1 armour 0 weapon_lvl 0
 unit		Silvan Spear				exp 0 armour 0 weapon_lvl 0
 
 character	Legolas, named character, male, heir, age 22, x 259, y 268, portrait Legolas, battle_model legolas ;near thranduil
-traits Legolas 1 , Factionheir 1 , LoyaltyStarter 1 , NaturalMilitarySkill 3 , ReligionStarter 1 , Brave 1 , GoodAmbusher 2 , Loyal 2 , Just 1
+traits Legolas 1 , Factionheir 1 , LoyaltyStarter 1 , NaturalMilitarySkill 3 , TrainAdmin 4 , ReligionStarter 1 , Brave 1 , GoodAmbusher 2 , Loyal 2 , Just 1
 ancillaries troops_silvan, light_earendil
 army
 unit		Elf Bodyguard				exp 1 armour 0 weapon_lvl 0
 unit		Silvan Archer				exp 1 armour 0 weapon_lvl 0
 
 character	Celeborn, named character, male, age 32, x 205, y 213, portrait Celeborn, hero_ability SHIELD
-traits Celeborn 1 , hero_ability3 1 , LoyaltyStarter 1 , NaturalMilitarySkill 2 , ReligionStarter 1 , GoodDefender 1 , PoliticsSkill 1 , Loyal 1 , Just 1 , BattleChivalry 2
+traits Celeborn 1 , hero_ability3 1 , LoyaltyStarter 1 , NaturalMilitarySkill 2 , TrainAdmin 6 , ReligionStarter 1 , GoodDefender 1 , PoliticsSkill 1 , Loyal 1 , Just 1 , BattleChivalry 2
 ancillaries nenya, king_lorien
 army
 unit		Elf Bodyguard				exp 2 armour 0 weapon_lvl 0
@@ -2532,7 +2532,7 @@ unit		Elf Archer				exp 0 armour 0 weapon_lvl 0
 unit		Silvan Spear				exp 0 armour 0 weapon_lvl 0
 
 character	Haldir, named character, male, age 37, x 217, y 210, portrait Haldir, battle_model haldir, hero_ability SILVAN ;celebrant
-traits Haldir 1 , hero_ability11 1 , LoyaltyStarter 1 , GoodCommander 1 , ReligionStarter 1 , Loyal 1 , BattleChivalry 1 , ChivalryLegacy 1
+traits Haldir 1 , hero_ability11 1 , LoyaltyStarter 1 , GoodCommander 1 , TrainAdmin 3 , ReligionStarter 1 , Loyal 1 , BattleChivalry 1 , ChivalryLegacy 1
 ancillaries troops_gala
 army
 unit		Elf Bodyguard				exp 2 armour 0 weapon_lvl 0
@@ -2921,7 +2921,7 @@ settlement
 }
 
 character	Nazgula, named character, male, leader, age 41, x 290, y 138, portrait nazgul1, battle_model witchking, hero_ability Terror_of_the_Witch_King, label family_mordor1
-traits Witchking 1 , hero_ability12 1 , FactionleaderTO 1 , LoyaltyStarter 1 , GoodCommander 3 , BattleScarred 2 , BattleDread 1 , CaptorDread 1 , GoodAttacker 1 , NightBattleCapable 1
+traits Witchking 1 , hero_ability12 1 , FactionleaderTO 1 , LoyaltyStarter 1 , GoodCommander 3 , TrainAdmin 4 , BattleScarred 2 , BattleDread 1 , CaptorDread 1 , GoodAttacker 1 , NightBattleCapable 1
 ancillaries ring_witchking, king_mordor, witchkings_flail
 army
 unit		Black Numenorians			exp 3 armour 0 weapon_lvl 0
@@ -2932,7 +2932,7 @@ unit		Mordor Scouts				exp 0 armour 0 weapon_lvl 0
 unit		Mordor Scouts				exp 0 armour 0 weapon_lvl 0
 
 character	Nazgulc, named character, male, heir, age 25, x 273, y 125, portrait nazgul4, battle_model mounted_nazgul, hero_ability Terror_of_the_Nazgul
-traits Nazgul 1 , hero_ability13 1 , FactionheirTO 1 , LoyaltyStarter 1 , GoodCommander 2 , BattleScarred 3 , StrategyDread 1 , GoodAttacker 1 , NightBattleCapable 1
+traits Nazgul 1 , hero_ability13 1 , FactionheirTO 1 , LoyaltyStarter 1 , GoodCommander 2 , TrainAdmin 3 , BattleScarred 3 , StrategyDread 1 , GoodAttacker 1 , NightBattleCapable 1
 ancillaries ring_nazgul, troops_mordor_west, nazgul_sword
 army
 unit		Black Numenorians			exp 2 armour 0 weapon_lvl 0
@@ -2973,7 +2973,7 @@ unit		Orc Band				exp 1 armour 0 weapon_lvl 0
 unit		Orc Band				exp 0 armour 0 weapon_lvl 0
 
 character	Nazguld, named character, male, age 24, x 247, y 210, portrait nazgul3, battle_model mounted_nazgul, hero_ability Terror_of_the_Nazgul
-traits Nazgul 1 , hero_ability13 1 , LoyaltyStarter 1 , GoodCommander 3 , BattleScarred 2, BattleDread 1 , CaptorDread 1 , GoodAttacker 1 , NightBattleCapable 1
+traits Nazgul 1 , hero_ability13 1 , LoyaltyStarter 1 , GoodCommander 3 , TrainAdmin 3 , BattleScarred 2, BattleDread 1 , CaptorDread 1 , GoodAttacker 1 , NightBattleCapable 1
 ancillaries ring_nazgul, troops_mordor_north, blade_khamul
 army
 unit		Black Numenorians			exp 4 armour 0 weapon_lvl 0
@@ -3148,7 +3148,7 @@ settlement
 }
 
 character	Saruman, named character, male, leader, age 56, x 164, y 189, battle_model saruman, portrait saruman, hero_ability THE_VOICE
-traits Saruman 1 , hero_ability15 1 , FactionleaderTO 1 , GoodCommander 2 , PublicFaith 1 , ReligionStarter 1 , StrategyDread 1 , RhetoricSkill 1
+traits Saruman 1 , hero_ability15 1 , FactionleaderTO 1 , GoodCommander 2 , TrainAdmin 6 , PublicFaith 1 , ReligionStarter 1 , StrategyDread 1 , RhetoricSkill 1
 ancillaries king_isengard, palantir_authorisation, staff_saruman
 army
 unit		Orthanc Guard_BG			exp 2 armour 0 weapon_lvl 0
