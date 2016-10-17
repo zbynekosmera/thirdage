@@ -1,0 +1,116 @@
+declare_counter verbovaniDol 0
+
+
+monitor_event FactionTurnStart FactionType scotland
+
+	inc_counter verbovaniDol 1
+
+end_monitor
+
+
+
+monitor_event FactionTurnStart FactionType scotland
+	and I_TurnNumber < 50
+	and not IsFactionAIControlled
+	and I_CompareCounter verbovaniDol >= 10
+	and I_SettlementOwner Dale = scotland
+
+	spawn_army
+		faction scotland
+		character random_name, named character, age 30, x 288, y 262
+		traits  LoyaltyStarter 1 , NaturalMilitarySkill 1 , ReligionStarter 1 ,  Loyal 1 , Disciplinarian 1, BattleChivalry 1, PublicFaith 1
+		unit		Bardian Archers			exp 0 armour 0 weapon_lvl 0
+		unit		Rhovanion			exp 0 armour 0 weapon_lvl 0
+		unit		Rhovanion			exp 0 armour 0 weapon_lvl 0
+		unit		Rhovanion			exp 0 armour 0 weapon_lvl 0
+		unit		Rhovanion			exp 0 armour 0 weapon_lvl 0
+		unit		Rhovanion			exp 0 armour 0 weapon_lvl 0
+		unit		Rhovanion			exp 0 armour 0 weapon_lvl 0
+		unit		Rhovanion			exp 0 armour 0 weapon_lvl 0
+		unit		Rhovanion			exp 0 armour 0 weapon_lvl 0
+		unit		Rhovanion			exp 0 armour 0 weapon_lvl 0
+		unit		Rhovanion			exp 0 armour 0 weapon_lvl 0
+	end
+
+	inc_counter verbovaniDol -15
+end_monitor
+
+monitor_event FactionTurnStart FactionType scotland
+	and I_TurnNumber >= 50
+	and I_TurnNumber < 100
+	and not IsFactionAIControlled
+	and I_CompareCounter verbovaniDol >= 10
+	and I_SettlementOwner Dale = scotland
+
+	spawn_army
+		faction scotland
+		character random_name, named character, age 30, x 288, y 262
+		traits LoyaltyStarter 1 , NaturalMilitarySkill 2 , ReligionStarter 1 ,  Loyal 2 , Disciplinarian 2, BattleChivalry 2, PublicFaith 2
+		unit		Bardian Archers			exp 3 armour 1 weapon_lvl 0
+		unit		Barding Hird			exp 3 armour 1 weapon_lvl 0
+		unit		Barding Hird			exp 3 armour 1 weapon_lvl 0
+		unit		Barding Hird			exp 3 armour 1 weapon_lvl 0
+		unit		Barding Hird			exp 3 armour 1 weapon_lvl 0
+		unit		Barding Hird			exp 3 armour 1 weapon_lvl 0
+		unit		Barding Hird			exp 3 armour 1 weapon_lvl 0
+		unit		Barding Hird			exp 3 armour 1 weapon_lvl 0
+		unit		Barding Hird			exp 3 armour 1 weapon_lvl 0
+		unit		Barding Hird			exp 3 armour 1 weapon_lvl 0
+		unit		Barding Hird			exp 3 armour 1 weapon_lvl 0
+	end
+
+	inc_counter verbovaniDol -14
+end_monitor
+
+monitor_event FactionTurnStart FactionType scotland
+	and I_TurnNumber >= 100
+	and I_TurnNumber < 150
+	and not IsFactionAIControlled
+	and I_CompareCounter verbovaniDol >= 10
+	and I_SettlementOwner Dale = scotland
+
+	spawn_army
+		faction scotland
+		character random_name, named character, age 30, x 288, y 262
+		traits  LoyaltyStarter 1 , NaturalMilitarySkill 3 , ReligionStarter 1 ,  Loyal 3 , Disciplinarian 3, BattleChivalry 3, PublicFaith 3
+		unit		Bardian Archers			exp 6 armour 2 weapon_lvl 1
+		unit		Dale Swordmasters		exp 6 armour 2 weapon_lvl 1
+		unit		Dale Swordmasters		exp 6 armour 2 weapon_lvl 1
+		unit		Dale Swordmasters		exp 6 armour 2 weapon_lvl 1
+		unit		Dale Swordmasters		exp 6 armour 2 weapon_lvl 1
+		unit		Dale Swordmasters		exp 6 armour 2 weapon_lvl 1
+		unit		Dale Swordmasters		exp 6 armour 2 weapon_lvl 1
+		unit		Dale Swordmasters		exp 6 armour 2 weapon_lvl 1
+		unit		Dale Swordmasters		exp 6 armour 2 weapon_lvl 1
+		unit		Dale Swordmasters		exp 6 armour 2 weapon_lvl 1
+		unit		Dale Swordmasters		exp 6 armour 2 weapon_lvl 1
+	end
+
+	inc_counter verbovaniDol -13
+end_monitor
+
+monitor_event FactionTurnStart FactionType scotland
+	and I_TurnNumber >= 150
+	and not IsFactionAIControlled
+	and I_CompareCounter verbovaniDol >= 10
+	and I_SettlementOwner Dale = scotland
+
+	spawn_army
+		faction scotland
+		character random_name, named character, age 30, x 288, y 262
+		traits  LoyaltyStarter 1 , NaturalMilitarySkill 4 , ReligionStarter 1 ,  Loyal 4 , Disciplinarian 3, BattleChivalry 4, PublicFaith 4
+		unit		Bardian Archers			exp 9 armour 3 weapon_lvl 1
+		unit		Dismounted Earls		exp 9 armour 3 weapon_lvl 1
+		unit		Dismounted Earls		exp 9 armour 3 weapon_lvl 1
+		unit		Dismounted Earls		exp 9 armour 3 weapon_lvl 1
+		unit		Dismounted Earls		exp 9 armour 3 weapon_lvl 1
+		unit		Dismounted Earls		exp 9 armour 3 weapon_lvl 1
+		unit		Dismounted Earls		exp 9 armour 3 weapon_lvl 1
+		unit		Dismounted Earls		exp 9 armour 3 weapon_lvl 1
+		unit		Dismounted Earls		exp 9 armour 3 weapon_lvl 1
+		unit		Dismounted Earls		exp 9 armour 3 weapon_lvl 1
+		unit		Dismounted Earls		exp 9 armour 3 weapon_lvl 1
+	end
+
+	inc_counter verbovaniDol -12
+end_monitor

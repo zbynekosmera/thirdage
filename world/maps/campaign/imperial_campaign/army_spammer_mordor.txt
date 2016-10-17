@@ -1,9 +1,9 @@
-declare_counter verbovani 0
+declare_counter verbovaniMordor 0
 
 
 monitor_event FactionTurnStart FactionType england
 
-	inc_counter verbovani 1
+	inc_counter verbovaniMordor 1
 
 end_monitor
 
@@ -12,7 +12,7 @@ end_monitor
 monitor_event FactionTurnStart FactionType england
 	and I_TurnNumber < 50
 	and not IsFactionAIControlled
-	and I_CompareCounter verbovani >= 10
+	and I_CompareCounter verbovaniMordor >= 10
 	and I_SettlementOwner Gorgoroth = england
 
 	spawn_army
@@ -32,14 +32,14 @@ monitor_event FactionTurnStart FactionType england
 		unit		Orc Band			exp 0 armour 0 weapon_lvl 0
 	end
 
-	inc_counter verbovani -10
+	inc_counter verbovaniMordor -10
 end_monitor
 
 monitor_event FactionTurnStart FactionType england
 	and I_TurnNumber >= 50
 	and I_TurnNumber < 100
 	and not IsFactionAIControlled
-	and I_CompareCounter verbovani >= 10
+	and I_CompareCounter verbovaniMordor >= 10
 	and I_SettlementOwner Gorgoroth = england
 
 	spawn_army
@@ -59,14 +59,14 @@ monitor_event FactionTurnStart FactionType england
 		unit		2handed Orcs			exp 3 armour 1 weapon_lvl 0
 	end
 
-	inc_counter verbovani -10
+	inc_counter verbovaniMordor -9
 end_monitor
 
 monitor_event FactionTurnStart FactionType england
 	and I_TurnNumber >= 100
 	and I_TurnNumber < 150
 	and not IsFactionAIControlled
-	and I_CompareCounter verbovani >= 10
+	and I_CompareCounter verbovaniMordor >= 10
 	and I_SettlementOwner Gorgoroth = england
 
 	spawn_army
@@ -86,13 +86,13 @@ monitor_event FactionTurnStart FactionType england
 		unit		Morannon Guard			exp 6 armour 2 weapon_lvl 1
 	end
 
-	inc_counter verbovani -10
+	inc_counter verbovaniMordor -8
 end_monitor
 
 monitor_event FactionTurnStart FactionType england
 	and I_TurnNumber >= 150
 	and not IsFactionAIControlled
-	and I_CompareCounter verbovani >= 10
+	and I_CompareCounter verbovaniMordor >= 10
 	and I_SettlementOwner Gorgoroth = england
 
 	spawn_army
@@ -112,5 +112,5 @@ monitor_event FactionTurnStart FactionType england
 		unit		Mordor Halberd			exp 9 armour 3 weapon_lvl 1
 	end
 
-	inc_counter verbovani -10
+	inc_counter verbovaniMordor -7
 end_monitor
