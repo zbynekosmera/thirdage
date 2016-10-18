@@ -1540,7 +1540,7 @@ stat_pri         11, 2, elven_arrow, 190, 50, missile, missile_mechanical, pierc
 stat_pri_attr    no
 stat_sec         9, 2, no, 0, 0, melee, melee_blade, piercing, sword, 0, 1
 stat_sec_attr    no
-stat_pri_armour  2, 8, 0, leather
+stat_pri_armour  3, 9, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      0, -1, 0, -1
@@ -1548,7 +1548,7 @@ stat_mental      12, normal, highly_trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 590, 240, 75, 75, 590, 4, 100
+stat_cost        1, 690, 240, 75, 75, 590, 4, 100
 armour_ug_levels 1, 2, 3, 4
 armour_ug_models homeguard_bow, homeguard_bow_upg
 ownership        egypt
