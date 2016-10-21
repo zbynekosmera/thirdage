@@ -1,0 +1,468 @@
+declare_counter verbovaniRohan 0
+
+
+monitor_event FactionTurnStart FactionType milan
+
+	inc_counter verbovaniRohan 1
+
+end_monitor
+
+
+
+monitor_event FactionTurnStart FactionType milan
+	and I_TurnNumber < 50
+	and not IsFactionAIControlled
+	and I_CompareCounter verbovaniRohan >= 10
+	and I_SettlementOwner Kings-Land = milan
+
+	spawn_army
+		faction milan
+		character random_name, named character, age 30, x 186, y 153
+		traits  LoyaltyStarter 1 , NaturalMilitarySkill 1 , ReligionStarter 1 ,  Loyal 1 , Disciplinarian 1, BattleChivalry 1, PublicFaith 1
+		unit		rohan bodyguards		exp 0 armour 0 weapon_lvl 0
+		unit		Rohan Horsearchers		exp 0 armour 0 weapon_lvl 0
+		unit		Rohan Horsearchers		exp 0 armour 0 weapon_lvl 0
+		unit		Rohan Horsearchers		exp 0 armour 0 weapon_lvl 0
+		unit		Rohan Horsearchers		exp 0 armour 0 weapon_lvl 0
+		unit		Rohan Horsearchers		exp 0 armour 0 weapon_lvl 0
+		unit		Rohan Horsearchers		exp 0 armour 0 weapon_lvl 0
+		unit		Rohan Horsearchers		exp 0 armour 0 weapon_lvl 0
+		unit		Rohan Horsearchers		exp 0 armour 0 weapon_lvl 0
+		unit		Rohan Horsearchers		exp 0 armour 0 weapon_lvl 0
+		unit		Rohan Horsearchers		exp 0 armour 0 weapon_lvl 0
+	end
+
+	inc_counter verbovaniRohan -15
+end_monitor
+
+monitor_event FactionTurnStart FactionType milan
+	and I_TurnNumber >= 50
+	and I_TurnNumber < 100
+	and not IsFactionAIControlled
+	and I_CompareCounter verbovaniRohan >= 10
+	and I_SettlementOwner Kings-Land = milan
+
+	spawn_army
+		faction milan
+		character random_name, named character, age 30, x 186, y 153
+		traits LoyaltyStarter 1 , NaturalMilitarySkill 2 , ReligionStarter 1 ,  Loyal 2 , Disciplinarian 2, BattleChivalry 2, PublicFaith 2
+		unit		rohan bodyguards		exp 3 armour 1 weapon_lvl 0
+		unit		rohan rider			exp 3 armour 1 weapon_lvl 0
+		unit		rohan rider			exp 3 armour 1 weapon_lvl 0
+		unit		rohan rider			exp 3 armour 1 weapon_lvl 0
+		unit		rohan rider			exp 3 armour 1 weapon_lvl 0
+		unit		rohan rider			exp 3 armour 1 weapon_lvl 0
+		unit		rohan rider			exp 3 armour 1 weapon_lvl 0
+		unit		rohan rider			exp 3 armour 1 weapon_lvl 0
+		unit		rohan rider			exp 3 armour 1 weapon_lvl 0
+		unit		rohan rider			exp 3 armour 1 weapon_lvl 0
+		unit		rohan rider			exp 3 armour 1 weapon_lvl 0
+	end
+
+	inc_counter verbovaniRohan -14
+end_monitor
+
+monitor_event FactionTurnStart FactionType milan
+	and I_TurnNumber >= 100
+	and I_TurnNumber < 150
+	and not IsFactionAIControlled
+	and I_CompareCounter verbovaniRohan >= 10
+	and I_SettlementOwner Kings-Land = milan
+
+	spawn_army
+		faction milan
+		character random_name, named character, age 30, x 186, y 153
+		traits  LoyaltyStarter 1 , NaturalMilitarySkill 3 , ReligionStarter 1 ,  Loyal 3 , Disciplinarian 3, BattleChivalry 3, PublicFaith 3
+		unit		rohan bodyguards		exp 6 armour 2 weapon_lvl 1
+		unit		eorlingas			exp 6 armour 2 weapon_lvl 1
+		unit		eorlingas			exp 6 armour 2 weapon_lvl 1
+		unit		eorlingas			exp 6 armour 2 weapon_lvl 1
+		unit		eorlingas			exp 6 armour 2 weapon_lvl 1
+		unit		eorlingas			exp 6 armour 2 weapon_lvl 1
+		unit		eorlingas			exp 6 armour 2 weapon_lvl 1
+		unit		eorlingas			exp 6 armour 2 weapon_lvl 1
+		unit		eorlingas			exp 6 armour 2 weapon_lvl 1
+		unit		eorlingas			exp 6 armour 2 weapon_lvl 1
+		unit		eorlingas			exp 6 armour 2 weapon_lvl 1
+	end
+
+	inc_counter verbovaniRohan -13
+end_monitor
+
+monitor_event FactionTurnStart FactionType milan
+	and I_TurnNumber >= 150
+	and not IsFactionAIControlled
+	and I_CompareCounter verbovaniRohan >= 10
+	and I_SettlementOwner Kings-Land = milan
+
+	spawn_army
+		faction milan
+		character random_name, named character, age 30, x 186, y 153
+		traits  LoyaltyStarter 1 , NaturalMilitarySkill 4 , ReligionStarter 1 ,  Loyal 4 , Disciplinarian 3, BattleChivalry 4, PublicFaith 4
+		unit		rohan bodyguards		exp 9 armour 3 weapon_lvl 1
+		unit		Royal Guard			exp 9 armour 3 weapon_lvl 1
+		unit		Royal Guard			exp 9 armour 3 weapon_lvl 1
+		unit		Royal Guard			exp 9 armour 3 weapon_lvl 1
+		unit		Royal Guard			exp 9 armour 3 weapon_lvl 1
+		unit		Royal Guard			exp 9 armour 3 weapon_lvl 1
+		unit		Royal Guard			exp 9 armour 3 weapon_lvl 1
+		unit		Royal Guard			exp 9 armour 3 weapon_lvl 1
+		unit		Royal Guard			exp 9 armour 3 weapon_lvl 1
+		unit		Royal Guard			exp 9 armour 3 weapon_lvl 1
+		unit		Royal Guard			exp 9 armour 3 weapon_lvl 1
+	end
+
+	inc_counter verbovaniRohan -12
+end_monitor
+
+declare_counter verbovaniMordor 0
+
+
+monitor_event FactionTurnStart FactionType england
+
+	inc_counter verbovaniMordor 1
+
+end_monitor
+
+
+
+monitor_event FactionTurnStart FactionType england
+	and I_TurnNumber < 50
+	and not IsFactionAIControlled
+	and I_CompareCounter verbovaniMordor >= 10
+	and I_SettlementOwner Gorgoroth = england
+
+	spawn_army
+		faction england
+		character random_name, named character, age 30, x 296, y 136, battle_model mounted_nazgul, portrait nazgul2, hero_ability Terror_of_the_Nazgul
+		traits  Nazgul 1 , hero_ability12 1 , LoyaltyStarter 1 , NaturalMilitarySkill 1 , ReligionStarter 1 ,  Loyal 1 , Disciplinarian 1, BattleChivalry 1, PublicFaith 1
+		unit		Black Numenorians		exp 0 armour 0 weapon_lvl 0
+		unit		Orc Band			exp 0 armour 0 weapon_lvl 0
+		unit		Orc Band			exp 0 armour 0 weapon_lvl 0
+		unit		Orc Band			exp 0 armour 0 weapon_lvl 0
+		unit		Orc Band			exp 0 armour 0 weapon_lvl 0
+		unit		Orc Band			exp 0 armour 0 weapon_lvl 0
+		unit		Orc Band			exp 0 armour 0 weapon_lvl 0
+		unit		Orc Band			exp 0 armour 0 weapon_lvl 0
+		unit		Orc Band			exp 0 armour 0 weapon_lvl 0
+		unit		Orc Band			exp 0 armour 0 weapon_lvl 0
+		unit		Orc Band			exp 0 armour 0 weapon_lvl 0
+	end
+
+	inc_counter verbovaniMordor -10
+end_monitor
+
+monitor_event FactionTurnStart FactionType england
+	and I_TurnNumber >= 50
+	and I_TurnNumber < 100
+	and not IsFactionAIControlled
+	and I_CompareCounter verbovaniMordor >= 10
+	and I_SettlementOwner Gorgoroth = england
+
+	spawn_army
+		faction england
+		character random_name, named character, age 30, x 296, y 136, battle_model mounted_nazgul, portrait nazgul2, hero_ability Terror_of_the_Nazgul
+		traits  Nazgul 1 , hero_ability12 1 , LoyaltyStarter 1 , NaturalMilitarySkill 2 , ReligionStarter 1 ,  Loyal 2 , Disciplinarian 2, BattleChivalry 2, PublicFaith 2
+		unit		Black Numenorians		exp 3 armour 1 weapon_lvl 0
+		unit		2handed Orcs			exp 3 armour 1 weapon_lvl 0
+		unit		2handed Orcs			exp 3 armour 1 weapon_lvl 0
+		unit		2handed Orcs			exp 3 armour 1 weapon_lvl 0
+		unit		2handed Orcs			exp 3 armour 1 weapon_lvl 0
+		unit		2handed Orcs			exp 3 armour 1 weapon_lvl 0
+		unit		2handed Orcs			exp 3 armour 1 weapon_lvl 0
+		unit		2handed Orcs			exp 3 armour 1 weapon_lvl 0
+		unit		2handed Orcs			exp 3 armour 1 weapon_lvl 0
+		unit		2handed Orcs			exp 3 armour 1 weapon_lvl 0
+		unit		2handed Orcs			exp 3 armour 1 weapon_lvl 0
+	end
+
+	inc_counter verbovaniMordor -9
+end_monitor
+
+monitor_event FactionTurnStart FactionType england
+	and I_TurnNumber >= 100
+	and I_TurnNumber < 150
+	and not IsFactionAIControlled
+	and I_CompareCounter verbovaniMordor >= 10
+	and I_SettlementOwner Gorgoroth = england
+
+	spawn_army
+		faction england
+		character random_name, named character, age 30, x 296, y 136, battle_model mounted_nazgul, portrait nazgul2, hero_ability Terror_of_the_Nazgul
+		traits  Nazgul 1 , hero_ability12 1 , LoyaltyStarter 1 , NaturalMilitarySkill 3 , ReligionStarter 1 ,  Loyal 3 , Disciplinarian 3, BattleChivalry 3, PublicFaith 3
+		unit		Black Numenorians		exp 6 armour 2 weapon_lvl 1
+		unit		Morannon Guard			exp 6 armour 2 weapon_lvl 1
+		unit		Morannon Guard			exp 6 armour 2 weapon_lvl 1
+		unit		Morannon Guard			exp 6 armour 2 weapon_lvl 1
+		unit		Morannon Guard			exp 6 armour 2 weapon_lvl 1
+		unit		Morannon Guard			exp 6 armour 2 weapon_lvl 1
+		unit		Morannon Guard			exp 6 armour 2 weapon_lvl 1
+		unit		Morannon Guard			exp 6 armour 2 weapon_lvl 1
+		unit		Morannon Guard			exp 6 armour 2 weapon_lvl 1
+		unit		Morannon Guard			exp 6 armour 2 weapon_lvl 1
+		unit		Morannon Guard			exp 6 armour 2 weapon_lvl 1
+	end
+
+	inc_counter verbovaniMordor -8
+end_monitor
+
+monitor_event FactionTurnStart FactionType england
+	and I_TurnNumber >= 150
+	and not IsFactionAIControlled
+	and I_CompareCounter verbovaniMordor >= 10
+	and I_SettlementOwner Gorgoroth = england
+
+	spawn_army
+		faction england
+		character random_name, named character, age 30, x 296, y 136, battle_model mounted_nazgul, portrait nazgul2, hero_ability Terror_of_the_Nazgul
+		traits  Nazgul 1 , hero_ability12 1 , LoyaltyStarter 1 , NaturalMilitarySkill 4 , ReligionStarter 1 ,  Loyal 4 , Disciplinarian 3, BattleChivalry 4, PublicFaith 4
+		unit		Black Numenorians		exp 9 armour 3 weapon_lvl 1
+		unit		Mordor Halberd			exp 9 armour 3 weapon_lvl 1
+		unit		Mordor Halberd			exp 9 armour 3 weapon_lvl 1
+		unit		Mordor Halberd			exp 9 armour 3 weapon_lvl 1
+		unit		Mordor Halberd			exp 9 armour 3 weapon_lvl 1
+		unit		Mordor Halberd			exp 9 armour 3 weapon_lvl 1
+		unit		Mordor Halberd			exp 9 armour 3 weapon_lvl 1
+		unit		Mordor Halberd			exp 9 armour 3 weapon_lvl 1
+		unit		Mordor Halberd			exp 9 armour 3 weapon_lvl 1
+		unit		Mordor Halberd			exp 9 armour 3 weapon_lvl 1
+		unit		Mordor Halberd			exp 9 armour 3 weapon_lvl 1
+	end
+
+	inc_counter verbovaniMordor -7
+end_monitor
+
+
+declare_counter verbovaniEriador 0
+
+
+monitor_event FactionTurnStart FactionType turks
+
+	inc_counter verbovaniEriador 1
+
+end_monitor
+
+
+
+monitor_event FactionTurnStart FactionType turks
+	and I_TurnNumber < 50
+	and not IsFactionAIControlled
+	and I_CompareCounter verbovaniEriador >= 10
+	and I_SettlementOwner Bree = turks
+
+	spawn_army
+		faction turks
+		character random_name, named character, age 30, x 117, y 248
+		traits  LoyaltyStarter 1 , NaturalMilitarySkill 1 , ReligionStarter 1 ,  Loyal 1 , Disciplinarian 1, BattleChivalry 1, PublicFaith 1
+		unit		Grey Company			exp 0 armour 0 weapon_lvl 0
+		unit		Bandobras Archers		exp 0 armour 0 weapon_lvl 0
+		unit		Bandobras Archers		exp 0 armour 0 weapon_lvl 0
+		unit		Bandobras Archers		exp 0 armour 0 weapon_lvl 0
+		unit		Bandobras Archers		exp 0 armour 0 weapon_lvl 0
+		unit		Bandobras Archers		exp 0 armour 0 weapon_lvl 0
+		unit		Bandobras Archers		exp 0 armour 0 weapon_lvl 0
+		unit		Bandobras Archers		exp 0 armour 0 weapon_lvl 0
+		unit		Bandobras Archers		exp 0 armour 0 weapon_lvl 0
+		unit		Bandobras Archers		exp 0 armour 0 weapon_lvl 0
+		unit		Bandobras Archers		exp 0 armour 0 weapon_lvl 0
+	end
+
+	inc_counter verbovaniEriador -15
+end_monitor
+
+monitor_event FactionTurnStart FactionType turks
+	and I_TurnNumber >= 50
+	and I_TurnNumber < 100
+	and not IsFactionAIControlled
+	and I_CompareCounter verbovaniEriador >= 10
+	and I_SettlementOwner Bree = turks
+
+	spawn_army
+		faction turks
+		character random_name, named character, age 30, x 117, y 248
+		traits LoyaltyStarter 1 , NaturalMilitarySkill 2 , ReligionStarter 1 ,  Loyal 2 , Disciplinarian 2, BattleChivalry 2, PublicFaith 2
+		unit		Grey Company			exp 3 armour 1 weapon_lvl 0
+		unit		Greenway Sentries		exp 3 armour 1 weapon_lvl 0
+		unit		Greenway Sentries		exp 3 armour 1 weapon_lvl 0
+		unit		Greenway Sentries		exp 3 armour 1 weapon_lvl 0
+		unit		Greenway Sentries		exp 3 armour 1 weapon_lvl 0
+		unit		Greenway Sentries		exp 3 armour 1 weapon_lvl 0
+		unit		Greenway Sentries		exp 3 armour 1 weapon_lvl 0
+		unit		Greenway Sentries		exp 3 armour 1 weapon_lvl 0
+		unit		Greenway Sentries		exp 3 armour 1 weapon_lvl 0
+		unit		Greenway Sentries		exp 3 armour 1 weapon_lvl 0
+		unit		Greenway Sentries		exp 3 armour 1 weapon_lvl 0
+	end
+
+	inc_counter verbovaniEriador -14
+end_monitor
+
+monitor_event FactionTurnStart FactionType turks
+	and I_TurnNumber >= 100
+	and I_TurnNumber < 150
+	and not IsFactionAIControlled
+	and I_CompareCounter verbovaniEriador >= 10
+	and I_SettlementOwner Bree = turks
+
+	spawn_army
+		faction turks
+		character random_name, named character, age 30, x 117, y 248
+		traits  LoyaltyStarter 1 , NaturalMilitarySkill 3 , ReligionStarter 1 ,  Loyal 3 , Disciplinarian 3, BattleChivalry 3, PublicFaith 3
+		unit		Grey Company			exp 6 armour 2 weapon_lvl 1
+		unit		Dunedain Rangers		exp 6 armour 2 weapon_lvl 1
+		unit		Dunedain Rangers		exp 6 armour 2 weapon_lvl 1
+		unit		Dunedain Rangers		exp 6 armour 2 weapon_lvl 1
+		unit		Dunedain Rangers		exp 6 armour 2 weapon_lvl 1
+		unit		Dunedain Rangers		exp 6 armour 2 weapon_lvl 1
+		unit		Dunedain Rangers		exp 6 armour 2 weapon_lvl 1
+		unit		Dunedain Rangers		exp 6 armour 2 weapon_lvl 1
+		unit		Dunedain Rangers		exp 6 armour 2 weapon_lvl 1
+		unit		Dunedain Rangers		exp 6 armour 2 weapon_lvl 1
+		unit		Dunedain Rangers		exp 6 armour 2 weapon_lvl 1
+	end
+
+	inc_counter verbovaniEriador -13
+end_monitor
+
+monitor_event FactionTurnStart FactionType turks
+	and I_TurnNumber >= 150
+	and not IsFactionAIControlled
+	and I_CompareCounter verbovaniEriador >= 10
+	and I_SettlementOwner Bree = turks
+
+	spawn_army
+		faction turks
+		character random_name, named character, age 30, x 117, y 248
+		traits  LoyaltyStarter 1 , NaturalMilitarySkill 4 , ReligionStarter 1 ,  Loyal 4 , Disciplinarian 3, BattleChivalry 4, PublicFaith 4
+		unit		Grey Company			exp 9 armour 3 weapon_lvl 1
+		unit		BR Dunedain			exp 9 armour 3 weapon_lvl 1
+		unit		BR Dunedain			exp 9 armour 3 weapon_lvl 1
+		unit		BR Dunedain			exp 9 armour 3 weapon_lvl 1
+		unit		BR Dunedain			exp 9 armour 3 weapon_lvl 1
+		unit		BR Dunedain			exp 9 armour 3 weapon_lvl 1
+		unit		BR Dunedain			exp 9 armour 3 weapon_lvl 1
+		unit		BR Dunedain			exp 9 armour 3 weapon_lvl 1
+		unit		BR Dunedain			exp 9 armour 3 weapon_lvl 1
+		unit		BR Dunedain			exp 9 armour 3 weapon_lvl 1
+		unit		BR Dunedain			exp 9 armour 3 weapon_lvl 1
+	end
+
+	inc_counter verbovaniEriador -12
+end_monitor
+
+declare_counter verbovaniDol 0
+
+
+monitor_event FactionTurnStart FactionType scotland
+
+	inc_counter verbovaniDol 1
+
+end_monitor
+
+
+
+monitor_event FactionTurnStart FactionType scotland
+	and I_TurnNumber < 50
+	and not IsFactionAIControlled
+	and I_CompareCounter verbovaniDol >= 10
+	and I_SettlementOwner Dale = scotland
+
+	spawn_army
+		faction scotland
+		character random_name, named character, age 30, x 288, y 262
+		traits  LoyaltyStarter 1 , NaturalMilitarySkill 1 , ReligionStarter 1 ,  Loyal 1 , Disciplinarian 1, BattleChivalry 1, PublicFaith 1
+		unit		Bardian Archers			exp 0 armour 0 weapon_lvl 0
+		unit		Rhovanion			exp 0 armour 0 weapon_lvl 0
+		unit		Rhovanion			exp 0 armour 0 weapon_lvl 0
+		unit		Rhovanion			exp 0 armour 0 weapon_lvl 0
+		unit		Rhovanion			exp 0 armour 0 weapon_lvl 0
+		unit		Rhovanion			exp 0 armour 0 weapon_lvl 0
+		unit		Rhovanion			exp 0 armour 0 weapon_lvl 0
+		unit		Rhovanion			exp 0 armour 0 weapon_lvl 0
+		unit		Rhovanion			exp 0 armour 0 weapon_lvl 0
+		unit		Rhovanion			exp 0 armour 0 weapon_lvl 0
+		unit		Rhovanion			exp 0 armour 0 weapon_lvl 0
+	end
+
+	inc_counter verbovaniDol -15
+end_monitor
+
+monitor_event FactionTurnStart FactionType scotland
+	and I_TurnNumber >= 50
+	and I_TurnNumber < 100
+	and not IsFactionAIControlled
+	and I_CompareCounter verbovaniDol >= 10
+	and I_SettlementOwner Dale = scotland
+
+	spawn_army
+		faction scotland
+		character random_name, named character, age 30, x 288, y 262
+		traits LoyaltyStarter 1 , NaturalMilitarySkill 2 , ReligionStarter 1 ,  Loyal 2 , Disciplinarian 2, BattleChivalry 2, PublicFaith 2
+		unit		Bardian Archers			exp 3 armour 1 weapon_lvl 0
+		unit		Barding Hird			exp 3 armour 1 weapon_lvl 0
+		unit		Barding Hird			exp 3 armour 1 weapon_lvl 0
+		unit		Barding Hird			exp 3 armour 1 weapon_lvl 0
+		unit		Barding Hird			exp 3 armour 1 weapon_lvl 0
+		unit		Barding Hird			exp 3 armour 1 weapon_lvl 0
+		unit		Barding Hird			exp 3 armour 1 weapon_lvl 0
+		unit		Barding Hird			exp 3 armour 1 weapon_lvl 0
+		unit		Barding Hird			exp 3 armour 1 weapon_lvl 0
+		unit		Barding Hird			exp 3 armour 1 weapon_lvl 0
+		unit		Barding Hird			exp 3 armour 1 weapon_lvl 0
+	end
+
+	inc_counter verbovaniDol -14
+end_monitor
+
+monitor_event FactionTurnStart FactionType scotland
+	and I_TurnNumber >= 100
+	and I_TurnNumber < 150
+	and not IsFactionAIControlled
+	and I_CompareCounter verbovaniDol >= 10
+	and I_SettlementOwner Dale = scotland
+
+	spawn_army
+		faction scotland
+		character random_name, named character, age 30, x 288, y 262
+		traits  LoyaltyStarter 1 , NaturalMilitarySkill 3 , ReligionStarter 1 ,  Loyal 3 , Disciplinarian 3, BattleChivalry 3, PublicFaith 3
+		unit		Bardian Archers			exp 6 armour 2 weapon_lvl 1
+		unit		Dale Swordmasters		exp 6 armour 2 weapon_lvl 1
+		unit		Dale Swordmasters		exp 6 armour 2 weapon_lvl 1
+		unit		Dale Swordmasters		exp 6 armour 2 weapon_lvl 1
+		unit		Dale Swordmasters		exp 6 armour 2 weapon_lvl 1
+		unit		Dale Swordmasters		exp 6 armour 2 weapon_lvl 1
+		unit		Dale Swordmasters		exp 6 armour 2 weapon_lvl 1
+		unit		Dale Swordmasters		exp 6 armour 2 weapon_lvl 1
+		unit		Dale Swordmasters		exp 6 armour 2 weapon_lvl 1
+		unit		Dale Swordmasters		exp 6 armour 2 weapon_lvl 1
+		unit		Dale Swordmasters		exp 6 armour 2 weapon_lvl 1
+	end
+
+	inc_counter verbovaniDol -13
+end_monitor
+
+monitor_event FactionTurnStart FactionType scotland
+	and I_TurnNumber >= 150
+	and not IsFactionAIControlled
+	and I_CompareCounter verbovaniDol >= 10
+	and I_SettlementOwner Dale = scotland
+
+	spawn_army
+		faction scotland
+		character random_name, named character, age 30, x 288, y 262
+		traits  LoyaltyStarter 1 , NaturalMilitarySkill 4 , ReligionStarter 1 ,  Loyal 4 , Disciplinarian 3, BattleChivalry 4, PublicFaith 4
+		unit		Bardian Archers			exp 9 armour 3 weapon_lvl 1
+		unit		Dismounted Earls		exp 9 armour 3 weapon_lvl 1
+		unit		Dismounted Earls		exp 9 armour 3 weapon_lvl 1
+		unit		Dismounted Earls		exp 9 armour 3 weapon_lvl 1
+		unit		Dismounted Earls		exp 9 armour 3 weapon_lvl 1
+		unit		Dismounted Earls		exp 9 armour 3 weapon_lvl 1
+		unit		Dismounted Earls		exp 9 armour 3 weapon_lvl 1
+		unit		Dismounted Earls		exp 9 armour 3 weapon_lvl 1
+		unit		Dismounted Earls		exp 9 armour 3 weapon_lvl 1
+		unit		Dismounted Earls		exp 9 armour 3 weapon_lvl 1
+		unit		Dismounted Earls		exp 9 armour 3 weapon_lvl 1
+	end
+
+	inc_counter verbovaniDol -12
+end_monitor
