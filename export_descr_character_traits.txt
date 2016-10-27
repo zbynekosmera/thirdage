@@ -22519,6 +22519,7 @@ Trigger more_dread_for_evil_generals_by_their_command
           and not FactionType turks
           and not FactionType egypt
           and not FactionType mongols
+          and RandomPercent > 69
 
     Affects StrategyDread  1  Chance  1 
     Affects Unjust 1 Chance 1
@@ -22537,6 +22538,7 @@ Trigger more_dread_for_evil_generals_by_their_command
           and not FactionType turks
           and not FactionType egypt
           and not FactionType mongols
+          and RandomPercent > 69
 
     Affects StrategyDread  1  Chance  2
     Affects Unjust 1 Chance 1
@@ -22556,6 +22558,8 @@ Trigger more_dread_for_evil_generals_by_their_command
           and not FactionType turks
           and not FactionType egypt
           and not FactionType mongols
+          and RandomPercent > 69
+
 
     Affects StrategyDread  1  Chance  3
     Affects HarshRuler  1  Chance  1 
@@ -22574,6 +22578,7 @@ Trigger more_dread_for_evil_generals_by_their_command
           and not FactionType turks
           and not FactionType egypt
           and not FactionType mongols
+          and RandomPercent > 69
 
     Affects StrategyDread  1  Chance  4
     Affects HarshRuler  1  Chance  1 
@@ -22593,6 +22598,7 @@ Trigger more_dread_for_evil_generals_by_their_command
           and not FactionType turks
           and not FactionType egypt
           and not FactionType mongols
+          and RandomPercent > 68
 
     Affects StrategyDread  1  Chance  5
     Affects HarshRuler  1  Chance  1
@@ -22612,6 +22618,7 @@ Trigger more_dread_for_evil_generals_by_their_command
           and not FactionType turks
           and not FactionType egypt
           and not FactionType mongols
+          and RandomPercent > 67
 
     Affects StrategyDread  1  Chance  6
     Affects HarshRuler  1  Chance  1 
@@ -22632,6 +22639,7 @@ Trigger more_dread_for_evil_generals_by_their_command
           and not FactionType turks
           and not FactionType egypt
           and not FactionType mongols
+          and RandomPercent > 66
 
     Affects StrategyDread  1  Chance  7
     Affects HarshRuler  1  Chance  1 
@@ -22651,6 +22659,7 @@ Trigger more_dread_for_evil_generals_by_their_command
           and not FactionType turks
           and not FactionType egypt
           and not FactionType mongols
+          and RandomPercent > 63
 
     Affects StrategyDread  1  Chance  8
     Affects HarshRuler  1  Chance  1 
@@ -22671,6 +22680,7 @@ Trigger more_dread_for_evil_generals_by_their_command
           and not FactionType turks
           and not FactionType egypt
           and not FactionType mongols
+          and RandomPercent > 60
 
     Affects StrategyDread  1  Chance  9
     Affects HarshRuler  1  Chance  1 
