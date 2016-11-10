@@ -1294,7 +1294,7 @@ Trigger 0142_Recruit_Sword_Unit
 
     Condition UnitType Dismounted Dunedain Knights
 
-    Guild swordsmiths_guild s  10
+    Guild swordsmiths_guild s  16
 
 ;------------------------------------------
 Trigger 0143_Recruit_Sword_Unit
@@ -1366,7 +1366,7 @@ Trigger 9012_Recruit_Sword_Unit
 
     Condition UnitType Corsairs
 
-    Guild swordsmiths_guild s  5
+    Guild swordsmiths_guild s  4
 
 Trigger 9013_Recruit_Sword_Unit
     WhenToTest UnitTrained
@@ -1430,7 +1430,7 @@ Trigger 9019_Recruit_Sword_Unit
 
     Condition UnitType Berserkers
 
-    Guild swordsmiths_guild s  4
+    Guild swordsmiths_guild s  5
 
 
 ;#### MORDOR  #####
@@ -1579,7 +1579,7 @@ Trigger 9038_Recruit_Sword_Unit
 
     Condition UnitType Khazad Guard
 
-    Guild swordsmiths_guild s  7
+    Guild swordsmiths_guild s  12
 
 
 ;#########
