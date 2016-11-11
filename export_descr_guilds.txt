@@ -1254,7 +1254,7 @@ Trigger 0137_Recruit_Sword_Unit
 
     Condition UnitType Merchant Militia
 
-    Guild swordsmiths_guild s  2
+    Guild swordsmiths_guild s  5
 
 ;------------------------------------------
 Trigger 0138_Recruit_Sword_Unit
@@ -1262,7 +1262,7 @@ Trigger 0138_Recruit_Sword_Unit
 
     Condition UnitType BR Dunedain
 
-    Guild swordsmiths_guild s  10
+    Guild swordsmiths_guild s  12
 
 ;------------------------------------------
 Trigger 0139_Recruit_Sword_Unit
@@ -1286,7 +1286,7 @@ Trigger 0141_Recruit_Sword_Unit
 
     Condition UnitType Dismounted Arnor MAA
 
-    Guild swordsmiths_guild s  5
+    Guild swordsmiths_guild s  10
 
 ;------------------------------------------
 Trigger 0142_Recruit_Sword_Unit
