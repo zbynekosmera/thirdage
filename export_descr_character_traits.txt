@@ -8048,6 +8048,7 @@ Trait LoyaltyStarter
         Threshold  1 
 
         Effect Loyalty  5 
+	Effect HitPoints 7
 
 
 
@@ -11729,6 +11730,7 @@ Trait ReligionStarter
         Threshold  1 
 
         Effect Piety  3 
+	Effect HitPoints 8
 
 
 ;------------------------------------------
