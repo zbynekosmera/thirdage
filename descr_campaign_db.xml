@@ -59,8 +59,8 @@
    </bribery>
    <family_tree>
       <max_age uint="650"/>
-      <max_age_for_marriage_for_male uint="80"/>
-      <max_age_for_marriage_for_female uint="50"/>
+      <max_age_for_marriage_for_male uint="280"/>
+      <max_age_for_marriage_for_female uint="250"/>
       <max_age_before_death uint="665"/>
       <max_age_of_child uint="10"/>
       <old_age uint="120"/>
