@@ -4899,7 +4899,7 @@ trade_base_income_bonus bonus 4
                 armoury
             }
         }
-        armoury castle requires factions { sicily, england, egypt, france, }  
+        armoury castle requires factions { sicily, england, egypt, france, moors, }  
         {
             convert_to 3
             capability
