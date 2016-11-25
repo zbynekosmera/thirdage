@@ -797,7 +797,7 @@ stat_pri_armour  8, 4, 5, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        6
 stat_ground      -1, -2, -3, -2
-stat_mental      19, disciplined, trained
+stat_mental      9, disciplined, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
@@ -831,7 +831,7 @@ stat_pri_armour  5, 3, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      0, -1, 1, -2
-stat_mental      19, normal, trained
+stat_mental      9, normal, trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
@@ -865,7 +865,7 @@ stat_pri_armour  10, 4, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        6
 stat_ground      0, -2, 0, -2
-stat_mental      19, disciplined, highly_trained
+stat_mental      9, disciplined, highly_trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
@@ -1468,7 +1468,7 @@ stat_pri_armour  7, 4, 4, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        6
 stat_ground      0, 0, -2, -1
-stat_mental      16, disciplined, trained
+stat_mental      8, disciplined, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
@@ -1937,7 +1937,7 @@ stat_pri_armour  12, 7, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        6
 stat_ground      -1, -2, -2, -2
-stat_mental      16, disciplined, highly_trained
+stat_mental      9, disciplined, highly_trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
@@ -1971,7 +1971,7 @@ stat_pri_armour  11, 11, 8, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        6
 stat_ground      0, -2, 1, -1
-stat_mental      17, disciplined, highly_trained
+stat_mental      11, disciplined, highly_trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
@@ -2331,7 +2331,7 @@ stat_pri_armour  8, 7, 2, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        6
 stat_ground      0, -2, 0, -1
-stat_mental      16, disciplined, highly_trained
+stat_mental      10, disciplined, highly_trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
@@ -2754,7 +2754,7 @@ stat_pri_armour  14, 3, 5, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        4
 stat_ground      0, -2, 0, 0
-stat_mental      16, disciplined, trained
+stat_mental      9, disciplined, trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
@@ -3248,7 +3248,7 @@ stat_pri_armour  8, 3, 1, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        6
 stat_ground      0, -1, -1, -2
-stat_mental      13, disciplined, trained
+stat_mental      10, disciplined, trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
@@ -3956,7 +3956,7 @@ stat_pri_armour  6, 7, 4, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        8
 stat_ground      -1, -1, -3, -2
-stat_mental      16, disciplined, highly_trained
+stat_mental      9, disciplined, highly_trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
@@ -3991,7 +3991,7 @@ stat_pri_armour  5, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        4
 stat_ground      0, 0, -3, -1
-stat_mental      16, disciplined, highly_trained
+stat_mental      10, disciplined, highly_trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
@@ -4359,7 +4359,7 @@ stat_pri_armour  8, 4, 5, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        8
 stat_ground      -1, -2, -3, -2
-stat_mental      16, disciplined, highly_trained
+stat_mental      9, disciplined, highly_trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
@@ -4858,7 +4858,7 @@ stat_pri_armour  10, 6, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -3, -2
-stat_mental      16, disciplined, trained
+stat_mental      8, disciplined, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
@@ -5280,7 +5280,7 @@ stat_pri_armour  8, 18, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      1, -2, 3, 4
-stat_mental      18, impetuous, highly_trained, lock_morale
+stat_mental      9, impetuous, highly_trained, lock_morale
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
@@ -5315,7 +5315,7 @@ stat_pri_armour  7, 8, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      -1, -1, -3, -2
-stat_mental      18, impetuous, highly_trained
+stat_mental      9, impetuous, highly_trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
@@ -5349,7 +5349,7 @@ stat_pri_armour  7, 8, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      1, -2, 3, 4
-stat_mental      18, disciplined, highly_trained, lock_morale
+stat_mental      9, disciplined, highly_trained, lock_morale
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
@@ -5384,7 +5384,7 @@ stat_pri_armour  10, 8, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      -1, -1, -3, -2
-stat_mental      18, disciplined, highly_trained
+stat_mental      9, disciplined, highly_trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
@@ -5418,7 +5418,7 @@ stat_pri_armour  8, 4, 5, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      0, 0, 0, -2
-stat_mental      15, normal, trained
+stat_mental      8, normal, trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
@@ -5841,7 +5841,7 @@ stat_pri_armour  8, 4, 5, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        4
 stat_ground      0, 0, 0, -2
-stat_mental      15, disciplined, trained
+stat_mental      8, disciplined, trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
@@ -5874,7 +5874,7 @@ stat_pri_armour  9, 5, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        6
 stat_ground      0, -1, 0, -2
-stat_mental      17, disciplined, highly_trained
+stat_mental      9, disciplined, highly_trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
@@ -5909,7 +5909,7 @@ stat_pri_armour  5, 4, 3, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        4
 stat_ground      0, -1, 0, -2
-stat_mental      15, impetuous, trained
+stat_mental      9, impetuous, trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
@@ -6478,7 +6478,7 @@ stat_pri_armour  8, 4, 5, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      -1, 1, -3, -2
-stat_mental      16, disciplined, trained
+stat_mental      8, disciplined, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
@@ -6869,7 +6869,7 @@ stat_pri_armour  8, 4, 4, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        4
 stat_ground      0, 0, 0, -1
-stat_mental      15, normal, trained
+stat_mental      8, normal, trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
