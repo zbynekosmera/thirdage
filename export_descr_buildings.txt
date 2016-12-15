@@ -6468,7 +6468,7 @@ building mumakil
 {
     levels mumakil_training_ground
     {
-        mumakil_training_ground city requires factions { spain, venice, } and building_present_min_level c_equestrian c_knights_stables
+        mumakil_training_ground city requires factions { spain, venice, } and building_present_min_level c_equestrian c_knights_stables and event_counter large_city_barracks 1
         {
             capability
             {
@@ -6494,7 +6494,7 @@ building mumakil_castle
 {
     levels mumakil_castle_training_ground
     {
-        mumakil_castle_training_ground castle requires factions { spain, venice, }  and building_present_min_level equestrian knights_stables
+        mumakil_castle_training_ground castle requires factions { spain, venice, }  and building_present_min_level equestrian knights_stables and event_counter large_city_barracks 1
         {
             capability
             {
