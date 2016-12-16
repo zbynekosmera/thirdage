@@ -819,7 +819,7 @@ voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
 soldier          rangers, 60, 0, 1
-mount_effect     elephant +3
+mount_effect     elephant +7
 attributes       sea_faring, hide_improved_forest, extreme_range, very_hardy, can_withdraw, stakes, stakes, general_unit, no_custom, free_upkeep_unit
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 2
