@@ -10454,7 +10454,7 @@ building workshops
 {
     levels workshop workshop2 workshop3 workshop4 workshop5 workshop6 workshop7 workshop8 workshop9 
     {
-        workshop requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1
+        workshop requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, }
         {
             capability
             {
@@ -10761,7 +10761,7 @@ building goldsmiths
 {
     levels goldsmith goldsmith2 goldsmith3 goldsmith4 goldsmith5 goldsmith6 goldsmith7 goldsmith8 goldsmith9 
     {
-        goldsmith requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1
+        goldsmith requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } 
         {
             capability
             {
@@ -10799,7 +10799,7 @@ trade_base_income_bonus bonus 2
                 goldsmith2 
             }
         }
-        goldsmith2 requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1
+        goldsmith2 requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } 
         {
             capability
             {
