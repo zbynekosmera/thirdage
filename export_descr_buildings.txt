@@ -10520,7 +10520,7 @@ trade_base_income_bonus bonus 4
                 workshop3 
             }
         }
-        workshop3 requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1
+        workshop3 requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1 or event_counter is_turn_100_or_more 1
         {
             capability
             {
@@ -10553,7 +10553,7 @@ trade_base_income_bonus bonus 6
                 workshop4 
             }
         }
-        workshop4 requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1
+        workshop4 requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1 or event_counter is_turn_160_or_more 1
         {
             capability
             {
@@ -10586,7 +10586,7 @@ trade_base_income_bonus bonus 8
                 workshop5 
             }
         }
-        workshop5 requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1
+        workshop5 requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1 or event_counter is_turn_280_or_more 1
         {
             capability
             {
@@ -10619,7 +10619,7 @@ trade_base_income_bonus bonus 10
                 workshop6 
             }
         }
-        workshop6 requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1
+        workshop6 requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1 or event_counter is_turn_500_or_more 1
         {
             capability
             {
@@ -10652,7 +10652,7 @@ trade_base_income_bonus bonus 12
                 workshop7 
             }
         }
-        workshop7 requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1
+        workshop7 requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1 or event_counter is_turn_800_or_more 1
         {
             capability
             {
@@ -10685,7 +10685,7 @@ trade_base_income_bonus bonus 14
                 workshop8 
             }
         }
-        workshop8 requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1
+        workshop8 requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1 or event_counter is_turn_800_or_more 1
         {
             capability
             {
@@ -10718,7 +10718,7 @@ trade_base_income_bonus bonus 16
                 workshop9 
             }
         }
-        workshop9 requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1
+        workshop9 requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1 or event_counter is_turn_800_or_more 1
         {
             capability
             {
@@ -10913,7 +10913,7 @@ trade_base_income_bonus bonus 8
                 goldsmith5 
             }
         }
-        goldsmith5 requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1
+        goldsmith5 requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1 or event_counter is_turn_100_or_more 1
         {
             capability
             {
@@ -10951,7 +10951,7 @@ trade_base_income_bonus bonus 10
                 goldsmith6 
             }
         }
-        goldsmith6 requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1
+        goldsmith6 requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1 or event_counter is_turn_160_or_more 1
         {
             capability
             {
@@ -10989,7 +10989,7 @@ trade_base_income_bonus bonus 12
                 goldsmith7 
             }
         }
-        goldsmith7 requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1
+        goldsmith7 requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1 or event_counter is_turn_280_or_more 1
         {
             capability
             {
@@ -11027,7 +11027,7 @@ trade_base_income_bonus bonus 14
                 goldsmith8 
             }
         }
-        goldsmith8 requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1
+        goldsmith8 requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1 or event_counter is_turn_500_or_more 1
         {
             capability
             {
@@ -11065,7 +11065,7 @@ trade_base_income_bonus bonus 16
                 goldsmith9 
             }
         }
-        goldsmith9 requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1
+        goldsmith9 requires factions { gondor, northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, } and event_counter is_the_human 1 or event_counter is_turn_800_or_more 1
         {
             capability
             {

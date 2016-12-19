@@ -108,6 +108,43 @@ monitor_event PreFactionTurnStart IsFactionAIControlled
 	set_event_counter is_the_human 0
 end_monitor
 
+declare_counter is_turn_100_or_more
+declare_counter is_turn_160_or_more
+declare_counter is_turn_280_or_more
+declare_counter is_turn_500_or_more
+declare_counter is_turn_800_or_more
+
+
+monitor_event FactionTurnStart FactionIsLocal
+	and I_TurnNumber >= 100
+	set_event_counter is_turn_100_or_more 1
+terminate_monitor
+end_monitor
+
+monitor_event FactionTurnStart FactionIsLocal
+	and I_TurnNumber >= 160
+	set_event_counter is_turn_160_or_more 1
+terminate_monitor
+end_monitor
+
+monitor_event FactionTurnStart FactionIsLocal
+	and I_TurnNumber >= 280
+	set_event_counter is_turn_280_or_more 1
+terminate_monitor
+end_monitor
+
+monitor_event FactionTurnStart FactionIsLocal
+	and I_TurnNumber >= 500
+	set_event_counter is_turn_500_or_more 1
+terminate_monitor
+end_monitor
+
+monitor_event FactionTurnStart FactionIsLocal
+	and I_TurnNumber >= 800
+	set_event_counter is_turn_800_or_more 1
+terminate_monitor
+end_monitor
+
 ;############################# AI Setup ##############################
 ;--------------------------------------------------------------------------------------------------------
 ;--- ADDITIONAL GENERALS ---- SETTLEMENT CONQUERORS --- SEND CHARACTERS AWAY --- INCREASE KINGS PURSE ---
