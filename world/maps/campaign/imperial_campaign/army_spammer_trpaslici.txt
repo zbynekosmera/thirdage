@@ -1,0 +1,116 @@
+declare_counter verbovaniTrpaslici 0
+
+
+monitor_event FactionTurnStart FactionType moors
+
+	inc_counter verbovaniTrpaslici 1
+
+end_monitor
+
+
+
+monitor_event FactionTurnStart FactionType moors
+	and I_TurnNumber < 50
+	and not IsFactionAIControlled
+	and I_CompareCounter verbovaniTrpaslici >= 10
+	and I_SettlementOwner Erebor = moors
+
+	spawn_army
+		faction moors
+		character random_name, named character, age 30, x 292, y 268, hero_ability IRON_FIST
+		traits  LoyaltyStarter 1 , NaturalMilitarySkill 1 , ReligionStarter 1 ,  Loyal 1 , Disciplinarian 1, BattleChivalry 1, PublicFaith 1
+		unit		Noble Bodyguards		exp 0 armour 0 weapon_lvl 0
+		unit		Dwarven Pikemen			exp 0 armour 0 weapon_lvl 0
+		unit		Dwarven Pikemen			exp 0 armour 0 weapon_lvl 0
+		unit		Dwarven Pikemen			exp 0 armour 0 weapon_lvl 0
+		unit		Dwarven Pikemen			exp 0 armour 0 weapon_lvl 0
+		unit		Dwarven Pikemen			exp 0 armour 0 weapon_lvl 0
+		unit		Dwarven Pikemen			exp 0 armour 0 weapon_lvl 0
+		unit		Dwarven Pikemen			exp 0 armour 0 weapon_lvl 0
+		unit		Dwarven Pikemen			exp 0 armour 0 weapon_lvl 0
+		unit		Dwarven Pikemen			exp 0 armour 0 weapon_lvl 0
+		unit		Dwarven Pikemen			exp 0 armour 0 weapon_lvl 0
+	end
+
+	inc_counter verbovaniTrpaslici -14
+end_monitor
+
+monitor_event FactionTurnStart FactionType moors
+	and I_TurnNumber >= 50
+	and I_TurnNumber < 100
+	and not IsFactionAIControlled
+	and I_CompareCounter verbovaniTrpaslici >= 10
+	and I_SettlementOwner Erebor = moors
+
+	spawn_army
+		faction moors
+		character random_name, named character, age 30, x 292, y 268, hero_ability IRON_FIST
+		traits LoyaltyStarter 1 , NaturalMilitarySkill 2 , ReligionStarter 1 ,  Loyal 2 , Disciplinarian 2, BattleChivalry 2, PublicFaith 2
+		unit		Noble Bodyguards		exp 3 armour 1 weapon_lvl 0
+		unit		Clan Warriors			exp 3 armour 1 weapon_lvl 0
+		unit		Clan Warriors			exp 3 armour 1 weapon_lvl 0
+		unit		Clan Warriors			exp 3 armour 1 weapon_lvl 0
+		unit		Clan Warriors			exp 3 armour 1 weapon_lvl 0
+		unit		Clan Warriors			exp 3 armour 1 weapon_lvl 0
+		unit		Clan Warriors			exp 3 armour 1 weapon_lvl 0
+		unit		Clan Warriors			exp 3 armour 1 weapon_lvl 0
+		unit		Clan Warriors			exp 3 armour 1 weapon_lvl 0
+		unit		Clan Warriors			exp 3 armour 1 weapon_lvl 0
+		unit		Clan Warriors			exp 3 armour 1 weapon_lvl 0
+	end
+
+	inc_counter verbovaniTrpaslici -13
+end_monitor
+
+monitor_event FactionTurnStart FactionType moors
+	and I_TurnNumber >= 100
+	and I_TurnNumber < 150
+	and not IsFactionAIControlled
+	and I_CompareCounter verbovaniTrpaslici >= 10
+	and I_SettlementOwner Erebor = moors
+
+	spawn_army
+		faction moors
+		character random_name, named character, age 30, x 292, y 268, hero_ability IRON_FIST
+		traits  LoyaltyStarter 1 , NaturalMilitarySkill 3 , ReligionStarter 1 ,  Loyal 3 , Disciplinarian 3, BattleChivalry 3, PublicFaith 3
+		unit		Noble Bodyguards		exp 6 armour 2 weapon_lvl 1
+		unit		Axemen of Erebor		exp 6 armour 2 weapon_lvl 1
+		unit		Axemen of Erebor		exp 6 armour 2 weapon_lvl 1
+		unit		Axemen of Erebor		exp 6 armour 2 weapon_lvl 1
+		unit		Axemen of Erebor		exp 6 armour 2 weapon_lvl 1
+		unit		Axemen of Erebor		exp 6 armour 2 weapon_lvl 1
+		unit		Axemen of Erebor		exp 6 armour 2 weapon_lvl 1
+		unit		Axemen of Erebor		exp 6 armour 2 weapon_lvl 1
+		unit		Axemen of Erebor		exp 6 armour 2 weapon_lvl 1
+		unit		Axemen of Erebor		exp 6 armour 2 weapon_lvl 1
+		unit		Axemen of Erebor		exp 6 armour 2 weapon_lvl 1
+	end
+
+	inc_counter verbovaniTrpaslici -12
+end_monitor
+
+monitor_event FactionTurnStart FactionType moors
+	and I_TurnNumber >= 150
+	and not IsFactionAIControlled
+	and I_CompareCounter verbovaniTrpaslici >= 10
+	and I_SettlementOwner Erebor = moors
+
+	spawn_army
+		faction moors
+		character random_name, named character, age 30, x 292, y 268, hero_ability IRON_FIST
+		traits  LoyaltyStarter 1 , NaturalMilitarySkill 4 , ReligionStarter 1 ,  Loyal 4 , Disciplinarian 3, BattleChivalry 4, PublicFaith 4
+		unit		Noble Bodyguards		exp 9 armour 3 weapon_lvl 1
+		unit		Khazad Guard			exp 9 armour 3 weapon_lvl 1
+		unit		Khazad Guard			exp 9 armour 3 weapon_lvl 1
+		unit		Khazad Guard			exp 9 armour 3 weapon_lvl 1
+		unit		Khazad Guard			exp 9 armour 3 weapon_lvl 1
+		unit		Khazad Guard			exp 9 armour 3 weapon_lvl 1
+		unit		Khazad Guard			exp 9 armour 3 weapon_lvl 1
+		unit		Khazad Guard			exp 9 armour 3 weapon_lvl 1
+		unit		Khazad Guard			exp 9 armour 3 weapon_lvl 1
+		unit		Khazad Guard			exp 9 armour 3 weapon_lvl 1
+		unit		Khazad Guard			exp 9 armour 3 weapon_lvl 1
+	end
+
+	inc_counter verbovaniTrpaslici -11
+end_monitor
