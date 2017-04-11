@@ -745,9 +745,9 @@ Ancillary overseer
     Image court_noble.tga
     Description overseer_desc
     EffectsDescription overseer_effects_desc
-    Effect Construction  1 
+    Effect Construction  2 
     Effect Farming  1 
-    Effect Mining  1 
+    Effect Mining  5 
 
 ;------------------------------------------
 Ancillary paladin
