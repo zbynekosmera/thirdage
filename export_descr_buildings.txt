@@ -1147,7 +1147,7 @@ trade_base_income_bonus bonus 1
                 recruit_pool "Dismounted Kofm"  1   0.09   1  0  requires factions { sicily, }  and region_religion numenorian 25 and hidden_resource desert or hidden_resource mountains
                 recruit_pool "Desert Spearmen"  1   0.15   2  0  requires factions { spain, }  and region_religion catholic 25 and hidden_resource desert or hidden_resource grasland
                 recruit_pool "Desert Spearmen"  1   0.10   1  0  requires factions { spain, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource mountains
-                recruit_pool "militia"  1   0.15   2  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource grasland
+                recruit_pool "militia"  1   0.17   2  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource grasland
                 recruit_pool "militia"  1   0.10   1  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource forest
                 recruit_pool "militia"  1   0.08   1  0  requires factions { milan, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
                 recruit_pool "Balchoth Horde"  1   0.15   2  0  requires factions { venice, }  and region_religion catholic 25 and hidden_resource desert or hidden_resource grasland

@@ -781,7 +781,7 @@ Ancillary pet_guarddog
     ExcludeCultures eastern_european
     Description pet_guarddog_desc
     EffectsDescription pet_guarddog_effects_desc
-    Effect PersonalSecurity  1 
+    Effect PersonalSecurity  2 
 
 ;------------------------------------------
 Ancillary pet_monkey
