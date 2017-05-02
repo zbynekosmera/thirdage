@@ -11328,6 +11328,13 @@ trade_base_income_bonus bonus 2
                 tower_level 2
 trade_base_income_bonus bonus 1
                 free_upkeep bonus 4
+		income_bonus bonus 900 requires factions { england, }
+		income_bonus bonus 1000 requires factions { england, } and event_counter large_city_barracks 1
+		income_bonus bonus 1500 requires factions { england, } and event_counter is_turn_100_or_more 1
+		income_bonus bonus 2000 requires factions { england, } and event_counter is_turn_160_or_more 1
+		income_bonus bonus 2500 requires factions { england, } and event_counter is_turn_280_or_more 1
+		income_bonus bonus 3000 requires factions { england, } and event_counter is_turn_500_or_more 1
+		income_bonus bonus 3500 requires factions { england, } and event_counter is_turn_800_or_more 1
             }
             material wooden
             construction  26
@@ -11347,6 +11354,13 @@ trade_base_income_bonus bonus 1
 ;                gate_defences 2
 trade_base_income_bonus bonus 1
                 free_upkeep bonus 2
+		income_bonus bonus 200 requires factions { england, }
+		income_bonus bonus 300 requires factions { england, } and event_counter large_city_barracks 1
+		income_bonus bonus 400 requires factions { england, } and event_counter is_turn_100_or_more 1
+		income_bonus bonus 500 requires factions { england, } and event_counter is_turn_160_or_more 1
+		income_bonus bonus 600 requires factions { england, } and event_counter is_turn_280_or_more 1
+		income_bonus bonus 700 requires factions { england, } and event_counter is_turn_500_or_more 1
+		income_bonus bonus 800 requires factions { england, } and event_counter is_turn_800_or_more 1
             }
             material wooden
             construction  8
@@ -11374,6 +11388,13 @@ building hinterland_teeth
                 tower_level 2
                 law_bonus bonus 1  requires factions { england, }
 trade_base_income_bonus bonus 1
+		income_bonus bonus 50 requires factions { england, }
+		income_bonus bonus 100 requires factions { england, } and event_counter large_city_barracks 1
+		income_bonus bonus 200 requires factions { england, } and event_counter is_turn_100_or_more 1
+		income_bonus bonus 400 requires factions { england, } and event_counter is_turn_160_or_more 1
+		income_bonus bonus 800 requires factions { england, } and event_counter is_turn_280_or_more 1
+		income_bonus bonus 1600 requires factions { england, } and event_counter is_turn_500_or_more 1
+		income_bonus bonus 3200 requires factions { england, } and event_counter is_turn_800_or_more 1
             }
             material wooden
             construction  6
@@ -11712,6 +11733,13 @@ building hinterland_palantir
         {
             capability
             {
+		income_bonus bonus 50 requires factions { england, }
+		income_bonus bonus 100 requires factions { england, } and event_counter large_city_barracks 1
+		income_bonus bonus 200 requires factions { england, } and event_counter is_turn_100_or_more 1
+		income_bonus bonus 400 requires factions { england, } and event_counter is_turn_160_or_more 1
+		income_bonus bonus 800 requires factions { england, } and event_counter is_turn_280_or_more 1
+		income_bonus bonus 1600 requires factions { england, } and event_counter is_turn_500_or_more 1
+		income_bonus bonus 3200 requires factions { england, } and event_counter is_turn_800_or_more 1
             }
             material wooden
             construction  1
@@ -12363,6 +12391,13 @@ building hinterland_info_building5
         {
             capability
             {
+		income_bonus bonus 50 requires factions { england, }
+		income_bonus bonus 100 requires factions { england, } and event_counter large_city_barracks 1
+		income_bonus bonus 200 requires factions { england, } and event_counter is_turn_100_or_more 1
+		income_bonus bonus 400 requires factions { england, } and event_counter is_turn_160_or_more 1
+		income_bonus bonus 800 requires factions { england, } and event_counter is_turn_280_or_more 1
+		income_bonus bonus 1600 requires factions { england, } and event_counter is_turn_500_or_more 1
+		income_bonus bonus 3200 requires factions { england, } and event_counter is_turn_800_or_more 1
             }
             material wooden
             construction  1 
@@ -12377,6 +12412,13 @@ building hinterland_info_building5
         {
             capability
             {
+		income_bonus bonus 250 requires factions { england, }
+		income_bonus bonus 500 requires factions { england, } and event_counter large_city_barracks 1
+		income_bonus bonus 750 requires factions { england, } and event_counter is_turn_100_or_more 1
+		income_bonus bonus 1000 requires factions { england, } and event_counter is_turn_160_or_more 1
+		income_bonus bonus 1250 requires factions { england, } and event_counter is_turn_280_or_more 1
+		income_bonus bonus 1500 requires factions { england, } and event_counter is_turn_500_or_more 1
+		income_bonus bonus 1750 requires factions { england, } and event_counter is_turn_800_or_more 1
             }
             material wooden
             construction  1 
