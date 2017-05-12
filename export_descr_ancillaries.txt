@@ -62,7 +62,7 @@ Ancillary elendilmir
     ExcludeCultures mesoamerican
     Description elendilmir_desc
     EffectsDescription elendilmir_effects_desc
-    Effect Authority  1 
+    Effect Authority  2 
 
 ;------------------------------------------
 Ancillary accomplice
