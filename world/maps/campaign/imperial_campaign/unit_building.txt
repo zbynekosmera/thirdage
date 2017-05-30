@@ -1,0 +1,104 @@
+
+
+	monitor_event UnitTrained FactionType sicily
+		and not IsFactionAIControlled
+
+		increment_kings_purse sicily 7
+		add_money sicily -666
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType milan
+		and not IsFactionAIControlled
+
+		increment_kings_purse milan 7
+		add_money milan -666
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType scotland
+		and not IsFactionAIControlled
+
+		increment_kings_purse scotland 7
+		add_money scotland -666
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType moors
+		and not IsFactionAIControlled
+
+		increment_kings_purse moors 7
+		add_money moors -666
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType turks
+		and not IsFactionAIControlled
+
+		increment_kings_purse turks 7
+		add_money turks -666
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType egypt
+		and not IsFactionAIControlled
+
+		increment_kings_purse egypt 7
+		add_money egypt -666
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType mongols
+		and not IsFactionAIControlled
+
+		increment_kings_purse mongols 7
+		add_money mongols -666
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType england
+		and not IsFactionAIControlled
+
+		increment_kings_purse england 7
+		add_money england -666
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType france
+		and not IsFactionAIControlled
+
+		increment_kings_purse france 7
+		add_money france -666
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType hre
+		and not IsFactionAIControlled
+
+		increment_kings_purse hre 7
+		add_money hre -666
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType portugal
+		and not IsFactionAIControlled
+
+		increment_kings_purse portugal 7
+		add_money portugal -666
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType spain
+		and not IsFactionAIControlled
+
+		increment_kings_purse spain 7
+		add_money spain -666
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType venice
+		and not IsFactionAIControlled
+
+		increment_kings_purse venice 7
+		add_money venice -666
+	end_monitor
