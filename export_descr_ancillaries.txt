@@ -1639,7 +1639,7 @@ Ancillary shield_dwarves
     Image NA_shield_dwarves.tga
     Description shield_dwarves_desc
     EffectsDescription shield_dwarves_effects_desc
-    Effect HitPoints  2
+    Effect HitPoints  3
 
 ;------------------------------------------
 Ancillary shield_high_elves
