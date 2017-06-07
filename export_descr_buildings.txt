@@ -8564,6 +8564,8 @@ building guild_gwaith_i_mirdain_guild
                 recruit_pool "Elven Smiths"	1   0.14   3  0  requires factions { egypt, }  and region_religion orthodox 60
                 trade_base_income_bonus bonus 1
                 population_growth_bonus bonus 1 requires factions { egypt, mongols, }
+                weapon_melee_blade 1
+		armour 3
 trade_base_income_bonus bonus 3
                 free_upkeep bonus 1
             }
@@ -8585,9 +8587,14 @@ trade_base_income_bonus bonus 3
                 trade_base_income_bonus bonus 3
                 population_growth_bonus bonus 3 requires factions { egypt, mongols, }
                 weapon_melee_blade 1
+		armour 5
 trade_base_income_bonus bonus 7
                 free_upkeep bonus 3
             }
+            faction_capability
+            {
+		armour 3
+	    }
             material wooden
             construction  5
             cost 10000
@@ -11522,10 +11529,10 @@ building house_of_kings
             {
                 recruit_pool "Dunedain Knights2"  1   0.08   1  0  requires factions { byzantium, turks, }  and event_counter dunedain_turks 1
                 recruit_pool "Dismounted Dunedain Knights"  1   0.3   4  0  requires factions { byzantium, turks, }  and event_counter dunedain_turks 1
-                law_bonus bonus 1  requires factions { byzantium, turks, }
+                law_bonus bonus 2  requires factions { byzantium, turks, }
                 happiness_bonus bonus 1  requires factions { byzantium, turks, sicily, milan, scotland, egypt, mongols, }
 trade_base_income_bonus bonus 3
-                free_upkeep bonus 2
+                recruitment_slots 3
             }
             material wooden
             construction  12 
