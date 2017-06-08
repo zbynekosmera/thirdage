@@ -2095,11 +2095,11 @@ Ancillary nenya
     ExcludedAncillaries narya, vilya
     Description nenya_desc
     EffectsDescription nenya_effects_desc
-    Effect LocalPopularity  1
-    Effect Health  1 
-    Effect Farming  1
-    Effect Unrest  -1
-    Effect Construction 1
+    Effect LocalPopularity  2
+    Effect Health  2 
+    Effect Farming  7
+    Effect Construction 5
+    Effect Squalor -2 
 
 ;------------------------------------------
 Ancillary narya
@@ -2109,11 +2109,11 @@ Ancillary narya
     ExcludedAncillaries nenya, vilya
     Description narya_desc
     EffectsDescription narya_effects_desc
-    Effect LocalPopularity  1
-    Effect Health  1 
-    Effect Farming  1
-    Effect Unrest  -1
-    Effect Construction  1
+    Effect LocalPopularity  2
+    Effect Health  2 
+    Effect Farming  2
+    Effect Construction  12
+    Effect Squalor -1
 
 ;------------------------------------------
 Ancillary vilya
@@ -2123,11 +2123,11 @@ Ancillary vilya
     ExcludedAncillaries nenya, narya
     Description vilya_desc
     EffectsDescription vilya_effects_desc
-    Effect LocalPopularity  1
-    Effect Health  1 
-    Effect Farming  1
-    Effect Unrest  -1
-    Effect Construction  1
+    Effect LocalPopularity  2
+    Effect Health  2 
+    Effect Farming  4
+    Effect Construction  7
+    Effect Squalor -2
 
 ;------------------------------------------
 Ancillary ring_barahir

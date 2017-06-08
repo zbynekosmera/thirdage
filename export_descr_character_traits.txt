@@ -1525,7 +1525,6 @@ Trait Elrond
         Effect Loyalty 5
         Effect Authority 2
         Effect PersonalSecurity 2
-        Effect Squalor -3 
 
 ;------------------------------------------
 Trait Glorfindel
