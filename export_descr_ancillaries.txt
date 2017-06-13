@@ -2139,9 +2139,8 @@ Ancillary ring_barahir
     EffectsDescription ring_barahir_effects_desc
     Effect LocalPopularity  1
     Effect Health  1 
-    Effect Farming  1
-    Effect Unrest  -1
-    Effect Construction  1
+    Effect Farming  2
+    Effect Construction  3
 
 ;------------------------------------------
 Ancillary one_ring
