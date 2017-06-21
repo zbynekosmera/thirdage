@@ -2150,12 +2150,12 @@ Ancillary one_ring
     Description one_ring_desc
     EffectsDescription one_ring_effects_desc
     Effect HitPoints  3
-    Effect Authority  3
-    Effect Command  3
+    Effect Authority  4
+    Effect Command  5
     Effect Purity  -1 
     Effect Loyalty  -1 
     Effect Piety  -2 
-    Effect Chivalry  -3
+    Effect Chivalry  -6
 
 ;------------------------------------------
 Ancillary ring_nazgul
