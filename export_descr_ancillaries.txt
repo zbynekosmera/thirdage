@@ -2195,10 +2195,9 @@ Ancillary radagast
     Description radagast_desc
     EffectsDescription radagast_effects_desc
     Effect Farming  1 
-    Effect MovementPoints  1
-    Effect Unrest  -1
-    Effect LocalPopularity  1
-    Effect BattleSurgery  10 
+    Effect MovementPoints  2
+    Effect BattleSurgery  15
+    Effect Squalor -2 
 
 ;------------------------------------------
 Ancillary alatar
