@@ -2258,7 +2258,7 @@ Ancillary elf_friend
     ExcludeCultures middle_eastern, eastern_european, greek
     Description elf_friend_desc
     EffectsDescription elf_friend_effects_desc
-    Effect Farming  1 
+    Effect Farming  3 
 
 ;------------------------------------------
 Ancillary dwarf_friend
@@ -2269,7 +2269,7 @@ Ancillary dwarf_friend
     ExcludeCultures middle_eastern, eastern_european, southern_european
     Description dwarf_friend_desc
     EffectsDescription dwarf_friend_effects_desc
-    Effect Mining  1
+    Effect Mining  3
 
 ;------------------------------------------
 Ancillary rider_rohan
