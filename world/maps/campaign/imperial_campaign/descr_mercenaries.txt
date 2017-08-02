@@ -63,7 +63,7 @@ pool Mordor
 	regions Gorgoroth_Province Morgul-Vale_Province Gorgoroth-South_Province Udun_Province Carnen_Province Morgai_Province Orc_Province East_Gorgoroth_Province
 	unit Mordor Orcs Invasion		exp 0 cost 270 replenish 0.66 - 1.66 max 20 initial 3 religions { catholic } 
 	unit Mordor Archers Invasion		exp 0 cost 250 replenish 0.66 - 1.66 max 20 initial 2 religions { catholic } 
-	unit Black Spiders Adult		exp 0 cost 1250 replenish 0.01 - 0.70 max 10 initial 0 religions { catholic }
+	unit Black Spiders Adult		exp 0 cost 1250 replenish 0.01 - 0.60 max 10 initial 0 religions { catholic }
 
 pool Orcs
 	regions Misty-Mountains_Province High-Pass_Province Carn-Dum_Province Mt-Gundabad_Province Central_Mountains_Province Outpost_Province Litash_Province
@@ -85,7 +85,7 @@ pool Harad
 	unit Corsairs Mercs			exp 1 cost 280 replenish 0.66 - 1.66 max 20 initial 2 religions { catholic } 
 	unit Southron Spearmen Mercs		exp 0 cost 350 replenish 0.66 - 1.66 max 20 initial 2 religions { catholic } 
 	unit Harad Archers Mercs		exp 0 cost 300 replenish 0.66 - 1.66 max 20 initial 2 religions { catholic } 
-	unit Variag Lancers			exp 0 cost 960 replenish 0.10 - 1.20 max 15 initial 0 religions { catholic }
+	unit Variag Lancers			exp 0 cost 960 replenish 0.10 - 1.00 max 15 initial 0 religions { catholic }
 	unit Bandits,				exp 0 cost 200 replenish 0.10 - 1.20 max 15 initial 0 religions { northmen numenorian }
 
 pool Khand
@@ -98,7 +98,7 @@ pool Rhun
 	unit Balchoth Horde Mercs		exp 0 cost 330 replenish 0.66 - 1.66 max 20 initial 2 religions { catholic } 
 	unit Easterling Clansmen Mercs		exp 0 cost 350 replenish 0.66 - 1.66 max 20 initial 2 religions { catholic } 
 	unit Easterling Archers Mercs		exp 0 cost 320 replenish 0.66 - 1.66 max 20 initial 2 religions { catholic } 
-	unit Variag Lancers			exp 0 cost 960 replenish 0.10 - 1.20 max 15 initial 0 religions { catholic }
+	unit Variag Lancers			exp 0 cost 960 replenish 0.10 - 1.00 max 15 initial 0 religions { catholic }
 	unit Bandits,				exp 0 cost 200 replenish 0.10 - 1.20 max 15 initial 0 religions { northmen numenorian }
 
 pool Gondor
@@ -129,7 +129,7 @@ pool Rohan
 
 pool Eriador
 	regions Arthedain_Province Bree_Province Cardolan_Province Staddle_Province Weather-Hills_Province Enedwaith_Province Lake_Evendim_Province Athilin_Province
-	unit Bandits,				exp 0 cost 200 replenish 0.66 - 1.66 max 20 initial 0 religions { northmen numenorian }
+	unit Bandits,				exp 0 cost 200 replenish 0.66 - 1.99 max 20 initial 0 religions { northmen numenorian }
 
 pool Tharbad
 	regions Lone-lands_Province Tharbad_Province
@@ -150,12 +150,12 @@ pool Lorien
 
 pool Mirkwood
 	regions Elven-Mirkwood_Province Central-Mirkwood_Province West-Mirkwood_Province New_Mirkwood_Province Deep-Mirkwood_Province
-	unit Black Spiders Adult		exp 0 cost 1250 replenish 0.10 - 1.20 max 15 initial 1 religions { catholic }
+	unit Black Spiders Adult		exp 0 cost 1250 replenish 0.10 - 1.00 max 15 initial 1 religions { catholic }
 	unit Bandits,				exp 0 cost 200 replenish 0.10 - 1.20 max 15 initial 0 religions { northmen numenorian }
 
 pool Entwoods
 	regions Fangorn_Province
-	unit Black Spiders Adult		exp 0 cost 1250 replenish 0.01 - 0.70 max 10 initial 0 religions { catholic }
+	unit Black Spiders Adult		exp 0 cost 1250 replenish 0.01 - 0.30 max 10 initial 0 religions { catholic }
 	unit Bandits,				exp 0 cost 200 replenish 0.10 - 1.20 max 15 initial 0 religions { northmen numenorian }
 
 pool Dwarves1
@@ -178,14 +178,14 @@ pool Rhovanion
 	unit Rhovanion Spearmen,		exp 0 cost 370 replenish 0.66 - 1.66 max 20 initial 0 religions { northmen numenorian islam }
 	unit Rhovanion Hunters,			exp 0 cost 370 replenish 0.66 - 1.66 max 20 initial 1 religions { northmen numenorian islam }
 	unit Rhovanion Rider,			exp 0 cost 590 replenish 0.66 - 1.66 max 20 initial 1 religions { northmen numenorian islam }
-	unit Black Spiders Adult		exp 0 cost 1250 replenish 0.01 - 0.70 max 10 initial 0 start_year 2986 religions { catholic }
+	unit Black Spiders Adult		exp 0 cost 1250 replenish 0.01 - 0.40 max 10 initial 0 start_year 2986 religions { catholic }
 	unit Bandits,				exp 0 cost 200 replenish 0.10 - 1.20 max 15 initial 0 religions { northmen numenorian }
 
 pool Anduin_Vale
 	regions Lowest-Anduin-Vale_Province Lower-Anduin-Vale_Province Anduin-Vale_Province Wrakyaburg_Province
 	unit Beorning,				exp 0 cost 600 replenish 0.66 - 1.66 max 20 initial 1 start_year 2986 religions { northmen orthodox }
 	unit Bandits,				exp 0 cost 200 replenish 0.66 - 1.66 max 20 initial 0 religions { northmen numenorian }
-	unit Black Spiders Adult		exp 0 cost 1250 replenish 0.01 - 0.70 max 10 initial 0 start_year 2986 religions { catholic }
+	unit Black Spiders Adult		exp 0 cost 1250 replenish 0.01 - 0.40 max 10 initial 0 start_year 2986 religions { catholic }
 
 pool Rhudaur
 	regions Ettenmoors_Province Imladris_Province Mitheithel_Province
