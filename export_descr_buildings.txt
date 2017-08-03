@@ -6662,7 +6662,7 @@ trade_base_income_bonus bonus 2
                 siege_works
             }
         }
-        siege_works city requires factions { sicily, byzantium, turks, }  and building_present_min_level barracks militia_drill_square and event_counter large_city_barracks 1 
+        siege_works city requires factions { sicily, byzantium, turks, }  and building_present_min_level barracks militia_drill_square and event_counter large_city_barracks 1 and event_counter dunedain_turks 1
         {
             convert_to 2
             capability
@@ -6901,7 +6901,7 @@ trade_base_income_bonus bonus 2
                 c_siege_works
             }
         }
-        c_siege_works castle requires factions { sicily, byzantium, turks, }  and building_present_min_level castle_barracks barracks and event_counter large_city_barracks 1 
+        c_siege_works castle requires factions { sicily, byzantium, turks, }  and building_present_min_level castle_barracks barracks and event_counter large_city_barracks 1 and event_counter dunedain_turks 1
         {
             convert_to 2
             capability
