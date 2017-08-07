@@ -2708,7 +2708,7 @@ Ancillary heirloom
     EffectsDescription heirloom_effects_desc
     Effect LocalPopularity  1 
     Effect Health  1 
-    Effect Unrest  -1
+    Effect Loyalty  1
 
 ;------------------------------------------
 Ancillary evenstar
