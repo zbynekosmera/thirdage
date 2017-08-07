@@ -10910,6 +10910,20 @@ trade_base_income_bonus bonus 8
                 recruit_pool "Mordor Uruks"  0   0.04   1  0  requires factions { england, }  and region_religion catholic 90 
                 recruit_pool "Uruk-Hai Infantry"  0   0.04   1  0  requires factions { france, }  and region_religion catholic 90 
                 recruit_pool "Moria Orcs"  0   0.04   1  0  requires factions { hre, }  and region_religion catholic 90 
+                recruit_pool "Eldar Cavalry"  0   0.01   1  0  requires factions { egypt, }   and region_religion orthodox 95
+                recruit_pool "Elf Guard"  0   0.01   1  0  requires factions { mongols, } and region_religion orthodox 95
+                recruit_pool "Khazad Guard"  0   0.01   1  0  requires factions { moors, }  and region_religion islam 95 
+                recruit_pool "Swan Knights"  0   0.01   1  0  requires factions { sicily, }  and region_religion numenorian 95
+                recruit_pool "Serpent Guard"  0   0.01   1  0  requires factions { spain, }  and region_religion catholic 95
+                recruit_pool "Royal Guard"  0   0.01   1  0  requires factions { milan, }  and region_religion northmen 95
+                recruit_pool "Kataphracts"  0   0.01   1  0  requires factions { venice, }  and region_religion catholic 95
+                recruit_pool "Bardian Archers2"  0   0.01   1  0  requires factions { scotland, } and region_religion northmen 95
+                recruit_pool "Dunedain Knights2"  0   0.01   1  0  requires factions { byzantium, turks, } and region_religion numenorian 95 and event_counter dunedain_turks 1 
+                recruit_pool "Mounted Dunedain"  0   0.01   1  0  requires factions { turks, }  and region_religion northmen 95 and event_counter northmen_turks 1 
+                recruit_pool "Snow Trolls"  0   0.01   1  0  requires factions { portugal, }  and region_religion catholic 95 
+                recruit_pool "Battle Trolls"  0   0.01   1  0  requires factions { england, }  and region_religion catholic 95 
+                recruit_pool "Wargs"  0   0.01   1  0  requires factions { france, }  and region_religion catholic 95 
+                recruit_pool "Cave Trolls"  0   0.01   1  0  requires factions { hre, }  and region_religion catholic 95 
             }
             material stone
             construction  12 
@@ -10948,6 +10962,20 @@ trade_base_income_bonus bonus 10
                 recruit_pool "Mordor Uruks"  0   0.05   1  0  requires factions { england, }  and region_religion catholic 90 
                 recruit_pool "Uruk-Hai Infantry"  0   0.05   1  0  requires factions { france, }  and region_religion catholic 90 
                 recruit_pool "Moria Orcs"  0   0.05   1  0  requires factions { hre, }  and region_religion catholic 90 
+                recruit_pool "Eldar Cavalry"  0   0.02   1  0  requires factions { egypt, }   and region_religion orthodox 95
+                recruit_pool "Elf Guard"  0   0.02   1  0  requires factions { mongols, } and region_religion orthodox 95
+                recruit_pool "Khazad Guard"  0   0.02   1  0  requires factions { moors, }  and region_religion islam 95 
+                recruit_pool "Swan Knights"  0   0.02   1  0  requires factions { sicily, }  and region_religion numenorian 95
+                recruit_pool "Serpent Guard"  0   0.02   1  0  requires factions { spain, }  and region_religion catholic 95
+                recruit_pool "Royal Guard"  0   0.02   1  0  requires factions { milan, }  and region_religion northmen 95
+                recruit_pool "Kataphracts"  0   0.02   1  0  requires factions { venice, }  and region_religion catholic 95
+                recruit_pool "Bardian Archers2"  0   0.02   1  0  requires factions { scotland, } and region_religion northmen 95
+                recruit_pool "Dunedain Knights2"  0   0.02   1  0  requires factions { byzantium, turks, } and region_religion numenorian 95 and event_counter dunedain_turks 1 
+                recruit_pool "Mounted Dunedain"  0   0.02   1  0  requires factions { turks, }  and region_religion northmen 95 and event_counter northmen_turks 1 
+                recruit_pool "Snow Trolls"  0   0.02   1  0  requires factions { portugal, }  and region_religion catholic 95 
+                recruit_pool "Battle Trolls"  0   0.02   1  0  requires factions { england, }  and region_religion catholic 95 
+                recruit_pool "Wargs"  0   0.02   1  0  requires factions { france, }  and region_religion catholic 95 
+                recruit_pool "Cave Trolls"  0   0.02   1  0  requires factions { hre, }  and region_religion catholic 95 
             }
             material stone
             construction  20 
@@ -10986,6 +11014,20 @@ trade_base_income_bonus bonus 12
                 recruit_pool "Mordor Uruks"  0   0.06   1  0  requires factions { england, }  and region_religion catholic 90 
                 recruit_pool "Uruk-Hai Infantry"  0   0.06   1  0  requires factions { france, }  and region_religion catholic 90 
                 recruit_pool "Moria Orcs"  0   0.06   1  0  requires factions { hre, }  and region_religion catholic 90 
+                recruit_pool "Eldar Cavalry"  0   0.03   1  0  requires factions { egypt, }   and region_religion orthodox 95
+                recruit_pool "Elf Guard"  0   0.03   1  0  requires factions { mongols, } and region_religion orthodox 95
+                recruit_pool "Khazad Guard"  0   0.03   1  0  requires factions { moors, }  and region_religion islam 95 
+                recruit_pool "Swan Knights"  0   0.03   1  0  requires factions { sicily, }  and region_religion numenorian 95
+                recruit_pool "Serpent Guard"  0   0.03   1  0  requires factions { spain, }  and region_religion catholic 95
+                recruit_pool "Royal Guard"  0   0.03   1  0  requires factions { milan, }  and region_religion northmen 95
+                recruit_pool "Kataphracts"  0   0.03   1  0  requires factions { venice, }  and region_religion catholic 95
+                recruit_pool "Bardian Archers2"  0   0.03   1  0  requires factions { scotland, } and region_religion northmen 95
+                recruit_pool "Dunedain Knights2"  0   0.03   1  0  requires factions { byzantium, turks, } and region_religion numenorian 95 and event_counter dunedain_turks 1 
+                recruit_pool "Mounted Dunedain"  0   0.03   1  0  requires factions { turks, }  and region_religion northmen 95 and event_counter northmen_turks 1 
+                recruit_pool "Snow Trolls"  0   0.03   1  0  requires factions { portugal, }  and region_religion catholic 95 
+                recruit_pool "Battle Trolls"  0   0.03   1  0  requires factions { england, }  and region_religion catholic 95 
+                recruit_pool "Wargs"  0   0.03   1  0  requires factions { france, }  and region_religion catholic 95 
+                recruit_pool "Cave Trolls"  0   0.03   1  0  requires factions { hre, }  and region_religion catholic 95 
             }
             material stone
             construction  32 
@@ -11024,6 +11066,20 @@ trade_base_income_bonus bonus 14
                 recruit_pool "Mordor Uruks"  0   0.07   1  0  requires factions { england, }  and region_religion catholic 90 
                 recruit_pool "Uruk-Hai Infantry"  0   0.07   1  0  requires factions { france, }  and region_religion catholic 90 
                 recruit_pool "Moria Orcs"  0   0.07   1  0  requires factions { hre, }  and region_religion catholic 90 
+                recruit_pool "Eldar Cavalry"  0   0.04   1  0  requires factions { egypt, }   and region_religion orthodox 95
+                recruit_pool "Elf Guard"  0   0.04   1  0  requires factions { mongols, } and region_religion orthodox 95
+                recruit_pool "Khazad Guard"  0   0.04   1  0  requires factions { moors, }  and region_religion islam 95 
+                recruit_pool "Swan Knights"  0   0.04   1  0  requires factions { sicily, }  and region_religion numenorian 95
+                recruit_pool "Serpent Guard"  0   0.04   1  0  requires factions { spain, }  and region_religion catholic 95
+                recruit_pool "Royal Guard"  0   0.04   1  0  requires factions { milan, }  and region_religion northmen 95
+                recruit_pool "Kataphracts"  0   0.04   1  0  requires factions { venice, }  and region_religion catholic 95
+                recruit_pool "Bardian Archers2"  0   0.04   1  0  requires factions { scotland, } and region_religion northmen 95
+                recruit_pool "Dunedain Knights2"  0   0.04   1  0  requires factions { byzantium, turks, } and region_religion numenorian 95 and event_counter dunedain_turks 1 
+                recruit_pool "Mounted Dunedain"  0   0.04   1  0  requires factions { turks, }  and region_religion northmen 95 and event_counter northmen_turks 1 
+                recruit_pool "Snow Trolls"  0   0.04   1  0  requires factions { portugal, }  and region_religion catholic 95 
+                recruit_pool "Battle Trolls"  0   0.04   1  0  requires factions { england, }  and region_religion catholic 95 
+                recruit_pool "Wargs"  0   0.04   1  0  requires factions { france, }  and region_religion catholic 95 
+                recruit_pool "Cave Trolls"  0   0.04   1  0  requires factions { hre, }  and region_religion catholic 95 
             }
             material stone
             construction  52 
@@ -11062,6 +11118,20 @@ trade_base_income_bonus bonus 16
                 recruit_pool "Mordor Uruks"  0   0.08   1  0  requires factions { england, }  and region_religion catholic 90 
                 recruit_pool "Uruk-Hai Infantry"  0   0.08   1  0  requires factions { france, }  and region_religion catholic 90 
                 recruit_pool "Moria Orcs"  0   0.08   1  0  requires factions { hre, }  and region_religion catholic 90 
+                recruit_pool "Eldar Cavalry"  0   0.05   1  0  requires factions { egypt, }   and region_religion orthodox 95
+                recruit_pool "Elf Guard"  0   0.05   1  0  requires factions { mongols, } and region_religion orthodox 95
+                recruit_pool "Khazad Guard"  0   0.05   1  0  requires factions { moors, }  and region_religion islam 95 
+                recruit_pool "Swan Knights"  0   0.05   1  0  requires factions { sicily, }  and region_religion numenorian 95
+                recruit_pool "Serpent Guard"  0   0.05   1  0  requires factions { spain, }  and region_religion catholic 95
+                recruit_pool "Royal Guard"  0   0.05   1  0  requires factions { milan, }  and region_religion northmen 95
+                recruit_pool "Kataphracts"  0   0.05   1  0  requires factions { venice, }  and region_religion catholic 95
+                recruit_pool "Bardian Archers2"  0   0.05   1  0  requires factions { scotland, } and region_religion northmen 95
+                recruit_pool "Dunedain Knights2"  0   0.05   1  0  requires factions { byzantium, turks, } and region_religion numenorian 95 and event_counter dunedain_turks 1 
+                recruit_pool "Mounted Dunedain"  0   0.05   1  0  requires factions { turks, }  and region_religion northmen 95 and event_counter northmen_turks 1 
+                recruit_pool "Snow Trolls"  0   0.05   1  0  requires factions { portugal, }  and region_religion catholic 95 
+                recruit_pool "Battle Trolls"  0   0.05   1  0  requires factions { england, }  and region_religion catholic 95 
+                recruit_pool "Wargs"  0   0.05   1  0  requires factions { france, }  and region_religion catholic 95 
+                recruit_pool "Cave Trolls"  0   0.05   1  0  requires factions { hre, }  and region_religion catholic 95 
             }
             material stone
             construction  83 
@@ -11100,6 +11170,20 @@ trade_base_income_bonus bonus 18
                 recruit_pool "Mordor Uruks"  0   0.09   1  0  requires factions { england, }  and region_religion catholic 90 
                 recruit_pool "Uruk-Hai Infantry"  0   0.09   1  0  requires factions { france, }  and region_religion catholic 90 
                 recruit_pool "Moria Orcs"  0   0.09   1  0  requires factions { hre, }  and region_religion catholic 90 
+                recruit_pool "Eldar Cavalry"  0   0.06   1  0  requires factions { egypt, }   and region_religion orthodox 95
+                recruit_pool "Elf Guard"  0   0.06   1  0  requires factions { mongols, } and region_religion orthodox 95
+                recruit_pool "Khazad Guard"  0   0.06   1  0  requires factions { moors, }  and region_religion islam 95 
+                recruit_pool "Swan Knights"  0   0.06   1  0  requires factions { sicily, }  and region_religion numenorian 95
+                recruit_pool "Serpent Guard"  0   0.06   1  0  requires factions { spain, }  and region_religion catholic 95
+                recruit_pool "Royal Guard"  0   0.06   1  0  requires factions { milan, }  and region_religion northmen 95
+                recruit_pool "Kataphracts"  0   0.06   1  0  requires factions { venice, }  and region_religion catholic 95
+                recruit_pool "Bardian Archers2"  0   0.06   1  0  requires factions { scotland, } and region_religion northmen 95
+                recruit_pool "Dunedain Knights2"  0   0.06   1  0  requires factions { byzantium, turks, } and region_religion numenorian 95 and event_counter dunedain_turks 1 
+                recruit_pool "Mounted Dunedain"  0   0.06   1  0  requires factions { turks, }  and region_religion northmen 95 and event_counter northmen_turks 1 
+                recruit_pool "Snow Trolls"  0   0.06   1  0  requires factions { portugal, }  and region_religion catholic 95 
+                recruit_pool "Battle Trolls"  0   0.06   1  0  requires factions { england, }  and region_religion catholic 95 
+                recruit_pool "Wargs"  0   0.06   1  0  requires factions { france, }  and region_religion catholic 95 
+                recruit_pool "Cave Trolls"  0   0.06   1  0  requires factions { hre, }  and region_religion catholic 95 
             }
             material stone
             construction  140 
