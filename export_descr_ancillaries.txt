@@ -3063,7 +3063,7 @@ Ancillary king_mountain
     Image goodleader.tga
     Description king_mountain_desc
     EffectsDescription king_mountain_effects_desc	
-    Effect Authority  2
+    Effect Authority  3
 
 ;------------------------------------------
 Ancillary troops_dwarf
