@@ -3377,6 +3377,7 @@ Ancillary orcrist
     Description orcrist_desc
     EffectsDescription orcrist_effects_desc
     Effect Chivalry -2
+    Effect Authority  1
 
 ;------------------------------------------
 Ancillary arkenstone

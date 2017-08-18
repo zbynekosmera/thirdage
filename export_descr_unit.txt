@@ -1559,7 +1559,7 @@ recruit_priority_offset    0
 
 
 type             Elf Archer3
-dictionary       Elf_Archer3      ; Eldarinwë Archers
+dictionary       Elf_Archer3      ; Eldarinwï¿½ Archers
 category         infantry
 class            missile
 voice_type       Heavy
@@ -1666,7 +1666,7 @@ recruit_priority_offset    5
 
 
 type             Elf Spear
-dictionary       Elf_Spear      ; Eldarinwë Spearmen
+dictionary       Elf_Spear      ; Eldarinwï¿½ Spearmen
 category         infantry
 class            spearmen
 voice_type       Heavy
@@ -1701,7 +1701,7 @@ recruit_priority_offset    5
 
 
 type             Elf Sword
-dictionary       Elf_Sword      ; Eldarinwë Swordsmen
+dictionary       Elf_Sword      ; Eldarinwï¿½ Swordsmen
 category         infantry
 class            heavy
 voice_type       Heavy
@@ -1881,7 +1881,7 @@ recruit_priority_offset    0
 
 
 type             Eldar Cavalry
-dictionary       Eldar_Cavalry      ; Eldarinwë Lancers
+dictionary       Eldar_Cavalry      ; Eldarinwï¿½ Lancers
 category         cavalry
 class            heavy
 voice_type       Heavy
@@ -6502,7 +6502,7 @@ banner holy      crusade
 soldier          Turkish_Archers, 30, 2, 1
 mount            elephant_cannon
 mount_effect     horse +4, camel +2
-attributes       hardy, can_withdraw, can_run_amok, frighten_foot, frighten_mounted, power_charge
+attributes       sea_faring, hardy, can_withdraw, can_run_amok, frighten_foot, frighten_mounted, power_charge
 move_speed_mod   0.7
 formation        12, 19, 22, 27, 1, horde
 stat_health      1, 6
