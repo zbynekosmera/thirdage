@@ -4,7 +4,7 @@
 		and not IsFactionAIControlled
 
 		increment_kings_purse sicily 7
-		add_money sicily -666
+		add_money sicily -595
 	end_monitor
 
 
@@ -12,7 +12,7 @@
 		and not IsFactionAIControlled
 
 		increment_kings_purse milan 7
-		add_money milan -666
+		add_money milan -595
 	end_monitor
 
 
@@ -20,7 +20,7 @@
 		and not IsFactionAIControlled
 
 		increment_kings_purse scotland 7
-		add_money scotland -666
+		add_money scotland -595
 	end_monitor
 
 
@@ -28,7 +28,7 @@
 		and not IsFactionAIControlled
 
 		increment_kings_purse moors 7
-		add_money moors -666
+		add_money moors -595
 	end_monitor
 
 
@@ -36,7 +36,7 @@
 		and not IsFactionAIControlled
 
 		increment_kings_purse turks 7
-		add_money turks -666
+		add_money turks -595
 	end_monitor
 
 
@@ -44,7 +44,7 @@
 		and not IsFactionAIControlled
 
 		increment_kings_purse egypt 7
-		add_money egypt -666
+		add_money egypt -595
 	end_monitor
 
 
@@ -52,7 +52,7 @@
 		and not IsFactionAIControlled
 
 		increment_kings_purse mongols 7
-		add_money mongols -666
+		add_money mongols -595
 	end_monitor
 
 
@@ -60,7 +60,7 @@
 		and not IsFactionAIControlled
 
 		increment_kings_purse england 7
-		add_money england -666
+		add_money england -595
 	end_monitor
 
 
@@ -68,7 +68,7 @@
 		and not IsFactionAIControlled
 
 		increment_kings_purse france 7
-		add_money france -666
+		add_money france -595
 	end_monitor
 
 
@@ -76,7 +76,7 @@
 		and not IsFactionAIControlled
 
 		increment_kings_purse hre 7
-		add_money hre -666
+		add_money hre -595
 	end_monitor
 
 
@@ -84,7 +84,7 @@
 		and not IsFactionAIControlled
 
 		increment_kings_purse portugal 7
-		add_money portugal -666
+		add_money portugal -595
 	end_monitor
 
 
@@ -92,7 +92,7 @@
 		and not IsFactionAIControlled
 
 		increment_kings_purse spain 7
-		add_money spain -666
+		add_money spain -595
 	end_monitor
 
 
@@ -100,5 +100,5 @@
 		and not IsFactionAIControlled
 
 		increment_kings_purse venice 7
-		add_money venice -666
+		add_money venice -595
 	end_monitor
