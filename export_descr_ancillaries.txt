@@ -3485,7 +3485,6 @@ Ancillary key_orthanc
     Image NA_key_orthanc.tga
     Description key_orthanc_desc
     EffectsDescription key_orthanc_effects_desc
-    Effect MovementPoints -200
     Effect Authority 2
     Effect Health 1
     Effect Mining 5
