@@ -1,4 +1,4 @@
-	monitor_event FactionTurnStart FactionType moors
+	monitor_event FactionTurnEnd FactionType moors
 		and I_TurnNumber > 1
 		and not IsFactionAIControlled
 		and RandomPercent <= 80
@@ -7,7 +7,7 @@
 		add_money moors 12500
 	end_monitor
 
-	monitor_event FactionTurnStart FactionType moors
+	monitor_event FactionTurnEnd FactionType moors
 		and I_TurnNumber > 10
 		and not IsFactionAIControlled
 		and RandomPercent <= 50
@@ -16,7 +16,7 @@
 		add_money moors 20000
 	end_monitor
 
-	monitor_event FactionTurnStart FactionType moors
+	monitor_event FactionTurnEnd FactionType moors
 		and I_TurnNumber > 20
 		and not IsFactionAIControlled
 		and RandomPercent <= 34
@@ -25,7 +25,7 @@
 		add_money moors 30000
 	end_monitor
 
-	monitor_event FactionTurnStart FactionType moors
+	monitor_event FactionTurnEnd FactionType moors
 		and I_TurnNumber > 30
 		and not IsFactionAIControlled
 		and RandomPercent <= 25
@@ -34,7 +34,7 @@
 		add_money moors 40000
 	end_monitor
 
-	monitor_event FactionTurnStart FactionType moors
+	monitor_event FactionTurnEnd FactionType moors
 		and I_TurnNumber > 40
 		and not IsFactionAIControlled
 		and RandomPercent <= 20
@@ -44,7 +44,7 @@
 		add_money moors 40000
 	end_monitor
 
-	monitor_event FactionTurnStart FactionType moors
+	monitor_event FactionTurnEnd FactionType moors
 		and I_TurnNumber > 50
 		and not IsFactionAIControlled
 		and RandomPercent <= 17
@@ -54,7 +54,7 @@
 		add_money moors 40000
 	end_monitor
 
-	monitor_event FactionTurnStart FactionType moors
+	monitor_event FactionTurnEnd FactionType moors
 		and I_TurnNumber > 60
 		and not IsFactionAIControlled
 		and RandomPercent <= 15
@@ -64,7 +64,7 @@
 		add_money moors 40000
 	end_monitor
 
-	monitor_event FactionTurnStart FactionType moors
+	monitor_event FactionTurnEnd FactionType moors
 		and I_TurnNumber > 70
 		and not IsFactionAIControlled
 		and RandomPercent <= 13
@@ -74,7 +74,7 @@
 		add_money moors 40000
 	end_monitor
 
-	monitor_event FactionTurnStart FactionType moors
+	monitor_event FactionTurnEnd FactionType moors
 		and I_TurnNumber > 80
 		and not IsFactionAIControlled
 		and RandomPercent <= 12
@@ -85,7 +85,7 @@
 		add_money moors 40000
 	end_monitor
 
-	monitor_event FactionTurnStart FactionType moors
+	monitor_event FactionTurnEnd FactionType moors
 		and I_TurnNumber > 90
 		and not IsFactionAIControlled
 		and RandomPercent <= 10
