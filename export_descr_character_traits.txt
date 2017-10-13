@@ -18108,7 +18108,6 @@ Trigger governing6
     Condition IsGeneral
           and GovernorTaxLevel = tax_low
           and GovernorLoyaltyLevel = loyalty_happy
-          and TimeInRegion > 3
 
     Affects StrategyChivalry  1  Chance  25 
 
