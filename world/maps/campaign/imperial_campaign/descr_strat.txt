@@ -129,7 +129,7 @@ resource	marble,		183,	268 ;trollshaws
 resource	furs,		185,	268 ;trollshaws
 
 resource	furs,		252,	245 ;eryn dolen
-resource	furs,		125,	323 ;pitkaränta
+resource	furs,		125,	323 ;pitkarï¿½nta
 resource	furs,		99,	310 ;evendim
 resource	furs,		157,	310 ;evendim
 resource	furs,		61,	277 ;lune land
@@ -956,7 +956,7 @@ settlement castle
 	}
 	building
 	{
-		type c_equestrian c_stables
+		type c_equestrian c_barons_stables
 	}
 	building
 	{
@@ -3528,7 +3528,7 @@ unit		Orc Fellers				exp 0 armour 0 weapon_lvl 0
 unit		Snaga Band				exp 1 armour 0 weapon_lvl 0
 unit		Goblin Spears				exp 0 armour 0 weapon_lvl 0
 
-;character	Lughorn, named character, male, age 19, x 107, y 320 ;pitkaränta
+;character	Lughorn, named character, male, age 19, x 107, y 320 ;pitkarï¿½nta
 ;traits LoyaltyStarter 1 , GoodCommander 1 , BattleDread 1 , NightBattleCapable 1
 ;army
 ;unit		Moria Bodyguards			exp 1 armour 0 weapon_lvl 0
@@ -5912,7 +5912,7 @@ unit		Huntsmen			exp 0 armour 0 weapon_lvl 0
 unit		Hunters				exp 1 armour 0 weapon_lvl 0
 unit		Fyrd Axemen			exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction turks, Mablung, general, male, age 49, x 107, y 320 ;pitkaränta
+character	sub_faction turks, Mablung, general, male, age 49, x 107, y 320 ;pitkarï¿½nta
 army
 unit		Fyrd Spearmen			exp 1 armour 0 weapon_lvl 0
 unit		Fyrd Axemen			exp 2 armour 0 weapon_lvl 0

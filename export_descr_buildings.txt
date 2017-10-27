@@ -644,7 +644,7 @@ trade_base_income_bonus bonus 3
                 recruit_pool "Dale Yeomen"  1   0.12   4  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource grasland
                 recruit_pool "Dale Yeomen"  1   0.08   4  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource forest
                 recruit_pool "Dale Yeomen"  1   0.06   4  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Dale Cavalry"  1   0.15   4  0  requires factions { scotland, }  and region_religion northmen 50 and hidden_resource grasland
+                recruit_pool "Dale Cavalry"  1   0.18   4  0  requires factions { scotland, }  and region_religion northmen 50 and hidden_resource grasland
                 recruit_pool "Dale Cavalry"  1   0.10   4  0  requires factions { scotland, }  and region_religion northmen 50 and hidden_resource forest
                 recruit_pool "Dale Cavalry"  1   0.08   4  0  requires factions { scotland, }  and region_religion northmen 50 and hidden_resource desert or hidden_resource mountains
                 recruit_pool "Horseguards"  1   0.15   4  0  requires factions { scotland, }  and hidden_resource rhovanion
@@ -889,7 +889,7 @@ trade_base_income_bonus bonus 3
                 recruit_pool "Dale Yeomen"  1   0.12   4  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource grasland
                 recruit_pool "Dale Yeomen"  1   0.08   4  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource forest
                 recruit_pool "Dale Yeomen"  1   0.06   4  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Dale Cavalry"  1   0.15   4  0  requires factions { scotland, }  and region_religion northmen 50 and hidden_resource grasland
+                recruit_pool "Dale Cavalry"  1   0.18   4  0  requires factions { scotland, }  and region_religion northmen 50 and hidden_resource grasland
                 recruit_pool "Dale Cavalry"  1   0.10   4  0  requires factions { scotland, }  and region_religion northmen 50 and hidden_resource forest
                 recruit_pool "Dale Cavalry"  1   0.08   4  0  requires factions { scotland, }  and region_religion northmen 50 and hidden_resource desert or hidden_resource mountains
                 recruit_pool "Horseguards"  1   0.15   4  0  requires factions { scotland, }  and hidden_resource rhovanion
@@ -983,9 +983,9 @@ trade_base_income_bonus bonus 4
                 recruit_pool "Dale Yeomen"  1   0.12   5  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource grasland
                 recruit_pool "Dale Yeomen"  1   0.08   5  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource forest
                 recruit_pool "Dale Yeomen"  1   0.06   5  0  requires factions { scotland, }  and region_religion northmen 25 and hidden_resource desert or hidden_resource mountains
-                recruit_pool "Dale Cavalry"  1   0.18   5  0  requires factions { scotland, }  and region_religion northmen 50 and hidden_resource grasland
-                recruit_pool "Dale Cavalry"  1   0.12   5  0  requires factions { scotland, }  and region_religion northmen 50 and hidden_resource forest
-                recruit_pool "Dale Cavalry"  1   0.09   5  0  requires factions { scotland, }  and region_religion northmen 50 and hidden_resource desert or hidden_resource mountains
+                recruit_pool "Dale Cavalry"  1   0.25   5  0  requires factions { scotland, }  and region_religion northmen 50 and hidden_resource grasland
+                recruit_pool "Dale Cavalry"  1   0.16   5  0  requires factions { scotland, }  and region_religion northmen 50 and hidden_resource forest
+                recruit_pool "Dale Cavalry"  1   0.11   5  0  requires factions { scotland, }  and region_religion northmen 50 and hidden_resource desert or hidden_resource mountains
                 recruit_pool "Horseguards"  1   0.15   5  0  requires factions { scotland, }  and hidden_resource rhovanion
                 recruit_pool "Earls"  1   0.08   5  0  requires factions { scotland, }  and hidden_resource earls
                 recruit_pool "Arnor Sergeants"  1   0.12   5  0  requires factions { byzantium, turks, }  and region_religion numenorian 33 and event_counter dunedain_turks 1 and hidden_resource grasland
