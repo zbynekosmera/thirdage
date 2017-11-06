@@ -5486,8 +5486,6 @@ declare_counter union_offered
 monitor_event FactionTurnStart FactionType turks
 and not IsFactionAIControlled
 and I_LocalFaction turks
-and I_CharacterExists strider1 
-and DiplomaticStanceFromFaction sicily = Allied
 and I_SettlementOwner Shire = turks	
 and I_SettlementOwner Bywater = turks
 and I_SettlementOwner Southfarthing = turks

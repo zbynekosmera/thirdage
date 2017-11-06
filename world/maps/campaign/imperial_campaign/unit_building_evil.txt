@@ -1,0 +1,104 @@
+
+
+	monitor_event UnitTrained FactionType sicily
+		and not IsFactionAIControlled
+
+		increment_kings_purse sicily 2
+		add_money sicily -333
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType milan
+		and not IsFactionAIControlled
+
+		increment_kings_purse milan 3
+		add_money milan -333
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType scotland
+		and not IsFactionAIControlled
+
+		increment_kings_purse scotland 7
+		add_money scotland -333
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType moors
+		and not IsFactionAIControlled
+
+		increment_kings_purse moors 1
+		add_money moors -333
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType turks
+		and not IsFactionAIControlled
+
+		increment_kings_purse turks 6
+		add_money turks -333
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType egypt
+		and not IsFactionAIControlled
+
+		increment_kings_purse egypt 4
+		add_money egypt -333
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType mongols
+		and not IsFactionAIControlled
+
+		increment_kings_purse mongols 5
+		add_money mongols -333
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType england
+		and not IsFactionAIControlled
+
+		increment_kings_purse england 12
+		add_money england -333
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType france
+		and not IsFactionAIControlled
+
+		increment_kings_purse france 13
+		add_money france -333
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType hre
+		and not IsFactionAIControlled
+
+		increment_kings_purse hre 10
+		add_money hre -333
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType portugal
+		and not IsFactionAIControlled
+
+		increment_kings_purse portugal 11
+		add_money portugal -333
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType spain
+		and not IsFactionAIControlled
+
+		increment_kings_purse spain 9
+		add_money spain -333
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType venice
+		and not IsFactionAIControlled
+
+		increment_kings_purse venice 8
+		add_money venice -333
+	end_monitor
