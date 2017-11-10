@@ -4172,7 +4172,7 @@ stat_pri         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 50, 1
 stat_pri_attr    spear, long_pike, spear_bonus_8
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 0, 1
 stat_sec_attr    no
-stat_pri_armour  9, 1, 0, metal
+stat_pri_armour  9, 3, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        6
 stat_ground      0, -2, -1, -2
