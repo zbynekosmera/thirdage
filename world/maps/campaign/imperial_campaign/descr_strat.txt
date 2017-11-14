@@ -3061,6 +3061,10 @@ settlement castle
 	}
 	building
 	{
+		type c_equestrian c_barons_stables
+	}
+	building
+	{
 		type missiles bowyer
 	}
 	building
