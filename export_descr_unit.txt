@@ -4197,7 +4197,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Norse_Swordsmen, 48, 0, 1.2
+soldier          Norse_Swordsmen, 60, 0, 1.2
 officer	         arnor_captain_early_flag
 officer	         arnor_captain_early_flag
 mount_effect     elephant +2
@@ -4216,7 +4216,7 @@ stat_mental      17, disciplined, highly_trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 900, 320, 100, 100, 900, 1, 350
+stat_cost        1, 1125, 400, 100, 100, 1125, 1, 400
 armour_ug_levels 1, 2, 3, 4
 armour_ug_models dunedain_infantry
 ownership        byzantium, turks
@@ -4307,7 +4307,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade
-soldier          dunedain_knights2, 24, 0, 1
+soldier          dunedain_knights2, 30, 0, 1
 officer	         arnor_captain_early_flag
 officer	         arnor_captain_early_flag
 mount            barded horse3
@@ -4327,7 +4327,7 @@ stat_mental      16, disciplined, highly_trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 1100, 380, 120, 120, 1100, 1, 350
+stat_cost        1, 1375, 475, 120, 120, 1375, 1, 475
 armour_ug_levels 1, 2, 3, 4
 armour_ug_models dunedain_knights2
 ownership        byzantium, turks
