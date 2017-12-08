@@ -4216,7 +4216,7 @@ stat_mental      17, disciplined, highly_trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 1125, 400, 100, 100, 1125, 1, 400
+stat_cost        1, 1235, 360, 100, 100, 1235, 1, 360
 armour_ug_levels 1, 2, 3, 4
 armour_ug_models dunedain_infantry
 ownership        byzantium, turks
@@ -4327,7 +4327,7 @@ stat_mental      16, disciplined, highly_trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 1375, 475, 120, 120, 1375, 1, 475
+stat_cost        1, 1515, 425, 120, 120, 1515, 1, 425
 armour_ug_levels 1, 2, 3, 4
 armour_ug_models dunedain_knights2
 ownership        byzantium, turks
