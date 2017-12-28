@@ -3210,7 +3210,7 @@ stat_pri         10, 2, elven_arrow, 190, 35, missile, missile_mechanical, pierc
 stat_pri_attr    no
 stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 stat_sec_attr    no
-stat_pri_armour  7, 3, 1, metal
+stat_pri_armour  7, 4, 2, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        6
 stat_ground      0, -1, -1, -2
@@ -3244,7 +3244,7 @@ stat_pri         10, 2, elven_arrow, 190, 35, missile, missile_mechanical, pierc
 stat_pri_attr    no
 stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 stat_sec_attr    no
-stat_pri_armour  8, 3, 1, metal
+stat_pri_armour  8, 4, 2, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        6
 stat_ground      0, -1, -1, -2
