@@ -349,6 +349,10 @@ settlement
 	}
 	building
 	{
+		type castle_barracks mustering_hall
+	}
+	building
+	{
 		type c_missiles c_bowyer
 	}
 	building

@@ -4910,6 +4910,7 @@ trade_base_income_bonus bonus 5
                 free_upkeep bonus 2
 		;--- AOR/rare in citadel -------------------------------------------------------------------------------------------
                 recruit_pool "Osgiliath Pikemen"  0   0.07   1  0  requires factions { sicily, }  and hidden_resource osgiliath_west and event_counter osgiliath_rebuild 1
+                recruit_pool "Fountain Guard"  0   0.30   3  0  requires factions { sicily, } and region_religion numenorian 80
 		;-------------------------------------------------------------------------------------------------------------------
                 recruit_pool "High Sword"  1   0.15   2  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource forest
                 recruit_pool "High Sword"  1   0.10   1  0  requires factions { egypt, }  and region_religion orthodox 33 and hidden_resource grasland
