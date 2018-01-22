@@ -6647,7 +6647,7 @@ trade_base_income_bonus bonus 2
                 recruit_pool "Orcs Ballista"  1   0.08   4  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource mountains
                 recruit_pool "Orcs Ballista"  1   0.06   4  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource grasland
                 recruit_pool "Orcs Ballista"  1   0.04   4  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
-                recruit_pool "Mordor Catapult"  1   0.08   4  0  requires factions { england, }  and hidden_resource trolls
+                recruit_pool "Mordor Catapult"  1   0.08   4  0  requires factions { england, }  
                 recruit_pool "Isengard Catapult"  1   0.12   4  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource mountains
                 recruit_pool "Isengard Catapult"  1   0.08   4  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource grasland
                 recruit_pool "Isengard Catapult"  1   0.06   4  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource desert
@@ -6739,7 +6739,7 @@ trade_base_income_bonus bonus 3
                 recruit_pool "Orcs Ballista"  1   0.08   5  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource mountains
                 recruit_pool "Orcs Ballista"  1   0.06   5  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource grasland
                 recruit_pool "Orcs Ballista"  1   0.04   5  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
-                recruit_pool "Mordor Catapult"  1   0.08   5  0  requires factions { england, }  and hidden_resource trolls
+                recruit_pool "Mordor Catapult"  1   0.08   5  0  requires factions { england, }  
                 recruit_pool "Isengard Catapult"  1   0.12   5  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource mountains
                 recruit_pool "Isengard Catapult"  1   0.08   5  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource grasland
                 recruit_pool "Isengard Catapult"  1   0.06   5  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource desert
@@ -6886,7 +6886,7 @@ trade_base_income_bonus bonus 2
                 recruit_pool "Orcs Ballista"  1   0.08   4  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource mountains
                 recruit_pool "Orcs Ballista"  1   0.06   4  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource grasland
                 recruit_pool "Orcs Ballista"  1   0.04   4  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
-                recruit_pool "Mordor Catapult"  1   0.08   4  0  requires factions { england, }  and hidden_resource trolls
+                recruit_pool "Mordor Catapult"  1   0.08   4  0  requires factions { england, }  
                 recruit_pool "Isengard Catapult"  1   0.12   4  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource mountains
                 recruit_pool "Isengard Catapult"  1   0.08   4  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource grasland
                 recruit_pool "Isengard Catapult"  1   0.06   4  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource desert
@@ -6978,7 +6978,7 @@ trade_base_income_bonus bonus 3
                 recruit_pool "Orcs Ballista"  1   0.08   5  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource mountains
                 recruit_pool "Orcs Ballista"  1   0.06   5  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource grasland
                 recruit_pool "Orcs Ballista"  1   0.04   5  0  requires factions { hre, portugal, }  and region_religion catholic 25 and hidden_resource forest or hidden_resource desert
-                recruit_pool "Mordor Catapult"  1   0.08   5  0  requires factions { england, }  and hidden_resource trolls
+                recruit_pool "Mordor Catapult"  1   0.08   5  0  requires factions { england, }  
                 recruit_pool "Isengard Catapult"  1   0.12   5  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource mountains
                 recruit_pool "Isengard Catapult"  1   0.08   5  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource grasland
                 recruit_pool "Isengard Catapult"  1   0.06   5  0  requires factions { france, }  and region_religion catholic 33 and hidden_resource forest or hidden_resource desert
