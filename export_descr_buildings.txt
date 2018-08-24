@@ -7896,7 +7896,7 @@ trade_base_income_bonus bonus 3
                 paved_roads
             }
         }
-        paved_roads city requires factions { sicily, byzantium, milan, scotland, turks, spain, venice, france, egypt, mongols, moors, }  
+        paved_roads city requires factions { sicily, byzantium, milan, scotland, turks, spain, venice, england, france, egypt, mongols, moors, }  
         {
             convert_to 1
             capability
@@ -7959,7 +7959,7 @@ trade_base_income_bonus bonus 3
                 c_paved_roads
             }
         }
-        c_paved_roads castle requires factions { sicily, byzantium, milan, scotland, turks, spain, venice, france, egypt, mongols, moors, }  
+        c_paved_roads castle requires factions { sicily, byzantium, milan, scotland, turks, spain, venice, england, france, egypt, mongols, moors, }  
         {
             convert_to 1
             capability
