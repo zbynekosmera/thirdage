@@ -1,0 +1,104 @@
+
+
+	monitor_event UnitTrained FactionType sicily
+		and not IsFactionAIControlled
+
+		increment_kings_purse sicily 30
+		add_money sicily -1000
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType milan
+		and not IsFactionAIControlled
+
+		increment_kings_purse milan 5
+		add_money milan -500
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType scotland
+		and not IsFactionAIControlled
+
+		increment_kings_purse scotland 90
+		add_money scotland -1500
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType moors
+		and not IsFactionAIControlled
+
+		increment_kings_purse moors 5
+		add_money moors -500
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType turks
+		and not IsFactionAIControlled
+
+		increment_kings_purse turks 90
+		add_money turks -1500
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType egypt
+		and not IsFactionAIControlled
+
+		increment_kings_purse egypt 200
+		add_money egypt -2000
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType mongols
+		and not IsFactionAIControlled
+
+		increment_kings_purse mongols 200
+		add_money mongols -2000
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType england
+		and not IsFactionAIControlled
+
+		increment_kings_purse england 5
+		add_money england -500
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType france
+		and not IsFactionAIControlled
+
+		increment_kings_purse france 30
+		add_money france -1000
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType hre
+		and not IsFactionAIControlled
+
+		increment_kings_purse hre 5
+		add_money hre -500
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType portugal
+		and not IsFactionAIControlled
+
+		increment_kings_purse portugal 5
+		add_money portugal -500
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType spain
+		and not IsFactionAIControlled
+
+		increment_kings_purse spain 5
+		add_money spain -500
+	end_monitor
+
+
+	monitor_event UnitTrained FactionType venice
+		and not IsFactionAIControlled
+
+		increment_kings_purse venice 5
+		add_money venice -500
+	end_monitor
