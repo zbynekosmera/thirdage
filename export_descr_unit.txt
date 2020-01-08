@@ -2051,7 +2051,7 @@ stat_mental      12, normal, highly_trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 620, 250, 65, 65, 620, 3, 150
+stat_cost        1, 620, 251, 65, 65, 620, 3, 150
 armour_ug_levels 0, 1
 armour_ug_models Silvan_Archer, Silvan_Archer_upg
 ownership        mongols
