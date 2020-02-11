@@ -8559,11 +8559,12 @@ building guild_gwaith_i_mirdain_guild
 {
     levels gwaith_i_mirdain_guild m_gwaith_i_mirdain_guild
     {
-        gwaith_i_mirdain_guild city requires factions { egypt, }  and hidden_resource gwaith
+        gwaith_i_mirdain_guild city requires factions { egypt, mongols, }  and hidden_resource gwaith
         {
             capability
             {
                 recruit_pool "Elven Smiths"	1   0.14   3  0  requires factions { egypt, }  and region_religion orthodox 60
+                recruit_pool "Silvan Heavy Swordsmen"  1   0.2   3  0  requires factions { mongols, }  and region_religion orthodox 60
                 trade_base_income_bonus bonus 1
                 population_growth_bonus bonus 1 requires factions { egypt, mongols, }
                 weapon_melee_blade 1
@@ -8580,7 +8581,7 @@ trade_base_income_bonus bonus 3
                 m_gwaith_i_mirdain_guild
             }
         }
-        m_gwaith_i_mirdain_guild city requires factions { egypt, }  and hidden_resource gwaith
+        m_gwaith_i_mirdain_guild city requires factions { egypt, mongols, }  and hidden_resource gwaith
         {
             capability
             {
