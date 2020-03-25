@@ -547,7 +547,7 @@ stat_mental      8, normal, trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 410, 180, 75, 75, 410, 4, 100
+stat_cost        1, 410, 181, 75, 75, 410, 4, 100
 armour_ug_levels 2, 3
 armour_ug_models militia_archers, militia_archers_ug1
 ownership        sicily, timurids
