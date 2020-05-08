@@ -15879,7 +15879,7 @@ Trigger luxurious_lifestyle_inns
 
     Condition EndedInSettlement
           and RemainingMPPercentage = 100
-          and SettlementBuildingExists = coaching_house
+          and SettlementBuildingExists >= coaching_house
 	  and not FactionType egypt
 	  and not FactionType mongols
           and not Trait Aragorn > 0
@@ -15905,7 +15905,7 @@ Trigger luxurious_lifestyle_inns
           and not Trait Sauron > 0
 
     Affects Aesthetic  1  Chance  3 
-    Affects ExpensiveTastes  1  Chance  3 
+    Affects ExpensiveTastes  1  Chance  6 
     Affects Gambling  1  Chance  2 
     Affects Girls  1  Chance  3 
 
@@ -15919,7 +15919,7 @@ Trigger luxurious_lifestyle_theatres
 
     Affects Aesthetic  1  Chance  3 
     Affects Epicurean  1  Chance  5 
-    Affects ExpensiveTastes  1  Chance  5 
+    Affects ExpensiveTastes  1  Chance  6 
     Affects Cultured  1  Chance  10 
 
 ;------------------------------------------
@@ -15932,7 +15932,7 @@ Trigger luxurious_lifestyle_sanitation
 
     Affects HaleAndHearty  1  Chance  3 
     Affects Epicurean  1  Chance  3 
-    Affects ExpensiveTastes  1  Chance  3 
+    Affects ExpensiveTastes  1  Chance  4 
     Affects Girls  1  Chance  3 
 
 ;------------------------------------------
@@ -15965,7 +15965,7 @@ Trigger luxurious_lifestyle4
 
     Affects Epicurean  1  Chance  5 
     Affects Drink  1  Chance  2 
-    Affects ExpensiveTastes  1  Chance  5 
+    Affects ExpensiveTastes  1  Chance  10 
     Affects Gambling  1  Chance  2 
 
 ;------------------------------------------
@@ -15978,7 +15978,7 @@ Trigger luxurious_lifestyle5
 
     Affects Aesthetic  1  Chance  3 
     Affects Epicurean  1  Chance  6 
-    Affects ExpensiveTastes  1  Chance  5 
+    Affects ExpensiveTastes  1  Chance  6 
 
 ;------------------------------------------
 Trigger elven_lifestyle6
@@ -16010,8 +16010,8 @@ Trigger harsh_lifestyle1
 
     Condition Treasury < 0
 
-    Affects Cheapskate  1  Chance  4 
-    Affects Miserly  1  Chance  4 
+    Affects Cheapskate  1  Chance  1 
+    Affects Miserly  1  Chance  1 
     Affects Stoic  1  Chance  3 
 
 ;------------------------------------------
@@ -18911,7 +18911,7 @@ Trigger selfperpetuating26
 
     Condition Trait Miserly >= 1
 
-    Affects Miserly  1  Chance  4 
+    Affects Miserly  1  Chance  1 
 
 ;------------------------------------------
 Trigger selfperpetuating27
