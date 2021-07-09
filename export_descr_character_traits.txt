@@ -4801,8 +4801,7 @@ Trait Miserly
         EffectsDescription Mean_with_Money_effects_desc
         Threshold  1 
 
-        Effect TaxCollection  2 
-        Effect Squalor  1 
+        Effect TaxCollection  2  
 
     Level Hoarder_of_Wealth
         Description Hoarder_of_Wealth_desc
@@ -4811,7 +4810,6 @@ Trait Miserly
 
         Effect Trading  2 
         Effect TaxCollection  5 
-        Effect Squalor  2 
 
     Level Miserly
         Description Miserly_desc
@@ -4821,7 +4819,6 @@ Trait Miserly
 
         Effect Trading  5 
         Effect TaxCollection  10 
-        Effect Squalor  3 
 
 
 
